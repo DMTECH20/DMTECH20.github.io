@@ -563,7 +563,7 @@ display:block;
   }
 
 
-  .founders-p1 img{width:100%; height:200px; }
+  .founders-p1 img{width:100%; height:180px; }
   .founders-p1 h2{text-align:center;  font-family: 'oswald', sans-serif; font-size:22px; margin-top:20px;  color:white; }
   .founders-p1 h3{text-align:center;  font-family: 'oswald', sans-serif;font-size:19px; margin-top:14px;  color:#ffbf00  }
 
@@ -599,7 +599,7 @@ display:block;
 
 
 
-  .founders-p2 img{width:100%; height:200px; }
+  .founders-p2 img{width:100%; height:180px; }
   .founders-p2 h2{text-align:center;  font-family: 'oswald', sans-serif; font-size:22px; margin-top:20px;  color:white; }
   .founders-p2 h3{text-align:center;  font-family: 'oswald', sans-serif;  font-size:19px; margin-top:14px;  color:#ffbf00  }
 
@@ -645,7 +645,7 @@ display:block;
   }
 
 
-  .Adv-p1 img{width:100%; height:200px; }
+  .Adv-p1 img{width:100%; height:180px; }
   .Adv-p1 h2{text-align:center;  font-family: 'oswald', sans-serif; font-size:22px; margin-top:10px;  color:white; }
   .Adv-p1 h3{text-align:center;  font-family: 'oswald', sans-serif; font-size:14px; margin-top:14px;  color:#ffbf00; }
 
@@ -681,7 +681,7 @@ display:block;
   }
 
 
-  .Adv-p2 img{width:100%; height:200px; }
+  .Adv-p2 img{width:100%; height:180px; }
   .Adv-p2 h2{text-align:center;  font-family: 'oswald', sans-serif; font-size:22px; margin-top:20px;  color:white; }
   .Adv-p2 h3{text-align:center;  font-family: 'oswald', sans-serif;font-size:19px; margin-top:15px;  color:#ffbf00  }
 
@@ -735,7 +735,7 @@ display:block;
   }
 
 
-  .team-p1 img{width:100%; height:200px; }
+  .team-p1 img{width:100%; height:180px; }
   .team-p1 h2{text-align:center;  font-family: 'oswald', sans-serif; font-size:22px; margin-top:20px;  color:white; }
   .team-p1 h3{text-align:center;  font-family: 'oswald', sans-serif;font-size:19px; margin-top:15px;  color:#ffbf00  }
 
@@ -783,7 +783,7 @@ display:block;
 
 
 
-  .team-p2 img{width:100%; height:200px; }
+  .team-p2 img{width:100%; height:180px; }
   .team-p2 h2{text-align:center;  font-family: 'oswald', sans-serif; font-size:22px; margin-top:20px;  color:white; }
   .team-p2 h3{text-align:center;  font-family: 'oswald', sans-serif;  font-size:19px; margin-top:15px;  color:#ffbf00  }
 
@@ -828,7 +828,7 @@ display:block;
 
 
 
-  .team-p3 img{width:100%; height:200px; }
+  .team-p3 img{width:100%; height:180px; }
   .team-p3 h2{text-align:center;  font-family: 'oswald', sans-serif; font-size:22px; margin-top:20px;  color:white; }
   .team-p3 h3{text-align:center;  font-family: 'oswald', sans-serif;  font-size:19px; margin-top:15px;  color:#ffbf00  }
 
@@ -873,7 +873,7 @@ display:block;
 
 
 
-  .team-p4 img{width:100%; height:200px; }
+  .team-p4 img{width:100%; height:180px; }
   .team-p4 h2{text-align:center;  font-family: 'oswald', sans-serif; font-size:22px; margin-top:20px;  color:white; }
   .team-p4 h3{text-align:center;  font-family: 'oswald', sans-serif;  font-size:19px; margin-top:15px;  color:#ffbf00  }
 
@@ -1112,136 +1112,137 @@ display:block;
               #foundersp2i1{margin-left:52px}
               #foundersp2i2 {margin-top:8px}
             */
-                }
+          
               
             
             
 
+            .footer{width:100%; height:120px; background-color:black;  margin-top:40px; }
 
-
-
-
-
-
-
-
-
-
-.footer{margin-left:15px;}
-.footer-top{background-color:black; width:100%;  height:150px;  right:0; left:0; margin-top:60px; padding-bottom:140px }
-
-
-.icon2{ margin-top:-42px; margin-left:76px;  }
-.icon3{ margin-top:10px;  }
-
-.icon4{ margin-top:-38px; margin-left:509px;  }
-
-
-  .contact-us-info{width: 100%; height:220px; max-width:100%; float:left; margin-left:-54px;  margin-top:-9px;}  
-  .contact-us-infoh3{color:#ffbf00;  white-space: nowrap; float:left; padding:25px; font-size:1.3em}
-  .home-span{font-size:1em; margin-left:5px; margin-top:-20px; color:whitesmoke}
-  .call-span{font-size:1em; margin-left:5px; margin-top:150px; color:whitesmoke}
-  .message-span{font-size:1em; margin-left:7px; margin-top:150px; color:whitesmoke}
-  .globe-span{font-size:1em; margin-left:7px; margin-top:150px; color:whitesmoke}
-
-
-
-
-  textarea:focus, input:focus{
-    outline: none; color:white; font-size:1em;}
-
-
-    
-    @media screen and (max-width: 991px) {
-      .contact-us-info { margin-left:5px; width:750px;
-      
-    
-    
-      }
-    } 
-
-
-
-    @media screen and (min-width: 991px) and (max-width:1085px){
-      .contact-us-info { margin-left:5px;  width:750px;
-      
-    
-    
-      }
-    }
-
-
-      @media screen and  (max-width:767px){
-        .contact-us-info {width:700px; margin-left:5px;}
-      }
-
-          @media screen and (max-width:735px){
-            .contact-us-info {width:600px; margin-left:5px;}
-          }
-
-
-          @media screen and (min-width:500px) and (max-width:635px){
-            .contact-us-info {width:500px; margin-left:5px;}
-
-          }
-
-          @media screen and (min-width:500px) and (max-width:535px){
-            .contact-us-info {width:450px; margin-left:10px;}
-
-          }
-
-
-#contactinfoi1{ font-size:15px; margin-top:66px; margin-left:-132px; color:whitesmoke;}
-
-#contactinfoi2{ font-size:15px;  margin-left:380px; margin-top:24px; color:whitesmoke;}
-#contactinfoi3{font-size:15px;  margin-left:34px; margin-top:19px; color:whitesmoke;}
-#contactinfoi4{font-size:15px;  margin-left:35px; margin-top:19px; color:whitesmoke;}
-
-
-
-
-
-.socialicons{width:100%; height:100px; background-color:silver; }
-
-
-
-
-
-
-.A-one{margin-top:49px; margin-left:-170px; position: relative; max-width:100%;  }
-.A-two{margin-top:49px;  margin-left:30px; position: relative;  max-width:100%;}
-.A-three{margin-top:120px; }
-
-
-
-
-.A-one a{line-height: 35px; text-decoration: none; color:#ededed;font-family: 'poppins', sans-serif;  font-size:1.3em; font-weight:400;}
-.A-two a{line-height: 35px;  text-decoration: none; color:#ededed;font-family: 'poppins', sans-serif;  font-size:1.3em; font-weight:400 }
-
-
-.A-one a:hover{color:#ffbf00}
-.A-two a:hover{color:#ffbf00}
-
-.footerbottom{width:100%; float:right }
-.Allright{width:100%; margin-top:23px }
-
-.footer-bottom-text{ line-height:40px; color:white; margin-left:-6px; float:left; font-size:18px; }
-.Allright-i{width:100%; height:100%;margin-left:3px}
-
-
-#ii1{margin-left:67px; font-size:25px; color:white;}
-#ii1:hover{color:#ffbf00;  cursor: pointer;  }
-#ii2{margin-left:26px; font-size:25px; color:white;}
-#ii2:hover{color:#ffbf00; }
-#ii3{margin-left:18px; font-size:25px; color:white; margin-top:12px;  }
-#ii3:hover{color:#ffbf00;  } 
-
-
-
-
-
-
-
+            .footer h3{color: #ffbf00;
+              font-size: 1.5em; margin-left:140px; padding-top:5px;  }
+            
+            #coi1{margin-left:140px; color:white; margin-top:10px}
+            .coi1-span{color:white; margin-left:4px}
+            
+            .footer-allright{float:right; color:white; margin-right:186px}
+            
+            
+            #coi2{margin-left:40px; color:white; margin-top:10px}
+            .coi2-span{color:white; margin-left:4px}
+            
+            #coi3{margin-left:140px; color:white; margin-top:20px}
+            .coi3-span{color:white; margin-left:8px}
+            
+            
+            #coi4{margin-left:246px; color:white; margin-top:20px}
+            .coi4-span{color:white; margin-left:4px}
+            
+            
+            
+            
+            #footer-sociali-one{float:right; margin-right:-12px;  font-size:25px; color:white; margin-top:10px}
+            #footer-sociali-two{float:right; margin-right:-66px;  font-size:25px; color:white; margin-top:10px}
+            #footer-sociali-three{float:right; margin-right:-107px;  font-size:25px; color:white; margin-top:10px}
+            
+            
+            @media screen and (min-width: 991px) and (max-width:1264px){
+              .footer{height:140px}
+              .footer h3{margin-left:36px;}
+              #coi1{margin-left:36px}
+              #coi2{margin-left:11px}
+              #coi3{margin-left:37px}
+              #coi4{margin-left:220px}
+            
+              .footer-allright {margin-right:114px;}
+            
+              #footer-sociali-one{margin-right:-6px}
+              #footer-sociali-two{margin-right:-77px}
+              #footer-sociali-three{margin-right:-125px}
+            
+            }
+            
+            
+            @media screen and (min-width: 900px) and (max-width:991px){
+              .footer{height:140px}
+            
+              .footer h3{margin-left:36px;}
+              #coi1{margin-left:5px; }
+              #coi2{margin-left:11px; margin-top:20px;}
+              #coi3{margin-left:8px}
+              #coi4{margin-left:212px}
+            
+              .footer-allright {margin-right:72px; margin-top:14px}
+            
+              #footer-sociali-one{margin-right:-103px}
+            
+              #footer-sociali-two{margin-right:-56px}
+              #footer-sociali-three{margin-right:-8px}
+            
+            }
+            
+            
+            
+            
+            
+            @media screen and (min-width: 768px) and (max-width:900px){
+              .footer{height:140px}
+            
+              .footer h3{margin-left:36px; font-size:2.2vw;}
+              #coi1{margin-left:5px; }
+              .coi1-span{font-size:1.6vw}
+            
+            
+              #coi2{margin-left:28px; margin-top:20px;}
+              .coi2-span{font-size:1.6vw}
+            
+              #coi3{margin-left:8px}
+              .coi3-span{font-size:1.6vw}
+            
+              #coi4{margin-left:190px}
+              .coi4-span{font-size:1.6vw}
+            
+            
+              .footer-allright {margin-right:72px; margin-top:14px; font-size:1.6vw}
+            
+              #footer-sociali-one{margin-right:-103px; font-size:2.8vw}
+            
+              #footer-sociali-two{margin-right:-56px; font-size:2.8vw}
+              #footer-sociali-three{margin-right:-8px;  font-size:2.8vw}
+            
+            }
+            
+            
+            
+            
+            
+            
+            @media screen and  (max-width:768px){
+              .footer{height:140px}
+            
+              .footer h3{margin-left:36px; font-size:2.2vw;}
+              #coi1{margin-left:5px; }
+              .coi1-span{font-size:1.6vw}
+            
+            
+              #coi2{margin-left:8px; margin-top:20px;}
+              .coi2-span{font-size:1.6vw}
+            
+              #coi3{margin-left:8px}
+              .coi3-span{font-size:1.6vw}
+            
+              #coi4{margin-left:105px}
+              .coi4-span{font-size:1.6vw}
+            
+            
+              .footer-allright {margin-right:57px; margin-top:23px; font-size:1.6vw}
+            
+              #footer-sociali-one{margin-right:-5px; font-size:2.8vw; margin-top:24px}
+            
+              #footer-sociali-two{margin-right:-46px; font-size:2.8vw; margin-top:24px}
+              #footer-sociali-three{margin-right:-69px;  font-size:2.8vw; margin-top:24px}
+            
+            }
 
 
 
