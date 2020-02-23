@@ -451,8 +451,10 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 
 
-    .ttest li{display:inline-block;  }
+    .ttest li{display:inline-block; }
       .ttest li i{ margin-left:20px}
+.ttest li a{color:black}
+.ttest li a:hover{color:#ffbf00}
 
     .tt2{position: relative; width:100%; }
     .tt2::after{position: absolute;  width:1110px; height:1px; background-color:#d5d5d5; content:""; left:0; margin-top:-12px}
@@ -622,7 +624,8 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
     .ttest-p2 li{display:inline-block;  }
       .ttest-p2 li i{ margin-left:20px}
-
+      .ttest-p2 li a{color:black}
+      .ttest-p2 li a:hover{color:#ffbf00}
     .tt2-p2{position: relative; width:100%; }
     .tt2-p2::after{position: absolute;  width:1110px; height:1px; background-color:#d5d5d5; content:""; left:0; margin-top:-11px}
 
@@ -799,6 +802,8 @@ padding: 0;
 
 .ttest-p3 li{display:inline-block;  }
 .ttest-p3 li i{ margin-left:20px}
+.ttest-p3 li a{color:black}
+.ttest-p3 li a:hover{color:#ffbf00}
 
 .tt2-p3{position: relative; width:100%; }
 .tt2-p3::after{position: absolute;  width:1110px; height:1px; background-color:#d5d5d5; content:""; left:0; margin-top:-12px}
@@ -1055,3 +1060,4 @@ padding: 0;
   #footer-sociali-two{margin-right:-46px; font-size:2.8vw; margin-top:24px}
   #footer-sociali-three{margin-right:-69px;  font-size:2.8vw; margin-top:24px}
 
+}

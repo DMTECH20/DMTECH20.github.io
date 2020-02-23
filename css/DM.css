@@ -562,6 +562,9 @@ text-align: center;
 
 
 */ 
+
+
+
 #projectbtn1{display: table; margin: 30px auto;  width:166px; height:49px; font-size:18px; text-align:center; margin-top:49px; 
   font-family: 'poppins', sans-serif; background-color: #ffbf00; color:black;  border:none; }
 
@@ -580,7 +583,7 @@ text-align: center;
   #btni{margin-left:10px; }
 
 
-
+#tosolution{color:black;  text-decoration: none;}
 
 
 /* project 11 */ 
