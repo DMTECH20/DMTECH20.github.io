@@ -8,9 +8,6 @@
 }
 
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
 
 
@@ -591,7 +588,7 @@ text-align: center;
 
 /* project 11 */ 
 
-.project11-all{margin-top:290px}
+.project11-all{mardgin-top:290px}
 .project11{
   width:50%; 
   height:500px; 
