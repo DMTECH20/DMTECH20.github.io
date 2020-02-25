@@ -212,6 +212,31 @@ display:block;
 
 #formbutton:active, #formbutton:focus {border:none; outline-style: none;  }
 
+
+
+@media screen and (max-width: 1366px) {
+.Affiliation-select{margin-top:0px}
+
+.FirstNameSection{margin-top:5px}
+
+.EmailSection{margin-top:5px}
+
+.CompanySection{margin-top:5px}
+
+.CountrtSection{margin-top:5px}
+.MessageSection{margin-top:5px}
+#formbutton{margin-top:5px}
+.contact-form-head h3{margin-top:-11px}
+.contact-form-head p{padding:5px}
+.open3{margin-top:-6px; margin-right:-13px}
+}
+
+
+
+
+
+
+
 @media screen and (min-width:1015px) and (max-width: 1064px) {
 
 .logo{margin-left:9px;}
