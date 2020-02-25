@@ -215,7 +215,8 @@ display:block;
 
 
 @media screen and (max-width: 1366px) {
-.Affiliation-select{margin-top:0px}
+  .contact-form{margin-top:-296px}
+.Affiliation-select{margin-top:0px; height:5vh}
 
 .FirstNameSection{margin-top:5px}
 
@@ -226,9 +227,12 @@ display:block;
 .CountrtSection{margin-top:5px}
 .MessageSection{margin-top:5px}
 #formbutton{margin-top:5px}
-.contact-form-head h3{margin-top:-11px}
+.contact-form-head h3{margin-top:-99px}
 .contact-form-head p{padding:5px}
 .open3{margin-top:-6px; margin-right:-13px}
+
+.country-select{height:6vh}
+.FormMessage{height:7vh}
 }
 
 
