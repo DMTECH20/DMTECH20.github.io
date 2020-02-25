@@ -122,6 +122,26 @@ header img{width:230px; max-width:100%; height:auto; margin-left:30px;}
 #formbutton:active, #formbutton:focus {border:none; outline-style: none;  }
 
 
+@media screen and (max-width: 1366px) {
+  .contact-form{margin-top:-296px}
+.Affiliation-select{margin-top:0px; height:5vh}
+
+.FirstNameSection{margin-top:5px}
+
+.EmailSection{margin-top:5px}
+
+.CompanySection{margin-top:5px}
+
+.CountrtSection{margin-top:5px}
+.MessageSection{margin-top:5px}
+#formbutton{margin-top:5px}
+.contact-form-head h3{margin-top:-99px}
+.contact-form-head p{padding:5px}
+.open3{margin-top:-7px; margin-right:-23px}
+
+.country-select{height:6vh}
+.FormMessage{height:7vh}
+}
 
 
 @media screen and (max-width: 768px) {
