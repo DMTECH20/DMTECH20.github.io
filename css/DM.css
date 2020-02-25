@@ -588,7 +588,19 @@ text-align: center;
 
 /* project 11 */ 
 
-.project11-all{mardgin-top:290px}
+
+
+
+
+.project11-all{margin-top:290px}
+
+
+@media screen and (max-width: 1366px) {
+  .project11-all{margin-top:190px}
+  }
+  
+
+
 .project11{
   width:50%; 
   height:500px; 
