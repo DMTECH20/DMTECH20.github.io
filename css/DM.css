@@ -1651,3 +1651,67 @@ textarea:focus, input:focus{
   #footer-sociali-three{margin-right:-69px;  font-size:2.8vw; margin-top:24px}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries for ( test your website at different sizes ) */ 
+
+
+/*  mobile */ 
+
+
+
+@media screen and  (max-width:320px){
+.headwelcome{font-size:1.6em}
+.headwelcomee{    font-size: 1.3em;
+  margin-top: 52px;
+}
+.homeanimate{font-size: 1.3em;
+  margin-top: 17px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width:1024px){
+  .project11-all { margin-top:226px}
+  .LastNameSection { margin-left:59px}
+.PhoneSection {margin-left:114px}
+.OccupationSection{margin-left:64px}
+.contact-form {margin-top:-160px}
+.content2{margin-top:30px}
+.vision2 p {margin: 64px 33px 0px 27px;}
+
+
+}
+
+
+
+
+
+
+
+
