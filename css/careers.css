@@ -858,7 +858,7 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
     margin-top: 30px;}
 
 
-    .career-second-contentTwo h3 {    margin-top: 43px;}
+    .career-second-contentTwo h3 {    margin-top: 43px; color:red}
 
     .career-second-contentTwo p{    font-size: 23px;    margin-left: -31px;
       margin-right: -62px; }
