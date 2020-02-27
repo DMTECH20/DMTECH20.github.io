@@ -1084,3 +1084,74 @@ padding: 0;
   #footer-sociali-three{margin-right:-69px;  font-size:2.8vw; margin-top:24px}
 
 }
+
+
+
+
+/* media queries for ( test your website at different sizes ) */ 
+
+
+/*  mobile */ 
+
+@media screen and  (max-width:320px){
+  .overlay-main{height:620px}
+
+  #solutionani1{font-size:1.4em; margin-top:-207px}
+  #solutionani2,  #solutionani3,  #solutionani4,  #solutionani5{font-size:1.4em}
+
+  .projectcontent h1{font-size:22px}
+  .projectcontent h1::after {margin-left: -457px;}
+  .projectcontent h1::before{ margin-left: -26px;}
+  .carousel-control-prev{ margin-top: -192px;}
+  .carousel-control-next{ margin-top: -192px;}
+  .procont1 h3 {margin-top: -386px;
+    margin-left: 108px;}
+    .procont1 p{font-size: 18px; text-align:none; }
+    .procont2 h3{margin-left:75px}
+    .procont2 p{margin-left: 6px; text-align:none}
+    .project2content h1::before{    margin-left: -57px;}
+    .project2content h1::after{    margin-left: -367px;     margin-top: 34px;}
+
+    .procont1-p2 h3{    margin-top: -383px;
+      margin-left: 110px; }
+
+      .procont1-p2 p{text-align:none; }
+
+      .procont2-p2 h3{    margin-left: 83px;}
+
+      .procont2-p2 p{text-align:none;}
+
+      .project3content h1 {font-size:20px}
+
+      .project3content h1::before {margin-left: -45px; margin-top: -11px;}
+
+      .project3content h1::after {  margin-left: -483px;}
+
+
+      .procont1-p3 h3 {    margin-top: -376px;
+    margin-left: 110px;}
+
+    .procont1-p3 p{margin-left:8px; text-align:none; padding:-16px}
+
+    .procont2-p3 h3 { margin-left: 71px;}
+
+    .procont2-p3 p{ padding: 2px; margin-left: 7px; text-align:none }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+

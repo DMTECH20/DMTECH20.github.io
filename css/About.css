@@ -1271,3 +1271,126 @@ display:block;
 
 
 
+
+
+            /* media queries for ( test your website at different sizes ) */ 
+
+
+
+            @media screen and  (max-width:320px){
+              .overlay-content-h3 {  font-size: 1.2em; }
+              .overlay-content-p {    margin-left: 10px;
+                margin-right: -10px;
+                font-size: 0.9em;
+                margin-top: 10px;
+                line-height: 30px;}
+
+                .vision1 h1 { font-size: 4em; margin-left: 3px; }
+
+                .vision2 p{text-align: none;     margin: 145px -10px 0px 20px;}
+                .mission2 h1{ font-size: 4em; margin-left: 26px;}
+
+                .mission1 p{font-size:1.1em; margin: 180px -37px 0px -13px;}
+
+                #overlay-content-h3-two{    margin-top: 121px;
+                  font-size: 20px; padding-left: 17px;}
+                  .founders-h3-one {margin-left: -228px;
+                    font-size: 29px;
+                    padding-top: 27px;}
+
+                    .founders-h3-two{    margin-left: -79px;
+                      margin-top: -73px;
+                      font-size: 30px;
+}
+                
+                  .founders-h3-three{   margin-left: 142px;
+                    margin-top: -88px;
+                    font-size: 30px;
+                }
+                
+                .founders-p1{    margin-left: 35px; width: 222px;}
+                .founders-p2 { width:222px; margin-left:36px; margin-top:29px}
+                .Advisors-h3-one{    margin-left: -215px;
+                  font-size: 30px;
+                  padding-top: 30px;}
+
+                  .Advisors-h3-two{margin-left: -50px;
+                    margin-top: -75px;
+                    font-size: 30px;
+                }
+
+                  .Advisors-h3-three {    margin-left: 172px;
+                    margin-top: -88px;
+                    font-size: 30px;
+                }
+                .Adv-p1{width:222px;     margin-left: 37px;}
+                .Adv-p2{  width:222px;  margin-left: 40px;}
+
+
+                .team-h3-one {margin-left: -217px;
+                  font-size: 30px;
+                  padding-top: 32px;}
+
+
+                  .team-h3-two{    margin-left: -23px;
+                    margin-top: -74px;
+                    font-size: 30px;
+                }
+
+                .team-h3-three{    margin-left: 168px;
+                  margin-top: -88px;
+                  font-size: 30px;}
+              
+              
+                  .team-p1{width:222px;     margin-left: 42px; }
+                  .team-p2{width:222px;     margin-left: 42px; }
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                }
+
+
+
+
+@media screen and  (max-width:1024px){
+  .content2{margin-top:30px}
+  .LastNameSection {margin-left:60px;}
+  .PhoneSection {margin-left: 116px;}
+  .OccupationSection {margin-left: 61px;}
+  .contact-form{margin-top:15px}
+  .FormMessage{height:10vh}
+  .contact-form-head h3 {margin-top: 108px;
+    margin-left: 39px;}
+    .contact-form-head p{margin: 18px 33px 0px 47px;}
+.open3 {width:74px; margin-right:-40px}
+  }
+
+
+
+
+

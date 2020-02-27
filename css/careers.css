@@ -841,6 +841,94 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
         .careers-form{display:none}
         .careers-form-phone{display:block}
+
+.NameSectionh3-phone{margin-left:8px; font-size: 1.3rem;}
+.Name-interested-Section-phone{width: 302px;
+  margin-left: 8px;
+  height: 41px;}
+
+.EmailSectionh3-phone{margin-top: 10px;
+  margin-left: 8px; font-size: 1.3rem;}
+.Email-interested-section-phone{width: 302px;
+  margin-left: 8px;
+  height: 41px;}
+
+.PhoneSectionh3-phone{margin-top: 10px;
+  margin-left: 8px; font-size: 1.3rem;}
+
+.Phone-interested-section-phone{width: 302px;
+  margin-left: 8px;
+  height: 41px;}
+
+.AddressSectionh3-phone{margin-top: 10px;
+  margin-left: 8px ; font-size: 1.3rem;}
+
+.Address-interested-section-phone{width: 302px;
+  margin-left: 8px;
+  height: 41px;}
+
+  .MajorSection-phone{margin-top: 10px;
+    margin-left: 8px; font-size: 1.3rem;}
+
+.Major-phone{width: 302px;
+  margin-left: 8px;
+  height: 41px;}
+  
+.CurrentOccupationSection-phone{margin-top: 10px;
+  margin-left: 8px; font-size: 1.3rem;}
+.CurrentOccupation-phone{width: 302px;
+  margin-left: 8px;
+  height: 41px;}
+
+  .InterestedinSection-phone{margin-top: 10px;
+    margin-left: 8px; font-size: 1.3rem;}
+
+.Interestedin-select-phone{width: 302px;
+  margin-left: 8px;
+  height: 41px}
+
+  .ShortBioSection-phone{margin-top: 10px;
+    margin-left: 8px; font-size: 1.3rem;}
+
+.ShortBio-phone{width: 302px;
+  margin-left: 8px;
+  height: 41px}
+
+  .knowwaySection-phone{margin-top: 10px; margin-left: 8px; font-size: 1.3rem; }
+
+.knowwhy-phone{width: 302px;
+  margin-left: 8px;
+  height: 41px}
+
+.AttachcvSection-phone{margin-top: 10px; margin-left: 8px; font-size: 1.3rem;}
+.Attach-input-phone{width: 302px;
+  margin-left: 8px;
+  height: 41px; position: relative;}
+
+.Attach-phone{margin-top: 5px;
+  position: absolute;
+  margin-left: -293px;}
+
+
+#interestedformbutton-phone{background-color: #ffbf00;
+  border: none;
+  color: black;
+  width: 100px;
+  height: 40px;
+  font-family: 'poppins', sans-serif;
+  font-size: 18px;
+  outline: none;
+  float: left;
+  margin-left: 8px;
+  margin-top: 17px;}
+
+
+
+  #interestedformbutton-phone:focus{ box-shadow: none; }
+
+
+  #interestedformbutton-phone:active, #interestedformbutton-phone:focus {border:none; outline-style: none;  }
+  
       }
 
 

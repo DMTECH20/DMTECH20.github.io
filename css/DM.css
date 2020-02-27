@@ -1679,8 +1679,62 @@ textarea:focus, input:focus{
 .homeanimate{font-size: 1.3em;
   margin-top: 17px;
 }
+.open{margin-left:49px}
+
+#ffa-hide{display:none}
+
+.project11-img img {height:76%}
+
+.project11 h3{font-size: 1.2em;
+  margin-top: -83px;
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;}
+  .project11 p{margin-left: 30px;
+    margin-right: 17px;
+    font-size: 16px;}
 
 
+
+    .project2-img img{
+      height: 76%;
+      margin-top: -31px;}
+
+      .project2 h3{    margin-top: -113px;
+        font-size: 1.1em;
+        text-align: center;
+        margin-left: 16px;
+        margin-right: 13px;
+    }
+
+    .project2 p{    margin-left: 36px;
+      margin-right: 16px;   font-size: 16px;}
+
+
+      .project3-img img{  height: 76%;
+        margin-top: -131px;}
+
+        .project3 h3{    font-size: 1.1em;
+          margin-top: -203px;}
+
+          .project3 p{    margin-left: 31px;
+            font-size: 16px;
+            margin-right: 6px;}
+
+            .ourservices h1{    margin-top: -322px;
+              font-size: 40px}
+
+              #service-img {
+                margin-top: -43px;} 
+
+                #service-h3{    margin-top: -42px;}
+
+                #testing-p{    margin-right: -18px}
+#Consultancy-h3{margin-top: -37px;}
+
+#Consultancy-p{ margin-right: -19px;}
+#Training-h3{margin-top: -41px;}
+#Training-p {margin-right: -8px;}
 
 
 }
