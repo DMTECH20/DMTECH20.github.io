@@ -250,10 +250,17 @@ display:block;
 
 
 
+
+
+/* // displaying contactform-phone as none */
+.contact-form-mobile{display:none}
+
+
      .contact-form-head h3{font-family: 'poppins', sans-serif; font-size:30px; color:#3f3f3f; font-weight:700; margin-left:-75px; margin-top:350px; line-height:45px}
      .contact-form-head p{font-family: 'poppins', sans-serif; font-size:18px;   text-align:justify; padding:12px;
                             margin:18px 139px 0px -14px; word-spacing: -1px; line-height: 40px; }
      
+
      
      .contact-form {margin-top:140px;}
      .contact-form h3{font-family: 'poppins', sans-serif; font-size:21px; position: relative; }
@@ -318,6 +325,32 @@ display:block;
      #formbutton:active, #formbutton:focus {border:none; outline-style: none;  }
      
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // displaying footer-phone as none */
+.footer-phone{display:none}
 
 
 
@@ -446,3 +479,167 @@ display:block;
   #footer-sociali-two{margin-right:-46px; font-size:2.8vw; margin-top:24px}
   #footer-sociali-three{margin-right:-69px;  font-size:2.8vw; margin-top:24px}
 
+}
+
+
+
+
+
+@media screen and  (max-width:500px){
+
+
+/* // displaying contactform-phone as none */
+.contact-form{display:none}
+
+.contact-form-mobile{display:block}
+
+
+.contact-form-head h3 {    margin-left: 0px;
+  margin-top: 111px;  font-size: 26px;}
+  .contact-form-head p{    margin: 5px 56px 0px 31px;}
+
+  .contact-form-mobile {margin-top: 20px;}
+
+
+  .contact-form-mobile h3{font-family: 'poppins', sans-serif; font-size:21px; position: relative; margin-left: 52px; }
+  #form-asterisk-mobile{font-size:9px; color:#3f3f3f; margin-left:8px; margin-top:4px; position: absolute; }
+  
+  
+  .Affiliation-select-mobile{width: 350px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  
+
+
+
+  .FirstNameSection-mobile{margin-top:15px;  }
+  .FirstName-mobile{width: 350px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  .FirstName-mobile:focus {color:black}
+  
+
+
+  .LastNameSection-mobile{ margin-top:15px;}
+  .LastName-mobile{width: 350px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  .LastName-mobile:focus {color:black}
+  
+  
+  
+  
+  .EmailSection-mobile{  margin-top:15px;  }
+  .FormEmail-mobile{width: 350px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  .FormEmail-mobile:focus {color:black}
+  
+  .PhoneSection-mobile{   margin-top:15px;  }
+  .FormPhone-mobile{width: 350px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  .FormPhone-mobile:focus {color:black}
+  
+  
+  
+  .CompanySection-mobile{ margin-top:15px;}
+  .Company-mobile{width: 350px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  .Company-mobile:focus {color:black}
+  
+
+
+
+
+  .OccupationSection-mobile{margin-top:15px;}
+  .Occupation-mobile{width: 350px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  .Occupation-mobile:focus {color:black}
+  
+
+  .CountrtSection-mobile{margin-top:15px}
+  .country-select-mobile{width: 350px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  
+  
+  .MessageSection-mobile{margin-top:15px}
+  .FormMessage-mobile{width: 350px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  .FormMessage-mobile:focus {color:black; }
+  .MessageSection-mobile::placeholder { color:red; background-color:red}
+  
+  
+  #formbutton-mobile{margin-top:15px; background-color:#ffbf00; border:none; color:black; width:100px; height:40px; font-family: 'poppins', sans-serif;
+                 font-size:18px; outline: none; margin-bottom:22px; margin-left: 51px;}
+  
+       #formbutton-mobile:focus{ box-shadow: none; }
+              
+  
+  #formbutton-mobile:active, #formbutton-mobile:focus {border:none; outline-style: none;  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .footer{display:none}
+  .footer-phone{display:block}
+  
+  
+  
+  
+  .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+  
+  .footer-phone h3{color: #ffbf00;
+    font-size: 1.4em;  padding-top:5px; text-align:center  }
+  
+  #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
+  .coi1-span-phone{color:white; margin-left:4px}
+  
+  
+  #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
+  .coi2-span-phone{color:white; margin-left:4px}
+  
+  #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
+  .coi3-span-phone{color:white; margin-left:4px}
+  
+  
+  #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
+  .coi4-span-phone{color:white; margin-left:4px}
+  
+  
+  
+  .footer-allright-phone{ color:white;  margin-top: 17px;
+    text-align: center;
+    font-size: 1.2em;}
+  
+    .footer-icons-phone{text-align:center; margin-top: -13px;}
+  #footer-sociali-one-phone{ font-size:22px; color:white; }
+  #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
+  #footer-sociali-three-phone{ font-size:22px; color:white;}
+  
+
+  }
+  
