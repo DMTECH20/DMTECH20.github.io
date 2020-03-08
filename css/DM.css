@@ -11,6 +11,10 @@
 
 
 
+
+
+
+
   .padding{padding:80px 0;  display:flex;     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
  }
@@ -247,20 +251,7 @@ display:block;
 }
 
 
-@media screen and (max-width:668px) {
-  .open { margin-left:200px;}
-}
 
-@media screen and (min-width:568px) and (max-width: 668px) {
-  .open { margin-left:280px;}
-}
-
-
-
-@media screen and (min-width:668px) and (max-width: 768px) {
-
-  .open { margin-left:350px;}
-}
 
 
 @media screen and (min-width:768px) and (max-width: 1015px) {
@@ -279,20 +270,8 @@ font-size:20px;
 
 
 
-@media screen and (min-width:868px) and (max-width: 930px) {
 
-  .open { margin-left:500px;}
-}
 
-@media screen and (min-width:768px) and (max-width: 868px) {
-
-  .open { margin-left:450px;}
-}
-
-@media screen and (min-width:768px) and (max-width: 868px) {
-
-  .open { margin-left:450px;}
-}
 
 
 
@@ -458,6 +437,15 @@ text-align: center;
       z-index:-9;
     }
     
+
+
+    /* displaying br space animation as none (phone)  */ 
+
+#animatehide{display:none}
+#animatehide2{display:none}
+
+
+
     .homecontent{height:auto}
 
 
@@ -491,39 +479,10 @@ text-align: center;
 
 
 
-@media screen  and (max-width: 1135px) {
-  .headwelcome{font-size:2.5em}
-
-.headwelcome span{font-size:1.1em}
-
-.headwelcomee{font-size:2em}
-
-.headwelcomee span{font-size:1.1em }
-
-.homeanimate{font-size:2em}
-
-.txt-type > .txt{font-size:1.2em}
-.homecontent{margin-top:-75px}
-
-}
 
 
 
-@media screen and  (max-width: 691px) {
-  .headwelcome{font-size:2.5em}
 
-.headwelcome span{font-size:1.1em}
-
-.headwelcomee{font-size:2em}
-
-.headwelcomee span{font-size:1.1em }
-
-.homeanimate{font-size:2em}
-
-.txt-type > .txt{font-size:1.2em}
-.homecontent{margin-top:-75px}
-
-}
 
 
 
@@ -679,11 +638,6 @@ text-align: center;
 .project11 p{margin-left:90px; margin-right:40px; }
   }
 
-  @media screen and (min-width: 992px) and (max-width: 1091px) {
-
-.project11 h3{margin-top:-20px}
-
-  }
   @media screen and (min-width: 992px) and (max-width: 1075px) {
 
     .project11 h3{font-size:1.4em}
@@ -777,18 +731,14 @@ height:500px;
 .project2 p{  margin-left:89px;  margin-right:15px; }
   }
 
+
+  /*  // respon
   @media screen and (min-width: 992px) and (max-width: 1142px) {
 
     .project2 p{  margin-left:36px;  margin-right:-7px; }
       }
     
-
-      @media screen and (min-width: 992px) and (max-width: 995px) {
-
-        .project2 p{  font-size:2.1em}
-          }
-    
-
+*/ 
 
           @media screen and (max-width: 991px) {
 .project2-all{margin-top:-130px;}
@@ -857,11 +807,6 @@ height:500px;
         .project3 p{margin-left:90px; margin-right:40px; }
           }
         
-          @media screen and (min-width: 992px) and (max-width: 1091px) {
-        
-        .project3 h3{margin-top:-20px}
-        
-          }
           @media screen and (min-width: 992px) and (max-width: 1075px) {
         
             .project3 h3{font-size:1.4em}
@@ -944,10 +889,15 @@ height:500px;
 #service-p3{padding:0px 69px 12px 45px; margin-left:-38px}
 #service-p4{padding:0px 22px 7px 32px; margin-left:-33px}
 
-
+#testing-h3{font-family:'poppins', sans-serif; color:#2c2c2c; font-size:22px; font-weight:600}
 #testing-p{margin-right:10px}
 
+
+#Consultancy-h3{font-family:'poppins', sans-serif; color:#2c2c2c; font-size:22px; font-weight:600}
 #Consultancy-p{margin-right:30px}
+
+
+#Training-h3{font-family:'poppins', sans-serif; color:#2c2c2c; font-size:22px; font-weight:600}
 #Training-p{margin-right:30px}
 
 
@@ -1080,18 +1030,6 @@ height:500px;
     }
     */
   
-
-    @media screen  and (max-width: 768px) {
-
-
-.media{ margin-top:75px}
-.ourservices-content{margin-top:5px}
-.ourservices-content2{margin-top:-20px;}
-
-.ourservices h1{margin-top:-20px}
-
-    }
-
   
 
     /*
@@ -1667,12 +1605,6 @@ textarea:focus, input:focus{
 
 
 
-
-
-
-
-
-
 /* media queries for ( test your website at different sizes ) */ 
 
 
@@ -1681,131 +1613,442 @@ textarea:focus, input:focus{
 
 
 @media screen and  (max-width:320px){
-.headwelcome{font-size:1.6em}
-.headwelcomee{    font-size: 1.3em;
-  margin-top: 52px;
-}
-.homeanimate{font-size: 1.3em;
-  margin-top: 17px;
-}
-.open{margin-left:49px}
+  .headwelcome{font-size:1.6em}
+  .headwelcomee{    font-size: 1.3em;
+    margin-top: 52px;
+  }
+  .homeanimate{font-size: 1.3em;
+    margin-top: 17px;
+  }
+  .open{margin-left:49px}
+  
+  #ffa-hide{display:none}
+  
+  .project11-img img {height:76%}
+  
+  .project11 h3{font-size: 1.2em;
+    margin-top: -83px;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;}
+    .project11 p{margin-left: 30px;
+      margin-right: 17px;
+      font-size: 16px;}
+  
+  
+  
+      .project2-img img{
+        height: 76%;
+        margin-top: -31px;}
+  
+        .project2 h3{    margin-top: -113px;
+          font-size: 1.1em;
+          text-align: center;
+          margin-left: 16px;
+          margin-right: 13px;
+      }
+  
+      .project2 p{    margin-left: 36px;
+        margin-right: 16px;   font-size: 16px;}
+  
+  
+        .project3-img img{  height: 76%;
+          margin-top: -131px;}
+  
+          .project3 h3{    font-size: 1.1em;
+            margin-top: -203px;}
+  
+            .project3 p{    margin-left: 31px;
+              font-size: 16px;
+              margin-right: 6px;}
+  
+              .ourservices h1{    margin-top: -322px;
+                font-size: 40px}
+  
+                #service-img {
+                  margin-top: -43px;} 
+  
+                  #service-h3{    margin-top: -42px;}
+  
+                  #testing-p{    margin-right: -18px}
+  #Consultancy-h3{margin-top: -37px;}
+  
+  #Consultancy-p{ margin-right: -19px;}
+  #Training-h3{margin-top: -41px;}
+  #Training-p {margin-right: -8px;}
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  @media screen and (min-width:320px) and (max-width:450px){
 
-#ffa-hide{display:none}
-
-.project11-img img {height:76%}
-
-.project11 h3{font-size: 1.2em;
-  margin-top: -83px;
-  text-align: center;
-  margin-left: 45px;
-  margin-right: 45px;}
-  .project11 p{margin-left: 30px;
-    margin-right: 17px;
-    font-size: 16px;}
+    #animatehide{display:block}
+    #animatehide2{display:block}
+    
 
 
+    .headwelcome{font-size:2em; margin-top: 140px;}
 
-    .project2-img img{
-      height: 76%;
-      margin-top: -31px;}
 
-      .project2 h3{    margin-top: -113px;
-        font-size: 1.1em;
-        text-align: center;
-        margin-left: 16px;
-        margin-right: 13px;
+    .headwelcome span{font-size:1.1em}
+
+    .headwelcomee {font-size:2em; margin-top:44px}
+
+    .headwelcomee span{font-size:1em}
+
+    .homeanimate {font-size:2em; margin-top: 35px;
     }
 
-    .project2 p{    margin-left: 36px;
-      margin-right: 16px;   font-size: 16px;}
 
-
-      .project3-img img{  height: 76%;
-        margin-top: -131px;}
-
-        .project3 h3{    font-size: 1.1em;
-          margin-top: -203px;}
-
-          .project3 p{    margin-left: 31px;
-            font-size: 16px;
-            margin-right: 6px;}
-
-            .ourservices h1{    margin-top: -322px;
-              font-size: 40px}
-
-              #service-img {
-                margin-top: -43px;} 
-
-                #service-h3{    margin-top: -42px;}
-
-                #testing-p{    margin-right: -18px}
-#Consultancy-h3{margin-top: -37px;}
-
-#Consultancy-p{ margin-right: -19px;}
-#Training-h3{margin-top: -41px;}
-#Training-p {margin-right: -8px;}
-
-
-}
+    .homeanimate span{
+      font-size:1.4em;
+    }
+    .txt-type > .txt {font-size:0.8em;  }
 
 
 
-@media screen and  (max-width:500px){
-  .open{margin-left:49px}
 
+    .project11-img{height:340px}
+    .project11 h3{ margin-inline-start: 29px;
+      margin-inline-end: 20px}
+
+    .project11 p{    margin-inline-start: 34px;
+      margin-inline-end: 13px;}
+
+    .project11-all {margin-top:174px}
+
+    .project2-all{margin-top:84px}
+
+    .project2-img {height:340px}
+
+
+    .project2 h3{font-size:1.3em;margin-inline-start: 7px;
+      margin-inline-end: 13px }
+
+      .project3-all {margin-top:132px}
+
+
+      .project3-img{height:340px}
+      .project3 p{  margin-inline-start: 34px;
+        margin-inline-end: 13px;}
+
+        .ourservices h1{margin-top:-41px}
+
+
+
+
+
+
+
+
+
+
+    .open{margin-left:49px}
+  
+    #ffa-hide{display:none}
+    .project2 p {margin-right: 17px;}
+  
+  
+  
+    .media{margin-top: 27px;}
+  
+  .footer{display:none}
+  .footer-phone{display:block}
+  
+  
+  
+  
+  .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+  
+  .footer-phone h3{color: #ffbf00;
+    font-size: 1.4em;  padding-top:5px; text-align:center  }
+  
+  #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
+  .coi1-span-phone{color:white; margin-left:4px}
+  
+  
+  #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
+  .coi2-span-phone{color:white; margin-left:4px}
+  
+  #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
+  .coi3-span-phone{color:white; margin-left:4px}
+  
+  
+  #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
+  .coi4-span-phone{color:white; margin-left:4px}
+  
+  
+  
+  .footer-allright-phone{ color:white;  margin-top: 17px;
+    text-align: center;
+    font-size: 1.2em;}
+  
+    .footer-icons-phone{text-align:center; margin-top: -13px;}
+  #footer-sociali-one-phone{ font-size:22px; color:white; }
+  #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
+  #footer-sociali-three-phone{ font-size:22px; color:white;}
+  
+  
+  }
+  
+  
+
+  /* start inside mobile screen */ 
+
+  @media screen and (min-width:373px) and (max-width:450px){
+
+    .project2-all {margin-top:10px}
+  }
+
+  @media screen and (min-width:365px) and (max-width:450px){
+
+.project3-all{margin-top:53px}
+  }
+
+
+  @media screen and (min-width:392px) and (max-width:420px){
+
+
+  .ourservices h1{margin-top:-123px}
+
+  }
+  @media screen and (min-width:421px) and (max-width:450px){
+    .ourservices h1{margin-top:-188px}
+  }
+
+
+  @media screen and (min-width:333px) and (max-width:373px){
+.open{margin-left:82px}
+  }
+
+
+@media screen and (min-width:373px) and (max-width:430px){
+  .open{margin-left:114px}
+  
+  }
+
+  @media screen and (min-width:430px) and (max-width:450px){
+    .open{margin-left:144px}
+    
+  
+    }
+  
+/* end inside mobile screen */ 
+
+
+
+
+
+@media screen and (min-width:450px) and (max-width:768px){
+  .open{margin-left:144px}
+
+  #animatehide{display:block}
+  #animatehide2{display:block}
+  
   #ffa-hide{display:none}
-  .project2 p {margin-right: 17px;}
-
-  .ourservices h1 {margin-top: -169px;} 
-
-
-  .media{margin-top: 27px;}
-
-.footer{display:none}
-.footer-phone{display:block}
 
 
 
 
-.footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
-
-.footer-phone h3{color: #ffbf00;
-  font-size: 1.4em;  padding-top:5px; text-align:center  }
-
-#coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
-.coi1-span-phone{color:white; margin-left:4px}
+  .headwelcome{font-size:2.5em; margin-top: 140px;}
 
 
-#coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
-.coi2-span-phone{color:white; margin-left:4px}
+  .headwelcome span{font-size:1.1em}
 
-#coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
-.coi3-span-phone{color:white; margin-left:4px}
+  .headwelcomee {font-size:2em; margin-top:44px}
 
+  .headwelcomee span{font-size:1em}
 
-#coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
-.coi4-span-phone{color:white; margin-left:4px}
-
+  .homeanimate {font-size:2em; margin-top: 20px;
+  }
 
 
-.footer-allright-phone{ color:white;  margin-top: 17px;
-  text-align: center;
-  font-size: 1.2em;}
+  .homeanimate span{
+    font-size:1.4em;
+  }
+  .txt-type > .txt {font-size:0.8em;  }
 
-  .footer-icons-phone{text-align:center; margin-top: -13px;}
-#footer-sociali-one-phone{ font-size:22px; color:white; }
-#footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
-#footer-sociali-three-phone{ font-size:22px; color:white;}
 
+  .project2-all{margin-top:-63px}
+  .ourservices h1{margin-top:-100px}
+
+
+
+
+
+
+
+  .ourservices-content2 {margin-top:10px}
+
+
+
+
+  
+  .footer{display:none}
+  .footer-phone{display:block}
+  
+  
+  
+  
+  .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+  
+  .footer-phone h3{color: #ffbf00;
+    font-size: 1.4em;  padding-top:5px; text-align:center  }
+  
+  #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
+  .coi1-span-phone{color:white; margin-left:4px}
+  
+  
+  #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
+  .coi2-span-phone{color:white; margin-left:4px}
+  
+  #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
+  .coi3-span-phone{color:white; margin-left:4px}
+  
+  
+  #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
+  .coi4-span-phone{color:white; margin-left:4px}
+  
+  
+  
+  .footer-allright-phone{ color:white;  margin-top: 17px;
+    text-align: center;
+    font-size: 1.2em;}
+  
+    .footer-icons-phone{text-align:center; margin-top: -13px;}
+  #footer-sociali-one-phone{ font-size:22px; color:white; }
+  #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
+  #footer-sociali-three-phone{ font-size:22px; color:white;}
+  
+  }
+
+
+
+  /* start inside mobile screen 2 */ 
+
+  @media screen and (min-width:485px) and (max-width:700px){
+
+  .ourservices h1{margin-top: -178px;}
+  }
+
+
+  @media screen and (min-width:701px) and (max-width:768px){
+
+    .ourservices h1{ margin-top: -207px;}
+  }
+
+    @media screen and (min-width:733px) and (max-width:768px){
+      .project11-all {margin-top:218px}
+    }
+
+    @media screen and (min-width:451px) and (max-width:491px){
+.open{margin-left: 182px;}
+    }
+
+    @media screen and (min-width:492px) and (max-width:535px){
+      .open{margin-left: 225px;}
+          }
+      
+          @media screen and (min-width:536px) and (max-width:590px){
+            .open{margin-left: 269px;}
+                }
+      
+                @media screen and (min-width:591px) and (max-width:641px){
+                  .open{margin-left: 320px;}
+                      }
+      
+                      @media screen and (min-width:642px) and (max-width:700px){
+                        .open{margin-left: 372px;}
+                            }
+
+                            @media screen and (min-width:701px) and (max-width:768px){
+                              .open{margin-left: 406px;}
+                                  }
+            
+      
+/* end inside mobile screen 2 */ 
+
+
+      
+
+
+    /*
+  
+  @media screen and  (min-width:501px) and (max-width:768px){
+  
+  
+    #ffa-hide{display:none}
+    #projectbtn1 {margin-top: 11px;}
+  
+    .ourservices h1{ margin-top: -218px;}
+  
+    .ourservices-content {margin-top: -39px;}
+  
+    #testing-p{ margin-right: -42px;}
+  
+    #Consultancy-p{    margin-right: 20px;}
+    #Training-p {margin-right: -8px;}
+  
+  }
+  */
+  
+
+
+
+
+
+
+
+
+
+/*
+
+
+@media screen and  (max-width: 691px) {
+  .headwelcome{font-size:2.5em}
+
+.headwelcome span{font-size:1.1em}
+
+.headwelcomee{font-size:2em}
+
+.headwelcomee span{font-size:1.1em }
+
+.homeanimate{font-size:2em}
+
+.txt-type > .txt{font-size:1.2em}
+.homecontent{margin-top:-75px}
 
 }
 
 
 
+*/
+
+/*
+@media screen  and (max-width: 1135px) {
+  .headwelcome{font-size:2.5em}
+
+.headwelcome span{font-size:1.1em}
+
+.headwelcomee{font-size:2em}
+
+.headwelcomee span{font-size:1.1em }
+
+.homeanimate{font-size:2em}
+
+.txt-type > .txt{font-size:1.2em}
+.homecontent{margin-top:-75px}
+
+}
+*/ 
 
 
-
-
+/*
 
 @media screen and  (max-width:1024px){
   .project11-all { margin-top:226px}
@@ -1819,9 +2062,253 @@ textarea:focus, input:focus{
 
 }
 
+*/
+
+
+/*
+    @media screen  and (max-width: 768px) {
+
+
+.media{ margin-top:75px}
+.ourservices-content{margin-top:5px}
+.ourservices-content2{margin-top:-20px;}
+
+.ourservices h1{margin-top:-20px}
+
+    }
+*/ 
 
 
 
+
+
+@media screen and (min-width:568px) and (max-width: 668px) {
+  .open { margin-left:280px;}
+}
+
+
+
+
+
+/* min width 768 */ 
+
+
+@media screen and (min-width:769px) and (max-width: 991px) {
+  #ffa-hide{display:none}
+
+
+  .headwelcome{font-size:2.7em; margin-top:168px}
+
+  .headwelcome span {font-size:1.2em}
+
+
+  .headwelcomee {font-size:2.4em; margin-top: 57px;}
+  .headwelcomee span {font-size:1.1em}
+  .homeanimate{font-size:2.3em}
+  .txt-type > .txt{font-size:1.2em}
+
+
+  #projectbtn3{margin-top:26px}
+  .ourservices h1{ margin-top: -255px;}
+  #testing-p {margin-right: -14px;}
+
+  #Training-p {margin-right:-34px}
+
+  .footer{display:none}
+  .footer-phone{display:block}
+  
+  
+  
+  
+  .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+  
+  .footer-phone h3{color: #ffbf00;
+    font-size: 1.6em;  padding-top:5px; text-align:center  }
+  
+  #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
+  .coi1-span-phone{color:white; margin-left:4px; font-size:1.2em }
+  
+  
+  #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
+  .coi2-span-phone{color:white; margin-left:4px; font-size:1.2em}
+  
+  #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
+  .coi3-span-phone{color:white; margin-left:4px; font-size:1.2em}
+  
+  
+  #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
+  .coi4-span-phone{color:white; margin-left:4px; font-size:1.2em}
+  
+  
+  
+  .footer-allright-phone{ color:white;  margin-top: 7px;
+    text-align: center;
+    font-size: 1.2em;}
+  
+    .footer-icons-phone{text-align:center; margin-top: -13px;}
+  #footer-sociali-one-phone{ font-size:22px; color:white; }
+  #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
+  #footer-sociali-three-phone{ font-size:22px; color:white;}
+  
+  }
+
+  /*
+#coi1{ margin-left: 2px;}
+.coi1-span{font-size: 1em;     margin-left: 0px;}
+#coi2 { margin-left: 6px;}
+.coi2-span{ font-size: 1em; margin-left: 0px;}
+#coi4{    margin-left: 215px;}
+.coi4-span{ font-size: 1em; margin-left: 0px;}
+#coi3{margin-left:2px }
+.coi3-span{font-size: 1em; margin-left: 0px;}
+.footer-allright {  margin-right: 9px;     font-size: 1em; margin-top: 24px;}
+
+#footer-sociali-one{margin-right:-85px;  margin-top: 17px;}
+#footer-sociali-two{  margin-right: -58px;  margin-top: 17px;}
+#footer-sociali-three {margin-right: -28px;     margin-top: 17px;}
+*/
+
+
+
+
+
+/* start inside min width 768 */ 
+
+@media screen and (min-width:769px) and (max-width: 776px) {
+
+  #projectbtn1{margin-top:-6px}
+}
+
+@media screen and (min-width:872px) and (max-width: 884px) {
+  .ourservices h1{ margin-top: -292px}
+
+}
+
+
+@media screen and (min-width:981px) and (max-width: 990px) {
+  .ourservices h1{ margin-top: -292px}
+
+}
+
+@media screen and (min-width:933px) and (max-width: 933px) {
+
+  .project11-all{margin-top:201px}
+}
+
+
+@media screen and (min-width:934px) and (max-width: 991px) {
+
+  .project11-all{margin-top:234px}
+}
+
+@media screen and (min-width:769px) and (max-width: 800px) {
+.open{margin-left:486px}
+}
+
+@media screen and (min-width:801px) and (max-width: 840px) {
+  .open{margin-left:526px}
+  }
+  
+  @media screen and (min-width:841px) and (max-width: 870px) {
+    .open{margin-left:568px}
+    } 
+    
+    
+    @media screen and (min-width:871px) and (max-width: 900px) {
+      .open{margin-left:600px}
+      }   
+      
+      @media screen and (min-width:901px) and (max-width: 940px) {
+        .open{margin-left:625px}
+        }  
+        
+        @media screen and (min-width:941px) and (max-width: 970px) {
+          .open{margin-left:669px}
+          }   
+          
+          @media screen and (min-width:971px) and (max-width: 990px) {
+            .open{margin-left:691px}
+            }
+
+
+
+
+            @media screen and (min-width:1240px) {
+              .project11-all {
+                margin-top: 282px;
+            }
+          }
+                          /* start min 992 */ 
+
+
+                          @media screen and (min-width:992px)  {
+
+                            #ffa-hide{display:none}
+
+                          .headwelcome{font-size:2.7em; margin-top:180px}
+
+                          .headwelcome span {font-size:1.2em}
+                        
+                        
+                          .headwelcomee {font-size:2.4em; margin-top: 71px;}
+                          .headwelcomee span {font-size:1.1em}
+                          .homeanimate{font-size:2.3em; margin-top:42px}
+                          .txt-type > .txt{font-size:1.2em}
+                          .project11-all { margin-top: 204px;}
+                          .project11 h3{  margin-top: -6px;}
+
+                          .project2 p{    margin-left: 54px;
+                            margin-right: 8px;}
+
+                            .project3 h3{    margin-top: -5px;}
+
+                            .project3 p {margin-top:8px}
+                            #projectbtn3 {margin-top:5px}
+                            #projectbtn1{  margin-top: 29px;}
+                          }
+
+
+
+/* start inside min 992 */
+
+@media screen and (min-width:991px) and (max-width: 1015px) {
+.open{margin-left: 705px;}
+}
+
+
+@media screen and (min-width:992px) and (max-width: 1040px) {
+  #projectbtn2{  margin-top: 0px;}
+
+  .project2 p {margin-top:10px}
+
+  .project2 h3{    margin-top: -15px;}
+
+}
+
+
+@media screen and (min-width:1178px) and (max-width: 1400px) {
+
+#projectbtn2{    margin-top: 35px;}
+}
+@media screen and (min-width:1039px) and (max-width: 1213px) {
+  #projectbtn3{    margin-top: 34px;}
+
+  .project3 p {margin-top:20px}
+
+}
+
+@media screen and (min-width:1214px) and (max-width: 1232px) {
+  #projectbtn3{    margin-top: 34px;}
+
+  .project3 p {margin-top:20px}
+}
+
+@media screen and (min-width:1392px) and (max-width: 1400px) {
+
+  .project3 p{margin-top: 21px;}
+  #projectbtn3 {    margin-top: 35px;}
+
+}
 
 
 

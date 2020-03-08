@@ -339,13 +339,14 @@ display:block;
 
 
 
+/*
 
+     .contact-form-head h3
 
+     margin-left: 11px;
+     margin-top: 289px;
 
-
-
-
-
+*/
 
 
 
@@ -485,8 +486,8 @@ display:block;
 
 
 
-@media screen and  (max-width:500px){
 
+@media screen and  (min-width:320px) and (max-width:450px) {
 
 /* // displaying contactform-phone as none */
 .contact-form{display:none}
@@ -495,8 +496,12 @@ display:block;
 
 
 .contact-form-head h3 {    margin-left: 0px;
-  margin-top: 111px;  font-size: 26px;}
-  .contact-form-head p{    margin: 5px 56px 0px 31px;}
+  margin-top: 111px;  font-size: 26px; text-align:center}
+
+
+
+  .contact-form-head p{margin:0; margin-left: 32px;  text-align:left; }
+  }
 
   .contact-form-mobile {margin-top: 20px;}
 
@@ -643,3 +648,235 @@ display:block;
 
   }
   
+
+
+          /* start inside phone version */ 
+          @media screen and  (min-width:321px) and (max-width:350px) {
+
+            .open{margin-left:61px}
+            }
+            
+            @media screen and  (min-width:351px) and (max-width:400px) {
+  
+              .open{margin-left:89px}
+              }
+  
+              @media screen and  (min-width:401px) and (max-width:450px) {
+  
+                .open{margin-left:136px}
+                }
+      
+                @media screen and  (min-width:321px) and (max-width:359px) {
+
+                .contact-form-head h3{text-align:center; margin-left: 0px;}
+
+                }
+
+
+                @media screen and  (min-width:320px) and (max-width:350px) {
+
+                  .Affiliation-select-mobile, .FirstName-mobile, .LastName-mobile, .FormEmail-mobile, .FormPhone-mobile, .Company-mobile,
+                  .Occupation-mobile, .country-select-mobile, .FormMessage-mobile {width:282px}
+
+                  .contact-form-mobile{margin-left:-39px;}
+                }          
+                
+                
+
+
+                @media screen and  (min-width:351px) and (max-width:400px) {
+
+                  .Affiliation-select-mobile, .FirstName-mobile, .LastName-mobile, .FormEmail-mobile, .FormPhone-mobile, .Company-mobile,
+                  .Occupation-mobile, .country-select-mobile, .FormMessage-mobile {width:302px}
+
+                  .contact-form-mobile{margin-left:-39px;}
+                }          
+
+
+                @media screen and  (min-width:365px) and (max-width:380px) {
+                  .contact-form-mobile{margin-left:-26px;}
+                }          
+                @media screen and  (min-width:381px) and (max-width:400px) {
+                  .contact-form-mobile{margin-left:-19px;}
+                }          
+
+
+
+
+                @media screen and  (min-width:401px) and (max-width:450px) {
+
+                  .Affiliation-select-mobile, .FirstName-mobile, .LastName-mobile, .FormEmail-mobile, .FormPhone-mobile, .Company-mobile,
+                  .Occupation-mobile, .country-select-mobile, .FormMessage-mobile {width:340px}
+
+                  .contact-form-mobile{margin-left:-39px;}
+                }          
+
+                @media screen and  (min-width:401px) and (max-width:420px) {
+                  .contact-form-mobile{margin-left:-26px;}
+                }          
+                @media screen and  (min-width:421px) and (max-width:430px) {
+                  .contact-form-mobile{margin-left:-21px;}
+                }          
+                @media screen and  (min-width:431px) and (max-width:450px) {
+                  .contact-form-mobile{margin-left:-12px;}
+                }          
+
+
+
+
+                @media screen and  (min-width:451px) and (max-width:768px) {
+                  .open{margin-left:182px}
+
+        
+                  .contact-form-head h3 {    margin-left: 0px;
+                    margin-top: 111px;  font-size: 23px; text-align:center}
+                  
+                  
+                  
+                    .contact-form-head p{margin:0; margin-left: 14px;  text-align:left; }
+
+
+                    .contact-form {margin-top:23px}
+                      #Affiliation{margin-left:16px}
+
+
+                      .Affiliation-select{width:390px; height:41px; margin-left:15px}
+
+                    .NameSectionh3{ margin-left: 14px;}
+  .Name-interested-Section{width:270px; height:41px; margin-left: 13px;}
+
+  .EmailSectionh3{   margin-left: 253px;}
+  .Email-interested-section{width:270px; height:41px; margin-left: 50px;}
+
+
+                    
+                    .FirstNameSection{margin-left:14px }
+                    .FirstName{width:175px; height:41px; margin-left: 14px;}
+                    
+                    .LastNameSection{ margin-left: 98px;}
+                    .LastName{width:175px; height:41px; margin-left: 35px;}
+                  
+                    .EmailSection{margin-left:14px}
+                    .FormEmail{width:175px; height:41px; margin-left: 13px;}
+
+                    .PhoneSection{margin-left: 152px;}
+                    .FormPhone{width:175px; height:41px; margin-left: 35px;}
+
+
+
+                    .CompanySection{margin-left:14px}
+                    .Company{width:175px; height:41px; margin-left: 13px;}
+
+
+                    .OccupationSection{margin-left: 101px;}
+                    .Occupation{width:175px; height:41px; margin-left: 35px;}
+
+                    .CountrtSection{margin-left:14px}
+                    .country-select{width:390px; height:41px; margin-left:14px}
+
+                    .MessageSection{margin-left: 14px;}
+                    .FormMessage{width:390px; height:95px; margin-left:14px}
+                    #formbutton{    margin-left: 12px;}
+
+                  }
+
+                  
+
+                  /* start inside 451 */ 
+                  @media screen and  (min-width:471px) and (max-width:500px) {
+                      .open{margin-left:202px}
+                  }
+
+                  @media screen and  (min-width:501px) and (max-width:530px) {
+                    .open{margin-left:227px}
+                }
+
+                @media screen and  (min-width:531px) and (max-width:560px) {
+                  .open{margin-left:259px}
+              }
+
+              @media screen and  (min-width:561px) and (max-width:590px) {
+                .open{margin-left:286px}
+            }
+
+            @media screen and  (min-width:591px) and (max-width:620px) {
+              .open{margin-left:320px}
+          }
+          @media screen and  (min-width:621px) and (max-width:650px) {
+            .open{margin-left:348px}
+        }
+
+        @media screen and  (min-width:651px) and (max-width:680px) {
+          .open{margin-left:376px}
+      }
+
+      @media screen and  (min-width:681px) and (max-width:710px) {
+        .open{margin-left:400px}
+    }
+
+    @media screen and  (min-width:711px) and (max-width:740px) {
+      .open{margin-left:436px}
+  }
+
+  @media screen and  (min-width:741px) and (max-width:768px) {
+    .open{margin-left:465px}
+}
+
+
+
+
+                  @media screen and  (min-width:461px) and (max-width:480px) {
+
+                    .contact-form{margin-left: 12px;}
+                  }
+                  @media screen and  (min-width:481px) and (max-width:500px) {
+
+                    .contact-form{margin-left: 22px;}
+                  }
+
+                  @media screen and  (min-width:501px) and (max-width:520px) {
+
+                    .contact-form{margin-left: 25px;}
+                  }
+
+                  @media screen and  (min-width:521px) and (max-width:540px) {
+
+                    .contact-form{margin-left: 41px;}
+                  }
+
+                  @media screen and  (min-width:541px) and (max-width:560px) {
+
+                    .contact-form{margin-left: 56px;}
+                  }
+                  @media screen and (min-width:561px) and (max-width:575px) {
+
+                    .contact-form{margin-left: 59px;}
+                  }
+
+                  @media screen and (min-width:576px) and (max-width:576px) {
+
+                  .FirstName {margin-left: 13px;}
+                  }
+
+
+                  @media screen and (min-width:576px) and (max-width:768px) {
+
+                  #contacthead{flex: 0 0 100%;
+                      max-width: 100%;}
+
+                    .contact-form{
+                      margin-left: 59px; width: 70vw;}
+                }
+
+
+                @media screen and (min-width:744px) and (max-width:768px) {
+
+                  .contact-form{width:67vw}
+                }
+
+                @media screen and (min-width:768px) and (max-width:768px) {
+
+                  .contact-form{margin-left: 144px;}
+                }
+
+

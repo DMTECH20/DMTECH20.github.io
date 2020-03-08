@@ -362,12 +362,6 @@ display:block;
     }
 
 
-    @media screen and (max-width: 768px) {
-
-      .overlay-content-h3{font-size:1.4em; margin-top:95px; }
-      .overlay-content-p{margin-left:20px; margin-right:20px; font-size:1em; margin-top:20px; line-height:35px}
-    }
-
 
 
 
@@ -722,8 +716,6 @@ display:block;
   
   
   
-  
-
 
 
   .team{width:200px; height:350px; background-color:#ffbf00; margin-top:120px;}
@@ -742,6 +734,9 @@ display:block;
 
   .team-content{margin-top:-350px;}
 .team-content2{ margin-left:70px; margin-top:60px }
+
+
+
 
   .team-p1{width:240px; height:350px; background-color:#363535;  margin-left:250px;  }
 .team-p1:hover{  -ms-transform: scale(1.1);
@@ -831,7 +826,7 @@ display:block;
 
 */ 
 
-
+.teampthree{margin-top:50px; margin-bottom:20px}
 
 .team-p3{width:240px; height:350px; background-color:#363535; margin-left:337px; margin-top:50px;   }
 .team-p3:hover{  -ms-transform: scale(1.1);
@@ -1027,6 +1022,11 @@ display:block;
               .founders-h3-two{margin-left:-76px; margin-top:-99px; font-size:45px}
               .founders-h3-three{margin-left:264px; margin-top:-114px; font-size:45px}
             }
+
+
+
+
+
 
 
             @media screen and (max-width: 576px) {
@@ -1353,6 +1353,685 @@ display:block;
 
 
 
+
+
+       @media screen and (min-width:320px) and (max-width:450px){
+
+        .open{margin-left:49px}
+        .overlay-content-h3{font-size:1.4em}
+        .overlay-content-p {      margin-inline-start: 7px;
+          margin-inline-end: 5px; font-size:1em}
+          .overlay-main {    height: 988px;}
+
+
+
+
+
+
+          .vision1 {height:250px}
+
+.vision1 h1 {padding-top: 63px;
+  margin-left: 4px;}
+
+  .vision2 p{  text-align:left;  margin: 31px 7px 0px 28px;}
+
+  .flex-container {    margin-top: -89px;}
+  .mission2{height:250px}
+
+  .mission2 h1 {    padding-top: 63px;
+    margin-left: 24px;}
+
+    .overlay-main-two{margin-top:-64px}
+
+    .mission1 p{    text-align: left;
+      margin: 0px -19px 0px 29px; margin-top: -34px;}
+    
+
+      #overlay-content-h3-two { margin-top: 70px;
+        font-size: 24px; padding-left: 17px}
+
+
+
+
+        #foundersp1i1 {margin-left: 65px;}
+        #foundersp2i1 {margin-left: 65px;}
+        #Advp1i1{margin-left: 65px;}
+        #Advp2i1{margin-left: 65px;}
+        #teamp1i1{margin-left: 65px;}
+        #teamp2i1 {margin-left: 65px;}
+
+
+
+
+        .founders-h3-one{    margin-left: -209px;
+          font-size: 31px;
+          padding-top: 32px;
+      }
+      .founders-h3-two{margin-left: -55px;
+        margin-top: -75px;
+        font-size: 31px;
+    }
+    .founders-h3-three{    margin-left: 165px;
+      margin-top: -89px;
+      font-size: 31px;}
+      .founders-h3-one {margin-left: -228px;
+        font-size: 29px;
+        padding-top: 27px;}
+
+        .founders-h3-two{    margin-left: -79px;
+          margin-top: -73px;
+          font-size: 30px;
+}
+    
+      .founders-h3-three{   margin-left: 142px;
+        margin-top: -88px;
+        font-size: 30px;
+    }
+    
+    .founders-p1{    margin-left: 40px; width: 222px;}
+    .founders-p2 { width:222px; margin-left:40px; margin-top:29px}
+
+
+    .Advisors-h3-one{    margin-left: -215px;
+      font-size: 30px;
+      padding-top: 30px;}
+
+      .Advisors-h3-two{margin-left: -50px;
+        margin-top: -75px;
+        font-size: 30px;
+    }
+
+      .Advisors-h3-three {    margin-left: 172px;
+        margin-top: -88px;
+        font-size: 30px;
+    }
+    .Adv-p1{width:222px;     margin-left: 37px;}
+    .Adv-p2{  width:222px;  margin-left: 40px; margin-top: 32px;}
+
+
+    .team-h3-one {margin-left: -217px;
+      font-size: 30px;
+      padding-top: 32px;}
+
+
+      .team-h3-two{    margin-left: -23px;
+        margin-top: -74px;
+        font-size: 30px;
+    }
+
+    .team-h3-three{    margin-left: 168px;
+      margin-top: -88px;
+      font-size: 30px;}
+  
+  
+      .team-p1{width:222px;     margin-left: 42px; }
+      .team-p2{width:222px;     margin-left: 42px; margin-top:30px }
+  
+
+  }
+    
+    
+    
+ 
+    
+  
+
+
+
+        .footer{display:none}
+        .footer-phone{display:block}
+        
+
+        .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+        
+        .footer-phone h3{color: #ffbf00;
+          font-size: 1.4em;  padding-top:5px; text-align:center  }
+        
+        #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
+        .coi1-span-phone{color:white; margin-left:4px}
+        
+        
+        #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
+        .coi2-span-phone{color:white; margin-left:4px}
+        
+        #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
+        .coi3-span-phone{color:white; margin-left:4px}
+        
+        
+        #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
+        .coi4-span-phone{color:white; margin-left:4px}
+        
+        
+        
+        .footer-allright-phone{ color:white;  margin-top: 17px;
+          text-align: center;
+          font-size: 1.2em;}
+        
+          .footer-icons-phone{text-align:center; margin-top: -13px;}
+        #footer-sociali-one-phone{ font-size:22px; color:white; }
+        #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
+        #footer-sociali-three-phone{ font-size:22px; color:white;}
+        
+        
+     
+      
+
+
+
+
+  /* start inside mobile screen - About */ 
+
+  @media screen and (min-width:320px) and (max-width:351px){
+
+    .overlay-content-h3{margin-top: 106px;}
+    .overlay-content-p{    margin-top: 13px; line-height: 35px;}
+  }
+
+
+
+
+
+
+  @media screen and (min-width:350px) and (max-width:400px){
+.open{margin-left:84px}
+
+  }
+
+  @media screen and (min-width:401px) and (max-width:450px){
+    .open{margin-left:137px}
+    
+  }
+
+
+  @media screen and (min-width:352px) and (max-width:400px){
+    .overlay-content-h3{    margin-top: 118px;}
+    .overlay-content-p{    margin-top: 21px; line-height:35px}
+
+  }
+
+  @media screen and (min-width:400px) and (max-width:450px){
+    .overlay-content-h3{    margin-top: 118px;}
+    .overlay-content-p{    margin-top: 43px; line-height:40px }
+
+  }
+
+
+
+  @media screen and (min-width:385px) and (max-width:450px){
+
+
+.flex-container{margin-top: -155px;}
+  }
+
+  @media screen and (min-width:434px) and (max-width:450px){
+
+    .mission1 p {margin-top:-3px}
+  }
+
+  @media screen and (min-width:346px) and (max-width:450px){
+    #overlay-content-h3-two{margin-top:93px}
+  }
+
+
+  @media screen and (min-width:330px) and (max-width:344px){
+
+    .founders-p1, .founders-p2{margin-left: 33px; width:234px }
+
+  }
+
+
+
+  @media screen and (min-width:345px) and (max-width:350px){
+
+    .founders-p1, .founders-p2{margin-left: 40px; width:234px }
+
+  }
+
+
+  @media screen and (min-width:350px) and (max-width:400px){
+
+    .founders-p1, .founders-p2{margin-left: 85px; width:234px }
+
+  }
+
+  @media screen and (min-width:400px) and (max-width:450px){
+
+    .founders-p1, .founders-p2{margin-left: 92px; width:234px }
+
+  }
+
+
+
+
+
+  @media screen and (min-width:330px) and (max-width:344px){
+
+    .Adv-p1,  .Adv-p2{margin-left: 33px; width:234px }
+
+  }
+
+  @media screen and (min-width:345px) and (max-width:350px){
+
+    .Adv-p1, .Adv-p2{margin-left: 40px; width:234px }
+
+  }
+
+
+
+
+
+
+  @media screen and (min-width:350px) and (max-width:400px){
+
+    .Adv-p1, .Adv-p2{margin-left: 85px; width:234px }
+
+  }
+
+  @media screen and (min-width:400px) and (max-width:450px){
+
+    .Adv-p1, .Adv-p2{margin-left: 92px; width:234px }
+
+  }
+
+
+
+
+  @media screen and (min-width:330px) and (max-width:344px){
+
+    .team-p1,  .team-p2{margin-left: 33px; width:234px }
+
+  }
+
+  @media screen and (min-width:345px) and (max-width:350px){
+
+    .team-p1, .team-p2{margin-left: 40px; width:234px }
+
+  }
+
+
+
+  @media screen and (min-width:350px) and (max-width:400px){
+
+    .team-p1, .team-p2{margin-left: 85px; width:234px }
+
+  }
+
+  @media screen and (min-width:400px) and (max-width:450px){
+
+    .team-p1, .team-p2{margin-left: 92px; width:234px }
+
+  }
+
+  @media screen and (min-width:418px) and (max-width:450px){
+
+    #coi1-phone{  margin-left: 7px;}
+    .coi1-span-phone{    margin-left: -1px;
+      font-size: 15px;}
+      #coi2-phone{margin-left: 7px;}
+      .coi2-span-phone{   margin-left: -1px;
+        font-size: 15px}
+        #coi3-phone{margin-left: 7px;}
+        .coi3-span-phone{  margin-left: -1px;
+          font-size: 15px}
+          #coi4-phone{margin-left: 7px;}
+          .coi4-span-phone{  margin-left: -1px;
+            font-size: 15px}
+            .footer-allright-phone {font-size:1em}
+            #footer-sociali-one-phone{font-size: 20px;}
+            #footer-sociali-two-phone{font-size: 20px;}
+            #footer-sociali-three-phone{font-size: 20px;}
+          }
+  /* End inside mobile screen - About */ 
+
+
+
+
+  @media screen and (min-width:451px) and (max-width:768px){
+    .open{margin-left:144px}
+    #ffa-hide{display:none}
+    .overlay-content-h3{font-size:1.4em; }
+    .overlay-content-p{margin-left:20px; margin-right:20px; font-size:1em;  line-height:40px}
+
+    .vision1 {height:250px}
+
+    .vision1 h1 {padding-top: 63px;
+      margin-left: 4px;}
+    
+      .vision2 p{  text-align:left;  margin: 31px 7px 0px 28px;}
+    
+      .flex-container {    margin-top: -173px;}
+      .mission2{height:250px}
+    
+      .mission2 h1 {    padding-top: 63px;
+        margin-left: 24px;}
+    
+        .overlay-main-two{margin-top:-144px}
+    
+        .mission1 p{    text-align: left;
+          margin: 0px -19px 0px 29px; margin-top: -34px;}
+        
+    
+          #overlay-content-h3-two { margin-top: 92px;
+            font-size: 24px; padding-left: 25px}
+    
+     
+
+            .founders-h3-two {margin-left: -96px}
+            .founders-h3-three{ margin-left: 227px;}
+
+            .founders-p1 {margin-left:2px}
+
+            .founders-p2{ margin-left: 220px;}
+
+
+
+            .Adv-p1 {margin-left:2px}
+
+            .Adv-p2{ margin-left: 220px;}
+
+            .team-p1 {margin-left:2px}
+
+            .team-p2{ margin-left: 220px;}
+
+
+
+            .Adv-p1 h2{ white-space: nowrap; font-size: 20px;}
+            .Adv-p1 h3 { margin-top: 8px; font-size:13px}
+
+            #Advp1i1 {    margin-top: 2px;}
+
+
+
+            #Advp1i2 {margin-top: -7px;}
+            .Adv-p2 h2{ font-size: 20px;}
+
+
+            .Adv-p2 h3 {    font-size: 17px;}
+
+            .team-p1 h2 {font-size: 20px;}
+
+            .team-p1 h3 {font-size: 15px;}
+
+            .team-p2 h2 {font-size: 21px;}
+            .team-p2 h3 {    font-size: 17px;}
+
+
+            
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* start inside mobile screen - About 2 */ 
+
+
+  @media screen and (min-width:461px) and (max-width:500px){
+
+  .open{margin-left:196px}
+
+  }
+  @media screen and (min-width:501px) and (max-width:550px){
+
+    .open{margin-left:239px}
+
+    }
+
+    @media screen and (min-width:551px) and (max-width:600px){
+      .open{margin-left:292px}
+      }
+
+      @media screen and (min-width:601px) and (max-width:650px){
+        .open{margin-left:341px}
+    
+        }
+    
+  
+        @media screen and (min-width:651px) and (max-width:700px){
+          .open{margin-left:391px}
+      
+          }
+  
+          @media screen and (min-width:701px) and (max-width:768px){
+            .open{margin-left:436px}      
+            }
+    
+  
+
+
+
+  @media screen and (min-width:451px) and (max-width:542px){
+    .overlay-content-h3 {margin-top: 106px;}
+    .overlay-content-p{    margin-top: 12px;
+      line-height: 35px;}
+    }
+
+
+
+
+
+    
+  @media screen and (min-width:543px) and (max-width:575px){
+
+    .overlay-content-p{    margin-top: 34px;
+      line-height: 38px; }
+      .overlay-content-h3 {margin-top: 123px;}
+    }
+
+
+      @media screen and (min-width:576px) and (max-width:626px){
+
+        .overlay-content-p {margin-top: 40px; line-height:40px} 
+      }
+
+      @media screen and (min-width:627px) and (max-width:768px){
+        .overlay-content-h3{margin-top:130px}
+        .overlay-content-p {margin-top: 40px; line-height:45px} 
+      }
+
+
+
+
+      @media screen and (min-width:500px) and (max-width:520px){
+        .flex-container{margin-top:-132px}
+      }
+      
+      @media screen and (min-width:537px) and (max-width:768px){
+        .overlay-main-two{margin-top:-180px;}
+      }
+
+      @media screen and (min-width:461px) and (max-width:660px){
+        #overlay-content-h3-two{margin-top:128px}
+
+      }
+
+      @media screen and (min-width:661px) and (max-width:768px){
+
+      .overlay-main-two {height:330px}
+      }
+
+
+      @media screen and (min-width:460px) and (max-width:480px){
+        .founders-p1 {margin-left:10px}
+        .founders-p2 {margin-left:237px}
+        
+        .Adv-p1 {margin-left:10px}
+        .Adv-p2 {margin-left:237px}
+
+        .team-p1 {margin-left:10px}
+        .team-p2 {margin-left:237px}
+
+      }
+
+
+      @media screen and (min-width:480px) and (max-width:500px){
+        .founders-p1 {margin-left:10px}
+        .founders-p2 {margin-left:237px}
+
+        .Adv-p1 {margin-left:10px}
+        .Adv-p2 {margin-left:237px}
+
+        .team-p1 {margin-left:10px}
+        .team-p2 {margin-left:237px}
+
+      }
+
+      @media screen and (min-width:501px) and (max-width:550px){
+        .founders-p1 {margin-left:17px}
+        .founders-p2 {margin-left:270px}
+
+        .Adv-p1 {margin-left:17px}
+        .Adv-p2 {margin-left:270px}
+
+        .team-p1 {margin-left:17px}
+        .team-p2 {margin-left:270px}
+
+      }
+
+
+
+      @media screen and (min-width:551px) and (max-width:570px){
+        .founders-p1 {margin-left:33px}
+        .founders-p2 {margin-left:303px}
+
+        .Adv-p1 {margin-left:33px}
+        .Adv-p2 {margin-left:303px}
+
+        .team-p1 {margin-left:33px}
+        .team-p2 {margin-left:303px}
+        
+      }
+
+      @media screen and (min-width:571px) and (max-width:575px){
+        .founders-p1 {margin-left:33px}
+        .founders-p2 {margin-left:303px}
+
+        .Adv-p1 {margin-left:33px}
+        .Adv-p2 {margin-left:303px}
+
+        .team-p1 {margin-left:33px}
+        .team-p2 {margin-left:303px}
+
+
+      }
+    
+
+
+      @media screen and (min-width:576px) and (max-width:576px){
+        .founders-p2 {margin-left:7px; margin-top: -28px;}
+        .Adv-p2 {margin-left:7px; margin-top: -28px;}
+        .team-p2 {margin-left:7px; margin-top: -28px;}
+
+      }
+
+      @media screen and (min-width:577px) and (max-width:768px){
+        .founders-p2 {margin-left:36px; }
+        .founders-p1 {margin-left:22px}
+
+        .Adv-p2 {margin-left:36px; }
+        .Adv-p1 {margin-left:22px}
+
+        .team-p2 {margin-left:36px; }
+        .team-p1 {margin-left:22px}
+
+      }
+
+
+      @media screen and (min-width:451px) and (max-width:459px){
+
+        .founders-p1 {margin-left:-2px}
+        .Adv-p1 {margin-left:-2px}
+        .team-p1 {margin-left:-2px}
+
+      }
+
+
+      @media screen and (min-width:715px) and (max-width: 768px) {
+        .founders-h3-one{margin-left:-362px; font-size:55px; padding-top:10px}
+        .founders-h3-two{margin-left:-76px; margin-top:-115px; font-size:55px}
+        .founders-h3-three{margin-left:307px; margin-top:-129px; font-size:55px}
+      }
+
+
+      @media screen and (min-width:715px) and (max-width: 768px) {
+        .Advisors-h3-one{margin-left:-362px; font-size:55px; padding-top:10px}
+        .Advisors-h3-two{margin-left:-76px; margin-top:-115px; font-size:55px}
+        .Advisors-h3-three{margin-left:307px; margin-top:-129px; font-size:55px}
+      }
+
+      @media screen and (min-width:715px) and (max-width: 768px) {
+        .team-h3-one{margin-left:-331px; font-size:55px; padding-top:10px}
+        .team-h3-two{margin-left:-26px; margin-top:-115px; font-size:55px}
+        .team-h3-three{margin-left:285px; margin-top:-129px; font-size:55px}
+      }
+
+
+
+
+      @media screen and (min-width:451px) and (max-width:470px){
+
+        #coi1-phone{  margin-left: 24px;}
+        .coi1-span-phone{    margin-left: 4px;
+          font-size: 15px;}
+          #coi2-phone{margin-left: 24px;}
+          .coi2-span-phone{   margin-left: 4px;
+            font-size: 15px}
+            #coi3-phone{margin-left: 24px;}
+            .coi3-span-phone{  margin-left: 4px;
+              font-size: 15px}
+              #coi4-phone{margin-left: 24px;}
+              .coi4-span-phone{  margin-left: 4px;
+                font-size: 15px}
+                .footer-allright-phone {font-size:1em}
+                #footer-sociali-one-phone{font-size: 20px;}
+                #footer-sociali-two-phone{font-size: 20px;}
+                #footer-sociali-three-phone{font-size: 20px;}
+              }
+    
+
+
+
+
+
+
+
+
+/*
+      @media screen and (min-width:576px) and (max-width:585px){
+        .founders-p1 {margin-left:33px}
+        .founders-p2 {margin-left:303px; margin-top:-300px}
+      }
+    
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+        /*
    @media screen and  (max-width:500px){
 
 
@@ -1404,15 +2083,426 @@ display:block;
 
     }
     
+    */
+              
+              
+      /* 768 */ 
+      
+      @media screen and (min-width:768px) and (max-width: 768px) {
+
+
+      .vision2 p {margin: 16px 11px 0px -8px;}
+
+      .flex-container {margin-top:-111px}
+
+
+      .mission1 p {margin: -83px -26px 0px 15px;}
+
+      .overlay-main-two{  margin-top: -137px;}
+
+      #overlay-content-h3-two {    margin-top: 108px;}
+
+      .founders-p1 {margin-left: 97px;}
+      .founders-h3-one {margin-left: -380px}
+
+      .Advisors-h3-one{    padding-top: 34px;}
+      .Adv-p1{margin-left: 97px;}
+
+      .team-p1{margin-left: 97px;}
+
+
+      }
+
+
+
+
+
+      /* min width 769 */ 
+
+
+@media screen and (min-width:769px) and (max-width: 991px) {
+  .teampthree{margin-top:-4px; margin-bottom:25px}
+
+  .vision1 h1{    padding-top: 120px;
+    margin-left: -6px;}         
+
+  .vision2 p{text-align:left; margin: 74px 8px 0px 10px; }
+
+  .flex-container {margin-top:-140px}
+
+  .mission2 h1 {padding-top: 114px;}
+
+
+
+  .mission1 p{text-align:left; word-spacing: normal; margin: 53px -45px 0px 26px; }
+
+  .Adv-p1 {margin-top:-54px}
+  .Adv-p2 {margin-top:-54px}
+
+  .team {margin-top: 90px;}
+  .founders-h3-one { padding-top: 22px;}
+
+  .Advisors-h3-one {margin-top: -14px;}
+
+  .team-h3-one{ padding-top: 22px;}
+
+  #teamp3-phone{margin-top:-4px; margin-bottom:25px}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* start inside min width 769 */ 
+
+@media screen and (min-width:769px) and (max-width: 800px) {
+
+
+.open{margin-left:465px}
+}
+
+
+@media screen and (min-width:801px) and (max-width: 840px) {
+
+
+  .open{margin-left:521px }
+
+}
+  
+@media screen and (min-width:841px) and (max-width: 880px) {
+
+
+  .open{margin-left:568px }
+
+}
+
+@media screen and (min-width:881px) and (max-width: 920px) {
+
+
+  .open{margin-left:601px }
+
+}
+
+@media screen and (min-width:921px) and (max-width: 950px) {
+  .open{margin-left:638px }
+
+}
+
+@media screen and (min-width:951px) and (max-width: 991px) {
+  .open{margin-left:671px }
+
+}
+
+
+
+
+
+
+@media screen and (min-width:820px) and (max-width: 850px) {
+  
+  .overlay-content-p{    margin-left: 51px;
+    margin-right: 23px;}
+  
+  }
+
+         @media screen and (min-width:851px) and (max-width: 875px) {
+  .overlay-content-p{    margin-left: 51px;
+    margin-right: 23px;}
+  }
+
+  @media screen and (min-width:876px) and (max-width: 896px) {
+    .overlay-content-p{ margin-left: 68px;
+      margin-right: 23px;}
+    }
+  
+    @media screen and (min-width:897px) and (max-width: 991px) {
+
+      .overlay-content-p{    line-height: 54px;}
+    }
+
+
+
+    @media screen and (min-width:903px) and (max-width: 991px) {
+
+  .flex-container {margin-top:-105px}
+    }
+
+
+    @media screen and (min-width:903px) and (max-width: 991px) {
+      .mission1 p{margin: 33px -45px 0px 26px; }
+    }
+
+
+    @media screen and (min-width:840px) and (max-width: 991px) {
+
+      .founders-p1{margin-left: 218px;}
+
+    }
+
+    @media screen and (min-width:840px) and (max-width: 991px) {
+
+      .founders-p1{margin-left: 218px;}
+
+    }
+
+      @media screen and (min-width:900px) and (max-width: 991px) {
+        .team-p1 {margin-left:188px}
+      }
+
+  
+
+
+
+                  /* start min 992 */  
+      @media screen and (min-width:992px)  {
+      .vision2 p{text-align:left; margin: 74px 8px 0px 10px; }
+      .mission1 p { text-align:left; margin: 33px -45px 0px 26px;}
+
+
+      .flex-container {margin-top: -105px;}
+      .vision1 h1{ padding-top: 120px;}
+      .mission2 h1 {
+        padding-top: 114px;
+    }
+
+
+
+      }
+
+
+
+
+
+
+/* start inside min 992 */
+
+@media screen and (min-width:992px) and (max-width: 1015px) {
+  .open{margin-left: 705px;}
+
+  .overlay-content-h3 {margin-top:141px}
+
+
+  .overlay-content-p {margin-top:41px;     line-height: 55px;}
+
+  }
+
+  @media screen and (min-width:1016px) and (max-width: 1034px) {
+    .overlay-content-p{  line-height: 50px;}
+  }
+
+  @media screen and (min-width:1380px) {
+
+    .overlay-content-h3 {margin-top:147px}
+    .overlay-content-p{    margin-left: 64px;
+      margin-right: 60px;}
+    }
+      @media screen and (min-width:1039px)  {
+        .vision2 p{margin-top:104px}
+        .flex-container {
+          margin-top: -134px;}
+        }
+
+          @media screen and (min-width:992px) and (max-width: 1000px) {
+            .founders-h3-one {
+              padding-top: 22px;
+          }
+
+
+            .founders-p1 { margin-left: 272px;}
+            .founders-p2{    margin-left: 106px}
+            .Adv-p2 {margin-left: 71px;
+              margin-top: -53px;}
+
+              .Adv-p1 { margin-top: -53px; margin-left: 125px;}
+              .team {margin-top: 104px;}
+
+              .team-p1{  margin-left: 293px;}
+
+              .teampthree{margin-top:-4px; margin-bottom:25px}
+
+              .Advisors-h3-one{ margin-top: -17px;}
+              .team-h3-one{padding-top: 22px;}
+
+            }
+
+
+
+              
+              @media screen and (min-width:1001px) {
+                .Advisors-content {margin-top: 62px;}
+                .Advisors{margin-top:72px}
+                .Adv-p1{margin-left:51px}
+
+
+                .founders {height:334px}
+
+                .founders-p1{    height: 334px;     margin-top: 20px;}
+                .founders-p1 img {height: 174px;}
+
+                .founders-p2{    height: 334px;     margin-top: 20px;}
+                .founders-p2 img {height: 174px;}
+
+                .founders-h3-one{  padding-top: 28px;}
+
+
+                .Adv-p1{   height: 334px; }
+                .Adv-p1 img {height: 174px;}
+
+                .Adv-p2{   height: 334px; }
+                .Adv-p2 img {height: 174px;}
+
+                .Advisors-h3-one {    padding-top: 33px;}
+                
+                .team {margin-top:72px}
+
+
+
+
+              }
+
+
+
+/* start inside min 1001 */ 
+@media screen and (min-width:1111px) and (max-width: 1199px) {
+  .Adv-p2 {margin-left: inherit;}
+
+}
+
+@media screen and (min-width:1200px)  {
+
+  .Adv-p2 {margin-left: inherit;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+                            .founders-h3-one {
+              padding-top: 22px;
+          }
+
+
+            .founders-p1 { margin-left: 272px;}
+            .founders-p2{    margin-left: 106px}
+            .Adv-p2 {margin-left: 71px;
+              margin-top: -53px;}
+
+              .Adv-p1 { margin-top: -53px; margin-left: 125px;}
+              .team {margin-top: 104px;}
+
+              .team-p1{  margin-left: 293px;}
+
+              .teampthree{margin-top:-4px; margin-bottom:25px}
+
+              .Advisors-h3-one{ margin-top: -17px;}
+              .team-h3-one{padding-top: 22px;}
+
+              .founders{height:300px; margin-top:65px}
+  
+              .founders-h3-one{margin-top:-30px}
+              .founders-h3-two{margin-top:-10px}
+              .founders-h3-three{margin-top:-10px}
+            
+              .founders-p1{width:200px; height:300px; margin-top:50px;  margin-left:240px;}
+              .founders-p1 img{ height:160px; }
+              #foundersp1i1{margin-left:52px}
+              #foundersp1i2 {margin-top:8px}
+            
+            
+              .founders-p2{width:200px; height:300px; margin-left:140px; margin-top:50px}
+              .founders-p2 img{ height:160px; }
+              #foundersp2i1{margin-left:52px}
+              #foundersp2i2 {margin-top:8px}
+          
+
+
+              .Advisors{height:300px; margin-top:65px}
+      
+              .Advisors-h3-one{margin-top:-30px}
+              .Advisors-h3-two{margin-top:-10px}
+              .Advisors-h3-three{margin-top:-10px}
+            
+              .Adv-p1{width:200px; height:300px;  margin-top:50px;  margin-left:-20px;}
+              .Adv-p1 img{ height:160px; }
+              #Advp1i1{margin-left:52px; margin-top:-2px}
+              #Advp1i2 {margin-top:8px;  margin-top:-2px}
+            
+            
+              .Adv-p2{width:200px; height:300px;  margin-left:-20px; margin-top:50px}
+              .Adv-p2 img{ height:160px; }
+              #Advp2i1{margin-left:52px; }
+              #Advp2i2 {margin-top:8px}
+            
+      
+
+
+              .team{height:300px; margin-top:65px}
+          
+              .team-h3-one{margin-top:-30px}
+              .team-h3-two{margin-top:-10px}
+              .team-h3-three{margin-top:-10px}
+            
+              .team-p1{width:200px; height:300px; margin-top:50px;  margin-left:240px;}
+              .team-p1 img{ height:160px; }
+              .team-p1 h3{font-size:17px}
     
-              
-              
-              
-              
-              
-              
-              
-         
+              #teamp1i1{margin-left:52px}
+              #teamp1i2 {margin-top:8px}
+            
+            
+              .team-p2{width:200px; height:300px;  margin-left:140px; margin-top:50px}
+              .team-p2 img{ height:160px; }
+              #teamp2i1{margin-left:52px}
+              #teamp2i2 {margin-top:8px}
+            
+              .Adv-p1 h3{font-size:13px}
+    
+    
+  
+
+
+            }
+
+*/
+
+
+  
+
+
+
+  
+
+  
 
 
 
@@ -1425,12 +2515,6 @@ display:block;
 
 
 
-
-
-
-
-
-               
 
 
 
@@ -1449,6 +2533,6 @@ display:block;
   }
 
 
-
+  
 
 
