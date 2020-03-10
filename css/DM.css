@@ -412,29 +412,25 @@ text-align: center;
 
   #HomeVideo{object-fit: cover;
     width: 100vw;
-    height: 100vh;
+    height: 667px;
     top: 0;
     left: 0;
     bottom:0;
     position: absolute; z-index:-9;
-  
-  
-  
+  max-height:667px!important;
   }
     
 
-
-
-
-    
     .vcontent {
       position: absolute;
       top:0;
       bottom: 0;
-      height:100vh;
+      height: 667px;
       background: rgba(0, 0, 0, 0.5);
       width: 100vw;
       z-index:-9;
+      max-height:667px!important;
+
     }
     
 
@@ -752,7 +748,7 @@ height:500px;
 
 
           @media screen and (max-width: 885px) {
-            .project2 p{ margin-left:36px;  margin-right:5px;}
+            .project2 p{ margin-left:57px;  margin-right:16px;}
           }
 
 
@@ -855,6 +851,12 @@ height:500px;
 
 
           @media screen and (min-width: 572px) and (max-width: 705px) {
+
+            .project3-all{margin-top:-40px;}
+          }
+
+
+          @media screen and (min-width: 705px) and (max-width: 718px) {
 
             .project3-all{margin-top:-40px;}
           }
@@ -1501,11 +1503,11 @@ textarea:focus, input:focus{
 #footer-sociali-three{float:right; margin-right:-107px;  font-size:25px; color:white; margin-top:10px}
 
 
-@media screen and (min-width: 991px) and (max-width:1264px){
+@media screen and (min-width: 991px) {
   .footer{height:140px}
   .footer h3{margin-left:36px;}
   #coi1{margin-left:36px}
-  #coi2{margin-left:11px}
+  #coi2{margin-left:18px}
   #coi3{margin-left:37px}
   #coi4{margin-left:220px}
 
@@ -1538,6 +1540,98 @@ textarea:focus, input:focus{
 
 
 
+@media screen and (min-width: 1070px) and (max-width:1200px){
+
+  #coi2 {margin-left: 108px;}
+
+  #coi4 {margin-left: 313px;}
+}
+
+
+@media screen and (min-width: 1201px) and (max-width:1300px){
+
+  #coi2 {margin-left: 108px;}
+
+  #coi4 {margin-left: 313px;}
+}
+
+
+@media screen and (min-width: 1300px) and (max-width:1350px) {
+  .footer h3{margin-left:95px;}
+  #coi1 {
+    margin-left: 91px;}
+
+  #coi2 {margin-left: 108px;}
+
+  #coi4 {margin-left: 313px;}
+
+  #coi3{margin-left:92px}
+  #coi4{margin-left:313px}
+  .footer-allright {margin-right:126px; margin-top:4px}
+
+  #footer-sociali-one{margin-right:-103px; margin-top: 16px; font-size: 23px;}
+
+  #footer-sociali-two{margin-right:-56px; margin-top: 16px; font-size: 23px;}
+  #footer-sociali-three{margin-right:-8px; margin-top: 16px; font-size: 23px;}
+}
+
+@media screen and (min-width: 1351px) and (max-width:1450px) {
+  .footer h3{margin-left:148px;}
+  #coi1 {
+    margin-left: 145px;}
+    #coi2 {margin-left: 70px;}
+
+    #coi3 {margin-left: 145px;}
+
+    #coi4 {margin-left: 277px;}
+    .footer-allright {margin-right:175px;}
+
+  }
+
+
+  @media screen and (min-width: 1451px) and (max-width:1500px) {
+    .footer h3{margin-left:203px;}
+    #coi1 {
+      margin-left: 200px;}
+      #coi2 {margin-left: 70px;}
+  
+      #coi3 {margin-left: 200px;}
+  
+      #coi4 {margin-left: 277px;}
+      .footer-allright {margin-right:241px;}
+  
+    }
+  
+
+    @media screen and (min-width: 1501px) and (max-width:1600px) {
+      .footer h3{margin-left:203px;}
+      #coi1 {
+        margin-left: 200px;}
+        #coi2 {margin-left: 70px;}
+    
+        #coi3 {margin-left: 200px;}
+    
+        #coi4 {margin-left: 277px;}
+        .footer-allright {margin-right:241px;}
+    
+      }
+  
+
+
+      @media screen and (min-width: 1600px){
+        .footer h3{margin-left:203px;}
+        #coi1 {
+          margin-left: 200px;}
+          #coi2 {margin-left: 120px;}
+      
+          #coi3 {margin-left: 200px;}
+      
+          #coi4 {margin-left: 325px;}
+          .footer-allright {margin-right:341px;}
+      
+        }
+    
+  
 
 
 @media screen and (min-width: 768px) and (max-width:900px){
@@ -1681,9 +1775,9 @@ textarea:focus, input:focus{
   }
   
   
-  
-  
-  
+
+
+
   
   @media screen and (min-width:320px) and (max-width:450px){
 
@@ -1720,7 +1814,7 @@ textarea:focus, input:focus{
     .project11 p{    margin-inline-start: 34px;
       margin-inline-end: 13px;}
 
-    .project11-all {margin-top:174px}
+    .project11-all {margin-top:227px}
 
     .project2-all{margin-top:84px}
 
@@ -1756,7 +1850,7 @@ textarea:focus, input:focus{
   
   
     .media{margin-top: 27px;}
-  
+    .trainingp{margin-top:-43px}
   .footer{display:none}
   .footer-phone{display:block}
   
@@ -1799,16 +1893,163 @@ textarea:focus, input:focus{
   
 
   /* start inside mobile screen */ 
+  @media screen and (min-width:320px) and (max-width:389px){
+
+    .headwelcome {font-size: 1.7em;}
+
+    .headwelcome span {font-size:1.2em}
+
+    .headwelcomee{font-size: 1.7em;}
+    .homeanimate {margin-top:33px; font-size:1.7em}
+  }
+
+
+  @media screen and (min-width:331px) and (max-width:381px){
+
+    .project11-all{    margin-top: 229px;}
+  }
+
+
+
+  @media screen and (min-width:381px) and (max-width:388px){
+
+    .project11-all{    margin-top: 200px;}
+  }
+
+
+
+
+  @media screen and (min-width:389px) and (max-width:399px){
+
+    .project11-all{    margin-top: 186px;}
+  }
+
+
+  @media screen and (min-width:400px) and (max-width:450px){
+
+    .project11-all{    margin-top: 227px;}
+  }
+
+
+
+
+
+  @media screen and (min-width:340px) and (max-width:388px){
+
+    .project11-all{    margin-top: 259px;}
+  }
+
+  
+
+  @media screen and (min-width:343px) and (max-width:365px){
+
+    .project2 h3 {margin-left: 14px;}
+  }
+
+
+
+      @media screen and (min-width:321px) and (max-width:328px){
+        .project2-all{    margin-top: 107px;}
+      }
+
+
+
+
 
   @media screen and (min-width:373px) and (max-width:450px){
 
     .project2-all {margin-top:10px}
   }
 
-  @media screen and (min-width:365px) and (max-width:450px){
 
-.project3-all{margin-top:53px}
+
+
+  @media screen and (min-width:365px) and (max-width:369px){
+
+.project3-all{margin-top:141px}
   }
+
+
+  @media screen and (min-width:370px) and (max-width:385px){
+
+    .project3-all{margin-top:120px}
+      }
+    
+
+      @media screen and (min-width:386px) and (max-width:428px){
+
+        .project3-all{margin-top:82px}
+          }
+        
+
+
+
+
+  @media screen and (min-width:373px) and (max-width:439px){
+    .project2-all {    margin-top: 33px;}
+  }
+
+  
+
+
+    
+    
+      @media screen and (min-width:429px) and (max-width:450px){
+
+        .project3-all{margin-top:44px}
+          }
+    
+  
+
+      @media screen and (min-width:321px) and (max-width:323px){
+        .project3-all{    margin-top: 253px;}
+      }
+    
+    
+      @media screen and (min-width:324px) and (max-width:340px){
+        .project3-all{    margin-top: 218px;}
+      }
+    
+    
+      @media screen and (min-width:341px) and (max-width:348px){
+        .project3-all{    margin-top: 157px;}
+      }
+    
+    
+    
+    
+    
+      @media screen and (min-width:349px) and (max-width:364px){
+        .project3-all{    margin-top: 167px;}
+      }
+    
+    
+    
+    
+
+
+
+
+  @media screen and (min-width:321px) and (max-width:346px){
+    .project3 h3{margin-left: 14px;
+      margin-right: 15px;}
+    }
+
+
+    @media screen and (min-width:321px) and (max-width:339px){
+      .ourservices h1{    font-size: 41px; }
+    }
+    @media screen and (min-width:321px) and (max-width:337px){
+      .ourservices h1{     margin-top: -30px;}
+    }
+
+
+
+
+    @media screen and (min-width:337px) and (max-width:391px){
+      .ourservices h1{     margin-top: -53px;}
+    }
+
 
 
   @media screen and (min-width:392px) and (max-width:420px){
@@ -1841,6 +2082,29 @@ textarea:focus, input:focus{
 /* end inside mobile screen */ 
 
 
+@media screen and (min-width:320px) and (max-width:320px){
+
+  .project2-all {margin-top: -141px}
+
+  .project11 h3{    margin-top: -112px}
+
+  .project2 h3{    margin-top: -89px;}
+  .project3-all {margin-top: 82px;}
+
+  .project3 h3{    margin-top: -191px;}
+
+  .ourservices h1{ margin-top: -328px;}
+
+  #testing-h3 {margin-top: -32px;}
+  #testing-p {margin-right: -10px;}
+
+  .Consultancyp{margin-top: 57px;}
+
+.servicep{margin-top: 57px;}
+
+
+}
+
 
 
 
@@ -1872,6 +2136,12 @@ textarea:focus, input:focus{
     font-size:1.4em;
   }
   .txt-type > .txt {font-size:0.8em;  }
+
+
+  .project11-all {
+    margin-top: 231px;
+  }
+
 
 
   .project2-all{margin-top:-63px}
@@ -1942,9 +2212,25 @@ textarea:focus, input:focus{
     .ourservices h1{ margin-top: -207px;}
   }
 
+
+  @media screen and (min-width:448px) and (max-width:450px){
+    .ourservices h1{     margin-top: -176px;}
+  }
+
+  @media screen and (min-width:455px) and (max-width:484px){
+    .ourservices h1 {
+      margin-top: -133px;}
+        }
+    
+
+
     @media screen and (min-width:733px) and (max-width:768px){
-      .project11-all {margin-top:218px}
+      .project11-all {margin-top:269px}
     }
+
+
+
+
 
     @media screen and (min-width:451px) and (max-width:491px){
 .open{margin-left: 182px;}
@@ -1966,11 +2252,72 @@ textarea:focus, input:focus{
                         .open{margin-left: 372px;}
                             }
 
-                            @media screen and (min-width:701px) and (max-width:768px){
+                            @media screen and (min-width:701px) and (max-width:715px){
                               .open{margin-left: 406px;}
                                   }
-            
+                              
+                                  @media screen and (min-width:716px) and (max-width:730px){
+                                    .open{margin-left: 424px;}
+                                        }
+                                    
+                                        @media screen and (min-width:731px) and (max-width:750px){
+                                          .open{margin-left: 456px;}
+                                              }
+                                          
+                                              @media screen and (min-width:751px) and (max-width:768px){
+                                                .open{margin-left: 456px;}
+                                                    }
+                                                
       
+      
+      
+
+
+
+
+                                  @media screen and (min-width:418px) and (max-width:450px){
+
+                                    #coi1-phone{  margin-left: 7px;}
+                                    .coi1-span-phone{    margin-left: -1px;
+                                      font-size: 15px;}
+                                      #coi2-phone{margin-left: 7px;}
+                                      .coi2-span-phone{   margin-left: -1px;
+                                        font-size: 15px}
+                                        #coi3-phone{margin-left: 7px;}
+                                        .coi3-span-phone{  margin-left: -1px;
+                                          font-size: 15px}
+                                          #coi4-phone{margin-left: 7px;}
+                                          .coi4-span-phone{  margin-left: -1px;
+                                            font-size: 15px}
+                                            .footer-allright-phone {font-size:1em}
+                                            #footer-sociali-one-phone{font-size: 20px;}
+                                            #footer-sociali-two-phone{font-size: 20px;}
+                                            #footer-sociali-three-phone{font-size: 20px;}
+                                          }
+
+                                          
+
+                                          @media screen and (min-width:451px) and (max-width:470px){
+
+                                            #coi1-phone{  margin-left: 24px;}
+                                            .coi1-span-phone{    margin-left: 4px;
+                                              font-size: 15px;}
+                                              #coi2-phone{margin-left: 24px;}
+                                              .coi2-span-phone{   margin-left: 4px;
+                                                font-size: 15px}
+                                                #coi3-phone{margin-left: 24px;}
+                                                .coi3-span-phone{  margin-left: 4px;
+                                                  font-size: 15px}
+                                                  #coi4-phone{margin-left: 24px;}
+                                                  .coi4-span-phone{  margin-left: 4px;
+                                                    font-size: 15px}
+                                                    .footer-allright-phone {font-size:1em}
+                                                    #footer-sociali-one-phone{font-size: 20px;}
+                                                    #footer-sociali-two-phone{font-size: 20px;}
+                                                    #footer-sociali-three-phone{font-size: 20px;}
+                                                  }
+                                        
+
 /* end inside mobile screen 2 */ 
 
 
@@ -2082,10 +2429,22 @@ textarea:focus, input:focus{
 
 
 
-@media screen and (min-width:568px) and (max-width: 668px) {
+@media screen and (min-width:568px) and (max-width: 590px) {
   .open { margin-left:280px;}
 }
 
+
+@media screen and (min-width:591px) and (max-width:620px) {
+  .open { margin-left:313px;}
+}
+
+@media screen and (min-width:621px) and (max-width:640px) {
+  .open { margin-left:342px;}
+}
+
+@media screen and (min-width:641px) and (max-width:668px) {
+  .open { margin-left:365px;}
+}
 
 
 
@@ -2151,6 +2510,14 @@ textarea:focus, input:focus{
   #footer-sociali-three-phone{ font-size:22px; color:white;}
   
   }
+
+
+  @media screen and (min-width:991px) and (max-width: 991px) {
+    .ourservices h1 {
+      margin-top: -309px;}
+    }
+
+
 
   /*
 #coi1{ margin-left: 2px;}
@@ -2233,11 +2600,6 @@ textarea:focus, input:focus{
 
 
 
-            @media screen and (min-width:1240px) {
-              .project11-all {
-                margin-top: 282px;
-            }
-          }
                           /* start min 992 */ 
 
 
@@ -2254,7 +2616,7 @@ textarea:focus, input:focus{
                           .headwelcomee span {font-size:1.1em}
                           .homeanimate{font-size:2.3em; margin-top:42px}
                           .txt-type > .txt{font-size:1.2em}
-                          .project11-all { margin-top: 204px;}
+                          .project11-all { margin-top: 240px;}
                           .project11 h3{  margin-top: -6px;}
 
                           .project2 p{    margin-left: 54px;
@@ -2267,8 +2629,28 @@ textarea:focus, input:focus{
                             #projectbtn1{  margin-top: 29px;}
                           }
 
+                          @media screen and (min-width:769px) and (max-width: 932px) {
 
 
+                            .project11-all{    margin-top: 231px;}
+                          
+                            }
+
+                            @media screen and (min-width:933px) and (max-width: 933px) {
+
+
+                              .project11-all{    margin-top: 231px;}
+                            
+                              }
+  
+
+                            @media screen and (min-width:934px) and (max-width: 991px) {
+
+
+                              .project11-all{    margin-top: 273px;}
+                            
+                              }
+  
 /* start inside min 992 */
 
 @media screen and (min-width:991px) and (max-width: 1015px) {
@@ -2303,13 +2685,86 @@ textarea:focus, input:focus{
   .project3 p {margin-top:20px}
 }
 
+
+@media screen and (min-width:1233px) and (max-width: 1391px) {
+  #projectbtn3{    margin-top: 34px;}
+
+  .project3 p {margin-top:20px}
+}
+
+
 @media screen and (min-width:1392px) and (max-width: 1400px) {
 
   .project3 p{margin-top: 21px;}
   #projectbtn3 {    margin-top: 35px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
 
 
 
+/* min 1400 */ 
+
+@media screen and (min-width:1400px) {
+
+
+}
+
+@media screen and (min-width:1445px) {
+  .project11 h3{    margin-top: 15px;}
+  .project11 p{    margin-top: 32px;}
+  #projectbtn1 {margin-top:39px}
+
+  .project2 h3 { margin-top: 15px;}
+
+  .project2 p{  margin-top: 32px;}
+
+  #projectbtn2 {margin-top:39px}
+
+
+
+  .project3 h3 { margin-top: 15px;}
+
+  .project3 p{  margin-top: 32px;}
+
+  #projectbtn3 {margin-top:39px}
+
+}
+
+
+
+
+/*
+@media screen and (min-width:1435px) and (max-width: 1436px) {
+
+.project11-all {margin-top: 419px;}
+}
+
+@media screen and (min-width:1440px) and (max-width: 1440px) {
+  .project11-all {margin-top: 238px;}
+}
+@media screen and (min-width:1444px) and (max-width: 1444px) {
+  .project11-all {margin-top: 421px;}
+}
+@media screen and (min-width:1445px) and (max-width: 1445px) {
+  .project11-all {margin-top: 365px;}
+}
+
+*/
