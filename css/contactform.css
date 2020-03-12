@@ -598,17 +598,6 @@ display:block;
   
 
 
-
-
-
-
-
-
-
-
-
-
-
   .footer{display:none}
   .footer-phone{display:block}
   
@@ -646,25 +635,116 @@ display:block;
   #footer-sociali-three-phone{ font-size:22px; color:white;}
   
 
-  }
+
   
+
+
+  @media screen and (min-width:418px) and (max-width:450px){
+
+    #coi1-phone{  margin-left: 7px;}
+    .coi1-span-phone{    margin-left: -1px;
+      font-size: 15px;}
+      #coi2-phone{margin-left: 7px;}
+      .coi2-span-phone{   margin-left: -1px;
+        font-size: 15px}
+        #coi3-phone{margin-left: 7px;}
+        .coi3-span-phone{  margin-left: -1px;
+          font-size: 15px}
+          #coi4-phone{margin-left: 7px;}
+          .coi4-span-phone{  margin-left: -1px;
+            font-size: 15px}
+            .footer-allright-phone {font-size:1em}
+            #footer-sociali-one-phone{font-size: 20px;}
+            #footer-sociali-two-phone{font-size: 20px;}
+            #footer-sociali-three-phone{font-size: 20px;}
+          }
+
+          
+
+          @media screen and (min-width:451px) and (max-width:470px){
+
+            #coi1-phone{  margin-left: 24px;}
+            .coi1-span-phone{    margin-left: 4px;
+              font-size: 15px;}
+              #coi2-phone{margin-left: 24px;}
+              .coi2-span-phone{   margin-left: 4px;
+                font-size: 15px}
+                #coi3-phone{margin-left: 24px;}
+                .coi3-span-phone{  margin-left: 4px;
+                  font-size: 15px}
+                  #coi4-phone{margin-left: 24px;}
+                  .coi4-span-phone{  margin-left: 4px;
+                    font-size: 15px}
+                    .footer-allright-phone {font-size:1em}
+                    #footer-sociali-one-phone{font-size: 20px;}
+                    #footer-sociali-two-phone{font-size: 20px;}
+                    #footer-sociali-three-phone{font-size: 20px;}
+                  }
+
 
 
           /* start inside phone version */ 
-          @media screen and  (min-width:321px) and (max-width:350px) {
+          @media screen and  (min-width:320px) and (max-width:330px) {
 
-            .open{margin-left:61px}
+            .open{margin-left:53px}
             }
             
-            @media screen and  (min-width:351px) and (max-width:400px) {
-  
-              .open{margin-left:89px}
+            @media screen and  (min-width:331px) and (max-width:335px) {
+
+              .open{margin-left:61px}
               }
   
-              @media screen and  (min-width:401px) and (max-width:450px) {
+
+
+
+            @media screen and  (min-width:336px) and (max-width:350px) {
+
+              .open{margin-left:71px}
+              }
+  
+
+
+            @media screen and  (min-width:351px) and (max-width:365px) {
+  
+              .open{margin-left:85px}
+              }
+
+              @media screen and  (min-width:366px) and (max-width:380px) {
+  
+                .open{margin-left:97px}
+                }
+  
+                @media screen and  (min-width:381px) and (max-width:400px) {
+  
+                  .open{margin-left:110px}
+                  }
+    
+  
+              @media screen and  (min-width:401px) and (max-width:420px) {
   
                 .open{margin-left:136px}
                 }
+
+
+
+                @media screen and  (min-width:421px) and (max-width:435px) {
+  
+                  .open{margin-left:147px}
+                  }
+  
+                  @media screen and  (min-width:436px) and (max-width:450px) {
+  
+                    .open{margin-left:161px}
+                    }
+  
+
+
+
+
+
+
+
+
       
                 @media screen and  (min-width:321px) and (max-width:359px) {
 
@@ -753,13 +833,13 @@ display:block;
                     .FirstNameSection{margin-left:14px }
                     .FirstName{width:175px; height:41px; margin-left: 14px;}
                     
-                    .LastNameSection{ margin-left: 98px;}
+                    .LastNameSection{ margin-left: 108px;}
                     .LastName{width:175px; height:41px; margin-left: 35px;}
                   
                     .EmailSection{margin-left:14px}
                     .FormEmail{width:175px; height:41px; margin-left: 13px;}
 
-                    .PhoneSection{margin-left: 152px;}
+                    .PhoneSection{margin-left: 156px;}
                     .FormPhone{width:175px; height:41px; margin-left: 35px;}
 
 
@@ -768,7 +848,7 @@ display:block;
                     .Company{width:175px; height:41px; margin-left: 13px;}
 
 
-                    .OccupationSection{margin-left: 101px;}
+                    .OccupationSection{margin-left: 118px;}
                     .Occupation{width:175px; height:41px; margin-left: 35px;}
 
                     .CountrtSection{margin-left:14px}
@@ -823,6 +903,21 @@ display:block;
 }
 
 
+@media screen and  (min-width:576px) and (max-width:768px) {
+  .contact-form-head p {margin-left: 9px;}
+
+}
+
+@media screen and  (min-width:768px) and (max-width:768px) {
+  .contact-form-head p {margin-left: 79px;}
+
+}
+
+
+
+
+
+
 
 
                   @media screen and  (min-width:461px) and (max-width:480px) {
@@ -868,15 +963,606 @@ display:block;
                       margin-left: 59px; width: 70vw;}
                 }
 
+                @media screen and (min-width:729px) and (max-width:740px) {
+                  .contact-form{
+                   width: 69vw;}
+              }
+
 
                 @media screen and (min-width:744px) and (max-width:768px) {
 
                   .contact-form{width:67vw}
                 }
 
+
+                @media screen and (min-width:741px) and (max-width:745px) {
+                  .contact-form{
+                   width: 68vw;}
+              }
+  
+              @media screen and (min-width:762px) and (max-width:768px) {
+                .contact-form{
+                 width: 66vw;}
+            }
+  
+
+            
                 @media screen and (min-width:768px) and (max-width:768px) {
 
                   .contact-form{margin-left: 144px;}
                 }
+
+
+
+                /* min 768 */ 
+
+
+                @media screen and  (min-width:769px) and (max-width:991px) {
+                  .contact-form-head h3 {    margin-left: -19px;
+                    margin-top: 276px;  font-size: 23px; text-align:center}
+                  
+                    
+                  
+                    .contact-form-head p{margin:0; margin-left: 13px;  text-align:left; margin-right:23px }
+
+
+                    .contact-form {margin-top:110px; margin-left:-52px; width: 55vw;}
+                      #Affiliation{margin-left:16px}
+
+
+                      .Affiliation-select{width:390px; height:41px; margin-left:15px}
+
+                    .NameSectionh3{ margin-left: 14px;}
+  .Name-interested-Section{width:270px; height:41px; margin-left: 13px;}
+
+  .EmailSectionh3{   margin-left: 253px;}
+  .Email-interested-section{width:270px; height:41px; margin-left: 50px;}
+
+
+                    
+                    .FirstNameSection{margin-left:14px }
+                    .FirstName{width:175px; height:41px; margin-left: 14px;}
+                    
+                    .LastNameSection{ margin-left: 100px;}
+                    .LastName{width:175px; height:41px; margin-left: 35px;}
+                  
+                    .EmailSection{margin-left:14px}
+                    .FormEmail{width:175px; height:41px; margin-left: 13px;}
+
+                    .PhoneSection{margin-left: 155px;}
+                    .FormPhone{width:175px; height:41px; margin-left: 35px;}
+
+
+
+                    .CompanySection{margin-left:14px}
+                    .Company{width:175px; height:41px; margin-left: 13px;}
+
+
+                    .OccupationSection{margin-left: 118px;}
+                    .Occupation{width:175px; height:41px; margin-left: 35px;}
+
+                    .CountrtSection{margin-left:14px}
+                    .country-select{width:390px; height:41px; margin-left:14px}
+
+                    .MessageSection{margin-left: 14px;}
+                    .FormMessage{width:390px; height:95px; margin-left:14px}
+                    #formbutton{    margin-left: 12px;}
+              
+
+
+                    .footer{display:none}
+  .footer-phone{display:block}
+  
+  
+  
+  
+  .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+  
+  .footer-phone h3{color: #ffbf00;
+    font-size: 1.6em;  padding-top:5px; text-align:center  }
+  
+  #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
+  .coi1-span-phone{color:white; margin-left:4px; font-size:1.1em }
+  
+  
+  #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
+  .coi2-span-phone{color:white; margin-left:4px; font-size:1.1em}
+  
+  #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
+  .coi3-span-phone{color:white; margin-left:4px; font-size:1.1em}
+  
+  
+  #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
+  .coi4-span-phone{color:white; margin-left:4px; font-size:1.1em}
+  
+  
+  
+  .footer-allright-phone{ color:white;  margin-top: 7px;
+    text-align: center;
+    font-size: 1.2em;}
+  
+    .footer-icons-phone{text-align:center; margin-top: -13px;}
+  #footer-sociali-one-phone{ font-size:22px; color:white; }
+  #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
+  #footer-sociali-three-phone{ font-size:22px; color:white;}
+      
+                  }
+
+                /* inside min 768 */ 
+                @media screen and  (min-width:769px) and (max-width:800px) {
+
+                  .open {
+                    margin-left: 482px; }
+
+              }
+
+              @media screen and  (min-width:801px) and (max-width:830px) {
+                .open {
+                  margin-left: 512px;}
+            }
+
+            @media screen and  (min-width:831px) and (max-width:860px) {
+              .open {
+                margin-left: 538px;}
+          }
+
+          @media screen and  (min-width:861px) and (max-width:880px) {
+            .open {
+              margin-left: 581px;}
+        }
+
+        @media screen and  (min-width:881px) and (max-width:910px) {
+          .open {
+            margin-left: 643px;}
+      }
+
+      @media screen and  (min-width:911px) and (max-width:940px) {
+        .open {
+          margin-left: 676px;}
+    }
+
+    @media screen and  (min-width:941px) and (max-width:970px) {
+      .open {
+        margin-left: 671px;}
+  }
+
+  @media screen and  (min-width:971px) and (max-width:991px) {
+    .open {
+      margin-left: 697px;}
+}
+
+
+
+
+@media screen and  (min-width:769px) and (max-width:807px) {
+.contact-form-head h3{    margin-left: -55px;}
+.contact-form-head p {    margin-left: -23px;}
+
+}
+
+@media screen and  (min-width:807px) and (max-width:880px) {
+
+  .contact-form-head h3{ margin-left: -62px;}
+  .contact-form-head p {    margin-left: -26px;}
+}
+
+
+@media screen and  (min-width:881px) and (max-width:950px) {
+
+  .contact-form-head h3{ margin-left: -62px;}
+  .contact-form-head p {    margin-left: -26px;}
+}
+
+
+
+
+                @media screen and  (min-width:840px) and (max-width:880px) {
+
+                  .contact-form{    margin-left: -44px;}
+                }
+
+
+
+                @media screen and  (min-width:881px) and (max-width:920px) {
+                  .contact-form-head h3{  margin-left: -77px;}
+                  .contact-form-head p {margin-left: -31px;}
+
+                  .contact-form{    margin-left: 22px;}
+                }
+
+
+                @media screen and  (min-width:921px) and (max-width:950px) {
+                  .contact-form-head h3{  margin-left: -77px;}
+                  .contact-form-head p {margin-left: -31px;}
+
+                  .contact-form{    margin-left: -5px;}
+                }
+
+
+                @media screen and  (min-width:946px)  {
+                  .contact-form{ width:54vw}
+                }
+
+
+
+                @media screen and  (min-width:951px) and (max-width:991px) {
+                  .contact-form-head h3{  margin-left: -138px;}
+                  .contact-form-head p {margin-left: -111px;}
+
+                  .contact-form{    margin-left: -14px;}
+                }
+
+                @media screen and  (min-width:964px)  {
+                  .contact-form{ width:53vw}
+                }
+                @media screen and  (min-width:982px)  {
+                  .contact-form{ width:52vw}
+                }
+
+
+
+
+                  /* min 992 */
+
+                  @media screen and (min-width:992px) {
+                    .contact-form-head h3{  margin-left: 53px; margin-top:281px}
+                    .contact-form-head p{margin:0; margin-left: 41px;  text-align:left; margin-right:23px }
+                    .contact-form{    margin-left: 21px; width:37vw;}
+
+
+
+
+
+                    .Affiliation-select{height:35px;}
+
+  .Name-interested-Section{ height:35px; }
+
+  .Email-interested-section{ height:35px;}
+
+
+                    
+                    .FirstName{height:35px; }
+                    
+                    .LastName{ height:35px;}
+                  
+                    .FormEmail{height:35px;}
+
+                    .FormPhone{height:35px; }
+
+
+
+                    .Company{height:35px; }
+
+
+                    .Occupation{ height:35px}
+
+                    .country-select{ height:35px}
+
+                    .FormMessage{ height:95px; }
+
+                  }            
+
+                  @media screen and (min-width:991px) and (max-width: 1015px) {
+                    .open{margin-left: 705px;}
+                    }
+                    
+                    
+                    
+
+
+                  /* inside min 992 */
+
+                  @media screen and  (min-width:992px) and (max-width:1440px) {
+
+                  .LastNameSection {margin-left: 53px;}
+                  .PhoneSection {margin-left: 109px;}
+
+                  .OccupationSection{  margin-left: 59px;}
+                  }
+
+
+                  @media screen and  (min-width:1021px) and (max-width:1040px) {
+
+                    .LastNameSection {margin-left: 58px;}
+                    .PhoneSection {margin-left: 113px;}
+  
+                    .OccupationSection{  margin-left: 63px;}
+                    }
+  
+  
+  
+
+                  @media screen and  (min-width:1041px) and (max-width:1100px) {
+                    .LastNameSection {margin-left: 58px;}
+
+                    .PhoneSection {margin-left: 116px;}
+  
+                    .OccupationSection{  margin-left: 66px;}
+                  }  
+
+
+           
+
+
+
+                  @media screen and  (min-width:1041px) and (max-width:1050px) {
+                    .LastNameSection {margin-left: 61px;}
+                  }  
+
+                  @media screen and  (min-width:1051px) and (max-width:1070px) {
+                    .LastNameSection {margin-left: 64px;}
+                  }  
+
+
+                  @media screen and  (min-width:1071px) and (max-width:1085px) {
+                    .LastNameSection {margin-left: 65px;}
+                  }  
+
+
+                  @media screen and  (min-width:1086px) and (max-width:1100px) {
+                    .LastNameSection {margin-left: 68px;}
+                  }  
+
+
+
+
+                  @media screen and  (min-width:1051px) and (max-width:1070px) {
+
+                    .PhoneSection{    margin-left: 118px;}
+                    }
+                    @media screen and  (min-width:1071px) and (max-width:1085px) {
+
+                      .PhoneSection{    margin-left: 120px;}
+                      }
+  
+                      @media screen and  (min-width:1086px) and (max-width:1100px) {
+
+                        .PhoneSection{    margin-left: 123px;}
+                        }
+    
+  
+
+
+                      @media screen and  (min-width:1051px) and (max-width:1070px) {
+
+                        .OccupationSection{ margin-left:69px;}
+                        }
+                        @media screen and  (min-width:1071px) and (max-width:1085px) {
+    
+                          .OccupationSection{    margin-left: 71px;}
+                          }
+    
+                          @media screen and  (min-width:1086px) and (max-width:1100px) {
+    
+                            .OccupationSection{    margin-left: 73px;}
+                            }
+      
+  
+
+
+                  @media screen and  (min-width:1101px) and (max-width:1115px) {
+                    .LastNameSection {margin-left: 70px;}
+                    .PhoneSection {margin-left: 124px;}
+  
+                    .OccupationSection{  margin-left: 76px;}
+                  }  
+
+                  @media screen and  (min-width:1116px) and (max-width:1130px) {
+                    .LastNameSection {margin-left: 73px;}
+                    .PhoneSection {margin-left: 129px;}
+  
+                    .OccupationSection{  margin-left: 82px;}
+                  }  
+
+                  @media screen and  (min-width:1131px) and (max-width:1160px) {
+                    .LastNameSection {margin-left: 77px;}
+                    .PhoneSection {margin-left: 134px;}
+  
+                    .OccupationSection{  margin-left: 84px;}
+                  }  
+
+
+                  @media screen and  (min-width:1161px) and (max-width:1190px) {
+                    .LastNameSection {margin-left: 82px;}
+                    .PhoneSection {margin-left: 139px;}
+  
+                    .OccupationSection{  margin-left: 87px;}
+                  }  
+
+
+                  @media screen and  (min-width:1191px) and (max-width:1220px) {
+                    .LastNameSection {margin-left: 86px;}
+                    .PhoneSection {margin-left: 144px;}
+  
+                    .OccupationSection{  margin-left: 93px;}
+                  }  
+
+
+                  @media screen and  (min-width:1221px) and (max-width:1250px) {
+                    .LastNameSection {margin-left: 92px;}
+                    .PhoneSection {margin-left: 149px;}
+  
+                    .OccupationSection{  margin-left: 97px;}
+                  }  
+
+                  @media screen and  (min-width:1251px) and (max-width:1280px) {
+                    .LastNameSection {margin-left: 96px;}
+                    .PhoneSection {margin-left: 153px;}
+  
+                    .OccupationSection{  margin-left: 100px;}
+                  }  
+
+                  @media screen and  (min-width:1281px) and (max-width:1310px) {
+                    .LastNameSection {margin-left: 100px;}
+                    .PhoneSection {margin-left: 158px;}
+  
+                    .OccupationSection{  margin-left: 106px;}
+                  }  
+
+                  @media screen and  (min-width:1311px) and (max-width:1341px) {
+                    .LastNameSection {margin-left: 104px;}
+                    .PhoneSection {margin-left: 163px;}
+  
+                    .OccupationSection{  margin-left: 110px;}
+                  }  
+
+
+                  @media screen and  (min-width:1342px) and (max-width:1372px) {
+                    .LastNameSection {margin-left: 111px;}
+                    .PhoneSection {margin-left: 168px;}
+  
+                    .OccupationSection{  margin-left: 115px;}
+                  }  
+
+                  @media screen and  (min-width:1373px) and (max-width:1403px) {
+                    .LastNameSection {margin-left: 116px;}
+                    .PhoneSection {margin-left: 173px;}
+  
+                    .OccupationSection{  margin-left: 122px;}
+                  }  
+
+
+
+
+                  @media screen and  (min-width:1404px) and (max-width:1450px) {
+                    .LastNameSection {margin-left: 120px;}
+                    .PhoneSection {margin-left: 176px;}
+
+                    .OccupationSection{margin-left: 126px;}
+                    }
+
+
+                    @media screen and  (min-width:1451px) and (max-width:1470px) {
+                      .LastNameSection {margin-left: 125px;}
+                      .PhoneSection {margin-left: 180px;}
+  
+                      .OccupationSection{margin-left: 128px;}
+                      }
+  
+
+
+                      @media screen and  (min-width:1471px) and (max-width:1500px) {
+                        .LastNameSection {margin-left: 126px;}
+                        .PhoneSection {margin-left: 183px;}
+    
+                        .OccupationSection{margin-left: 132px;}
+                        }
+    
+                        @media screen and  (min-width:1501px) and (max-width:1530px) {
+                          .LastNameSection {margin-left: 132px;}
+                          .PhoneSection {margin-left: 189px;}
+      
+                          .OccupationSection{margin-left: 137px;}
+                          }
+  
+                          @media screen and  (min-width:1531px) and (max-width:1550px) {
+                            .LastNameSection {margin-left: 136px;}
+                            .PhoneSection {margin-left: 193px;}
+        
+                            .OccupationSection{margin-left: 141px;}
+                            }
+  
+
+                            @media screen and  (min-width:1551px) and (max-width:1570px) {
+                              .LastNameSection {margin-left: 139px;}
+                              .PhoneSection {margin-left: 196px;}
+          
+                              .OccupationSection{margin-left: 144px;}
+                              }
+    
+                              @media screen and  (min-width:1571px) and (max-width:1600px)  {
+                                .LastNameSection {margin-left: 142px;}
+                                .PhoneSection {margin-left: 195px;}
+            
+                                .OccupationSection{margin-left: 146px;}
+                                }
+      
+                                @media screen and  (min-width:1601px) and (max-width:1650px)  {
+                                  .LastNameSection {margin-left: 153px;}
+                                  .PhoneSection {margin-left: 206px;}
+              
+                                  .OccupationSection{margin-left: 154px;}
+                                  }
+        
+                                  @media screen and  (min-width:1651px) and (max-width:1700px)  {
+                                    .LastNameSection {margin-left: 160px;}
+                                    .PhoneSection {margin-left: 217px;}
+                
+                                    .OccupationSection{margin-left: 166px;}
+                                    }
+          
+  
+                                    @media screen and  (min-width:1701px) and (max-width:1750px)  {
+                                      .LastNameSection {margin-left: 165px;}
+                                      .PhoneSection {margin-left: 222px;}
+                  
+                                      .OccupationSection{margin-left: 172px;}
+                                      }
+            
+    
+                                      @media screen and  (min-width:1751px) and (max-width:1800px)  {
+                                        .LastNameSection {margin-left: 175px;}
+                                        .PhoneSection {margin-left: 232px;}
+                    
+                                        .OccupationSection{margin-left: 182px;}
+                                        }
+              
+                                        @media screen and  (min-width:1800px)  {
+                                          .LastNameSection {margin-left: 175px;}
+                                          .PhoneSection {margin-left: 232px;}
+                      
+                                          .OccupationSection{margin-left: 182px;}
+                                          }
+                
+
+                                          @media screen and  (min-width:1850px)   {
+                                            .LastNameSection {margin-left: 186px;}
+                                            .PhoneSection {margin-left: 245px;}
+                        
+                                            .OccupationSection{margin-left: 194px;}
+                                            }
+                  
+  
+
+
+                                          @media screen and  (min-width:1837px)  {
+
+                                            .contact-form {width:36vw}
+                                          }
+
+
+                /*
+                @media screen and  (min-width:840px) and (max-width:940px) {
+
+                  .contact-form{    margin-left: -23px;}
+                }
+
+                @media screen and  (min-width:941px) and (max-width:991px) {
+                  .contact-form{    margin-left: -23px;}
+                }
+
+
+
+*/             
+
+
+@media screen and  (min-width:929px) and (max-width:944px) {
+  .contact-form{ width:54vw;}
+}
+
+@media screen and  (min-width:946px) and (max-width:991px) {
+  .contact-form{ width:51vw;}
+}
+
+
+
+@media screen and  (min-width:1001px) and (max-width:1100px) {
+  .contact-form{    margin-left: 51px;}
+}
+
+@media screen and  (min-width:1101px) and (max-width:1200px) {
+  .contact-form{    margin-left: 51px;}
+}
+
 
 
