@@ -2497,5 +2497,44 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
                     }
 
 
+                  }
 
-                    
+
+                  @media screen and  (min-width:100px) and (max-width:200px) {
+
+                  .career-head{background-color:red}
+                  }
+
+
+                  @media screen and  (min-width:201px) and (max-width:300px) {
+
+                    .career-head{background-color:green}
+                    }
+  
+                    @media screen and  (min-width:301px) and (max-width:400px) {
+
+                      .career-head{background-color:blue}
+                      }
+    
+                      @media screen and  (min-width:401px) and (max-width:500px) {
+
+                        .career-head{background-color:black}
+                        }
+                        @media screen and  (min-width:501px) and (max-width:600px) {
+
+                          .career-head{background-color:silver}
+                          }
+                          @media screen and  (min-width:601px) and (max-width:700px) {
+
+                            .career-head{background-color:brown}
+                            }
+                            @media screen and  (min-width:701px) and (max-width:800px) {
+
+                              .career-head{background-color:blueviolet}
+                              }
+
+                              @media screen and  (min-width:801px) and (max-width:900px) {
+
+                                .career-head{background-color:darkcyan}
+                                }
+    
