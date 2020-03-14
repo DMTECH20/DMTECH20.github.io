@@ -10,6 +10,9 @@
 
 
 
+#coi1SpanPhone-Hidden-space{display:none}
+.coi1SpanPhone-Hidden{display:none}
+.coiAlignedspanMobile-Hidden{display:none}
 
 
 
@@ -649,6 +652,7 @@ text-align: center;
   @media screen  and (max-width: 570px) {
 
     .project11 h3{font-size:1.3em ; }
+
     #projectbtn1{margin-top:20px;}
   }
 
@@ -698,7 +702,7 @@ height:500px;
 
 
 
-.project2 h3{text-align:center;  font-size:1.4em; font-weight:600; margin-top:-5px; }
+.project2 h3{text-align:center;  font-size:1.5em; font-weight:600; margin-top:-5px; }
 
 .project2 p{ line-height: 2.2em; font-size:19px; word-break:normal; margin-top:25px; 
   
@@ -814,12 +818,16 @@ height:500px;
             .project3 p{margin-left:70px; margin-right:40px; }
           }
         
-        
+          
           @media screen  and (max-width: 570px) {
         
             .project3 h3{font-size:1.3em ; }
             #projectbtn3{margin-top:20px;}
-          }
+        
+            }
+            
+  
+          
         
           @media screen and (min-width: 1232px) and (max-width: 1373px) {
             #projectbtn3{margin-top:-5px;}
@@ -1699,82 +1707,187 @@ textarea:focus, input:focus{
 
 
 
-/* media queries for ( test your website at different sizes ) */ 
-
 
 /*  mobile */ 
 
 
+@media screen and  (min-width:300px) and (max-width:320px) {
 
-@media screen and  (max-width:320px){
-  .headwelcome{font-size:1.6em}
-  .headwelcomee{    font-size: 1.3em;
-    margin-top: 52px;
+
+.headwelcomee{    font-size: 1.3em;
+  margin-top: 60px;
+}
+.headwelcomee span{font-size:1.2em}
+
+
+.homeanimate{font-size: 1.3em;
+  margin-top: 25px;
+}
+
+.txt-type > .txt {font-size:1.2em}
+
+
+
+
+
+
+.open{margin-left:41px}
+
+#ffa-hide{display:none}
+
+
+.project11-all{ margin-top: 183px}
+
+
+.project11-img img {height:76%}
+
+.project11 h3{font-size: 1.2em;
+  margin-top: -169px;
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;}
+  .project11 p{margin-left: 30px;
+    margin-right: 17px;
+    font-size: 16px;}
+
+
+    .flex-container-two {margin-top: -182px;}
+
+    .project2-img img{
+      height: 76%;
+      margin-top: -31px;}
+
+      .project2 h3{    margin-top: -113px;
+        font-size: 1.1em;
+        text-align: center;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .project2 p{    margin-left: 36px;
+      margin-right: 16px;   font-size: 16px;}
+
+
+      .project3-img img{  height: 76%;
+        margin-top: -131px;}
+
+        .project3 h3{    font-size: 1.1em;
+          margin-top: -203px;}
+
+          .project3 p{    margin-left: 27px;
+            font-size: 16px;
+            margin-right: 15px;}
+
+
+            .ourservices {margin-top: 67px;}
+
+            .ourservices-content{    margin-top: 62px;}
+            
+
+            .ourservices h1{    margin-top: -322px;
+              font-size: 40px}
+
+              #testing-h3{margin-top:-36px}
+              #service-img {
+                margin-top: -43px;} 
+
+                #service-h3{    margin-top: -42px;}
+
+                #testing-p{    margin-right: -15px}
+
+                .Consultancyp{    margin-top: 50px;}
+.trainingp{margin-top:20px}
+.servicep{margin-top:50px}
+
+
+                
+#Consultancy-h3{margin-top: -37px;}
+
+#Consultancy-p{ margin-right: -19px;}
+#Training-h3{margin-top: -41px;}
+#Training-p {margin-right: -8px;}
+
+.footer{display:none}
+.footer-phone{display:block}
+
+
+
+
+.footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+
+.footer-phone h3{color: #ffbf00;
+  font-size: 1.4em;  padding-top:5px; text-align:center  }
+
+#coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
+.coi1-span-phone{color:white; margin-left:4px}
+
+
+#coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
+.coi2-span-phone{color:white; margin-left:4px}
+
+#coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
+.coi3-span-phone{color:white; margin-left:4px}
+
+
+#coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
+.coi4-span-phone{color:white; margin-left:4px}
+
+
+
+.footer-allright-phone{ color:white;  margin-top: 17px;
+  text-align: center;
+  font-size: 1.1em;}
+
+  .footer-icons-phone{text-align:center; margin-top: -13px;}
+#footer-sociali-one-phone{ font-size:21px; color:white; }
+#footer-sociali-two-phone{ font-size:21px; color:white;  margin: 9px;}
+#footer-sociali-three-phone{ font-size:21px; color:white;}
+
+#coi1SpanPhone-Hidden-space{display:none}
+.coi1SpanPhone-Hidden{display:block}
+.coiAlignedspanMobile-Hidden{display:block}
+
+
+.coi1-span-phone{display:none}
+
+.coi1SpanPhone-Hidden{color:white; margin-left: 50px;
+  margin-top: -24px;}
+
+.coiAlignedspanMobile-Hidden{color:white; margin-left: 53px;}
+
+              }
+
+
+/* inside 300 */ 
+
+
+
+@media screen and  (min-width:311px) and (max-width:320px) {
+  .open{margin-left:47px}
+}
+
+
+@media screen and  (min-width:300px) and (max-width:304px) {
+
+  .project11 p {    margin-left: 25px;
+    margin-right: 13px;}
   }
-  .homeanimate{font-size: 1.3em;
-    margin-top: 17px;
+
+  @media screen and  (min-width:317px) and (max-width:320px) {
+  .flex-container-two {margin-top: -211px;}
+
   }
-  .open{margin-left:49px}
-  
-  #ffa-hide{display:none}
-  
-  .project11-img img {height:76%}
-  
-  .project11 h3{font-size: 1.2em;
-    margin-top: -83px;
-    text-align: center;
-    margin-left: 45px;
-    margin-right: 45px;}
-    .project11 p{margin-left: 30px;
-      margin-right: 17px;
-      font-size: 16px;}
-  
-  
-  
-      .project2-img img{
-        height: 76%;
-        margin-top: -31px;}
-  
-        .project2 h3{    margin-top: -113px;
-          font-size: 1.1em;
-          text-align: center;
-          margin-left: 16px;
-          margin-right: 13px;
-      }
-  
-      .project2 p{    margin-left: 36px;
-        margin-right: 16px;   font-size: 16px;}
-  
-  
-        .project3-img img{  height: 76%;
-          margin-top: -131px;}
-  
-          .project3 h3{    font-size: 1.1em;
-            margin-top: -203px;}
-  
-            .project3 p{    margin-left: 31px;
-              font-size: 16px;
-              margin-right: 6px;}
-  
-              .ourservices h1{    margin-top: -322px;
-                font-size: 40px}
-  
-                #service-img {
-                  margin-top: -43px;} 
-  
-                  #service-h3{    margin-top: -42px;}
-  
-                  #testing-p{    margin-right: -18px}
-  #Consultancy-h3{margin-top: -37px;}
-  
-  #Consultancy-p{ margin-right: -19px;}
-  #Training-h3{margin-top: -41px;}
-  #Training-p {margin-right: -8px;}
-  
-  
+
+  @media screen and  (min-width:300px) and (max-width:320px) {
+
+  .project2 p{margin-left:25px; margin-right:15px}
   }
-  
-  
+
+
+
+
+
+
 
 
 
@@ -1786,12 +1899,12 @@ textarea:focus, input:focus{
     
 
 
-    .headwelcome{font-size:2em; margin-top: 140px;}
+    .headwelcome{font-size:2em; margin-top: 171px;}
 
 
     .headwelcome span{font-size:1.1em}
 
-    .headwelcomee {font-size:2em; margin-top:44px}
+    .headwelcomee {font-size:2em; margin-top:44px; line-height:42px}
 
     .headwelcomee span{font-size:1em}
 
@@ -1808,25 +1921,28 @@ textarea:focus, input:focus{
 
 
     .project11-img{height:340px}
-    .project11 h3{ margin-inline-start: 29px;
+    .project11 h3{ font-size:1.1em; margin-inline-start: 29px;
       margin-inline-end: 20px}
 
     .project11 p{    margin-inline-start: 34px;
       margin-inline-end: 13px;}
 
-    .project11-all {margin-top:227px}
+    .project11-all {margin-top:181px}
 
     .project2-all{margin-top:84px}
 
     .project2-img {height:340px}
 
 
-    .project2 h3{font-size:1.3em;margin-inline-start: 7px;
-      margin-inline-end: 13px }
+    .project2 h3{font-size:1.1em; margin-inline-start: 7px;
+      margin-inline-end: 13px; margin-top: 23px;} 
 
       .project3-all {margin-top:132px}
 
-
+      .project3 h3{font-size:1.1em; margin-inline-start: 7px;
+        margin-inline-end: 13px }
+  
+  
       .project3-img{height:340px}
       .project3 p{  margin-inline-start: 34px;
         margin-inline-end: 13px;}
@@ -1835,21 +1951,16 @@ textarea:focus, input:focus{
 
 
 
-
-
-
-
-
-
-
     .open{margin-left:49px}
   
     #ffa-hide{display:none}
     .project2 p {margin-right: 17px;}
   
+    .ourservices-content {
+      margin-top: 21px;
+  }
   
   
-    .media{margin-top: 27px;}
     .trainingp{margin-top:-43px}
   .footer{display:none}
   .footer-phone{display:block}
@@ -1887,12 +1998,83 @@ textarea:focus, input:focus{
   #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
   #footer-sociali-three-phone{ font-size:22px; color:white;}
   
-  
+  .coi1SpanPhone-Hidden{display:block}
+.coiAlignedspanMobile-Hidden{display:block}
+
+
+.coi1-span-phone{display:none}
+
+.coi1SpanPhone-Hidden{color:white; margin-left: 50px;
+  margin-top: -24px;}
+
+.coiAlignedspanMobile-Hidden{color:white; margin-left: 53px;}
+
   }
   
-  
+  @media screen and  (min-width:331px) and (max-width:450px) {
+
+    #coi1SpanPhone-Hidden-space{display:none}
+.coi1SpanPhone-Hidden{display:none}
+.coiAlignedspanMobile-Hidden{display:none}
+
+
+.coi1-span-phone{display:block;     margin-left: 54px;
+margin-top: -25px;}
+  }
+
+
+
+
+
 
   /* start inside mobile screen */ 
+
+  @media screen and  (min-width:321px) and (max-width:570px) {
+    .project2 h3{font-size:1.3em}
+  }
+  @media screen and  (min-width:321px) and (max-width:570px) {
+    .project11 h3{font-size:1.3em}
+  }
+
+  @media screen and  (min-width:321px) and (max-width:570px) {
+    .project3 h3{font-size:1.3em}
+  }
+
+  
+@media screen and (min-width: 321px) and (max-width: 350px) {
+  .project2 h3 {
+      font-size: 1.1em;
+  }
+  
+  }
+  @media screen and  (min-width:449px) and (max-width:450px) {
+    .trainingp {
+      margin-top: -7px;} 
+     }
+
+     @media screen and  (min-width:449px) and (max-width:450px) {
+      .trainingp {
+        margin-top: -7px;} 
+       }
+  
+
+
+
+
+
+
+  @media screen and  (min-width:300px) and (max-width:319px) {
+
+    .headwelcome{font-size:1.6em;     margin-top: 179px;}
+
+
+    #HomeVideo{height: 550px;}
+    .vcontent{height: 550px;}
+    
+    
+  }
+
+
   @media screen and (min-width:320px) and (max-width:389px){
 
     .headwelcome {font-size: 1.7em;}
@@ -1900,13 +2082,13 @@ textarea:focus, input:focus{
     .headwelcome span {font-size:1.2em}
 
     .headwelcomee{font-size: 1.7em;}
-    .homeanimate {margin-top:33px; font-size:1.7em}
+    .homeanimate {margin-top:15px; font-size:1.7em}
   }
 
 
   @media screen and (min-width:331px) and (max-width:381px){
 
-    .project11-all{    margin-top: 229px;}
+    .project11-all{    margin-top: 180px;}
   }
 
 
@@ -1921,13 +2103,13 @@ textarea:focus, input:focus{
 
   @media screen and (min-width:389px) and (max-width:399px){
 
-    .project11-all{    margin-top: 186px;}
+    .project11-all{    margin-top: 146px;}
   }
 
 
   @media screen and (min-width:400px) and (max-width:450px){
 
-    .project11-all{    margin-top: 227px;}
+    .project11-all{    margin-top: 189px;}
   }
 
 
@@ -1936,7 +2118,7 @@ textarea:focus, input:focus{
 
   @media screen and (min-width:340px) and (max-width:388px){
 
-    .project11-all{    margin-top: 259px;}
+    .project11-all{    margin-top: 221px;}
   }
 
   
@@ -1964,18 +2146,18 @@ textarea:focus, input:focus{
 
 
 
-  @media screen and (min-width:365px) and (max-width:369px){
+  @media screen and (min-width:365px) and (max-width:368px){
 
 .project3-all{margin-top:141px}
   }
 
 
-  @media screen and (min-width:370px) and (max-width:385px){
+  @media screen and (min-width:369px) and (max-width:385px){
 
-    .project3-all{margin-top:120px}
+    .project3-all{margin-top:140px}
       }
     
-
+    
       @media screen and (min-width:386px) and (max-width:428px){
 
         .project3-all{margin-top:82px}
@@ -2002,12 +2184,12 @@ textarea:focus, input:focus{
   
 
       @media screen and (min-width:321px) and (max-width:323px){
-        .project3-all{    margin-top: 253px;}
+        .project3-all{    margin-top: 237px;}
       }
     
     
       @media screen and (min-width:324px) and (max-width:340px){
-        .project3-all{    margin-top: 218px;}
+        .project3-all{    margin-top: 192px;}
       }
     
     
@@ -2036,6 +2218,23 @@ textarea:focus, input:focus{
     }
 
 
+
+    @media screen and  (min-width:421px) and (max-width:450px) {
+      .project3 h3{margin-inline-start: 104px;
+        margin-inline-end: 114px;}
+        .project11 h3 {
+          margin-inline-start: 98px;
+          margin-inline-end: 101px;}
+      
+  
+  }
+  
+  
+
+
+
+
+
     @media screen and (min-width:321px) and (max-width:339px){
       .ourservices h1{    font-size: 41px; }
     }
@@ -2045,9 +2244,8 @@ textarea:focus, input:focus{
 
 
 
-
     @media screen and (min-width:337px) and (max-width:391px){
-      .ourservices h1{     margin-top: -53px;}
+      .ourservices h1{     margin-top: -50px;}
     }
 
 
@@ -2059,41 +2257,79 @@ textarea:focus, input:focus{
 
   }
   @media screen and (min-width:421px) and (max-width:450px){
-    .ourservices h1{margin-top:-188px}
+    .ourservices h1{margin-top:-165px}
   }
 
 
-  @media screen and (min-width:333px) and (max-width:373px){
-.open{margin-left:82px}
-  }
 
 
-@media screen and (min-width:373px) and (max-width:430px){
-  .open{margin-left:114px}
-  
-  }
-
-  @media screen and (min-width:430px) and (max-width:450px){
-    .open{margin-left:144px}
+  @media screen and (min-width:330px) and (max-width:340px){
+    .open{margin-left:64px}
+      }
     
+
+  @media screen and (min-width:341px) and (max-width:355px){
+.open{margin-left:73px}
+  }
+  @media screen and (min-width:356px) and (max-width:373px){
+    .open{margin-left:82px}
+      }
+    
+
+
+@media screen and (min-width:374px) and (max-width:390px){
+  .open{margin-left:104px}
   
+  }
+
+  @media screen and (min-width:391px) and (max-width:410px){
+    .open{margin-left:114px}
+    
     }
+  
+    @media screen and (min-width:411px) and (max-width:430px){
+      .open{margin-left:141px}
+      
+      }
+  
+
+  @media screen and (min-width:431px) and (max-width:450px){
+    .open{margin-left:155px}
+    
+    }
+
+    @media screen and (min-width:431px) and (max-width:450px){
+      .open{margin-left:155px}
+      
+      }
+  
+
+
+
   
 /* end inside mobile screen */ 
 
 
+
+
+
 @media screen and (min-width:320px) and (max-width:320px){
 
-  .project2-all {margin-top: -141px}
+  .project2-all {margin-top: 51px}
 
   .project11 h3{    margin-top: -112px}
 
   .project2 h3{    margin-top: -89px;}
-  .project3-all {margin-top: 82px;}
+  .project3-all {margin-top: 44px;}
 
   .project3 h3{    margin-top: -191px;}
 
-  .ourservices h1{ margin-top: -328px;}
+  .ourservices h1{ margin-top: -315px;}
+
+  .ourservices-content {
+    margin-top: 58px;
+}
+
 
   #testing-h3 {margin-top: -32px;}
   #testing-p {margin-right: -10px;}
@@ -2102,8 +2338,13 @@ textarea:focus, input:focus{
 
 .servicep{margin-top: 57px;}
 
-
+.trainingp {
+  margin-top: -9px;}
 }
+
+
+
+
 
 
 
@@ -2200,6 +2441,12 @@ textarea:focus, input:focus{
 
 
   /* start inside mobile screen 2 */ 
+  @media screen and (min-width:449px) and (max-width:450px){
+    .open{margin-left:170px}
+    
+    }
+
+
 
   @media screen and (min-width:485px) and (max-width:700px){
 
@@ -2296,6 +2543,38 @@ textarea:focus, input:focus{
                                           }
 
                                           
+                                          @media screen and (min-width:417px) and (max-width:435px){
+                                            .coi1-span-phone {
+                                              margin-left: 29px;    margin-top: -23px;}
+                                            }
+
+                                            @media screen and (min-width:436px) and (max-width:450px){
+                                              #coi1-phone {
+                                                margin-left: 15px;}
+                                              .coi1-span-phone {
+                                                margin-left: 41px;    margin-top: -23px;}
+
+                                                #coi2-phone {
+                                                  margin-left: 17px;
+                                              }
+                                              .coi2-span-phone {
+                                                margin-left: 4px;
+                                              }
+
+                                              #coi3-phone {
+                                                margin-left: 18px;
+                                            }
+  
+                                            .coi3-span-phone {
+                                              margin-left: 3px;}
+                                              #coi4-phone {
+                                                margin-left: 18px;
+                                            }
+                                            .coi4-span-phone {
+                                              margin-left: 2px;}
+                                            }
+
+
 
                                           @media screen and (min-width:451px) and (max-width:470px){
 
@@ -2748,8 +3027,12 @@ textarea:focus, input:focus{
 
 }
 
+@media screen and (min-width:512px) {
 
-
+#coi1SpanPhone-Hidden-space {
+  display: block;
+}
+}
 
 /*
 @media screen and (min-width:1435px) and (max-width: 1436px) {
@@ -2768,3 +3051,5 @@ textarea:focus, input:focus{
 }
 
 */
+
+

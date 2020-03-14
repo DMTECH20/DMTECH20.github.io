@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+
+#coi1SpanPhone-Hidden-space{display:none}
+.coi1SpanPhone-Hidden{display:none}
+.coiAlignedspanMobile-Hidden{display:none}
+
+
 html { overflow-x: hidden; }
 
 header{display:flex; justify-content: flex-start; height:85px; align-items: center; padding:20px 1%; top:0; width:100%; position:fixed; border:2px solid #f8f9fa;
@@ -1276,243 +1282,368 @@ display:block;
 
 
 
-            /* media queries for ( test your website at different sizes ) */ 
+            /* mobile */ 
 
+            @media screen and (min-width:300px) and (max-width:319px){
+              .open{margin-left:33px}
 
-
-            @media screen and  (max-width:320px){
-              .overlay-content-h3 {  font-size: 1.2em; }
-              .overlay-content-p {    margin-left: 10px;
-                margin-right: -10px;
+              .overlay-content-h3 {  font-size: 1.2em; margin-top:107px }
+              .overlay-content-p {    margin-left: 7px;
+                margin-right: 0px;
                 font-size: 0.9em;
                 margin-top: 10px;
-                line-height: 30px;}
+                line-height: 27px;}
 
-                .vision1 h1 { font-size: 4em; margin-left: 3px; }
+                .overlay-content-h3 span{    font-size: 1.1em;}
+                .vision1{    height: 240px;}
+                .vision1 h1 { font-size: 4em; margin-left: 3px;     padding-top: 69px;}
 
-                .vision2 p{text-align: none;     margin: 145px -10px 0px 20px;}
-                .mission2 h1{ font-size: 4em; margin-left: 26px;}
+                .mission2 h1{ font-size: 4em; margin-left: 26px; padding-top:64px}
 
-                .mission1 p{font-size:1.2em; margin: 180px -37px 0px -13px;}
+                .mission1 p{font-size:1.2em; margin: -33px -37px 0px -13px;}
 
 
-                #overlay-content-h3-two{    margin-top: 121px;
+                .flex-container {margin-top: -133px;}
+
+                .mission2{    height: 240px;}
+
+                .vision2 p{  text-align:left;  margin: 31px 2px 0px 12px; font-size: 1.2em;}
+                .overlay-main-two{  height:341px;  margin-top: -108px}
+
+
+                #overlay-content-h3-two{    margin-top: 68px;
                   font-size: 20px; padding-left: 17px;}
-                  .founders-h3-one {margin-left: -228px;
+
+
+                  .founders-h3-one {margin-left: -211px;
                     font-size: 29px;
                     padding-top: 27px;}
 
-                    .founders-h3-two{    margin-left: -79px;
+                    .founders-h3-two{    margin-left: -60px;
                       margin-top: -73px;
-                      font-size: 30px;
-}
+                      font-size: 30px;}
                 
-                  .founders-h3-three{   margin-left: 142px;
+                  .founders-h3-three{   margin-left: 152px;
                     margin-top: -88px;
-                    font-size: 30px;
-                }
+                    font-size: 30px; }
                 
-                .founders-p1{    margin-left: 35px; width: 222px;}
-                .founders-p2 { width:222px; margin-left:36px; margin-top:29px}
-                .Advisors-h3-one{    margin-left: -215px;
-                  font-size: 30px;
+                .founders-p1{    margin-left: 27px; width: 222px;}
+                .founders-p2 { width:222px; margin-left:27px; margin-top:29px}
+
+                #foundersp1i1,#foundersp2i1 {margin-left: 61px;}
+              #Advp1i1, #Advp2i1{margin-left:61px}
+              #teamp1i1, #teamp2i1{margin-left:61px}
+
+
+
+
+                  .Advisors-h3-one{    margin-left: -194px;
+                  font-size: 29px;
                   padding-top: 30px;}
 
-                  .Advisors-h3-two{margin-left: -50px;
-                    margin-top: -75px;
-                    font-size: 30px;
+                  .Advisors-h3-two{margin-left: -41px;
+                    margin-top: -72px;
+                    font-size: 29px;
                 }
 
-                  .Advisors-h3-three {    margin-left: 172px;
-                    margin-top: -88px;
-                    font-size: 30px;
-                }
-                .Adv-p1{width:222px;     margin-left: 37px;}
-                .Adv-p2{  width:222px;  margin-left: 40px;}
+                  .Advisors-h3-three {    margin-left: 153px;
+                    margin-top: -87px;
+                    font-size: 29px; }
+                .Adv-p1{width:222px;     margin-left: 28px;}
+                .Adv-p2{  width:222px;  margin-left: 28px; margin-top: 37px;}
 
 
-                .team-h3-one {margin-left: -217px;
-                  font-size: 30px;
+                .team-h3-one {margin-left: -172px;
+                  font-size: 29px;
                   padding-top: 32px;}
 
 
-                  .team-h3-two{    margin-left: -23px;
-                    margin-top: -74px;
-                    font-size: 30px;
+                  .team-h3-two{    margin-left: -10px;
+                    margin-top: -72px;
+                    font-size: 29px;
                 }
 
-                .team-h3-three{    margin-left: 168px;
-                  margin-top: -88px;
-                  font-size: 30px;}
+                .team-h3-three{    margin-left: 161px;
+                  margin-top: -87px;
+                  font-size: 29px;}
               
               
-                  .team-p1{width:222px;     margin-left: 42px; }
-                  .team-p2{width:222px;     margin-left: 42px; }
-              
+                  .team-p1{width:222px;     margin-left: 28px; }
+                  .team-p2{width:222px;     margin-left: 28px; margin-top:40px}
+                  .teampthree{margin-top:70px}
+
+                  .footer{display:none}
+                  .footer-phone{display:block}
+                  
+                  
+                  .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+
+                  .footer-phone h3{color: #ffbf00;
+                    font-size: 1.4em;  padding-top:5px; text-align:center  }
+                  
+                  #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
+                  .coi1-span-phone{color:white; margin-left:4px}
+                  
+                  
+                  #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
+                  .coi2-span-phone{color:white; margin-left:4px}
+                  
+                  #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
+                  .coi3-span-phone{color:white; margin-left:4px}
+                  
+                  
+                  #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
+                  .coi4-span-phone{color:white; margin-left:4px}
+                  
+                  
+                  
+                  .footer-allright-phone{ color:white;  margin-top: 17px;
+                    text-align: center;
+                    font-size: 1.1em;}
+                  
+                    .footer-icons-phone{text-align:center; margin-top: -13px;}
+                  #footer-sociali-one-phone{ font-size:21px; color:white; }
+                  #footer-sociali-two-phone{ font-size:21px; color:white;  margin: 9px;}
+                  #footer-sociali-three-phone{ font-size:21px; color:white;}
+                  
+                  #coi1SpanPhone-Hidden-space{display:none}
+                  .coi1SpanPhone-Hidden{display:block}
+                  .coiAlignedspanMobile-Hidden{display:block}
+                  
+                  
+                  .coi1-span-phone{display:none}
+                  
+                  .coi1SpanPhone-Hidden{color:white; margin-left: 50px;
+                    margin-top: -24px;}
+                  
+                  .coiAlignedspanMobile-Hidden{color:white; margin-left: 53px;}
+                  
+                                                  }
+                  
+
+
+
+                /* inside 300 */ 
+
+            @media screen and (min-width:311px) and (max-width:320px){
+              .overlay-content-p{font-size:0.9em; line-height: 28px;}
+              .overlay-content-h3{    font-size: 1.2em;
+                margin-top: 101px;}
+
+              }
+
+
+              @media screen and (min-width:306px) and (max-width:310px){
+              .founders-p1,  .founders-p2 {  margin-left: 31px}
+              }
+
+              @media screen and (min-width:311px) and (max-width:320px){
+                .founders-p1,  .founders-p2 {  margin-left: 34px}
                 }
-
-
-
-                
-
-
-
-       @media screen and (min-width:320px) and (max-width:450px){
-
-        .open{margin-left:49px}
-        .overlay-content-h3{font-size:1.4em}
-        .overlay-content-p {      margin-inline-start: 7px;
-          margin-inline-end: 5px; font-size:1em}
-          .overlay-main {    height: 988px;}
-
-
-
-
-
-
-          .vision1 {height:250px}
-
-.vision1 h1 {padding-top: 63px;
-  margin-left: 4px;}
-
-  .vision2 p{  text-align:left;  margin: 31px 7px 0px 28px;}
-
-  .flex-container {    margin-top: -89px;}
-  .mission2{height:250px}
-
-  .mission2 h1 {    padding-top: 63px;
-    margin-left: 24px;}
-
-    .overlay-main-two{margin-top:-64px}
-
-    .mission1 p{    text-align: left;
-      margin: 0px -19px 0px 29px; margin-top: -34px;}
-    
-
-      #overlay-content-h3-two { margin-top: 70px;
-        font-size: 24px; padding-left: 17px}
-
-
-
-
-        #foundersp1i1 {margin-left: 65px;}
-        #foundersp2i1 {margin-left: 65px;}
-        #Advp1i1{margin-left: 65px;}
-        #Advp2i1{margin-left: 65px;}
-        #teamp1i1{margin-left: 65px;}
-        #teamp2i1 {margin-left: 65px;}
-
-
-
-      .founders-h3-one {margin-left: -228px;
-        font-size: 29px;
-        padding-top: 27px;}
-
-        .founders-h3-two{    margin-left: -79px;
-          margin-top: -73px;
-          font-size: 30px;
-}
-    
-      .founders-h3-three{   margin-left: 142px;
-        margin-top: -88px;
-        font-size: 30px;
-    }
-    
-
-
-
-    .founders-p1{    margin-left: 33px; width: 234px;}
-    .founders-p2 { width:234px; margin-left:33px; margin-top:29px}
-
-
-    .Advisors-h3-one{    margin-left: -215px;
-      font-size: 30px;
-      padding-top: 30px;}
-
-      .Advisors-h3-two{margin-left: -50px;
-        margin-top: -75px;
-        font-size: 30px;
-    }
-
-      .Advisors-h3-three {    margin-left: 172px;
-        margin-top: -88px;
-        font-size: 30px;
-    }
-    .Adv-p1{width:222px;     margin-left: 37px;}
-    .Adv-p2{  width:222px;  margin-left: 40px; margin-top: 32px;}
-
-
-    .team-h3-one {margin-left: -217px;
-      font-size: 30px;
-      padding-top: 32px;}
-
-
-      .team-h3-two{    margin-left: -23px;
-        margin-top: -74px;
-        font-size: 30px;
-    }
-
-    .team-h3-three{    margin-left: 168px;
-      margin-top: -88px;
-      font-size: 30px;}
   
-  
-      .team-p1{width:222px;     margin-left: 42px; }
-      .team-p2{width:222px;     margin-left: 42px; margin-top:30px }
-  
-
-  }
+                @media screen and (min-width:306px) and (max-width:310px){
+                  .Adv-p1,  .Adv-p2 {  margin-left: 31px}
+                  }
     
+                  @media screen and (min-width:311px) and (max-width:320px){
+                    .Adv-p1,  .Adv-p2 {  margin-left: 34px}
+                    }
     
+
+                    @media screen and (min-width:306px) and (max-width:310px){
+                      .team-p1,  .team-p2 {  margin-left: 31px}
+                      }
+        
+                      @media screen and (min-width:311px) and (max-width:320px){
+                        .team-p1,  .team-p2 {  margin-left: 34px}
+                        }
     
- 
-    
-  
+                        @media screen and (min-width:311px) and (max-width:320px){
+                          .open {
+                            margin-left: 44px; }
+                          }
 
 
 
-        .footer{display:none}
-        .footer-phone{display:block}
-        
 
-        .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
-        
-        .footer-phone h3{color: #ffbf00;
-          font-size: 1.4em;  padding-top:5px; text-align:center  }
-        
-        #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
-        .coi1-span-phone{color:white; margin-left:4px}
-        
-        
-        #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
-        .coi2-span-phone{color:white; margin-left:4px}
-        
-        #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
-        .coi3-span-phone{color:white; margin-left:4px}
-        
-        
-        #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
-        .coi4-span-phone{color:white; margin-left:4px}
-        
-        
-        
-        .footer-allright-phone{ color:white;  margin-top: 17px;
-          text-align: center;
-          font-size: 1.2em;}
-        
-          .footer-icons-phone{text-align:center; margin-top: -13px;}
-        #footer-sociali-one-phone{ font-size:22px; color:white; }
-        #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
-        #footer-sociali-three-phone{ font-size:22px; color:white;}
-        
-        
-     
-      
+                            @media screen and (min-width:320px) and (max-width:450px){
+
+                              .open{margin-left:49px}
+                              .overlay-content-h3{font-size:1.4em}
+                              .overlay-content-p {      margin-inline-start: 7px;
+                                margin-inline-end: 5px; font-size:1em}
+                                .overlay-main {    height: 988px;}
 
 
+
+
+                                .vision1 {height:250px}
+
+                      .vision1 h1 {padding-top: 63px;
+                        margin-left: 4px;}
+
+                        .vision2 p{  text-align:left;  margin: 31px 7px 0px 28px;}
+
+                        .flex-container {    margin-top: -89px;}
+                        .mission2{height:250px}
+
+                        .mission2 h1 {    padding-top: 63px;
+                          margin-left: 24px;}
+
+                          .overlay-main-two{margin-top:-64px}
+
+                          .mission1 p{    text-align: left;
+                            margin: 0px -19px 0px 29px; margin-top: -34px;}
+                          
+
+                            #overlay-content-h3-two { margin-top: 70px;
+                              font-size: 24px; padding-left: 17px}
+
+
+
+
+                              #foundersp1i1 {margin-left: 65px;}
+                              #foundersp2i1 {margin-left: 65px;}
+                              #Advp1i1{margin-left: 65px;}
+                              #Advp2i1{margin-left: 65px;}
+                              #teamp1i1{margin-left: 65px;}
+                              #teamp2i1 {margin-left: 65px;}
+
+
+
+                            .founders-h3-one {margin-left: -228px;
+                              font-size: 29px;
+                              padding-top: 27px;}
+
+                              .founders-h3-two{    margin-left: -79px;
+                                margin-top: -73px;
+                                font-size: 30px;
+                      }
+                          
+                            .founders-h3-three{   margin-left: 142px;
+                              margin-top: -88px;
+                              font-size: 30px;
+                          }
+                          
+
+
+
+                          .founders-p1{    margin-left: 33px; width: 234px;}
+                          .founders-p2 { width:234px; margin-left:33px; margin-top:29px}
+
+
+                          .Advisors-h3-one{    margin-left: -215px;
+                            font-size: 30px;
+                            padding-top: 30px;}
+
+                            .Advisors-h3-two{margin-left: -50px;
+                              margin-top: -75px;
+                              font-size: 30px;
+                          }
+
+                            .Advisors-h3-three {    margin-left: 172px;
+                              margin-top: -88px;
+                              font-size: 30px;
+                          }
+                          .Adv-p1{width:222px;     margin-left: 37px;}
+                          .Adv-p2{  width:222px;  margin-left: 40px; margin-top: 32px;}
+
+
+                          .team-h3-one {margin-left: -217px;
+                            font-size: 30px;
+                            padding-top: 32px;}
+
+
+                            .team-h3-two{    margin-left: -23px;
+                              margin-top: -74px;
+                              font-size: 30px;
+                          }
+
+                          .team-h3-three{    margin-left: 168px;
+                            margin-top: -88px;
+                            font-size: 30px;}
+                        
+                        
+                            .team-p1{width:222px;     margin-left: 42px; }
+                            .team-p2{width:222px;     margin-left: 42px; margin-top:30px }
+                        
+
+                        
+                        
+                              .footer{display:none}
+                              .footer-phone{display:block}
+                              
+
+                              .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+                              
+                              .footer-phone h3{color: #ffbf00;
+                                font-size: 1.4em;  padding-top:5px; text-align:center  }
+                              
+                              #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
+                              .coi1-span-phone{color:white; margin-left:4px}
+                              
+                              
+                              #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
+                              .coi2-span-phone{color:white; margin-left:4px}
+                              
+                              #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
+                              .coi3-span-phone{color:white; margin-left:4px}
+                              
+                              
+                              #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
+                              .coi4-span-phone{color:white; margin-left:4px}
+                              
+                              
+                              
+                              .footer-allright-phone{ color:white;  margin-top: 17px;
+                                text-align: center;
+                                font-size: 1.2em;}
+                              
+                                .footer-icons-phone{text-align:center; margin-top: -13px;}
+                              #footer-sociali-one-phone{ font-size:22px; color:white; }
+                              #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
+                              #footer-sociali-three-phone{ font-size:22px; color:white;}
+                              
+                              #coi1SpanPhone-Hidden-space{display:none}
+                              .coi1SpanPhone-Hidden{display:block}
+                              .coiAlignedspanMobile-Hidden{display:block}
+                              
+                              
+                              .coi1-span-phone{display:none}
+                              
+                              .coi1SpanPhone-Hidden{color:white; margin-left: 50px;
+                                margin-top: -24px;}
+                              
+                              .coiAlignedspanMobile-Hidden{color:white; margin-left: 53px;}
+            
+                              }
+                            
+
+                            
 
 
   /* start inside mobile screen - About */ 
+
+
+
+  @media screen and (min-width:377px) and (max-width:432px){
+    .mission1 p{ margin-top: -19px;}
+  }
+
+
+
+
+
+
+  @media screen and (min-width:320px) and (max-width:320px){
+
+    .overlay-main-two {
+      margin-top: -27px;
+  }
+  }
+
+
+
 
   @media screen and (min-width:320px) and (max-width:351px){
 
@@ -1719,7 +1850,7 @@ display:block;
     .founders-h3-one{    margin-left: -228px;
       font-size: 32px;}
       .founders-h3-two{    margin-left: -61px;
-        margin-top: -77px;
+        margin-top: -78px;
         font-size: 32px;}
         .founders-h3-three{    margin-left: 164px;
           margin-top: -92px;
@@ -1792,7 +1923,7 @@ display:block;
                   margin-top: -87px;
                   font-size: 38px;}
                   .Advisors-h3-three{    margin-left: 211px;
-                    margin-top: -101px;
+                    margin-top: -103px;
                     font-size: 38px; }
               
               }
@@ -1954,6 +2085,44 @@ display:block;
             .team-p2 h2 {font-size: 21px;}
             .team-p2 h3 {    font-size: 17px;}
 
+
+
+            .footer{display:none}
+            .footer-phone{display:block}
+            
+            
+            
+            
+            .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+            
+            .footer-phone h3{color: #ffbf00;
+              font-size: 1.4em;  padding-top:5px; text-align:center  }
+            
+            #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
+            .coi1-span-phone{color:white; margin-left:4px}
+            
+            
+            #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
+            .coi2-span-phone{color:white; margin-left:4px}
+            
+            #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
+            .coi3-span-phone{color:white; margin-left:4px}
+            
+            
+            #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
+            .coi4-span-phone{color:white; margin-left:4px}
+            
+            
+            
+            .footer-allright-phone{ color:white;  margin-top: 17px;
+              text-align: center;
+              font-size: 1.2em;}
+            
+              .footer-icons-phone{text-align:center; margin-top: -13px;}
+            #footer-sociali-one-phone{ font-size:22px; color:white; }
+            #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
+            #footer-sociali-three-phone{ font-size:22px; color:white;}
+          
 }
 
 
@@ -2439,7 +2608,67 @@ display:block;
 
 
 
+              @media screen and  (min-width:512px)  {
 
+                #coi1SpanPhone-Hidden-space {
+                  display: block;
+              }
+
+            }
+
+
+
+
+
+
+
+              @media screen and  (min-width:331px) and (max-width:450px) {
+
+                #coi1SpanPhone-Hidden-space{display:none}
+            .coi1SpanPhone-Hidden{display:none}
+            .coiAlignedspanMobile-Hidden{display:none}
+            
+            
+            .coi1-span-phone{display:block;     margin-left: 54px;
+            margin-top: -25px;}
+              }
+            
+            
+            
+            
+              @media screen and (min-width:417px) and (max-width:435px){
+                .coi1-span-phone {
+                  margin-left: 29px;    margin-top: -23px;}
+                }
+            
+                @media screen and (min-width:436px) and (max-width:450px){
+                  #coi1-phone {
+                    margin-left: 15px;}
+                  .coi1-span-phone {
+                    margin-left: 41px;    margin-top: -23px;}
+            
+                    #coi2-phone {
+                      margin-left: 17px;
+                  }
+                  .coi2-span-phone {
+                    margin-left: 4px;
+                  }
+            
+                  #coi3-phone {
+                    margin-left: 18px;
+                }
+            
+                .coi3-span-phone {
+                  margin-left: 3px;}
+                  #coi4-phone {
+                    margin-left: 18px;
+                }
+                .coi4-span-phone {
+                  margin-left: 2px;}
+                }
+            
+            
+            
 
 
 
