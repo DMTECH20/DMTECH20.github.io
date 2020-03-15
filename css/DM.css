@@ -3078,7 +3078,8 @@ margin-top: -25px;}
 
         @media screen and (min-width:351px) and (max-width:360px) {
 
-          .project11 h3{color:aqua;}
+          .project11 h3{color:aqua;     margin-inline-start: 29px;
+            margin-inline-end: 20px;}
           }
   
       
