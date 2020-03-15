@@ -3073,13 +3073,23 @@ margin-top: -25px;}
   
       @media screen and (min-width:341px) and (max-width:350px) {
 
-        .project11 h3{color:brown;}
+        .project11 h3{color:gold;       -webkit-margin-start:29px;
+          -moz-margin-start:29px;
+          -ms-margin-start:29px;
+          -o-margin-start:29px;
+
+          -webkit-margin-top-collapse:20px;
+    -moz-margin-top-collapse:20px;
+    -ms-margin-top-collapse: 20px;
+    -o-margin-top-collapse: 20px;
+        
+
+    }
         }
 
         @media screen and (min-width:351px) and (max-width:360px) {
 
-          .project11 h3{color:sienna;     margin-inline-start: 29px;
-            margin-inline-end: 20px;}
+          .project11 h3{color:sienna;   }
           }
   
       
@@ -3098,9 +3108,5 @@ margin-top: -25px;}
                 .project11 h3{color:fuchsia;}
                 }
         
-                @media screen and (min-width:391px) and (max-width:400px) {
-
-                  .project11 h3{color:yellow ;}
-                  }
           
   
