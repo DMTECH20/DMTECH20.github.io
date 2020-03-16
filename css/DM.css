@@ -97,7 +97,7 @@ header img{width:230px; max-width:100%; height:auto; margin-left:30px;}
 .nav-links li{display:inline-block; padding:0px 15px;}
 .nav-links li:nth-child(1){padding:0 20px 0 0;}
 
-.nav-links li a{transition: all 0.3s ease 0s; font-family: 'poppins', sans-serif; font-size:15px; color:black; text-transform: uppercase;  text-decoration: none;}
+.nav-links li a{transition: all 0.3s ease 0s; font-family: 'poppins', sans-serif; font-size:15px; color:red; text-transform: uppercase;  text-decoration: none;}
 .nav-links li a:hover{color:#ffbf00; font-weight: 600;}
 .nav-links li a:hover::after{color:#151515; font-weight:400}
 
