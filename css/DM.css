@@ -1,11 +1,27 @@
   html{ overflow-x: hidden;          margin: 0;
     border: 0;
-    width: 100%;
+    width: 100%;   box-sizing: border-box; 
 }
 
 * {
   box-sizing: border-box;
 }
+
+
+
+
+@-ms-viewport {
+  width: device-width; }
+body {
+  -ms-overflow-style: scrollbar; }
+
+@media screen and (max-width: 480px) {
+  html, body {
+    min-width: 300px; } }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
 
 
 
