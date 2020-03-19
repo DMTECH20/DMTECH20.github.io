@@ -4046,9 +4046,8 @@ margin-top: 32px;    overflow-wrap:break-word;
 
 
 
-
           @media screen and (min-width:800px) {
-#demo{width:93%; margin:0 auto; margin-top: 45px;}
+#demo, #demo-p2, #demo-p3{width:93%; margin:0 auto; margin-top: 45px;}
             .project2content h1 {    margin-top: 19px;}
             .project2content h1::after {margin-top: 43px;}
 
@@ -4062,121 +4061,121 @@ margin-top: 32px;    overflow-wrap:break-word;
 
 
           @media screen and (min-width:832px) {
-            #demo{width:92%; margin:0 auto; margin-top: 45px;}
+            #demo, #demo-p2, #demo-p3{width:92%; margin:0 auto; margin-top: 45px;}
                       }       
                          @media screen and (min-width:850px) {
-                        #demo{width:89%; margin:0 auto ; margin-top: 45px;}
+                        #demo, #demo-p2, #demo-p3{width:89%; margin:0 auto ; margin-top: 45px;}
                                   }  
                                   @media screen and (min-width:870px) {
-                                    #demo{width:87%; margin:0 auto; margin-top: 45px;}
+                                    #demo, #demo-p2, #demo-p3{width:87%; margin:0 auto; margin-top: 45px;}
                                               }  
             
                                               @media screen and (min-width:880px) {
-                                                #demo{width:86%; margin:0 auto; margin-top: 45px;}
+                                                #demo, #demo-p2, #demo-p3{width:86%; margin:0 auto; margin-top: 45px;}
                                                           }  
             
                                   
                                   @media screen and (min-width:900px) {
-                                    #demo{width:83%; margin:0 auto; margin-top: 45px;}
+                                    #demo, #demo-p2, #demo-p3{width:83%; margin:0 auto; margin-top: 45px;}
                                               }  
                                               
                                               @media screen and (min-width:930px) {
-                                                #demo{width:83%; margin:0 auto; margin-top: 45px;}
+                                                #demo, #demo-p2, #demo-p3{width:83%; margin:0 auto; margin-top: 45px;}
                                                           }
                                                           @media screen and (min-width:970px) {
-                                                            #demo{width:79%; margin:0 auto; margin-top: 45px;}
+                                                            #demo, #demo-p2, #demo-p3{width:79%; margin:0 auto; margin-top: 45px;}
                                                                       }
 
                                                                       @media screen and (min-width:992px) {
-                                                                        #demo{width:97%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:97%; margin:0 auto; margin-top: 45px;}
                                                                                   }
 
                                                                                   @media screen and (min-width:1015px) {
-                                                                                    #demo{width:94%; margin:0 auto; margin-top: 45px;}
+                                                                                    #demo, #demo-p2, #demo-p3{width:94%; margin:0 auto; margin-top: 45px;}
                                                                                               }
 
                                                                                @media screen and (min-width:1050px) {
-                                                                                        #demo{width:92%; margin:0 auto; margin-top: 45px;}
+                                                                                        #demo, #demo-p2, #demo-p3{width:92%; margin:0 auto; margin-top: 45px;}
                                                                                      }
 
                                                                                                           @media screen and (min-width:1080px) {
-                                                                                                            #demo{width:89%; margin:0 auto; margin-top: 45px;}
+                                                                                                            #demo, #demo-p2, #demo-p3{width:89%; margin:0 auto; margin-top: 45px;}
                                                                                                                       }
 
 
 
                                                                        @media screen and (min-width:1110px) {
-                                                                        #demo{width:87%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:87%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1140px) {
-                                                                        #demo{width:85%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:85%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1170px) {
-                                                                        #demo{width:83%; margin:0 auto; margin-top: 45px;
+                                                                        #demo, #demo-p2, #demo-p3{width:83%; margin:0 auto; margin-top: 45px;
                                                                        }
 
                                                                        @media screen and (min-width:1200px) {
-                                                                        #demo{width:93%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:93%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1220px) {
-                                                                        #demo{width:92%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:92%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1240px) {
-                                                                        #demo{width:90%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:90%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1270px) {
-                                                                        #demo{width:88%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:88%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1290px) {
-                                                                        #demo{width:87%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:87%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1310px) {
-                                                                        #demo{width:85%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:85%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1340px) {
-                                                                        #demo{width:83%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:83%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1380px) {
-                                                                        #demo{width:81%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:81%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1400px) {
-                                                                        #demo{width:80%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:80%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1420px) {
-                                                                        #demo{width:79%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:79%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1440px) {
-                                                                        #demo{width:78%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:78%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1460px) {
-                                                                        #demo{width:77%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:77%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1490px) {
-                                                                        #demo{width:75%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:75%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1520px) {
-                                                                        #demo{width:74%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:74%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1550px) {
-                                                                        #demo{width:72%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:72%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1580px) {
-                                                                        #demo{width:71%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:71%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1600px) {
-                                                                        #demo{width:70%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:70%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1650px) {
-                                                                        #demo{width:68%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:68%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1680px) {
-                                                                        #demo{width:67%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:67%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1730px) {
-                                                                        #demo{width:65%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:65%; margin:0 auto; margin-top: 45px;}
                                                                        }
                                                                        @media screen and (min-width:1800px) {
-                                                                        #demo{width:62%; margin:0 auto; margin-top: 45px;}
+                                                                        #demo, #demo-p2, #demo-p3{width:62%; margin:0 auto; margin-top: 45px;}
                                                                        }
  
 
