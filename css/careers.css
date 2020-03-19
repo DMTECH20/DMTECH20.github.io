@@ -2802,3 +2802,6 @@ margin-top: -36px;}
 }
 
 
+@media screen and (min-width:300px) and (max-width:768px){
+  .knowwhy-website, .socialmedia, .Event, .publishings, .friend, .others{margin-top:-30px}
+}
