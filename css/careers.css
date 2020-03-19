@@ -1,10 +1,10 @@
 html{ overflow-x: hidden;          margin: 0;
-    border: 0;
-    width: 100%;
+  border: 0;
+  width: 100%;
 }
 
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 #coi1SpanPhone-Hidden-space{display:block}
@@ -13,362 +13,362 @@ html{ overflow-x: hidden;          margin: 0;
 
 
 header{display:flex; justify-content: flex-start; height:85px; align-items: center; padding:20px 1%; top:0; width:100%; position:fixed; border:2px solid #f8f9fa;
-    z-index:100; background-color:white!important }
-  header img{width:230px; max-width:100%; height:auto; margin-left:30px;}
-  
-  
-  
-  .logo{cursor:pointer; max-height:50px; width:190px; }
-  .nav-links{margin-top:10px}
-  .nav-links li{display:inline-block; padding:0px 15px;}
-  .nav-links li:nth-child(1){padding:0 20px 0 0;}
-  
-  .nav-links li a{transition: all 0.3s ease 0s; font-family: 'poppins', sans-serif; font-size:15px; color:black; text-transform: uppercase;  text-decoration: none;}
-  .nav-links li a:hover{color:#ffbf00; font-weight: 600;}
-  .nav-links li a:hover::after{color:#151515; font-weight:400}
-  
-  
-  
-  
-  .open{display:none}
-  .content{display:none}
-  
-  
-  @media screen and (max-width: 768px) {
-  .open {
-  
-  position: relative;
-  display:block;
-  margin-left:-70px;
-  font-size:20px;
-  
-  }
-  
-  
-  .content{background-color:white; width:768px;  margin-top:15px;  list-style-type: none;  position: absolute; right:0;
-  }
-  .content li{text-align: center; padding:4px; }
-  .content li::after{width:100%; height:15px; background-color:black}
-  
-  .content1::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  .content2::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  .content3::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  .content4::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  .content5::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  .content6::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  .content7::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  .content8::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  
-  
-  
-  #openContent + #myContent {
-  display:none;
-  }
-  
-  #openContent:checked + #myContent {
-  display:block;
-  }
-  
-  }
-  
-  
-  
-  
-  .open2{display:block; font-family: 'poppins', sans-serif; font-size:15px; color:black; text-transform: uppercase;  }
-  .open2:hover{color:#ffbf00; font-weight: 600; cursor: pointer;}
+  z-index:100; background-color:white!important }
+header img{width:230px; max-width:100%; height:auto; margin-left:30px;}
 
-  /* form close button */ 
-  .open3{display:block; font-size:35px; color:#3f3f3f; float:right; margin-right:40px; margin-top:5px; width:50px; cursor: pointer;}
-  
-  .content2{display:none}
-  
-  
-      
-      .content2{background-color:white; width:80vw; height:95vh;  margin-top:40px;   position: absolute; margin-left:-654px; 
-      }
-      
-      
-      
-      #openContent2 + #myContent2 {
-      display:none;
-      }
-      
-      #openContent2:checked + #myContent2 {
-      display:block;
-      }
-      
+
+
+.logo{cursor:pointer; max-height:50px; width:190px; }
+.nav-links{margin-top:10px}
+.nav-links li{display:inline-block; padding:0px 15px;}
+.nav-links li:nth-child(1){padding:0 20px 0 0;}
+
+.nav-links li a{transition: all 0.3s ease 0s; font-family: 'poppins', sans-serif; font-size:15px; color:black; text-transform: uppercase;  text-decoration: none;}
+.nav-links li a:hover{color:#ffbf00; font-weight: 600;}
+.nav-links li a:hover::after{color:#151515; font-weight:400}
 
 
 
 
-  .contact-form-head h3{font-family: 'poppins', sans-serif; font-size:30px; color:#3f3f3f; font-weight:700; margin-left:75px; margin-top:80px; line-height:45px}
-  .contact-form-head p{font-family: 'poppins', sans-serif; font-size:18px;   text-align:justify; padding:13px;
-                         margin:18px 69px 0px 68px; word-spacing: -1px; line-height: 35px; }
-  
-  
-  .contact-form {margin-top:-155px;}
-  .contact-form h3{font-family: 'poppins', sans-serif; font-size:21px; position: relative;}
-  #form-asterisk{font-size:9px; color:#3f3f3f; margin-left:8px; margin-top:4px; position: absolute; }
-  
-  
-  
-  
-  
-  
-  .Affiliation-select{width:32vw; height:6vh; margin-top:10px;   text-indent: 10px;}
-  
-  .FirstNameSection{margin-top:15px; position: relative; display: inline-block;}
-  .FirstName{width:15vw; height:5vh;}
-  .FirstName:focus {color:black}
-  
-  .LastNameSection{position: absolute ; display: inline-block; margin-left:123px}
-  .LastName{width:15vw; height:5vh; margin-left:15px}
-  .LastName:focus {color:black}
-  
-  
-  
-  
-  .EmailSection{ position: relative; margin-top:15px;  display: inline-block; }
-  .FormEmail{width:15vw; height:5vh;}
-  .FormEmail:focus {color:black}
-  
-  .PhoneSection{  position: absolute; display: inline-block;  margin-left:181px }
-  .FormPhone{width:15vw; height:5vh;  margin-left:15px}
-  .FormPhone:focus {color:black}
-  
-  
-  
-  .CompanySection{ position: relative; margin-top:15px;  display: inline-block;}
-  .Company{width:15vw; height:5vh;}
-  .Company:focus {color:black}
-  
-  .OccupationSection{position: absolute; display: inline-block;  margin-left:130px }
-  .Occupation{width:15vw; height:5vh;  margin-left:15px}
-  .Occupation:focus {color:black}
-  
-  
-  
-  
-  
-  .CountrtSection{margin-top:15px}
-  .country-select{width:32vw; height:6vh; margin-top:10px;   text-indent: 10px;}
-  
-  
-  .MessageSection{margin-top:15px}
-  .FormMessage{width:32vw; height:12vh;}
-  .FormMessage:focus {color:black; }
-  .MessageSection::placeholder { color:red; background-color:red}
-  
-  
-  #formbutton{margin-top:15px; background-color:#ffbf00; border:none; color:black; width:100px; height:40px; font-family: 'poppins', sans-serif;
-                 font-size:18px; outline: none;}
-  
-       #formbutton:focus{ box-shadow: none; }
-              
-  
-  #formbutton:active, #formbutton:focus {border:none; outline-style: none;  }
-
-  @media screen and (max-width: 1366px) {
-    .contact-form{margin-top:-206px}
-  .Affiliation-select{margin-top:0px; height:5vh}
-  
-  .FirstNameSection{margin-top:5px}
-  
-  .EmailSection{margin-top:5px}
-  
-  .CompanySection{margin-top:5px}
-  
-  .CountrtSection{margin-top:5px}
-  .MessageSection{margin-top:5px}
-  #formbutton{margin-top:5px}
-  .contact-form-head h3{margin-top:-99px}
-  .contact-form-head p{padding:5px}
-  .open3{margin-top:-7px; margin-right:-23px}
-  
-  .country-select{height:6vh}
-  .FormMessage{height:7vh}
-  }
-
-  
+.open{display:none}
+.content{display:none}
 
 
-  @media screen and (min-width:1015px) and (max-width: 1064px) {
-  
-  .logo{margin-left:9px;}
-  }
-  
-  
-  @media screen and (max-width:668px) {
-    .open { margin-left:200px;}
-  }
-  
-  @media screen and (min-width:568px) and (max-width: 668px) {
-    .open { margin-left:280px;}
-  }
-  
-  
-  
-  @media screen and (min-width:668px) and (max-width: 768px) {
-  
-    .open { margin-left:350px;}
-  }
-  
-  
-  @media screen and (min-width:768px) and (max-width: 1015px) {
-  
-  
-  .nav-links{display:none; }
-  .open {
-  
-  position: relative;
-  display:block;
-  margin-left:600px;
-  font-size:20px;
-  }
-  
-  
-  
-  
-  
-  @media screen and (min-width:868px) and (max-width: 930px) {
-  
-    .open { margin-left:500px;}
-  }
-  
-  @media screen and (min-width:768px) and (max-width: 868px) {
-  
-    .open { margin-left:450px;}
-  }
-  
-  @media screen and (min-width:768px) and (max-width: 868px) {
-  
-    .open { margin-left:450px;}
-  }
-  
-  
-  
-      
-  
-  .content{background-color:white; width:100%;  list-style-type: none;  position: absolute;  right:0; padding:20px
-  }
-  
-  .content li{text-align: center; cursor: pointer; }
-  .content li:hover{background-color:#ffbf00; color:white; width:100%; height:100%}
-  .content li a:hover{ color:white; text-decoration: none;}
-  .content li a{font-family: 'Raleway', sans-serif; font-size:13px; color:rgb(21, 21, 21); font-weight: 500; line-height:21px; text-transform: uppercase;}
-  .content li::after{width:100%; height:15px; background-color:black}
-  
-  .content1::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  .content2::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  .content3::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  .content4::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  .content5::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  .content6::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  .content7::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  .content8::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
-  
-  
-  
-  
-  
-  #openContent + #myContent {
-  display:none;
-  }
-  
-  #openContent:checked + #myContent {
-  display:block;
-  }
-  
-  }
-  
-  
-  
-  
-  @media screen and (min-width: 795px) and (max-width:905px) {
-  
-    .nav-links{  white-space: nowrap; font-family: 'Raleway', sans-serif;
-    }
-  }
+@media screen and (max-width: 768px) {
+.open {
+
+position: relative;
+display:block;
+margin-left:-70px;
+font-size:20px;
+
+}
+
+
+.content{background-color:white; width:768px;  margin-top:15px;  list-style-type: none;  position: absolute; right:0;
+}
+.content li{text-align: center; padding:4px; }
+.content li::after{width:100%; height:15px; background-color:black}
+
+.content1::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+.content2::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+.content3::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+.content4::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+.content5::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+.content6::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+.content7::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+.content8::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+
+
+
+#openContent + #myContent {
+display:none;
+}
+
+#openContent:checked + #myContent {
+display:block;
+}
+
+}
+
+
+
+
+.open2{display:block; font-family: 'poppins', sans-serif; font-size:15px; color:black; text-transform: uppercase;  }
+.open2:hover{color:#ffbf00; font-weight: 600; cursor: pointer;}
+
+/* form close button */ 
+.open3{display:block; font-size:35px; color:#3f3f3f; float:right; margin-right:40px; margin-top:5px; width:50px; cursor: pointer;}
+
+.content2{display:none}
+
+
     
-  
-  
-  
-  
-  @media screen and  (max-width:768px) {
-    body{overflow-x:hidden;}
-    .nav-links{position: absolute; right:0px; height:92vh; top:8vh;
-                display:flex; flex-direction: column; align-items:center; 
-                  width:50%; transform:translateX(100%); border:none;
-             }
-  
-  .header{border:none}
-    .nav-active{transform: translateX(0%);}
-  
-  
-    .content{background-color:white; width:100%; list-style-type: none;  position: absolute;  right:0;  
+    .content2{background-color:white; width:80vw; height:95vh;  margin-top:40px;   position: absolute; margin-left:-654px; 
     }
     
-    .content li{text-align: center; cursor: pointer;  }
-    .content li:hover{background-color:#ffbf00; color:white; border-bottom: none}
-    .content li a:hover{ color:white; text-decoration: none; }
-    .content li a{font-family: 'Raleway', sans-serif; font-size:13px; color:rgb(21, 21, 21); font-weight: 500; text-transform: uppercase;}
-    .content1::after, .content2::after, .content3::after, .content4::after, .content5::after, .content6::after, .content7::after, .content8::after {  display:none }
+    
+    
+    #openContent2 + #myContent2 {
+    display:none;
+    }
+    
+    #openContent2:checked + #myContent2 {
+    display:block;
+    }
+    
+
+
+
+
+.contact-form-head h3{font-family: 'poppins', sans-serif; font-size:30px; color:#3f3f3f; font-weight:700; margin-left:75px; margin-top:80px; line-height:45px}
+.contact-form-head p{font-family: 'poppins', sans-serif; font-size:18px;   text-align:justify; padding:13px;
+                       margin:18px 69px 0px 68px; word-spacing: -1px; line-height: 35px; }
+
+
+.contact-form {margin-top:-155px;}
+.contact-form h3{font-family: 'poppins', sans-serif; font-size:21px; position: relative;}
+#form-asterisk{font-size:9px; color:#3f3f3f; margin-left:8px; margin-top:4px; position: absolute; }
+
+
+
+
+
+
+.Affiliation-select{width:32vw; height:6vh; margin-top:10px;   text-indent: 10px;}
+
+.FirstNameSection{margin-top:15px; position: relative; display: inline-block;}
+.FirstName{width:15vw; height:5vh;}
+.FirstName:focus {color:black}
+
+.LastNameSection{position: absolute ; display: inline-block; margin-left:123px}
+.LastName{width:15vw; height:5vh; margin-left:15px}
+.LastName:focus {color:black}
+
+
+
+
+.EmailSection{ position: relative; margin-top:15px;  display: inline-block; }
+.FormEmail{width:15vw; height:5vh;}
+.FormEmail:focus {color:black}
+
+.PhoneSection{  position: absolute; display: inline-block;  margin-left:181px }
+.FormPhone{width:15vw; height:5vh;  margin-left:15px}
+.FormPhone:focus {color:black}
+
+
+
+.CompanySection{ position: relative; margin-top:15px;  display: inline-block;}
+.Company{width:15vw; height:5vh;}
+.Company:focus {color:black}
+
+.OccupationSection{position: absolute; display: inline-block;  margin-left:130px }
+.Occupation{width:15vw; height:5vh;  margin-left:15px}
+.Occupation:focus {color:black}
+
+
+
+
+
+.CountrtSection{margin-top:15px}
+.country-select{width:32vw; height:6vh; margin-top:10px;   text-indent: 10px;}
+
+
+.MessageSection{margin-top:15px}
+.FormMessage{width:32vw; height:12vh;}
+.FormMessage:focus {color:black; }
+.MessageSection::placeholder { color:red; background-color:red}
+
+
+#formbutton{margin-top:15px; background-color:#ffbf00; border:none; color:black; width:100px; height:40px; font-family: 'poppins', sans-serif;
+               font-size:18px; outline: none;}
+
+     #formbutton:focus{ box-shadow: none; }
+            
+
+#formbutton:active, #formbutton:focus {border:none; outline-style: none;  }
+
+@media screen and (max-width: 1366px) {
+  .contact-form{margin-top:-206px}
+.Affiliation-select{margin-top:0px; height:5vh}
+
+.FirstNameSection{margin-top:5px}
+
+.EmailSection{margin-top:5px}
+
+.CompanySection{margin-top:5px}
+
+.CountrtSection{margin-top:5px}
+.MessageSection{margin-top:5px}
+#formbutton{margin-top:5px}
+.contact-form-head h3{margin-top:-99px}
+.contact-form-head p{padding:5px}
+.open3{margin-top:-7px; margin-right:-23px}
+
+.country-select{height:6vh}
+.FormMessage{height:7vh}
+}
+
+
+
+
+@media screen and (min-width:1015px) and (max-width: 1064px) {
+
+.logo{margin-left:9px;}
+}
+
+
+@media screen and (max-width:668px) {
+  .open { margin-left:200px;}
+}
+
+@media screen and (min-width:568px) and (max-width: 668px) {
+  .open { margin-left:280px;}
+}
+
+
+
+@media screen and (min-width:668px) and (max-width: 768px) {
+
+  .open { margin-left:350px;}
+}
+
+
+@media screen and (min-width:768px) and (max-width: 1015px) {
+
+
+.nav-links{display:none; }
+.open {
+
+position: relative;
+display:block;
+margin-left:600px;
+font-size:20px;
+}
+
+
+
+
+
+@media screen and (min-width:868px) and (max-width: 930px) {
+
+  .open { margin-left:500px;}
+}
+
+@media screen and (min-width:768px) and (max-width: 868px) {
+
+  .open { margin-left:450px;}
+}
+
+@media screen and (min-width:768px) and (max-width: 868px) {
+
+  .open { margin-left:450px;}
+}
+
+
+
+    
+
+.content{background-color:white; width:100%;  list-style-type: none;  position: absolute;  right:0; padding:20px
+}
+
+.content li{text-align: center; cursor: pointer; }
+.content li:hover{background-color:#ffbf00; color:white; width:100%; height:100%}
+.content li a:hover{ color:white; text-decoration: none;}
+.content li a{font-family: 'Raleway', sans-serif; font-size:13px; color:rgb(21, 21, 21); font-weight: 500; line-height:21px; text-transform: uppercase;}
+.content li::after{width:100%; height:15px; background-color:black}
+
+.content1::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+.content2::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+.content3::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+.content4::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+.content5::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+.content6::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+.content7::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+.content8::after{ border-bottom:1px solid #DDDDDD; height:1px; content:"";  margin-top:15px; display:block }
+
+
+
+
+
+#openContent + #myContent {
+display:none;
+}
+
+#openContent:checked + #myContent {
+display:block;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 795px) and (max-width:905px) {
+
+  .nav-links{  white-space: nowrap; font-family: 'Raleway', sans-serif;
+  }
+}
   
+
+
+
+
+@media screen and  (max-width:768px) {
+  body{overflow-x:hidden;}
+  .nav-links{position: absolute; right:0px; height:92vh; top:8vh;
+              display:flex; flex-direction: column; align-items:center; 
+                width:50%; transform:translateX(100%); border:none;
+           }
+
+.header{border:none}
+  .nav-active{transform: translateX(0%);}
+
+
+  .content{background-color:white; width:100%; list-style-type: none;  position: absolute;  right:0;  
   }
   
+  .content li{text-align: center; cursor: pointer;  }
+  .content li:hover{background-color:#ffbf00; color:white; border-bottom: none}
+  .content li a:hover{ color:white; text-decoration: none; }
+  .content li a{font-family: 'Raleway', sans-serif; font-size:13px; color:rgb(21, 21, 21); font-weight: 500; text-transform: uppercase;}
+  .content1::after, .content2::after, .content3::after, .content4::after, .content5::after, .content6::after, .content7::after, .content8::after {  display:none }
+
+}
+
+
+#HomeVideo{object-fit: cover;
+  width: 100vw;
+  height: 120vh;
+  top: 0;
+  left: 0;
+  bottom:0;
+  position: absolute; z-index:-9;
+
+
+
+}
   
-  #HomeVideo{object-fit: cover;
+
+
+
+
+  
+  .vcontent {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    height:120vh;
+    background: rgba(0, 0, 0, 0.5);
     width: 100vw;
-    height: 120vh;
-    top: 0;
-    left: 0;
-    bottom:0;
-    position: absolute; z-index:-9;
-  
-  
-  
+    z-index:-9;
   }
-    
+  
+  
 
 
 
-
-    
-    .vcontent {
-      position: absolute;
-      top:0;
-      bottom: 0;
-      height:120vh;
-      background: rgba(0, 0, 0, 0.5);
-      width: 100vw;
-      z-index:-9;
-    }
-    
-    
-
-
-
-    .headwelcome{font-family: 'oswald', sans-serif;   color:white;  font-weight:700;
-      font-size:3.2em; text-align: center; margin-top: 250px; }
+  .headwelcome{font-family: 'oswald', sans-serif;   color:white;  font-weight:700;
+    font-size:3.2em; text-align: center; margin-top: 250px; }
 .headwelcome span{font-size:1.3em; }
 
 
 
-      .headwelcomee{font-family: 'oswald', sans-serif;   color:white; text-align: center;
-        font-size:2.5em; font-weight:700; margin-top:50px; }
-        .headwelcomee span{color:#ffbf00;  font-weight:700; font-size:1.3em; margin-top:70px;}
+    .headwelcomee{font-family: 'oswald', sans-serif;   color:white; text-align: center;
+      font-size:2.5em; font-weight:700; margin-top:50px; }
+      .headwelcomee span{color:#ffbf00;  font-weight:700; font-size:1.3em; margin-top:70px;}
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100%;
 }
 
 .homeanimate{font-family: 'oswald', sans-serif;   color:white;   font-weight:700;
-  font-size:2.5em; text-align: center;}
+font-size:2.5em; text-align: center;}
 /* Cursor */
 .txt-type > .txt {
-  border-right: 0.2rem solid #777; font-family: 'oswald', sans-serif;  color:#ffbf00;  font-weight:700; font-size:1.4em; 
+border-right: 0.2rem solid #777; font-family: 'oswald', sans-serif;  color:#ffbf00;  font-weight:700; font-size:1.4em; 
 }
 
 
@@ -378,7 +378,7 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 
 @media screen  and (max-width: 1135px) {
-  .headwelcome{font-size:2.5em}
+.headwelcome{font-size:2.5em}
 
 .headwelcome span{font-size:1.1em}
 
@@ -396,7 +396,7 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 
 @media screen and  (max-width: 691px) {
-  .headwelcome{font-size:2.5em}
+.headwelcome{font-size:2.5em}
 
 .headwelcome span{font-size:1.1em}
 
@@ -434,8 +434,8 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 .CH3-4{text-align:center;  font-family: 'poppins', sans-serif; font-weight:600; font-size:44px; line-height:1.7em;  pasdding-top:40px;}
 
 .career-head-content-p{  font-family: 'poppins', sans-serif;  font-size:28px; line-height:1.7em; font-weight:400; text-align: center; margin-top:-270px;
-                          margin-left:331px; margin-right:40px; 
-                        }
+                        margin-left:331px; margin-right:40px; 
+                      }
 
 
 
@@ -446,19 +446,19 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 .career-second-contentOne h3::after{content:""; width:431px; height:2px; background-color:#ffbf00; position: absolute; margin-top: 52px; margin-left:-430px}
 
 .career-second-contentOne p{  font-family: 'poppins', sans-serif;  font-size:25px; line-height:2.1em;
-    font-weight:400; margin-left:70px; margin-top:30px; }
+  font-weight:400; margin-left:70px; margin-top:30px; }
 
 
 
 
-    .career-second-contentTwo{margin-top:50px; width:70vw; bodrder:1px solid black; margin:0 auto; height:auto}                            
+  .career-second-contentTwo{margin-top:50px; width:70vw; bodrder:1px solid black; margin:0 auto; height:auto}                            
 .career-second-contentTwo h3{font-family: 'poppins', sans-serif; font-weight:600; font-size:35px; text-transform: uppercase; margin-top:185px; text-align:center; position:relative }
 
 .career-second-contentTwo h3::before{content:""; width:431px; height:2px; background-color:#ffbf00; position: absolute; margin-top: -10px; margin-left:-117px}
 .career-second-contentTwo h3::after{content:""; width:431px; height:2px; background-color:#ffbf00; position: absolute; margin-top: 50px; margin-left:-322px}
 
 .career-second-contentTwo p{font-family: 'poppins', sans-serif;  font-size:25px; line-height:2.1em;
-  font-weight:400; margin-top:30px; text-align:center}
+font-weight:400; margin-top:30px; text-align:center}
 .career-second-contentTwo p span{font-weight:600; font-size:27px; margin-left:5px}
 
 
@@ -472,50 +472,50 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 @media screen and  (min-width: 768px) and (max-width:845px) {
 
-  .career-head-content-p{margin-top:-350px; }
-  }
-  
+.career-head-content-p{margin-top:-350px; }
+}
 
 
-  @media screen and (max-width:768px) {
-    .career-head{margin-left:-10px; width:200px;}
+
+@media screen and (max-width:768px) {
+  .career-head{margin-left:-10px; width:200px;}
 .CH3-1, .CH3-2, .CH3-3, .CH3-4{font-size:34px}
 .career-head h3{margin-top:40px}
 .career-head-content-p{margin-left:201px; font-size:1.4em; margin-right:2px; margin-top:-333px}
-    }
-  
-
-    @media screen and  (min-width: 991px) and (max-width:1075px) {
-
-      .career-second-contentOne h3{margin-top:178px;}
-      .career-second-contentOne p{margin-left:10px;}
-
-    }
+  }
 
 
-    @media screen and  (min-width: 768px) and (max-width:991px) {
+  @media screen and  (min-width: 991px) and (max-width:1075px) {
 
-      .career-second-contentOne p{margin-left:-62px; margin-right:-115px; }
+    .career-second-contentOne h3{margin-top:178px;}
+    .career-second-contentOne p{margin-left:10px;}
 
-    }
-    @media screen and  (max-width:768px) {
-
-      .career-second-contentOne p{margin-left:-46px; margin-right:-69px; }
-
-    }
+  }
 
 
-    @media screen and  (max-width:605px) {
+  @media screen and  (min-width: 768px) and (max-width:991px) {
 
-      .career-second-contentOne h3{font-size:29px}
-      .career-second-contentOne h3::before{width:354px}
-      .career-second-contentOne h3::after{width:354px; margin-left:-351px}
+    .career-second-contentOne p{margin-left:-62px; margin-right:-115px; }
 
-    }
+  }
+  @media screen and  (max-width:768px) {
 
-    @media screen and  (min-width: 1100px) and (max-width:1456px) {
-      .career-second-contentOne h3{margin-top:203px}
-    }
+    .career-second-contentOne p{margin-left:-46px; margin-right:-69px; }
+
+  }
+
+
+  @media screen and  (max-width:605px) {
+
+    .career-second-contentOne h3{font-size:29px}
+    .career-second-contentOne h3::before{width:354px}
+    .career-second-contentOne h3::after{width:354px; margin-left:-351px}
+
+  }
+
+  @media screen and  (min-width: 1100px) and (max-width:1456px) {
+    .career-second-contentOne h3{margin-top:203px}
+  }
 
 
 
@@ -538,7 +538,7 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 
 
-  
+
 .careers-form{margin-top:50px; width:70vw;  margin:0 auto; height:auto}
 
 
@@ -630,7 +630,7 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 
 #interestedformbutton{margin-top:27px; background-color:#ffbf00; border:none; color:black; width:100px; height:40px; font-family: 'poppins', sans-serif;
-  font-size:18px; outline: none; float:left; margin-left:144px}
+font-size:18px; outline: none; float:left; margin-left:144px}
 
 #interestedformbutton:focus{ box-shadow: none; }
 
@@ -639,185 +639,286 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 
 
-                            .hover-to-show { 
-                                opacity: 0;
-                                transition: all .2s ease-in-out ;
-                            }
-                            
-                            .hover-to-show-link:hover .hover-to-show {
-                                opacity: 1;
-                                transition: all .2s ease-in-out;
-                                background-color:red; margin-left:50px
-                            }
-                            
 
-   @media screen and (max-width: 1366px) {
-    .AddressSectionh3{margin-left:319px}
+.knowwhyOptions{    margin-left: 16px;
+margin-top: 10px;}
+
+
+
+.knowwhy-website{    display: block;
+margin-left: 25px;
+cursor: pointer;
+font-size: 19px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+margin-top:-31px
+}
+#website{width:17px; height:17px}
+
+
+
+.knowwhy-publishings{
+margin-left: 5px;
+cursor: pointer;
+font-size: 19px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+margin-top:1px}
+
+#publishings{width:17px; height:17px}
+
+
+.socialmedia{ display: block;
+margin-left: 25px;
+cursor: pointer;
+font-size: 19px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+margin-top:-30px}
+
+#socialmedia{width:17px; height:17px; margin-top: 6px;}
+
+
+.Event{display: block;
+margin-left: 25px;
+cursor: pointer;
+font-size: 19px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+margin-top:-31px}
+
+#AnEvent{width:17px; height:17px; margin-top: 6px;}
+
+
+.publishings{display: block;
+margin-left: 25px;
+cursor: pointer;
+font-size: 19px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+margin-top:-31px}
+
+#publishings{width:17px; height:17px; margin-top: 6px;}
+
+.friend{display: block;
+  margin-left: 25px;
+  cursor: pointer;
+  font-size: 19px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top:-31px}
+
+#friend{width:17px; height:17px; margin-top: 6px;}
+
+
+.others{display: block;
+margin-left: 25px;
+cursor: pointer;
+font-size: 19px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+margin-top:-31px}
+
+#others{width:17px; height:17px; margin-top: 6px;}
+/*
+.knowwhy-websiteL{font-size:16px}
+*/
+
+                            /*
+
+                         .hover-to-show { 
+                              opacity: 0;
+                              transition: all .2s ease-in-out ;
+                          }
+                          
+                          .hover-to-show-link:hover .hover-to-show {
+                              opacity: 1;
+                              transition: all .2s ease-in-out;
+                              background-color:red; margin-left:50px
+                          }
+                          */
+
+ @media screen and (max-width: 1366px) {
+  .AddressSectionh3{margin-left:319px}
 .CurrentOccupationSection{margin-left:319px}
 
 .ShortBioSection{margin-left:241px}
 .AttachcvSection{margin-left:58px}
 .Attach{margin-left:-312px; margin-top:13px;}
-   }
-   
+ }
+ 
 
 
-                            @media screen and  (min-width: 1360px) and (max-width:1460px) {
-                              .EmailSectionh3 {margin-left:319px}
+                          @media screen and  (min-width: 1360px) and (max-width:1460px) {
+                            .EmailSectionh3 {margin-left:319px}
 
-                            }
+                          }
 
-                            @media screen and  (min-width: 1260px) and (max-width:1360px) {
-                              .EmailSectionh3 {margin-left:319px}
+                          @media screen and  (min-width: 1260px) and (max-width:1360px) {
+                            .EmailSectionh3 {margin-left:319px}
 
-                            }                
-                            @media screen and  (min-width: 1160px) and (max-width:1260px) {
-                              .EmailSectionh3 {margin-left:282px}
+                          }                
+                          @media screen and  (min-width: 1160px) and (max-width:1260px) {
+                            .EmailSectionh3 {margin-left:282px}
 
-                            }
-                            @media screen and  (min-width: 1000px) and (max-width:1160px) {
-                              .EmailSectionh3 {margin-left:282px}
-                            }
+                          }
+                          @media screen and  (min-width: 1000px) and (max-width:1160px) {
+                            .EmailSectionh3 {margin-left:282px}
+                          }
 
-                            @media screen and  (min-width: 1000px) and (max-width:1160px) {
-                              .EmailSectionh3 {margin-left:252px}
-                            }
-                            @media screen and  (min-width: 900px) and (max-width:1000px) {
-                              .EmailSectionh3 {margin-left:282px}
-                            }
-
-
-
+                          @media screen and  (min-width: 1000px) and (max-width:1160px) {
+                            .EmailSectionh3 {margin-left:252px}
+                          }
+                          @media screen and  (min-width: 900px) and (max-width:1000px) {
+                            .EmailSectionh3 {margin-left:282px}
+                          }
 
 
 
 
-                            .footer{width:100%; height:120px; background-color:black;  margin-top:40px; }
 
-                            .footer h3{color: #ffbf00;
-                              font-size: 1.5em; margin-left:140px; padding-top:5px;  }
-                            
-                            #coi1{margin-left:140px; color:white; margin-top:10px}
-                            .coi1-span{color:white; margin-left:4px}
-                            
-                            .footer-allright{float:right; color:white; margin-right:186px}
-                            
-                            
-                            #coi2{margin-left:40px; color:white; margin-top:10px}
-                            .coi2-span{color:white; margin-left:4px}
-                            
-                            #coi3{margin-left:140px; color:white; margin-top:20px}
-                            .coi3-span{color:white; margin-left:8px}
-                            
-                            
-                            #coi4{margin-left:246px; color:white; margin-top:20px}
-                            .coi4-span{color:white; margin-left:4px}
-                            
-                            
-                            
-                            
-                            #footer-sociali-one{float:right; margin-right:-12px;  font-size:25px; color:white; margin-top:10px}
-                            #footer-sociali-two{float:right; margin-right:-66px;  font-size:25px; color:white; margin-top:10px}
-                            #footer-sociali-three{float:right; margin-right:-107px;  font-size:25px; color:white; margin-top:10px}
-                            
-                            
-                            @media screen and (min-width: 991px) and (max-width:1264px){
-                              .footer{height:140px}
-                              .footer h3{margin-left:36px;}
-                              #coi1{margin-left:36px}
-                              #coi2{margin-left:11px}
-                              #coi3{margin-left:37px}
-                              #coi4{margin-left:220px}
-                            
-                              .footer-allright {margin-right:114px;}
-                            
-                              #footer-sociali-one{margin-right:-6px}
-                              #footer-sociali-two{margin-right:-77px}
-                              #footer-sociali-three{margin-right:-125px}
-                            
-                            }
-                            
-                            
-                            @media screen and (min-width: 900px) and (max-width:991px){
-                              .footer{height:140px}
-                            
-                              .footer h3{margin-left:36px;}
-                              #coi1{margin-left:5px; }
-                              #coi2{margin-left:11px; margin-top:20px;}
-                              #coi3{margin-left:8px}
-                              #coi4{margin-left:212px}
-                            
-                              .footer-allright {margin-right:72px; margin-top:14px}
-                            
-                              #footer-sociali-one{margin-right:-103px}
-                            
-                              #footer-sociali-two{margin-right:-56px}
-                              #footer-sociali-three{margin-right:-8px}
-                            
-                            }
-                            
-                            
-                            
-                            
-                            
-                            @media screen and (min-width: 768px) and (max-width:900px){
-                              .footer{height:140px}
-                            
-                              .footer h3{margin-left:36px; font-size:2.2vw;}
-                              #coi1{margin-left:5px; }
-                              .coi1-span{font-size:1.6vw}
-                            
-                            
-                              #coi2{margin-left:28px; margin-top:20px;}
-                              .coi2-span{font-size:1.6vw}
-                            
-                              #coi3{margin-left:8px}
-                              .coi3-span{font-size:1.6vw}
-                            
-                              #coi4{margin-left:190px}
-                              .coi4-span{font-size:1.6vw}
-                            
-                            
-                              .footer-allright {margin-right:72px; margin-top:14px; font-size:1.6vw}
-                            
-                              #footer-sociali-one{margin-right:-103px; font-size:2.8vw}
-                            
-                              #footer-sociali-two{margin-right:-56px; font-size:2.8vw}
-                              #footer-sociali-three{margin-right:-8px;  font-size:2.8vw}
-                            
-                            }
-                            
-                            
-                            
-                            
-                            
-                            
-                            @media screen and  (max-width:768px){
-                              .footer{height:140px}
-                            
-                              .footer h3{margin-left:36px; font-size:2.2vw;}
-                              #coi1{margin-left:5px; }
-                              .coi1-span{font-size:1.6vw}
-                            
-                            
-                              #coi2{margin-left:8px; margin-top:20px;}
-                              .coi2-span{font-size:1.6vw}
-                            
-                              #coi3{margin-left:8px}
-                              .coi3-span{font-size:1.6vw}
-                            
-                              #coi4{margin-left:105px}
-                              .coi4-span{font-size:1.6vw}
-                            
-                            
-                              .footer-allright {margin-right:57px; margin-top:23px; font-size:1.6vw}
-                            
-                              #footer-sociali-one{margin-right:-5px; font-size:2.8vw; margin-top:24px}
-                            
-                              #footer-sociali-two{margin-right:-46px; font-size:2.8vw; margin-top:24px}
-                              #footer-sociali-three{margin-right:-69px;  font-size:2.8vw; margin-top:24px}
-                            
-                            }
+
+
+                          .footer{width:100%; height:120px; background-color:black;  margin-top:40px; }
+
+                          .footer h3{color: #ffbf00;
+                            font-size: 1.5em; margin-left:140px; padding-top:5px;  }
+                          
+                          #coi1{margin-left:140px; color:white; margin-top:10px}
+                          .coi1-span{color:white; margin-left:4px}
+                          
+                          .footer-allright{float:right; color:white; margin-right:186px}
+                          
+                          
+                          #coi2{margin-left:40px; color:white; margin-top:10px}
+                          .coi2-span{color:white; margin-left:4px}
+                          
+                          #coi3{margin-left:140px; color:white; margin-top:20px}
+                          .coi3-span{color:white; margin-left:8px}
+                          
+                          
+                          #coi4{margin-left:246px; color:white; margin-top:20px}
+                          .coi4-span{color:white; margin-left:4px}
+                          
+                          
+                          
+                          
+                          #footer-sociali-one{float:right; margin-right:-12px;  font-size:25px; color:white; margin-top:10px}
+                          #footer-sociali-two{float:right; margin-right:-66px;  font-size:25px; color:white; margin-top:10px}
+                          #footer-sociali-three{float:right; margin-right:-107px;  font-size:25px; color:white; margin-top:10px}
+                          
+                          
+                          @media screen and (min-width: 991px) and (max-width:1264px){
+                            .footer{height:140px}
+                            .footer h3{margin-left:36px;}
+                            #coi1{margin-left:36px}
+                            #coi2{margin-left:11px}
+                            #coi3{margin-left:37px}
+                            #coi4{margin-left:220px}
+                          
+                            .footer-allright {margin-right:114px;}
+                          
+                            #footer-sociali-one{margin-right:-6px}
+                            #footer-sociali-two{margin-right:-77px}
+                            #footer-sociali-three{margin-right:-125px}
+                          
+                          }
+                          
+                          
+                          @media screen and (min-width: 900px) and (max-width:991px){
+                            .footer{height:140px}
+                          
+                            .footer h3{margin-left:36px;}
+                            #coi1{margin-left:5px; }
+                            #coi2{margin-left:11px; margin-top:20px;}
+                            #coi3{margin-left:8px}
+                            #coi4{margin-left:212px}
+                          
+                            .footer-allright {margin-right:72px; margin-top:14px}
+                          
+                            #footer-sociali-one{margin-right:-103px}
+                          
+                            #footer-sociali-two{margin-right:-56px}
+                            #footer-sociali-three{margin-right:-8px}
+                          
+                          }
+                          
+                          
+                          
+                          
+                          
+                          @media screen and (min-width: 768px) and (max-width:900px){
+                            .footer{height:140px}
+                          
+                            .footer h3{margin-left:36px; font-size:2.2vw;}
+                            #coi1{margin-left:5px; }
+                            .coi1-span{font-size:1.6vw}
+                          
+                          
+                            #coi2{margin-left:28px; margin-top:20px;}
+                            .coi2-span{font-size:1.6vw}
+                          
+                            #coi3{margin-left:8px}
+                            .coi3-span{font-size:1.6vw}
+                          
+                            #coi4{margin-left:190px}
+                            .coi4-span{font-size:1.6vw}
+                          
+                          
+                            .footer-allright {margin-right:72px; margin-top:14px; font-size:1.6vw}
+                          
+                            #footer-sociali-one{margin-right:-103px; font-size:2.8vw}
+                          
+                            #footer-sociali-two{margin-right:-56px; font-size:2.8vw}
+                            #footer-sociali-three{margin-right:-8px;  font-size:2.8vw}
+                          
+                          }
+                          
+                          
+                          
+                          
+                          
+                          
+                          @media screen and  (max-width:768px){
+                            .footer{height:140px}
+                          
+                            .footer h3{margin-left:36px; font-size:2.2vw;}
+                            #coi1{margin-left:5px; }
+                            .coi1-span{font-size:1.6vw}
+                          
+                          
+                            #coi2{margin-left:8px; margin-top:20px;}
+                            .coi2-span{font-size:1.6vw}
+                          
+                            #coi3{margin-left:8px}
+                            .coi3-span{font-size:1.6vw}
+                          
+                            #coi4{margin-left:105px}
+                            .coi4-span{font-size:1.6vw}
+                          
+                          
+                            .footer-allright {margin-right:57px; margin-top:23px; font-size:1.6vw}
+                          
+                            #footer-sociali-one{margin-right:-5px; font-size:2.8vw; margin-top:24px}
+                          
+                            #footer-sociali-two{margin-right:-46px; font-size:2.8vw; margin-top:24px}
+                            #footer-sociali-three{margin-right:-69px;  font-size:2.8vw; margin-top:24px}
+                          
+                          }
 
 
 
@@ -829,175 +930,175 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 @media screen and  (min-width:300px) and (max-width:319px) {
 
-  .open{margin-left:44px}
+.open{margin-left:44px}
 
-  .career-head {margin-left: 0px;
-    width: 100%;
-    height: 143px;}
+.career-head {margin-left: 0px;
+  width: 100%;
+  height: 143px;}
 
-    .career-head h3{font-size: 25px;
-      display: inline-block;
-      margin: 3px;
-      padding-top: 35px;
-  }
+  .career-head h3{font-size: 25px;
+    display: inline-block;
+    margin: 3px;
+    padding-top: 35px;
+}
 
-  .career-head-content-p {    margin-left: 6px;
-    font-size: 1.3em;
-    margin-right: 9px;
-    margin-top: 30px;}
-
-
-    .career-second-contentTwo h3 {    margin-top: 43px; }
-
-    .career-second-contentTwo p{  font-size: 21px;
-      margin-left: -46px;
-      margin-right: -43px;
-  } 
-      .career-second-contentTwo p span{    font-size: 20px;
-        margin-left: 6px;}
+.career-head-content-p {    margin-left: 6px;
+  font-size: 1.3em;
+  margin-right: 9px;
+  margin-top: 30px;}
 
 
-        .careers-form{display:none}
-        .careers-form-phone{display:block; margin-top:-17px; margin-left:3px}
+  .career-second-contentTwo h3 {    margin-top: 43px; }
+
+  .career-second-contentTwo p{  font-size: 21px;
+    margin-left: -46px;
+    margin-right: -43px;
+} 
+    .career-second-contentTwo p span{    font-size: 20px;
+      margin-left: 6px;}
+
+
+      .careers-form{display:none}
+      .careers-form-phone{display:block; margin-top:-17px; margin-left:3px}
 
 .NameSectionh3-phone{margin-left:8px; font-size: 1.3rem;}
 .Name-interested-Section-phone{width: 282px;
-  margin-left: 8px;
-  height: 41px;}
+margin-left: 8px;
+height: 41px;}
 
 .EmailSectionh3-phone{margin-top: 10px;
-  margin-left: 8px; font-size: 1.3rem;}
+margin-left: 8px; font-size: 1.3rem;}
 .Email-interested-section-phone{width: 282px;
-  margin-left: 8px;
-  height: 41px;}
+margin-left: 8px;
+height: 41px;}
 
 .PhoneSectionh3-phone{margin-top: 10px;
-  margin-left: 8px; font-size: 1.3rem;}
+margin-left: 8px; font-size: 1.3rem;}
 
 .Phone-interested-section-phone{width: 282px;
-  margin-left: 8px;
-  height: 41px;}
+margin-left: 8px;
+height: 41px;}
 
 .AddressSectionh3-phone{margin-top: 10px;
-  margin-left: 8px ; font-size: 1.3rem;}
+margin-left: 8px ; font-size: 1.3rem;}
 
 .Address-interested-section-phone{width:282px;
-  margin-left: 8px;
-  height: 41px;}
+margin-left: 8px;
+height: 41px;}
 
-  .MajorSection-phone{margin-top: 10px;
-    margin-left: 8px; font-size: 1.3rem;}
+.MajorSection-phone{margin-top: 10px;
+  margin-left: 8px; font-size: 1.3rem;}
 
 .Major-phone{width: 282px;
-  margin-left: 8px;
-  height: 41px;}
-  
-.CurrentOccupationSection-phone{margin-top: 10px;
-  margin-left: 8px; font-size: 1.3rem;}
-.CurrentOccupation-phone{width: 282px;
-  margin-left: 8px;
-  height: 41px;}
+margin-left: 8px;
+height: 41px;}
 
-  .InterestedinSection-phone{margin-top: 10px;
-    margin-left: 8px; font-size: 1.3rem;}
+.CurrentOccupationSection-phone{margin-top: 10px;
+margin-left: 8px; font-size: 1.3rem;}
+.CurrentOccupation-phone{width: 282px;
+margin-left: 8px;
+height: 41px;}
+
+.InterestedinSection-phone{margin-top: 10px;
+  margin-left: 8px; font-size: 1.3rem;}
 
 .Interestedin-select-phone{width: 282px;
-  margin-left: 8px;
-  height: 41px}
+margin-left: 8px;
+height: 41px}
 
-  .ShortBioSection-phone{margin-top: 10px;
-    margin-left: 8px; font-size: 1.3rem;}
+.ShortBioSection-phone{margin-top: 10px;
+  margin-left: 8px; font-size: 1.3rem;}
 
 .ShortBio-phone{width: 282px;
-  margin-left: 8px;
-  height: 41px}
+margin-left: 8px;
+height: 41px}
 
-  .knowwaySection-phone{margin-top: 10px; margin-left: 8px; font-size: 1.3rem; }
+.knowwaySection-phone{margin-top: 10px; margin-left: 8px; font-size: 1.3rem; }
 
 .knowwhy-phone{width: 282px;
-  margin-left: 8px;
-  height: 41px}
+margin-left: 8px;
+height: 41px}
 
 .AttachcvSection-phone{margin-top: 10px; margin-left: 8px; font-size: 1.3rem;}
 .Attach-input-phone{width: 282px;
-  margin-left: 8px;
-  height: 41px; position: relative;}
+margin-left: 8px;
+height: 41px; position: relative;}
 
 .Attach-phone{margin-top: 6px;
-  position: absolute;
-  margin-left: -276px;}
+position: absolute;
+margin-left: -276px;}
 
 
 #interestedformbutton-phone{background-color: #ffbf00;
-  border: none;
-  color: black;
-  width: 100px;
-  height: 40px;
-  font-family: 'poppins', sans-serif;
-  font-size: 18px;
-  outline: none;
-  float: left;
-  margin-left: 8px;
-  margin-top: 17px;}
+border: none;
+color: black;
+width: 100px;
+height: 40px;
+font-family: 'poppins', sans-serif;
+font-size: 18px;
+outline: none;
+float: left;
+margin-left: 8px;
+margin-top: 17px;}
 
 
 
-  #interestedformbutton-phone:focus{ box-shadow: none; }
+#interestedformbutton-phone:focus{ box-shadow: none; }
 
 
-  #interestedformbutton-phone:active, #interestedformbutton-phone:focus {border:none; outline-style: none;  }
-  
+#interestedformbutton-phone:active, #interestedformbutton-phone:focus {border:none; outline-style: none;  }
 
 
 
-  .footer{display:none}
-  .footer-phone{display:block}
-  
 
-  .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
-  
-  .footer-phone h3{color: #ffbf00;
-    font-size: 1.4em;  padding-top:5px; text-align:center  }
-  
-  #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
-  .coi1-span-phone{color:white; margin-left:4px}
-  
-  
-  #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
-  .coi2-span-phone{color:white; margin-left:4px}
-  
-  #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
-  .coi3-span-phone{color:white; margin-left:4px}
-  
-  
-  #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
-  .coi4-span-phone{color:white; margin-left:4px}
-  
-  
-  
-  .footer-allright-phone{ color:white;  margin-top: 17px;
-    text-align: center;
-    font-size: 1.2em;}
-  
-    .footer-icons-phone{text-align:center; margin-top: -13px;}
-  #footer-sociali-one-phone{ font-size:22px; color:white; }
-  #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
-  #footer-sociali-three-phone{ font-size:22px; color:white;}
-  
-  #coi1SpanPhone-Hidden-space{display:none}
-  .coi1SpanPhone-Hidden{display:block}
-  .coiAlignedspanMobile-Hidden{display:block}
-  
-  
-  .coi1-span-phone{display:none}
-  
-  .coi1SpanPhone-Hidden{color:white; margin-left: 50px;
-    margin-top: -24px;}
-  
-  .coiAlignedspanMobile-Hidden{color:white; margin-left: 53px;}
-  
-  }
-  
+.footer{display:none}
+.footer-phone{display:block}
+
+
+.footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+
+.footer-phone h3{color: #ffbf00;
+  font-size: 1.4em;  padding-top:5px; text-align:center  }
+
+#coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
+.coi1-span-phone{color:white; margin-left:4px}
+
+
+#coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
+.coi2-span-phone{color:white; margin-left:4px}
+
+#coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
+.coi3-span-phone{color:white; margin-left:4px}
+
+
+#coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
+.coi4-span-phone{color:white; margin-left:4px}
+
+
+
+.footer-allright-phone{ color:white;  margin-top: 17px;
+  text-align: center;
+  font-size: 1.2em;}
+
+  .footer-icons-phone{text-align:center; margin-top: -13px;}
+#footer-sociali-one-phone{ font-size:22px; color:white; }
+#footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
+#footer-sociali-three-phone{ font-size:22px; color:white;}
+
+#coi1SpanPhone-Hidden-space{display:none}
+.coi1SpanPhone-Hidden{display:block}
+.coiAlignedspanMobile-Hidden{display:block}
+
+
+.coi1-span-phone{display:none}
+
+.coi1SpanPhone-Hidden{color:white; margin-left: 50px;
+  margin-top: -24px;}
+
+.coiAlignedspanMobile-Hidden{color:white; margin-left: 53px;}
+
+}
+
 
 /* inside 300 */ 
 @media screen and  (min-width:311px) and (max-width:319px) {
@@ -1007,17 +1108,17 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 @media screen and  (min-width:306px) and (max-width:310px) {
 
-  .career-head-text-phone{margin-left: 5px;}
+.career-head-text-phone{margin-left: 5px;}
 }
 
 @media screen and  (min-width:311px) and (max-width:315px) {
 
-  .career-head-text-phone{margin-left: 8px;}
+.career-head-text-phone{margin-left: 8px;}
 }
 
 @media screen and  (min-width:316px) and (max-width:319px) {
 
-  .career-head-text-phone{margin-left: 11px;}
+.career-head-text-phone{margin-left: 11px;}
 }
 
 
@@ -1030,9 +1131,8 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 @media screen and  (min-width:311px) and (max-width:319px) {
 
-  .careers-form-phone{margin-left: 9px;}
-  }
-  
+.careers-form-phone{margin-left: 9px;}
+}
 
 
 
@@ -1051,290 +1151,358 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 
 
-        @media screen and  (min-width:320px) and (max-width:450px) {
+
+      @media screen and  (min-width:320px) and (max-width:450px) {
 
 
-          .career-head-text-phone{ margin-left:2px}
+        .career-head-text-phone{ margin-left:2px}
 
 
-          .career-head {margin-left: 0px;
-            width: 100%;
-            height: 143px;}
-        
-            .career-head h3{font-size: 27px;
-              display: inline-block;
-              margin: 3px;
-              padding-top: 35px;
-          }
-
-
+        .career-head {margin-left: 0px;
+          width: 100%;
+          height: 143px;}
       
-        
-          .career-head-content-p {    margin-left: 10px;
-            font-size: 1.4em;
-            margin-right: 7px;
-            margin-top: 30px;}
-        
-        
-            .career-second-contentTwo h3 {    margin-top: 43px; }
-        
-            .career-second-contentTwo p{  font-size: 23px;
-              margin-left: -42px;
-              margin-right: -53px;
-          } 
-              .career-second-contentTwo p span{    font-size: 22px;
-                margin-left: -8px;}
-        
-        
-                .careers-form{display:none}
-                .careers-form-phone{display:block}
-        
-        .NameSectionh3-phone{margin-left:8px; font-size: 1.3rem;}
-        .Name-interested-Section-phone{width: 302px;
-          margin-left: 8px;
-          height: 41px;}
-        
-        .EmailSectionh3-phone{margin-top: 10px;
-          margin-left: 8px; font-size: 1.3rem;}
-        .Email-interested-section-phone{width: 302px;
-          margin-left: 8px;
-          height: 41px;}
-        
-        .PhoneSectionh3-phone{margin-top: 10px;
-          margin-left: 8px; font-size: 1.3rem;}
-        
-        .Phone-interested-section-phone{width: 302px;
-          margin-left: 8px;
-          height: 41px;}
-        
-        .AddressSectionh3-phone{margin-top: 10px;
-          margin-left: 8px ; font-size: 1.3rem;}
-        
-        .Address-interested-section-phone{width: 302px;
-          margin-left: 8px;
-          height: 41px;}
-        
-          .MajorSection-phone{margin-top: 10px;
-            margin-left: 8px; font-size: 1.3rem;}
-        
-        .Major-phone{width: 302px;
-          margin-left: 8px;
-          height: 41px;}
-          
-        .CurrentOccupationSection-phone{margin-top: 10px;
-          margin-left: 8px; font-size: 1.3rem;}
-        .CurrentOccupation-phone{width: 302px;
-          margin-left: 8px;
-          height: 41px;}
-        
-          .InterestedinSection-phone{margin-top: 10px;
-            margin-left: 8px; font-size: 1.3rem;}
-        
-        .Interestedin-select-phone{width: 302px;
-          margin-left: 8px;
-          height: 41px}
-        
-          .ShortBioSection-phone{margin-top: 10px;
-            margin-left: 8px; font-size: 1.3rem;}
-        
-        .ShortBio-phone{width: 302px;
-          margin-left: 8px;
-          height: 41px}
-        
-          .knowwaySection-phone{margin-top: 10px; margin-left: 8px; font-size: 1.3rem; }
-        
-        .knowwhy-phone{width: 302px;
-          margin-left: 8px;
-          height: 41px}
-        
-        .AttachcvSection-phone{margin-top: 10px; margin-left: 8px; font-size: 1.3rem;}
-        .Attach-input-phone{width: 302px;
-          margin-left: 8px;
-          height: 41px; position: relative;}
-        
-        .Attach-phone{margin-top: 5px;
-          position: absolute;
-          margin-left: -293px;}
-        
-        
-        #interestedformbutton-phone{background-color: #ffbf00;
-          border: none;
-          color: black;
-          width: 100px;
-          height: 40px;
-          font-family: 'poppins', sans-serif;
-          font-size: 18px;
-          outline: none;
-          float: left;
-          margin-left: 8px;
-          margin-top: 17px;}
-        
-        
-        
-          #interestedformbutton-phone:focus{ box-shadow: none; }
-        
-        
-          #interestedformbutton-phone:active, #interestedformbutton-phone:focus {border:none; outline-style: none;  }
-          
+          .career-head h3{font-size: 27px;
+            display: inline-block;
+            margin: 3px;
+            padding-top: 35px;
+        }
 
 
-          .footer{display:none}
-          .footer-phone{display:block}
-          
+    
+      
+        .career-head-content-p {    margin-left: 10px;
+          font-size: 1.4em;
+          margin-right: 7px;
+          margin-top: 30px;}
+      
+      
+          .career-second-contentTwo h3 {    margin-top: 43px; }
+      
+          .career-second-contentTwo p{  font-size: 23px;
+            margin-left: -42px;
+            margin-right: -53px;
+        } 
+            .career-second-contentTwo p span{    font-size: 22px;
+              margin-left: -8px;}
+      
+      
+              .careers-form{display:none}
+              .careers-form-phone{display:block}
+      
+      .NameSectionh3-phone{margin-left:8px; font-size: 1.3rem;}
+      .Name-interested-Section-phone{width: 302px;
+        margin-left: 8px;
+        height: 41px;}
+      
+      .EmailSectionh3-phone{margin-top: 10px;
+        margin-left: 8px; font-size: 1.3rem;}
+      .Email-interested-section-phone{width: 302px;
+        margin-left: 8px;
+        height: 41px;}
+      
+      .PhoneSectionh3-phone{margin-top: 10px;
+        margin-left: 8px; font-size: 1.3rem;}
+      
+      .Phone-interested-section-phone{width: 302px;
+        margin-left: 8px;
+        height: 41px;}
+      
+      .AddressSectionh3-phone{margin-top: 10px;
+        margin-left: 8px ; font-size: 1.3rem;}
+      
+      .Address-interested-section-phone{width: 302px;
+        margin-left: 8px;
+        height: 41px;}
+      
+        .MajorSection-phone{margin-top: 10px;
+          margin-left: 8px; font-size: 1.3rem;}
+      
+      .Major-phone{width: 302px;
+        margin-left: 8px;
+        height: 41px;}
         
-          .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
-          
-          .footer-phone h3{color: #ffbf00;
-            font-size: 1.4em;  padding-top:5px; text-align:center  }
-          
-          #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
-          .coi1-span-phone{color:white; margin-left:4px}
-          
-          
-          #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
-          .coi2-span-phone{color:white; margin-left:4px}
-          
-          #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
-          .coi3-span-phone{color:white; margin-left:4px}
-          
-          
-          #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
-          .coi4-span-phone{color:white; margin-left:4px}
-          
-          
-          
-          .footer-allright-phone{ color:white;  margin-top: 17px;
-            text-align: center;
-            font-size: 1.2em;}
-          
-            .footer-icons-phone{text-align:center; margin-top: -13px;}
-          #footer-sociali-one-phone{ font-size:22px; color:white; }
-          #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
-          #footer-sociali-three-phone{ font-size:22px; color:white;}
-          
-          #coi1SpanPhone-Hidden-space{display:none}
-  .coi1SpanPhone-Hidden{display:block}
-  .coiAlignedspanMobile-Hidden{display:block}
-  
-  
-  .coi1-span-phone{display:none}
-  
-  .coi1SpanPhone-Hidden{color:white; margin-left: 50px;
-    margin-top: -24px;}
-  
-  .coiAlignedspanMobile-Hidden{color:white; margin-left: 53px;}
+      .CurrentOccupationSection-phone{margin-top: 10px;
+        margin-left: 8px; font-size: 1.3rem;}
+      .CurrentOccupation-phone{width: 302px;
+        margin-left: 8px;
+        height: 41px;}
+      
+        .InterestedinSection-phone{margin-top: 10px;
+          margin-left: 8px; font-size: 1.3rem;}
+      
+      .Interestedin-select-phone{width: 302px;
+        margin-left: 8px;
+        height: 41px}
+      
+        .ShortBioSection-phone{margin-top: 10px;
+          margin-left: 8px; font-size: 1.3rem;}
+      
+      .ShortBio-phone{width: 302px;
+        margin-left: 8px;
+        height: 41px}
+      
+        .knowwaySection-phone{margin-top: 10px; margin-left: 8px; font-size: 1.3rem; }
+      
+      .knowwhy-phone{width: 302px;
+        margin-left: 8px;
+        height: 41px}
+      
+      .AttachcvSection-phone{margin-top: 10px; margin-left: 8px; font-size: 1.3rem;}
+      .Attach-input-phone{width: 302px;
+        margin-left: 8px;
+        height: 41px; position: relative;}
+      
+      .Attach-phone{margin-top: 5px;
+        position: absolute;
+        margin-left: -293px;}
+      
+      
+      #interestedformbutton-phone{background-color: #ffbf00;
+        border: none;
+        color: black;
+        width: 100px;
+        height: 40px;
+        font-family: 'poppins', sans-serif;
+        font-size: 18px;
+        outline: none;
+        float: left;
+        margin-left: 8px;
+        margin-top: 17px;}
+      
+      
+      
+        #interestedformbutton-phone:focus{ box-shadow: none; }
+      
+      
+        #interestedformbutton-phone:active, #interestedformbutton-phone:focus {border:none; outline-style: none;  }
+        
+
+
+        .footer{display:none}
+        .footer-phone{display:block}
+        
+      
+        .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+        
+        .footer-phone h3{color: #ffbf00;
+          font-size: 1.4em;  padding-top:5px; text-align:center  }
+        
+        #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
+        .coi1-span-phone{color:white; margin-left:4px}
+        
+        
+        #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
+        .coi2-span-phone{color:white; margin-left:4px}
+        
+        #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
+        .coi3-span-phone{color:white; margin-left:4px}
+        
+        
+        #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
+        .coi4-span-phone{color:white; margin-left:4px}
+        
+        
+        
+        .footer-allright-phone{ color:white;  margin-top: 17px;
+          text-align: center;
+          font-size: 1.2em;}
+        
+          .footer-icons-phone{text-align:center; margin-top: -13px;}
+        #footer-sociali-one-phone{ font-size:22px; color:white; }
+        #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
+        #footer-sociali-three-phone{ font-size:22px; color:white;}
+        
+        #coi1SpanPhone-Hidden-space{display:none}
+.coi1SpanPhone-Hidden{display:block}
+.coiAlignedspanMobile-Hidden{display:block}
+
+
+.coi1-span-phone{display:none}
+
+.coi1SpanPhone-Hidden{color:white; margin-left: 50px;
+  margin-top: -24px;}
+
+.coiAlignedspanMobile-Hidden{color:white; margin-left: 53px;}
+        }
+      
+        /* start inside phone version */ 
+
+        @media screen and  (min-width:320px) and (max-width:335px) {
+
+        .open{margin-left:52px}
+        }
+        
+        @media screen and  (min-width:336px) and (max-width:350px) {
+
+          .open{margin-left:61px}
           }
-        
-          /* start inside phone version */ 
-
-          @media screen and  (min-width:320px) and (max-width:335px) {
-
-          .open{margin-left:52px}
-          }
           
-          @media screen and  (min-width:336px) and (max-width:350px) {
 
-            .open{margin-left:61px}
+
+        @media screen and  (min-width:351px) and (max-width:365px) {
+
+          .open{margin-left:79px}
+          }
+
+
+          @media screen and  (min-width:366px) and (max-width:380px) {
+
+            .open{margin-left:96px}
             }
-            
 
 
-          @media screen and  (min-width:351px) and (max-width:365px) {
+            @media screen and  (min-width:381px) and (max-width:400px) {
 
-            .open{margin-left:79px}
-            }
-
-
-            @media screen and  (min-width:366px) and (max-width:380px) {
-
-              .open{margin-left:96px}
+              .open{margin-left:113px}
               }
   
-  
-              @media screen and  (min-width:381px) and (max-width:400px) {
-
-                .open{margin-left:113px}
-                }
-    
-  
 
 
-            @media screen and  (min-width:401px) and (max-width:420px) {
 
-              .open{margin-left:136px}
+          @media screen and  (min-width:401px) and (max-width:420px) {
+
+            .open{margin-left:136px}
+            }           
+
+
+            @media screen and  (min-width:421px) and (max-width:435px) {
+
+              .open{margin-left:144px}
               }           
 
+              @media screen and  (min-width:436px) and (max-width:450px) {
 
-              @media screen and  (min-width:421px) and (max-width:435px) {
-
-                .open{margin-left:144px}
+                .open{margin-left:157px}
                 }           
-
-                @media screen and  (min-width:436px) and (max-width:450px) {
-
-                  .open{margin-left:157px}
-                  }           
-    
+  
 
 
-               @media screen and  (min-width:320px) and (max-width:347px) {
+             @media screen and  (min-width:320px) and (max-width:347px) {
 
-    
-              .career-second-contentTwo h3::after{    margin-top: 50px;
-                margin-left: -262px;}
+  
+            .career-second-contentTwo h3::after{    margin-top: 50px;
+              margin-left: -262px;}
 
-              }
+            }
 
-              @media screen and  (min-width:394px) and (max-width:450px) {
+            @media screen and  (min-width:394px) and (max-width:450px) {
 
 
 .career-second-contentTwo h3::before{    margin-left: -120px;}
 .career-second-contentTwo h3::after {margin-left: -320px;}
 
-              }
+            }
 
 
 
 
-          @media screen and  (min-width:330px) and (max-width:350px) {
+        @media screen and  (min-width:330px) and (max-width:350px) {
 
-          .career-head-text-phone{margin-left:9px}
+        .career-head-text-phone{margin-left:9px}
+        }
+
+        @media screen and  (min-width:351px) and (max-width:390px) {
+
+          .career-head-text-phone{margin-left:26px}
           }
 
-          @media screen and  (min-width:351px) and (max-width:390px) {
+          @media screen and  (min-width:391px) and (max-width:420px) {
 
-            .career-head-text-phone{margin-left:26px}
+            .career-head-text-phone{margin-left:45px}
             }
-  
-            @media screen and  (min-width:391px) and (max-width:420px) {
+            @media screen and  (min-width:421px) and (max-width:450px) {
 
-              .career-head-text-phone{margin-left:45px}
+              .career-head-text-phone{margin-left:62px}
               }
-              @media screen and  (min-width:421px) and (max-width:450px) {
+    
 
-                .career-head-text-phone{margin-left:62px}
+              @media screen and  (min-width:340px) and (max-width:350px) {
+
+                .career-head h3 {
+                  margin: 4px;
                 }
-      
+              }
 
-                @media screen and  (min-width:340px) and (max-width:350px) {
+              @media screen and  (min-width:351px) and (max-width:355px) {
 
-                  .career-head h3 {
-                    margin: 4px;
-                  }
+                .career-head h3 {
+                  margin: 2px;
+                }
+              }
+
+
+              @media screen and  (min-width:322px) and (max-width:340px) {
+
+                .career-second-contentTwo p {
+                  margin-right: -51px;  }
+              }
+
+
+
+
+
+
+
+
+              @media screen and  (min-width:321px) and (max-width:340px) {
+
+              .careers-form-phone{margin-left:5px}
+              }
+
+
+              @media screen and  (min-width:341px) and (max-width:360px) {
+
+                .careers-form-phone{margin-left:12px}
                 }
 
-                @media screen and  (min-width:351px) and (max-width:355px) {
 
-                  .career-head h3 {
-                    margin: 2px;
-                  }
+              @media screen and  (min-width:361px) and (max-width:370px) {
+
+                .careers-form-phone{margin-left:21px}
                 }
 
 
-                @media screen and  (min-width:322px) and (max-width:340px) {
+                @media screen and  (min-width:371px) and (max-width:380px) {
 
-                  .career-second-contentTwo p {
-                    margin-right: -51px;  }
+                  .careers-form-phone{margin-left:29px}
+                  }
+
+
+
+
+                @media screen and  (min-width:381px) and (max-width:390px) {
+
+                  .careers-form-phone{margin-left:37px}
+                }
+
+
+                @media screen and  (min-width:391px) and (max-width:400px) {
+
+                  .careers-form-phone{margin-left:44px}
+                }
+
+
+                @media screen and  (min-width:401px) and (max-width:420px) {
+
+                  .careers-form-phone{margin-left:47px}
+                }
+
+                @media screen and  (min-width:421px) and (max-width:435px) {
+
+                  .careers-form-phone{margin-left:66px}
+                }
+
+                @media screen and  (min-width:436px) and (max-width:450px) {
+
+                  .careers-form-phone{margin-left:75px}
+                }
+
+
+
+                @media screen and  (min-width:420px) and (max-width:440px) {
+
+                  .career-second-contentTwo h3::before{ margin-left: -113px;}
                 }
 
 
@@ -1343,97 +1511,30 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 
 
-  
-                @media screen and  (min-width:321px) and (max-width:340px) {
-
-                .careers-form-phone{margin-left:5px}
-                }
-
-
-                @media screen and  (min-width:341px) and (max-width:360px) {
-
-                  .careers-form-phone{margin-left:12px}
-                  }
-  
-
-                @media screen and  (min-width:361px) and (max-width:370px) {
-
-                  .careers-form-phone{margin-left:21px}
-                  }
-
-
-                  @media screen and  (min-width:371px) and (max-width:380px) {
-
-                    .careers-form-phone{margin-left:29px}
-                    }
-  
-  
-
-
-                  @media screen and  (min-width:381px) and (max-width:390px) {
-
-                    .careers-form-phone{margin-left:37px}
-                  }
-
-
-                  @media screen and  (min-width:391px) and (max-width:400px) {
-
-                    .careers-form-phone{margin-left:44px}
-                  }
-
-
-                  @media screen and  (min-width:401px) and (max-width:420px) {
-
-                    .careers-form-phone{margin-left:47px}
-                  }
-  
-                  @media screen and  (min-width:421px) and (max-width:435px) {
-
-                    .careers-form-phone{margin-left:66px}
-                  }
-
-                  @media screen and  (min-width:436px) and (max-width:450px) {
-
-                    .careers-form-phone{margin-left:75px}
-                  }
-
-
-
-                  @media screen and  (min-width:420px) and (max-width:440px) {
-
-                    .career-second-contentTwo h3::before{ margin-left: -113px;}
-                  }
 
 
 
 
 
+                @media screen and (min-width:418px) and (max-width:475px){
 
-
-
-
-
-
-
-                  @media screen and (min-width:418px) and (max-width:475px){
-
-                    #coi1-phone{  margin-left: 7px;}
-                    .coi1-span-phone{    margin-left: -1px;
-                      font-size: 15px;}
-                      #coi2-phone{margin-left: 7px;}
-                      .coi2-span-phone{   margin-left: -1px;
+                  #coi1-phone{  margin-left: 7px;}
+                  .coi1-span-phone{    margin-left: -1px;
+                    font-size: 15px;}
+                    #coi2-phone{margin-left: 7px;}
+                    .coi2-span-phone{   margin-left: -1px;
+                      font-size: 15px}
+                      #coi3-phone{margin-left: 7px;}
+                      .coi3-span-phone{  margin-left: -1px;
                         font-size: 15px}
-                        #coi3-phone{margin-left: 7px;}
-                        .coi3-span-phone{  margin-left: -1px;
+                        #coi4-phone{margin-left: 7px;}
+                        .coi4-span-phone{  margin-left: -1px;
                           font-size: 15px}
-                          #coi4-phone{margin-left: 7px;}
-                          .coi4-span-phone{  margin-left: -1px;
-                            font-size: 15px}
-                            .footer-allright-phone {font-size:1em}
-                            #footer-sociali-one-phone{font-size: 20px;}
-                            #footer-sociali-two-phone{font-size: 20px;}
-                            #footer-sociali-three-phone{font-size: 20px;}
-                          }
+                          .footer-allright-phone {font-size:1em}
+                          #footer-sociali-one-phone{font-size: 20px;}
+                          #footer-sociali-two-phone{font-size: 20px;}
+                          #footer-sociali-three-phone{font-size: 20px;}
+                        }
 
 
 
@@ -1443,128 +1544,517 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 @media screen and  (min-width:451px) and (max-width:768px) {
 
-        .careers-form{display:none}
-        .careers-form-phone{display:block}
-        .career-second-contentTwo p span{font-size:25px}
+      .careers-form{display:none}
+      .careers-form-phone{display:block}
+      .career-second-contentTwo p span{font-size:25px}
 
 
 
 
 .NameSectionh3-phone{margin-left:8px; font-size: 1.3rem; margin-top:-22px}
 .Name-interested-Section-phone{width: 302px;
-  margin-left: 8px;
-  height: 41px;}
+margin-left: 8px;
+height: 41px;}
 
 .EmailSectionh3-phone{margin-top: 15px;
-  margin-left: 8px; font-size: 1.3rem;}
+margin-left: 8px; font-size: 1.3rem;}
 .Email-interested-section-phone{width: 302px;
-  margin-left: 8px;
-  height: 41px;}
+margin-left: 8px;
+height: 41px;}
 
 .PhoneSectionh3-phone{margin-top: 15px;
-  margin-left: 8px; font-size: 1.3rem;}
+margin-left: 8px; font-size: 1.3rem;}
 
 .Phone-interested-section-phone{width: 302px;
-  margin-left: 8px;
-  height: 41px;}
+margin-left: 8px;
+height: 41px;}
 
 .AddressSectionh3-phone{margin-top: 15px;
-  margin-left: 8px ; font-size: 1.3rem;}
+margin-left: 8px ; font-size: 1.3rem;}
 
 .Address-interested-section-phone{width: 302px;
-  margin-left: 8px;
-  height: 41px;}
+margin-left: 8px;
+height: 41px;}
 
-  .MajorSection-phone{margin-top: 15px;
-    margin-left: 8px; font-size: 1.3rem;}
+.MajorSection-phone{margin-top: 15px;
+  margin-left: 8px; font-size: 1.3rem;}
 
 .Major-phone{width: 302px;
-  margin-left: 8px;
-  height: 41px;}
-  
-.CurrentOccupationSection-phone{margin-top: 15px;
-  margin-left: 8px; font-size: 1.3rem;}
-.CurrentOccupation-phone{width: 302px;
-  margin-left: 8px;
-  height: 41px;}
+margin-left: 8px;
+height: 41px;}
 
-  .InterestedinSection-phone{margin-top: 15px;
-    margin-left: 8px; font-size: 1.3rem;}
+.CurrentOccupationSection-phone{margin-top: 15px;
+margin-left: 8px; font-size: 1.3rem;}
+.CurrentOccupation-phone{width: 302px;
+margin-left: 8px;
+height: 41px;}
+
+.InterestedinSection-phone{margin-top: 15px;
+  margin-left: 8px; font-size: 1.3rem;}
 
 .Interestedin-select-phone{width: 302px;
-  margin-left: 8px;
-  height: 41px}
+margin-left: 8px;
+height: 41px}
 
-  .ShortBioSection-phone{margin-top: 15px;
-    margin-left: 8px; font-size: 1.3rem;}
+.ShortBioSection-phone{margin-top: 15px;
+  margin-left: 8px; font-size: 1.3rem;}
 
 .ShortBio-phone{width: 302px;
-  margin-left: 8px;
-  height: 41px}
+margin-left: 8px;
+height: 41px}
 
-  .knowwaySection-phone{margin-top: 15px; margin-left: 8px; font-size: 1.3rem; }
+.knowwaySection-phone{margin-top: 15px; margin-left: 8px; font-size: 1.3rem; }
 
 .knowwhy-phone{width: 302px;
-  margin-left: 8px;
-  height: 41px}
+margin-left: 8px;
+height: 41px}
 
 .AttachcvSection-phone{margin-top: 15px; margin-left: 8px; font-size: 1.3rem;}
 .Attach-input-phone{width: 302px;
-  margin-left: 8px;
-  height: 41px; position: relative;}
+margin-left: 8px;
+height: 41px; position: relative;}
 
 .Attach-phone{margin-top: 5px;
-  position: absolute;
-  margin-left: -293px;}
+position: absolute;
+margin-left: -293px;}
 
 
 #interestedformbutton-phone{background-color: #ffbf00;
-  border: none;
-  color: black;
-  width: 100px;
-  height: 40px;
-  font-family: 'poppins', sans-serif;
-  font-size: 18px;
-  outline: none;
-  float: left;
-  margin-left: 8px;
-  margin-top: 17px;}
+border: none;
+color: black;
+width: 100px;
+height: 40px;
+font-family: 'poppins', sans-serif;
+font-size: 18px;
+outline: none;
+float: left;
+margin-left: 8px;
+margin-top: 17px;}
 
 
 
-  #interestedformbutton-phone:focus{ box-shadow: none; }
+#interestedformbutton-phone:focus{ box-shadow: none; }
 
 
-  #interestedformbutton-phone:active, #interestedformbutton-phone:focus {border:none; outline-style: none;  }
-  
+#interestedformbutton-phone:active, #interestedformbutton-phone:focus {border:none; outline-style: none;  }
 
+
+
+.footer{display:none}
+.footer-phone{display:block}
+
+
+.footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+
+.footer-phone h3{color: #ffbf00;
+  font-size: 1.4em;  padding-top:5px; text-align:center  }
+
+#coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
+.coi1-span-phone{color:white; margin-left:4px}
+
+
+#coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
+.coi2-span-phone{color:white; margin-left:4px}
+
+#coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
+.coi3-span-phone{color:white; margin-left:4px}
+
+
+#coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
+.coi4-span-phone{color:white; margin-left:4px}
+
+
+
+.footer-allright-phone{ color:white;  margin-top: 17px;
+  text-align: center;
+  font-size: 1.2em;}
+
+  .footer-icons-phone{text-align:center; margin-top: -13px;}
+#footer-sociali-one-phone{ font-size:22px; color:white; }
+#footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
+#footer-sociali-three-phone{ font-size:22px; color:white;}
+
+
+}
+
+/* start inside phone version */ 
+
+
+@media screen and  (min-width:451px) and (max-width:470px) {
+
+  .open{margin-left:183px}
+}
+
+@media screen and  (min-width:471px) and (max-width:500px) {
+
+  .open{margin-left:204px}
+}
+
+
+
+@media screen and  (min-width:501px) and (max-width:520px) {
+
+  .open{margin-left:223px}
+}
+
+
+@media screen and  (min-width:521px) and (max-width:535px) {
+
+  .open{margin-left:243px}
+}
+
+@media screen and  (min-width:536px) and (max-width:550px) {
+
+  .open{margin-left:258px}
+}
+
+
+
+
+
+@media screen and  (min-width:551px) and (max-width:570px) {
+
+  .open{margin-left:277px}
+}
+
+
+@media screen and  (min-width:571px) and (max-width:585px) {
+
+  .open{margin-left:292px}
+}
+
+@media screen and  (min-width:586px) and (max-width:600px) {
+
+  .open{margin-left:306px}
+}
+
+
+
+
+@media screen and  (min-width:601px) and (max-width:620px) {
+
+  .open{margin-left:323px}
+}
+
+@media screen and  (min-width:621px) and (max-width:635px) {
+
+  .open{margin-left:334px}
+}
+
+
+
+@media screen and  (min-width:636px) and (max-width:650px) {
+
+  .open{margin-left:351px}
+}
+
+
+
+
+
+
+
+@media screen and  (min-width:651px) and (max-width:670px) {
+
+  .open{margin-left:368px}
+}
+
+@media screen and  (min-width:671px) and (max-width:685px) {
+
+  .open{margin-left:389px}
+}
+
+@media screen and  (min-width:686px) and (max-width:700px) {
+
+  .open{margin-left:407px}
+}
+
+
+
+@media screen and  (min-width:701px) and (max-width:720px) {
+
+  .open{margin-left:420px}
+}
+
+
+@media screen and  (min-width:721px) and (max-width:735px) {
+
+  .open{margin-left:438px}
+}
+
+
+@media screen and  (min-width:736px) and (max-width:750px) {
+
+  .open{margin-left:448px}
+}
+
+
+
+@media screen and  (min-width:751px) and (max-width:768px) {
+
+  .open{margin-left:473px}
+}
+
+
+
+
+@media screen and  (min-width:441px) and (max-width:450px) {
+
+  .career-second-contentTwo h3::before {
+    margin-left: -115px;}
+  }
+
+
+
+
+@media screen and  (min-width:451px) and (max-width:508px) {
+
+  .career-head-content-p{    margin-top: -365px;}
+}
+
+
+
+@media screen and  (min-width:451px) and (max-width:768px) {
+  .career-second-contentTwo h3::before {margin-left: -113px;}
+
+  .career-second-contentTwo h3::after {margin-left: -318px;}
+}
+
+
+
+@media screen and  (min-width:451px) and (max-width:462px) {
+
+  .career-second-contentTwo h3{    margin-top: 67px;}
+
+
+}
+
+
+@media screen and  (min-width:463px) and (max-width:528px) {
+
+  .career-second-contentTwo h3{    margin-top: 99px;}
+
+}
+
+
+
+@media screen and  (min-width:529px) and (max-width:604px) {
+
+  .career-second-contentTwo h3{    margin-top: 143px;}
+
+}
+
+
+
+@media screen and  (min-width:605px) and (max-width:680px) {
+
+  .career-second-contentTwo h3{    margin-top: 192px;}
+}
+
+
+
+@media screen and  (min-width:629px) and (max-width:680px) {
+
+
+  .career-second-contentTwo h3{    margin-top: 195px;}
+
+  }
+
+
+
+
+
+
+@media screen and  (min-width:681px) and (max-width:768px) {
+
+  .career-second-contentTwo h3{    margin-top: 223px;}
+
+}
+
+
+
+
+@media screen and  (min-width:451px) and (max-width:470px) {
+
+  .career-second-contentTwo p span{margin-left:-24px}
+}
+
+
+
+@media screen and  (min-width:471px) and (max-width:646px) {
+
+  .career-second-contentTwo p span{margin-left:-19px}
+}
+
+
+       @media screen and  (min-width:450px) and (max-width:470px) {
+        .careers-form-phone{margin-left:72px}
+       }
+
+       @media screen and  (min-width:471px) and (max-width:500px) {
+        .careers-form-phone{margin-left:83px}
+       }
+
+       @media screen and  (min-width:501px) and (max-width:550px) {
+        .careers-form-phone{margin-left:107px}
+       }
+
+
+       @media screen and  (min-width:551px) and (max-width:570px) {
+        .careers-form-phone{margin-left:121px}
+       }
+
+       @media screen and  (min-width:571px) and (max-width:585px) {
+        .careers-form-phone{margin-left:133px}
+       }
+
+
+       @media screen and  (min-width:586px) and (max-width:600px) {
+        .careers-form-phone{margin-left:146px}
+       }
+
+
+
+
+       @media screen and  (min-width:601px) and (max-width:620px) {
+        .careers-form-phone{margin-left:163px}
+       }
+
+       @media screen and  (min-width:621px) and (max-width:635px) {
+        .careers-form-phone{margin-left:163px}
+       }
+
+       @media screen and  (min-width:636px) and (max-width:650px) {
+        .careers-form-phone{margin-left:162px}
+       }
+
+
+
+
+       @media screen and  (min-width:651px) and (max-width:670px) {
+        .careers-form-phone{margin-left:191px}
+       }
+
+       @media screen and  (min-width:671px) and (max-width:685px) {
+        .careers-form-phone{margin-left:201px}
+       }
+
+       @media screen and  (min-width:686px) and (max-width:700px) {
+        .careers-form-phone{margin-left:203px}
+       }
+
+
+
+       @media screen and  (min-width:701px) and (max-width:720px) {
+        .careers-form-phone{margin-left:217px}
+       }
+
+       @media screen and  (min-width:721px) and (max-width:735px) {
+        .careers-form-phone{margin-left:222px}
+       }
+
+       @media screen and  (min-width:736px) and (max-width:750px) {
+        .careers-form-phone{margin-left:226px}
+       }
+
+
+
+       @media screen and  (min-width:751px) and (max-width:768px) {
+        .careers-form-phone{margin-left:236px}
+       }
+
+
+
+
+       /* 769 to 991 */ 
+
+
+@media screen and  (min-width:769px) and (max-width:991px) {
+
+
+.open {margin-left:486}
+
+
+.CH3-1, .CH3-2, .CH3-3, .CH3-4{font-size:38px}
+.career-head h3 {margin-top:32px}
+
+
+.career-head-content-p {font-size: 27px;     margin-left: 310px;}
+
+
+.career-second-contentTwo h3{    margin-top: 120px;}
+
+.career-second-contentTwo h3::before {margin-left: -107px;}
+
+.career-second-contentTwo h3::after {margin-left: -312px;}
+
+
+
+.careers-form{width:80vw}
+
+.NameSectionh3{ margin-left: 14px;}
+.Name-interested-Section{width:270px; height:41px; margin-left: 13px;}
+
+.EmailSectionh3{   margin-left: 253px;}
+.Email-interested-section{width:270px; height:41px; margin-left: 50px;}
+
+
+.PhoneSectionh3{ margin-left: 14px;}
+.Phone-interested-section{width:270px; height:41px; margin-left: 13px;}
+
+.AddressSectionh3{   margin-left: 253px;}
+.Address-interested-section{width:270px; height:41px; margin-left: 50px;}
+
+
+.MajorSection{ margin-left: 14px;}
+.Major{width:270px; height:41px; margin-left: 13px;}
+
+
+.CurrentOccupationSection{ margin-left: 253px;}
+.CurrentOccupation{width:270px; height:41px; margin-left: 50px;}
+
+
+.InterestedinSection{ margin-left: 14px;}
+.Interestedin-select{width:270px; height:41px; margin-left: 13px;}
+
+.ShortBioSection{ margin-left: 177px;}
+.ShortBio{width:270px; height:41px; margin-left: 50px;}
+
+
+.knowwaySection{ margin-left: 14px; font-size:22px}
+.knowwhy{width:270px; height:41px; margin-left: 13px;}
+
+.AttachcvSection{ margin-left: 29px;}
+.Attach-input{width:270px; height:41px; margin-left: 50px;}
+.Attach{    margin-left: -264px;
+  margin-top: 16px;}
+  #interestedformbutton {   margin-left: 11px;}
 
   .footer{display:none}
   .footer-phone{display:block}
-  
 
   .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
-  
+
   .footer-phone h3{color: #ffbf00;
-    font-size: 1.4em;  padding-top:5px; text-align:center  }
+    font-size: 1.6em;  padding-top:5px; text-align:center  }
   
   #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
-  .coi1-span-phone{color:white; margin-left:4px}
+  .coi1-span-phone{color:white; margin-left:4px; font-size:1.1em }
   
   
   #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
-  .coi2-span-phone{color:white; margin-left:4px}
+  .coi2-span-phone{color:white; margin-left:4px; font-size:1.1em}
   
   #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
-  .coi3-span-phone{color:white; margin-left:4px}
+  .coi3-span-phone{color:white; margin-left:4px; font-size:1.1em}
   
   
   #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
-  .coi4-span-phone{color:white; margin-left:4px}
+  .coi4-span-phone{color:white; margin-left:4px; font-size:1.1em}
   
   
   
-  .footer-allright-phone{ color:white;  margin-top: 17px;
+  .footer-allright-phone{ color:white;  margin-top: 7px;
     text-align: center;
     font-size: 1.2em;}
   
@@ -1572,422 +2062,33 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
   #footer-sociali-one-phone{ font-size:22px; color:white; }
   #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
   #footer-sociali-three-phone{ font-size:22px; color:white;}
-  
-
-  }
-
-  /* start inside phone version */ 
-
-
-  @media screen and  (min-width:451px) and (max-width:470px) {
-
-    .open{margin-left:183px}
-  }
-
-  @media screen and  (min-width:471px) and (max-width:500px) {
-
-    .open{margin-left:204px}
-  }
-
-
-
-  @media screen and  (min-width:501px) and (max-width:520px) {
-
-    .open{margin-left:223px}
-  }
-
-
-  @media screen and  (min-width:521px) and (max-width:535px) {
-
-    .open{margin-left:243px}
-  }
-
-  @media screen and  (min-width:536px) and (max-width:550px) {
-
-    .open{margin-left:258px}
-  }
-
-
-
-
-  
-  @media screen and  (min-width:551px) and (max-width:570px) {
-
-    .open{margin-left:277px}
-  }
-
-
-  @media screen and  (min-width:571px) and (max-width:585px) {
-
-    .open{margin-left:292px}
-  }
-
-  @media screen and  (min-width:586px) and (max-width:600px) {
-
-    .open{margin-left:306px}
-  }
-
-
-
-
-  @media screen and  (min-width:601px) and (max-width:620px) {
-
-    .open{margin-left:323px}
-  }
-
-  @media screen and  (min-width:621px) and (max-width:635px) {
-
-    .open{margin-left:334px}
-  }
-
-
-
-  @media screen and  (min-width:636px) and (max-width:650px) {
-
-    .open{margin-left:351px}
-  }
-
-
-
-
-
-
-
-  @media screen and  (min-width:651px) and (max-width:670px) {
-
-    .open{margin-left:368px}
-  }
-
-  @media screen and  (min-width:671px) and (max-width:685px) {
-
-    .open{margin-left:389px}
-  }
-
-  @media screen and  (min-width:686px) and (max-width:700px) {
-
-    .open{margin-left:407px}
-  }
-
-
-
-  @media screen and  (min-width:701px) and (max-width:720px) {
-
-    .open{margin-left:420px}
-  }
-
-
-  @media screen and  (min-width:721px) and (max-width:735px) {
-
-    .open{margin-left:438px}
-  }
-
-
-  @media screen and  (min-width:736px) and (max-width:750px) {
-
-    .open{margin-left:448px}
-  }
-
-
-
-  @media screen and  (min-width:751px) and (max-width:768px) {
-
-    .open{margin-left:473px}
-  }
-
-
-
-
-  @media screen and  (min-width:441px) and (max-width:450px) {
-
-    .career-second-contentTwo h3::before {
-      margin-left: -115px;}
-    }
-
-
-
-
-  @media screen and  (min-width:451px) and (max-width:508px) {
-
-    .career-head-content-p{    margin-top: -365px;}
-  }
-
-
-
-  @media screen and  (min-width:451px) and (max-width:768px) {
-    .career-second-contentTwo h3::before {margin-left: -113px;}
-
-    .career-second-contentTwo h3::after {margin-left: -318px;}
-  }
-
-
-
-  @media screen and  (min-width:451px) and (max-width:462px) {
-
-    .career-second-contentTwo h3{    margin-top: 67px;}
-
-
-  }
-
-
-  @media screen and  (min-width:463px) and (max-width:528px) {
-
-    .career-second-contentTwo h3{    margin-top: 99px;}
-
-  }
-
-
-
-  @media screen and  (min-width:529px) and (max-width:604px) {
-
-    .career-second-contentTwo h3{    margin-top: 143px;}
-
-  }
-
- 
-
-  @media screen and  (min-width:605px) and (max-width:680px) {
-
-    .career-second-contentTwo h3{    margin-top: 192px;}
-  }
-
-
-
-  @media screen and  (min-width:629px) and (max-width:680px) {
-
-
-    .career-second-contentTwo h3{    margin-top: 195px;}
-  
-    }
-  
-  
-
-  
-
-
-  @media screen and  (min-width:681px) and (max-width:768px) {
-
-    .career-second-contentTwo h3{    margin-top: 223px;}
-  
-  }
-
-
-
-
-  @media screen and  (min-width:451px) and (max-width:470px) {
-
-    .career-second-contentTwo p span{margin-left:-24px}
-  }
-
-
-  
-  @media screen and  (min-width:471px) and (max-width:646px) {
-
-    .career-second-contentTwo p span{margin-left:-19px}
-  }
-
-
-         @media screen and  (min-width:450px) and (max-width:470px) {
-          .careers-form-phone{margin-left:72px}
-         }
-
-         @media screen and  (min-width:471px) and (max-width:500px) {
-          .careers-form-phone{margin-left:83px}
-         }
-
-         @media screen and  (min-width:501px) and (max-width:550px) {
-          .careers-form-phone{margin-left:107px}
-         }
-
-
-         @media screen and  (min-width:551px) and (max-width:570px) {
-          .careers-form-phone{margin-left:121px}
-         }
-
-         @media screen and  (min-width:571px) and (max-width:585px) {
-          .careers-form-phone{margin-left:133px}
-         }
-
-
-         @media screen and  (min-width:586px) and (max-width:600px) {
-          .careers-form-phone{margin-left:146px}
-         }
-
-
-
-
-         @media screen and  (min-width:601px) and (max-width:620px) {
-          .careers-form-phone{margin-left:163px}
-         }
-
-         @media screen and  (min-width:621px) and (max-width:635px) {
-          .careers-form-phone{margin-left:163px}
-         }
-
-         @media screen and  (min-width:636px) and (max-width:650px) {
-          .careers-form-phone{margin-left:162px}
-         }
-
-
-
-
-         @media screen and  (min-width:651px) and (max-width:670px) {
-          .careers-form-phone{margin-left:191px}
-         }
-
-         @media screen and  (min-width:671px) and (max-width:685px) {
-          .careers-form-phone{margin-left:201px}
-         }
-
-         @media screen and  (min-width:686px) and (max-width:700px) {
-          .careers-form-phone{margin-left:203px}
-         }
-
-
-
-         @media screen and  (min-width:701px) and (max-width:720px) {
-          .careers-form-phone{margin-left:217px}
-         }
-
-         @media screen and  (min-width:721px) and (max-width:735px) {
-          .careers-form-phone{margin-left:222px}
-         }
-
-         @media screen and  (min-width:736px) and (max-width:750px) {
-          .careers-form-phone{margin-left:226px}
-         }
-
-
-
-         @media screen and  (min-width:751px) and (max-width:768px) {
-          .careers-form-phone{margin-left:236px}
-         }
-
-
-
-
-         /* 769 to 991 */ 
-
-
-@media screen and  (min-width:769px) and (max-width:991px) {
-
-
-  .open {margin-left:486}
-
-
-  .CH3-1, .CH3-2, .CH3-3, .CH3-4{font-size:38px}
-  .career-head h3 {margin-top:32px}
-
-
-  .career-head-content-p {font-size: 27px;     margin-left: 310px;}
-
-
-  .career-second-contentTwo h3{    margin-top: 120px;}
- 
-  .career-second-contentTwo h3::before {margin-left: -107px;}
-
-  .career-second-contentTwo h3::after {margin-left: -312px;}
-
-
-
-  .careers-form{width:80vw}
-
-  .NameSectionh3{ margin-left: 14px;}
-  .Name-interested-Section{width:270px; height:41px; margin-left: 13px;}
-
-  .EmailSectionh3{   margin-left: 253px;}
-  .Email-interested-section{width:270px; height:41px; margin-left: 50px;}
-
-
-  .PhoneSectionh3{ margin-left: 14px;}
-  .Phone-interested-section{width:270px; height:41px; margin-left: 13px;}
-
-  .AddressSectionh3{   margin-left: 253px;}
-  .Address-interested-section{width:270px; height:41px; margin-left: 50px;}
-
-
-  .MajorSection{ margin-left: 14px;}
-  .Major{width:270px; height:41px; margin-left: 13px;}
-
-
-  .CurrentOccupationSection{ margin-left: 253px;}
-  .CurrentOccupation{width:270px; height:41px; margin-left: 50px;}
-
-
-  .InterestedinSection{ margin-left: 14px;}
-  .Interestedin-select{width:270px; height:41px; margin-left: 13px;}
-
-  .ShortBioSection{ margin-left: 177px;}
-  .ShortBio{width:270px; height:41px; margin-left: 50px;}
-
-  
-  .knowwaySection{ margin-left: 14px; font-size:22px}
-  .knowwhy{width:270px; height:41px; margin-left: 13px;}
-
-  .AttachcvSection{ margin-left: 29px;}
-  .Attach-input{width:270px; height:41px; margin-left: 50px;}
-  .Attach{    margin-left: -264px;
-    margin-top: 16px;}
-    #interestedformbutton {   margin-left: 11px;}
-
-    .footer{display:none}
-    .footer-phone{display:block}
-  
-    .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
-  
-    .footer-phone h3{color: #ffbf00;
-      font-size: 1.6em;  padding-top:5px; text-align:center  }
     
-    #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
-    .coi1-span-phone{color:white; margin-left:4px; font-size:1.1em }
-    
-    
-    #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
-    .coi2-span-phone{color:white; margin-left:4px; font-size:1.1em}
-    
-    #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
-    .coi3-span-phone{color:white; margin-left:4px; font-size:1.1em}
-    
-    
-    #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
-    .coi4-span-phone{color:white; margin-left:4px; font-size:1.1em}
-    
-    
-    
-    .footer-allright-phone{ color:white;  margin-top: 7px;
-      text-align: center;
-      font-size: 1.2em;}
-    
-      .footer-icons-phone{text-align:center; margin-top: -13px;}
-    #footer-sociali-one-phone{ font-size:22px; color:white; }
-    #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
-    #footer-sociali-three-phone{ font-size:22px; color:white;}
-      
 }
 
 
 /* start inside min width 769 */ 
 @media screen and  (min-width:791px) and (max-width:830px) {
-  .open{margin-left:514px}
+.open{margin-left:514px}
 }
 
 @media screen and  (min-width:831px) and (max-width:860px) {
-  .open{margin-left:552px}
+.open{margin-left:552px}
 }
 
 @media screen and  (min-width:861px) and (max-width:890px) {
-  .open{margin-left:579px}
+.open{margin-left:579px}
 }
 
 @media screen and  (min-width:891px) and (max-width:920px) {
-  .open{margin-left:610px}
+.open{margin-left:610px}
 }
 
 @media screen and  (min-width:921px) and (max-width:950px) {
-  .open{margin-left:642px}
+.open{margin-left:642px}
 }
 
 @media screen and  (min-width:951px) and (max-width:991px) {
-  .open{margin-left:674px}
+.open{margin-left:674px}
 }
 
 
@@ -2006,12 +2107,12 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 }
 
 @media screen and  (min-width:822px) and (max-width:844px) {
-  .career-second-contentTwo h3{    margin-top: 129px;}
+.career-second-contentTwo h3{    margin-top: 129px;}
 }
 
 
 @media screen and  (min-width:845px) and (max-width:872px) {
-  .career-second-contentTwo h3{    margin-top: 145px;}
+.career-second-contentTwo h3{    margin-top: 145px;}
 }
 
 
@@ -2020,322 +2121,336 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 @media screen and  (min-width:873px) and (max-width:968px) {
 
-  .career-second-contentTwo h3{    margin-top: 137px;}
+.career-second-contentTwo h3{    margin-top: 137px;}
+}
+
+
+@media screen and  (min-width:904px) and (max-width:927px) {
+  .career-second-contentTwo h3{    margin-top: 160px;}
+}
+
+@media screen and  (min-width:928px) and (max-width:968px) {
+  .career-second-contentTwo h3{    margin-top: 185px;}
+}
+
+
+@media screen and  (min-width:969px) and (max-width:991px) {
+
+  .career-second-contentTwo h3{    margin-top: 180px;}
   }
   
-
-  @media screen and  (min-width:904px) and (max-width:927px) {
-    .career-second-contentTwo h3{    margin-top: 160px;}
+  @media screen and  (min-width:800px) and (max-width:830px) {
+    .careers-form{ margin-left: 100px;}
   }
 
-  @media screen and  (min-width:928px) and (max-width:968px) {
-    .career-second-contentTwo h3{    margin-top: 185px;}
+  @media screen and  (min-width:831px) and (max-width:865px) {
+    .careers-form{ margin-left: 126px;}
   }
 
+  @media screen and  (min-width:866px) and (max-width:890px) {
+    .careers-form{ margin-left: 149px;}
+  }
+
+  @media screen and  (min-width:891px) and (max-width:920px) {
+    .careers-form{ margin-left: 149px;}
+  }
+
+  @media screen and  (min-width:921px) and (max-width:950px) {
+    .careers-form{ margin-left: 174px;}
+  }
+
+  @media screen and  (min-width:951px) and (max-width:991px) {
+    .careers-form{ margin-left: 202px;}
+  }
+
+
+
+
+  @media screen and  (min-width:871px) and (max-width:881px) {
+
+    .careers-form{width:79vw}
+  }
+
+  @media screen and  (min-width:882px) and (max-width:882px) {
+
+    .careers-form{width:78vw}
+  }
+
+
+  @media screen and  (min-width:883px) and (max-width:904px) {
+
+    .careers-form{width:77vw}
+  }
+
+  @media screen and  (min-width:905px) and (max-width:948px) {
+
+    .careers-form{width:76vw}
+  }
+
+  @media screen and  (min-width:917px) and (max-width:928px) {
+
+    .careers-form{width:75vw}
+  }
+
+  @media screen and  (min-width:929px) and (max-width:948px) {
+
+    .careers-form{width:66vw}
+  }
+
+
+
+  @media screen and  (min-width:949px) and (max-width:991px) {
+
+    .careers-form{width:64vw}
+  }
+
+
+
+  @media screen and  (min-width:776px) and (max-width:820px) {
+
+    .career-second-contentTwo h3{margin-top:120px}
+  }
+
+  @media screen and  (min-width:834px) and (max-width:844px) {
+
+    .career-second-contentTwo h3{margin-top:161px}
+  }
+
+
+  @media screen and  (min-width:865px) {
+    .MajorSection{margin-left:18px; }
+  }
+
+/*
+
+  @media screen and  (min-width:871px) and (max-width:872px) {
+.MajorSection{margin-left:19px; }
+  }
+
+
+  @media screen and  (min-width:873px) and (max-width:875px) {
+    .MajorSection{margin-left:22px; }
+      }
   
-  @media screen and  (min-width:969px) and (max-width:991px) {
-
-    .career-second-contentTwo h3{    margin-top: 180px;}
-    }
-    
-    @media screen and  (min-width:800px) and (max-width:830px) {
-      .careers-form{ margin-left: 100px;}
-    }
-
-    @media screen and  (min-width:831px) and (max-width:865px) {
-      .careers-form{ margin-left: 126px;}
-    }
-
-    @media screen and  (min-width:866px) and (max-width:890px) {
-      .careers-form{ margin-left: 149px;}
-    }
-
-    @media screen and  (min-width:891px) and (max-width:920px) {
-      .careers-form{ margin-left: 149px;}
-    }
-
-    @media screen and  (min-width:921px) and (max-width:950px) {
-      .careers-form{ margin-left: 174px;}
-    }
-
-    @media screen and  (min-width:951px) and (max-width:991px) {
-      .careers-form{ margin-left: 202px;}
-    }
-
-
-
-
-    @media screen and  (min-width:871px) and (max-width:881px) {
-
-      .careers-form{width:79vw}
-    }
-
-    @media screen and  (min-width:882px) and (max-width:882px) {
-
-      .careers-form{width:78vw}
-    }
-
-
-    @media screen and  (min-width:883px) and (max-width:904px) {
-
-      .careers-form{width:77vw}
-    }
-
-    @media screen and  (min-width:905px) and (max-width:948px) {
-
-      .careers-form{width:76vw}
-    }
-
-    @media screen and  (min-width:917px) and (max-width:928px) {
-
-      .careers-form{width:75vw}
-    }
-
-    @media screen and  (min-width:929px) and (max-width:948px) {
-
-      .careers-form{width:66vw}
-    }
-
-
-
-    @media screen and  (min-width:949px) and (max-width:991px) {
-
-      .careers-form{width:64vw}
-    }
-
-
-
-    @media screen and  (min-width:776px) and (max-width:820px) {
-
-      .career-second-contentTwo h3{margin-top:120px}
-    }
-
-    @media screen and  (min-width:834px) and (max-width:844px) {
-
-      .career-second-contentTwo h3{margin-top:161px}
-    }
-
-
-    @media screen and  (min-width:865px) {
-      .MajorSection{margin-left:18px; }
-    }
-  
-  /*
-  
-    @media screen and  (min-width:871px) and (max-width:872px) {
-  .MajorSection{margin-left:19px; }
-    }
-  
-
-    @media screen and  (min-width:873px) and (max-width:875px) {
-      .MajorSection{margin-left:22px; }
-        }
-    
-        @media screen and  (min-width:876px) and (max-width:877px) {
-          .MajorSection{margin-left:25px; }
-            }
-        
-            @media screen and  (min-width:878px) and (max-width:880px) {
-              .MajorSection{margin-left:26px; }
-                }
-                @media screen and  (min-width:881px) and (max-width:883px) {
-                  .MajorSection{margin-left:28px; }
-                    }
-    
-
-    @media screen and  (min-width:873px) and (max-width:875px) {
-      .MajorSection{margin-left:22px}
+      @media screen and  (min-width:876px) and (max-width:877px) {
+        .MajorSection{margin-left:25px; }
           }
+      
+          @media screen and  (min-width:878px) and (max-width:880px) {
+            .MajorSection{margin-left:26px; }
+              }
+              @media screen and  (min-width:881px) and (max-width:883px) {
+                .MajorSection{margin-left:28px; }
+                  }
+  
 
-          @media screen and  (min-width:876px) and (max-width:880px) {
-            .MajorSection{margin-left:28px}
-                }
+  @media screen and  (min-width:873px) and (max-width:875px) {
+    .MajorSection{margin-left:22px}
+        }
 
-                @media screen and  (min-width:881px)  {
-                  .MajorSection{margin-left:28px}
-                      }
+        @media screen and  (min-width:876px) and (max-width:880px) {
+          .MajorSection{margin-left:28px}
+              }
+
+              @media screen and  (min-width:881px)  {
+                .MajorSection{margin-left:28px}
+                    }
 */
 
 
 
 /* min 992 */ 
 @media screen and  (min-width:992px) {
-  .CH3-1, .CH3-2, .CH3-3, .CH3-4{font-size:38px}
-  .career-head h3 {margin-top:32px}
-  
-  
-  .career-head-content-p {font-size: 27px;     margin-left: 310px;}
-  
-  
+.CH3-1, .CH3-2, .CH3-3, .CH3-4{font-size:38px}
+.career-head h3 {margin-top:32px}
+
+
+.career-head-content-p {font-size: 27px;     margin-left: 310px;}
+
+
 .careers-form{margin-left:196px; width:69vw}
 
 
 
-  .NameSectionh3{ margin-left: 14px;}
-  .Name-interested-Section{width:270px; height:41px; margin-left: 13px;}
+.NameSectionh3{ margin-left: 14px;}
+.Name-interested-Section{width:270px; height:41px; margin-left: 13px;}
 
-  .EmailSectionh3{   margin-left: 253px;}
-  .Email-interested-section{width:270px; height:41px; margin-left: 50px;}
-
-
-  .PhoneSectionh3{ margin-left: 14px;}
-  .Phone-interested-section{width:270px; height:41px; margin-left: 13px;}
-
-  .AddressSectionh3{   margin-left: 253px;}
-  .Address-interested-section{width:270px; height:41px; margin-left: 50px;}
+.EmailSectionh3{   margin-left: 253px;}
+.Email-interested-section{width:270px; height:41px; margin-left: 50px;}
 
 
-  .MajorSection{ margin-left: 14px;}
-  .Major{width:270px; height:41px; margin-left: 13px;}
+.PhoneSectionh3{ margin-left: 14px;}
+.Phone-interested-section{width:270px; height:41px; margin-left: 13px;}
+
+.AddressSectionh3{   margin-left: 253px;}
+.Address-interested-section{width:270px; height:41px; margin-left: 50px;}
 
 
-  .CurrentOccupationSection{ margin-left: 253px;}
-  .CurrentOccupation{width:270px; height:41px; margin-left: 50px;}
+.MajorSection{ margin-left: 14px;}
+.Major{width:270px; height:41px; margin-left: 13px;}
 
 
-  .InterestedinSection{ margin-left: 14px;}
-  .Interestedin-select{width:270px; height:41px; margin-left: 13px;}
+.CurrentOccupationSection{ margin-left: 253px;}
+.CurrentOccupation{width:270px; height:41px; margin-left: 50px;}
 
-  .ShortBioSection{ margin-left: 177px;}
-  .ShortBio{width:270px; height:41px; margin-left: 50px;}
 
+.InterestedinSection{ margin-left: 14px;}
+.Interestedin-select{width:270px; height:41px; margin-left: 13px;}
+
+.ShortBioSection{ margin-left: 177px;}
+.ShortBio{width:270px; height:41px; margin-left: 50px;}
+
+
+.knowwaySection{ margin-left: 14px; font-size:22px}
+.knowwhy{width:270px; height:41px; margin-left: 13px;}
+
+.AttachcvSection{ margin-left: 29px;}
+.Attach-input{width:270px; height:41px; margin-left: 50px;}
+.Attach{    margin-left: -264px;
+  margin-top: 16px;}
+  #interestedformbutton {   margin-left: 11px;}
+
+
+
+  .footer-phone{display:none}
+
+
+
+
+
+
+
+
+  .footer{width:100%; height:120px; background-color:black;  margin-top:40px; }
   
-  .knowwaySection{ margin-left: 14px; font-size:22px}
-  .knowwhy{width:270px; height:41px; margin-left: 13px;}
-
-  .AttachcvSection{ margin-left: 29px;}
-  .Attach-input{width:270px; height:41px; margin-left: 50px;}
-  .Attach{    margin-left: -264px;
-    margin-top: 16px;}
-    #interestedformbutton {   margin-left: 11px;}
-
-
-
-    .footer-phone{display:none}
-
-
-
-
-
-
-
-
-    .footer{width:100%; height:120px; background-color:black;  margin-top:40px; }
-    
-    .footer h3{color: #ffbf00;
-      font-size: 1.5em; margin-left:140px; padding-top:5px;  }
-    
-    #coi1{margin-left:140px; color:white; margin-top:10px}
-    .coi1-span{color:white; margin-left:4px}
-    
-    .footer-allright{float:right; color:white; margin-right:186px}
-    
-    
-    #coi2{margin-left:40px; color:white; margin-top:10px}
-    .coi2-span{color:white; margin-left:4px}
-    
-    #coi3{margin-left:140px; color:white; margin-top:20px}
-    .coi3-span{color:white; margin-left:8px}
-    
-    
-    #coi4{margin-left:246px; color:white; margin-top:20px}
-    .coi4-span{color:white; margin-left:4px}
-    
-    
-    
-    
-    #footer-sociali-one{float:right; margin-right:-12px;  font-size:25px; color:white; margin-top:10px}
-    #footer-sociali-two{float:right; margin-right:-66px;  font-size:25px; color:white; margin-top:10px}
-    #footer-sociali-three{float:right; margin-right:-107px;  font-size:25px; color:white; margin-top:10px}
-    
-    
-    @media screen and (min-width: 991px) {
-      .footer{height:140px}
-      .footer h3{margin-left:36px;}
-      #coi1{margin-left:36px}
-      #coi2{margin-left:18px}
-      #coi3{margin-left:37px}
-      #coi4{margin-left:220px}
-    
-      .footer-allright {margin-right:114px;}
-    
-      #footer-sociali-one{margin-right:-6px}
-      #footer-sociali-two{margin-right:-77px}
-      #footer-sociali-three{margin-right:-125px}
-    
+  .footer h3{color: #ffbf00;
+    font-size: 1.5em; margin-left:140px; padding-top:5px;  }
+  
+  #coi1{margin-left:140px; color:white; margin-top:10px}
+  .coi1-span{color:white; margin-left:4px}
+  
+  .footer-allright{float:right; color:white; margin-right:186px}
+  
+  
+  #coi2{margin-left:40px; color:white; margin-top:10px}
+  .coi2-span{color:white; margin-left:4px}
+  
+  #coi3{margin-left:140px; color:white; margin-top:20px}
+  .coi3-span{color:white; margin-left:8px}
+  
+  
+  #coi4{margin-left:246px; color:white; margin-top:20px}
+  .coi4-span{color:white; margin-left:4px}
+  
+  
+  
+  
+  #footer-sociali-one{float:right; margin-right:-12px;  font-size:25px; color:white; margin-top:10px}
+  #footer-sociali-two{float:right; margin-right:-66px;  font-size:25px; color:white; margin-top:10px}
+  #footer-sociali-three{float:right; margin-right:-107px;  font-size:25px; color:white; margin-top:10px}
+  
+  
+  @media screen and (min-width: 991px) {
+    .footer{height:140px}
+    .footer h3{margin-left:36px;}
+    #coi1{margin-left:36px}
+    #coi2{margin-left:18px}
+    #coi3{margin-left:37px}
+    #coi4{margin-left:220px}
+  
+    .footer-allright {margin-right:114px;}
+  
+    #footer-sociali-one{margin-right:-6px}
+    #footer-sociali-two{margin-right:-77px}
+    #footer-sociali-three{margin-right:-125px}
+  
+  }
+  
+  
+  @media screen and (min-width: 900px) and (max-width:991px){
+    .footer{height:140px}
+  
+    .footer h3{margin-left:36px;}
+    #coi1{margin-left:5px; }
+    #coi2{margin-left:11px; margin-top:20px;}
+    #coi3{margin-left:8px}
+    #coi4{margin-left:212px}
+  
+    .footer-allright {margin-right:72px; margin-top:14px}
+  
+    #footer-sociali-one{margin-right:-103px}
+  
+    #footer-sociali-two{margin-right:-56px}
+    #footer-sociali-three{margin-right:-8px}
+  
+  }
+  
+  
+  
+  @media screen and (min-width: 1070px) and (max-width:1200px){
+  
+    #coi2 {margin-left: 108px;}
+  
+    #coi4 {margin-left: 313px;}
+  }
+  
+  
+  @media screen and (min-width: 1201px) and (max-width:1300px){
+  
+    #coi2 {margin-left: 108px;}
+  
+    #coi4 {margin-left: 313px;}
+  }
+  
+  
+  @media screen and (min-width: 1300px) and (max-width:1350px) {
+    .footer h3{margin-left:95px;}
+    #coi1 {
+      margin-left: 91px;}
+  
+    #coi2 {margin-left: 108px;}
+  
+    #coi4 {margin-left: 313px;}
+  
+    #coi3{margin-left:92px}
+    #coi4{margin-left:313px}
+    .footer-allright {margin-right:126px; margin-top:4px}
+  
+    #footer-sociali-one{margin-right:-103px; margin-top: 16px; font-size: 23px;}
+  
+    #footer-sociali-two{margin-right:-56px; margin-top: 16px; font-size: 23px;}
+    #footer-sociali-three{margin-right:-8px; margin-top: 16px; font-size: 23px;}
+  }
+  
+  @media screen and (min-width: 1351px) and (max-width:1450px) {
+    .footer h3{margin-left:148px;}
+    #coi1 {
+      margin-left: 145px;}
+      #coi2 {margin-left: 70px;}
+  
+      #coi3 {margin-left: 145px;}
+  
+      #coi4 {margin-left: 277px;}
+      .footer-allright {margin-right:175px;}
+  
     }
-    
-    
-    @media screen and (min-width: 900px) and (max-width:991px){
-      .footer{height:140px}
-    
-      .footer h3{margin-left:36px;}
-      #coi1{margin-left:5px; }
-      #coi2{margin-left:11px; margin-top:20px;}
-      #coi3{margin-left:8px}
-      #coi4{margin-left:212px}
-    
-      .footer-allright {margin-right:72px; margin-top:14px}
-    
-      #footer-sociali-one{margin-right:-103px}
-    
-      #footer-sociali-two{margin-right:-56px}
-      #footer-sociali-three{margin-right:-8px}
-    
-    }
-    
-    
-    
-    @media screen and (min-width: 1070px) and (max-width:1200px){
-    
-      #coi2 {margin-left: 108px;}
-    
-      #coi4 {margin-left: 313px;}
-    }
-    
-    
-    @media screen and (min-width: 1201px) and (max-width:1300px){
-    
-      #coi2 {margin-left: 108px;}
-    
-      #coi4 {margin-left: 313px;}
-    }
-    
-    
-    @media screen and (min-width: 1300px) and (max-width:1350px) {
-      .footer h3{margin-left:95px;}
+  
+  
+    @media screen and (min-width: 1451px) and (max-width:1500px) {
+      .footer h3{margin-left:203px;}
       #coi1 {
-        margin-left: 91px;}
-    
-      #coi2 {margin-left: 108px;}
-    
-      #coi4 {margin-left: 313px;}
-    
-      #coi3{margin-left:92px}
-      #coi4{margin-left:313px}
-      .footer-allright {margin-right:126px; margin-top:4px}
-    
-      #footer-sociali-one{margin-right:-103px; margin-top: 16px; font-size: 23px;}
-    
-      #footer-sociali-two{margin-right:-56px; margin-top: 16px; font-size: 23px;}
-      #footer-sociali-three{margin-right:-8px; margin-top: 16px; font-size: 23px;}
-    }
-    
-    @media screen and (min-width: 1351px) and (max-width:1450px) {
-      .footer h3{margin-left:148px;}
-      #coi1 {
-        margin-left: 145px;}
+        margin-left: 200px;}
         #coi2 {margin-left: 70px;}
     
-        #coi3 {margin-left: 145px;}
+        #coi3 {margin-left: 200px;}
     
         #coi4 {margin-left: 277px;}
-        .footer-allright {margin-right:175px;}
+        .footer-allright {margin-right:241px;}
     
       }
     
-    
-      @media screen and (min-width: 1451px) and (max-width:1500px) {
+  
+      @media screen and (min-width: 1501px) and (max-width:1600px) {
         .footer h3{margin-left:203px;}
         #coi1 {
           margin-left: 200px;}
@@ -2347,50 +2462,36 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
           .footer-allright {margin-right:241px;}
       
         }
-      
     
-        @media screen and (min-width: 1501px) and (max-width:1600px) {
+  
+  
+        @media screen and (min-width: 1600px){
           .footer h3{margin-left:203px;}
           #coi1 {
             margin-left: 200px;}
-            #coi2 {margin-left: 70px;}
+            #coi2 {margin-left: 120px;}
         
             #coi3 {margin-left: 200px;}
         
-            #coi4 {margin-left: 277px;}
-            .footer-allright {margin-right:241px;}
-        
-          }
-      
-    
-    
-          @media screen and (min-width: 1600px){
-            .footer h3{margin-left:203px;}
-            #coi1 {
-              margin-left: 200px;}
-              #coi2 {margin-left: 120px;}
-          
-              #coi3 {margin-left: 200px;}
-          
-              #coi4 {margin-left: 325px;}
-              .footer-allright {margin-right:341px;}
-    
+            #coi4 {margin-left: 325px;}
+            .footer-allright {margin-right:341px;}
+  
 
 }
 
 
 @media screen and (min-width:991px) and (max-width: 1015px) {
-  .open{margin-left: 705px;}
-  }
-  
-  
+.open{margin-left: 705px;}
+}
+
+
 
 /* inside min 992 */ 
 
 
 @media screen and  (min-width:992px) and (max-width:1074px) {
-  .career-second-contentTwo h3::before{    margin-left: -99px;}
-  .career-second-contentTwo h3::after{    margin-left: -342px;}
+.career-second-contentTwo h3::before{    margin-left: -99px;}
+.career-second-contentTwo h3::after{    margin-left: -342px;}
 }
 
 @media screen and  (min-width:1075px) and (max-width:1100px) {
@@ -2402,15 +2503,15 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 }
 
 @media screen and  (min-width:1101px) and  (max-width:1508px) {
-  .career-second-contentTwo h3{margin-top: 213px;}
+.career-second-contentTwo h3{margin-top: 213px;}
 
-  .career-second-contentTwo h3::before{    margin-left: -99px;}
-  .career-second-contentTwo h3::after{    margin-left: -342px;}
+.career-second-contentTwo h3::before{    margin-left: -99px;}
+.career-second-contentTwo h3::after{    margin-left: -342px;}
 
 }
 
 @media screen and  (min-width:1509px)  {
-  .career-second-contentTwo h3{margin-top: 281px;}
+.career-second-contentTwo h3{margin-top: 281px;}
 
 }
 
@@ -2418,12 +2519,12 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 
 @media screen and  (min-width:1101px)  {
-  .career-head-content-p {margin-top: -334px}
+.career-head-content-p {margin-top: -334px}
 }
 
 
 @media screen and  (min-width:1111px)  {
-  .career-head-content-p {line-height: 2.1em;}
+.career-head-content-p {line-height: 2.1em;}
 }
 
 
@@ -2432,229 +2533,272 @@ header{display:flex; justify-content: flex-start; height:85px; align-items: cent
 
 @media screen and  (min-width:1004px) and (max-width:1064px) {
 
-  .careers-form{    margin-left: 232px;
-    width: 65vw;}
+.careers-form{    margin-left: 232px;
+  width: 65vw;}
+}
+
+@media screen and  (min-width:1065px) and (max-width:1082px) {
+
+  .careers-form{    margin-left: 261px;
+    width: 64vw;}
   }
 
-  @media screen and  (min-width:1065px) and (max-width:1082px) {
+  @media screen and  (min-width:1082px) and (max-width:1099px) {
 
-    .careers-form{    margin-left: 261px;
-      width: 64vw;}
+    .careers-form{    margin-left: 271px;
+      width: 63vw;}
     }
   
-    @media screen and  (min-width:1082px) and (max-width:1099px) {
 
-      .careers-form{    margin-left: 271px;
-        width: 63vw;}
+    @media screen and  (min-width:1100px) and (max-width:1116px) {
+
+      .careers-form{    margin-left: 293px;
+        width: 62vw;}
       }
     
-  
-      @media screen and  (min-width:1100px) and (max-width:1116px) {
+      @media screen and  (min-width:1117px) and (max-width:1153px) {
 
         .careers-form{    margin-left: 293px;
-          width: 62vw;}
+          width: 60vw;}
         }
-      
-        @media screen and  (min-width:1117px) and (max-width:1153px) {
+
+        @media screen and  (min-width:1154px) and (max-width:1200px) {
 
           .careers-form{    margin-left: 293px;
-            width: 60vw;}
+            width: 57vw;}
           }
   
-          @media screen and  (min-width:1154px) and (max-width:1200px) {
+          @media screen and  (min-width:1201px) and (max-width:1250px) {
 
-            .careers-form{    margin-left: 293px;
-              width: 57vw;}
+            .careers-form{    margin-left: 330px;
+              width: 55vw;}
             }
     
-            @media screen and  (min-width:1201px) and (max-width:1250px) {
+  
+            @media screen and  (min-width:1251px) and (max-width:1300px) {
 
-              .careers-form{    margin-left: 330px;
-                width: 55vw;}
+              .careers-form{    margin-left: 367px;
+                width: 53vw;}
               }
-      
-    
-              @media screen and  (min-width:1251px) and (max-width:1300px) {
 
-                .careers-form{    margin-left: 367px;
-                  width: 53vw;}
+              @media screen and  (min-width:1301px) and (max-width:1350px) {
+
+                .careers-form{    margin-left: 394px;
+                  width: 51vw;}
                 }
   
-                @media screen and  (min-width:1301px) and (max-width:1350px) {
+                @media screen and  (min-width:1351px) and (max-width:1412px) {
 
-                  .careers-form{    margin-left: 394px;
-                    width: 51vw;}
+                  .careers-form{    margin-left: 435px;
+                    width: 49vw;}
                   }
-    
-                  @media screen and  (min-width:1351px) and (max-width:1412px) {
+                    
+                    @media screen and  (min-width:1413px) {
 
-                    .careers-form{    margin-left: 435px;
-                      width: 49vw;}
-                    }
-                      
-                      @media screen and  (min-width:1413px) {
+                      .careers-form{    margin-left: 435px;
+                        width: 47vw;}
+                      }
 
-                        .careers-form{    margin-left: 435px;
-                          width: 47vw;}
+                      @media screen and  (min-width:1474px) {
+
+                        .careers-form{    
+                        margin-left:471px;  width: 46vw;}
                         }
   
-                        @media screen and  (min-width:1474px) {
+                        @media screen and  (min-width:1506px) {
 
                           .careers-form{    
-                          margin-left:471px;  width: 46vw;}
+                            width: 45vw;}
                           }
     
-                          @media screen and  (min-width:1506px) {
+                          @media screen and  (min-width:1539px) {
 
-                            .careers-form{    
-                              width: 45vw;}
+                            .careers-form{  margin-left:499px;  
+                              width: 44vw;}
                             }
-      
-                            @media screen and  (min-width:1539px) {
+                            @media screen and  (min-width:1574px) {
 
-                              .careers-form{  margin-left:499px;  
-                                width: 44vw;}
+                              .careers-form{    
+                                width: 43vw;}
                               }
-                              @media screen and  (min-width:1574px) {
 
-                                .careers-form{    
-                                  width: 43vw;}
+                              @media screen and  (min-width:1611px) {
+
+                                .careers-form{  margin-left:531px;   
+                                  width: 42vw;}
                                 }
   
-                                @media screen and  (min-width:1611px) {
+                                @media screen and  (min-width:1649px) {
 
-                                  .careers-form{  margin-left:531px;   
-                                    width: 42vw;}
+                                  .careers-form{  margin-left:566px;   
+                                    width: 41vw;}
                                   }
     
-                                  @media screen and  (min-width:1649px) {
+                                  @media screen and  (min-width:1689px) {
 
-                                    .careers-form{  margin-left:566px;   
-                                      width: 41vw;}
+                                    .careers-form{  margin-left:589px;   
+                                      width: 40vw;}
                                     }
-      
-                                    @media screen and  (min-width:1689px) {
+                                    @media screen and  (min-width:1732px) {
 
-                                      .careers-form{  margin-left:589px;   
-                                        width: 40vw;}
+                                      .careers-form{  margin-left:628px;   
+                                        width: 39vw;}
                                       }
-                                      @media screen and  (min-width:1732px) {
+  
+                                      @media screen and  (min-width:1776px) {
 
-                                        .careers-form{  margin-left:628px;   
-                                          width: 39vw;}
+                                        .careers-form{  margin-left:658px;   
+                                          width: 38vw;}
                                         }
-    
-                                        @media screen and  (min-width:1776px) {
+                                        @media screen and  (min-width:1823px) {
 
                                           .careers-form{  margin-left:658px;   
-                                            width: 38vw;}
+                                            width: 37vw;}
                                           }
-                                          @media screen and  (min-width:1823px) {
+                                          @media screen and  (min-width:1872px) {
 
                                             .careers-form{  margin-left:658px;   
-                                              width: 37vw;}
+                                              width: 36vw;}
                                             }
-                                            @media screen and  (min-width:1872px) {
+                                            @media screen and  (min-width:1924px) {
 
-                                              .careers-form{  margin-left:658px;   
-                                                width: 36vw;}
+                                              .careers-form{  margin-left:696px;   
+                                                width: 35vw;}
                                               }
-                                              @media screen and  (min-width:1924px) {
 
-                                                .careers-form{  margin-left:696px;   
-                                                  width: 35vw;}
-                                                }
-  
-  
-                 
-
-                    @media screen and  (min-width:992px)  {
-
-                    .career-second-contentTwo h3::before {margin-left: -107px;}
-
-                    .career-second-contentTwo h3::after {margin-left: -312px;}
-                    
-                    }
-                  }
 
                
 
-                  
+                  @media screen and  (min-width:992px)  {
 
-                  @media screen and  (min-width:331px)  {
+                  .career-second-contentTwo h3::before {margin-left: -107px;}
 
-                    #coi1SpanPhone-Hidden-space{display:none}
-                  .coi1SpanPhone-Hidden{display:none}
-                  .coiAlignedspanMobile-Hidden{display:none}
+                  .career-second-contentTwo h3::after {margin-left: -312px;}
                   
-                  
-                  
-                  
-                  .coi1-span-phone{display:block;     margin-left: 54px;
-                  margin-top: -25px;}
                   }
-                  
-                  @media screen and (min-width:451px) and (max-width:768px){
-                  
-                  
+                }
+
+             
+
+                
+
+                @media screen and  (min-width:331px)  {
+
                   #coi1SpanPhone-Hidden-space{display:none}
-                  .coi1SpanPhone-Hidden{display:none}
-                  .coiAlignedspanMobile-Hidden{display:none}
-                  
-                  
-                  .coi1-span-phone{display:block;     margin-left: 52px;
-                  margin-top: -24px;}
-                    
-                  
-                  }
-                  
-              @media screen and  (min-width:331px) and (max-width:450px) {
-
+                .coi1SpanPhone-Hidden{display:none}
+                .coiAlignedspanMobile-Hidden{display:none}
+                
+                
+                
+                
+                .coi1-span-phone{display:block;     margin-left: 54px;
+                margin-top: -25px;}
+                }
+                
+                @media screen and (min-width:451px) and (max-width:768px){
+                
+                
                 #coi1SpanPhone-Hidden-space{display:none}
-            .coi1SpanPhone-Hidden{display:none}
-            .coiAlignedspanMobile-Hidden{display:none}
-            
-            
-            .coi1-span-phone{display:block;     margin-left: 54px;
-            margin-top: -25px;}
+                .coi1SpanPhone-Hidden{display:none}
+                .coiAlignedspanMobile-Hidden{display:none}
+                
+                
+                .coi1-span-phone{display:block;     margin-left: 52px;
+                margin-top: -24px;}
+                  
+                
+                }
+                
+            @media screen and  (min-width:331px) and (max-width:450px) {
+
+              #coi1SpanPhone-Hidden-space{display:none}
+          .coi1SpanPhone-Hidden{display:none}
+          .coiAlignedspanMobile-Hidden{display:none}
+          
+          
+          .coi1-span-phone{display:block;     margin-left: 54px;
+          margin-top: -25px;}
+            }
+          
+          
+          
+          
+            @media screen and (min-width:417px) and (max-width:435px){
+              .coi1-span-phone {
+                margin-left: 29px;    margin-top: -23px;}
               }
-            
-            
-            
-            
-              @media screen and (min-width:417px) and (max-width:435px){
+          
+              @media screen and (min-width:436px) and (max-width:450px){
+                #coi1-phone {
+                  margin-left: 15px;}
                 .coi1-span-phone {
-                  margin-left: 29px;    margin-top: -23px;}
+                  margin-left: 41px;    margin-top: -23px;}
+          
+                  #coi2-phone {
+                    margin-left: 17px;
                 }
-            
-                @media screen and (min-width:436px) and (max-width:450px){
-                  #coi1-phone {
-                    margin-left: 15px;}
-                  .coi1-span-phone {
-                    margin-left: 41px;    margin-top: -23px;}
-            
-                    #coi2-phone {
-                      margin-left: 17px;
-                  }
-                  .coi2-span-phone {
-                    margin-left: 4px;
-                  }
-            
-                  #coi3-phone {
-                    margin-left: 18px;
+                .coi2-span-phone {
+                  margin-left: 4px;
                 }
-            
-                .coi3-span-phone {
-                  margin-left: 3px;}
-                  #coi4-phone {
-                    margin-left: 18px;
-                }
-                .coi4-span-phone {
-                  margin-left: 2px;}
-                }
-            
-            
-            
-                @media screen and (min-width:769px) and (max-width:991px){
-                  .coi1-span-phone{    margin-left: 52px;}
-                }
+          
+                #coi3-phone {
+                  margin-left: 18px;
+              }
+          
+              .coi3-span-phone {
+                margin-left: 3px;}
+                #coi4-phone {
+                  margin-left: 18px;
+              }
+              .coi4-span-phone {
+                margin-left: 2px;}
+              }
+          
+          
+          
+              @media screen and (min-width:769px) and (max-width:991px){
+                .coi1-span-phone{    margin-left: 52px;}
+              }
+
+
+/* after editing */ 
+@media screen and (min-width:300px) {
+  .knowwhyOptions {
+    margin-left: 10px;
+    margin-top: 20px;}
+  
+    #interestedformbutton-phone {    margin-left: 0px;
+    margin-top: -6px;}
+  
+    .footer-phone {margin-top: -16px;}
+  
+  
+  
+  
+  
+  
+  }
+  
+  
+  
+  
+@media screen and (min-width:769px) {
+  .knowwhyOptions {
+    margin-top: 12px;}
+  
+
+#interestedformbutton{margin-left:0px; margin-top:-5px}
+.AttachcvSection {margin-left: 179px;}
+
+
+}
+
+
+@media screen and (min-width:949px) and (max-width:955px){
+
+.Attach {
+margin-left: 343px;
+margin-top: -36px;}
+}
+
+

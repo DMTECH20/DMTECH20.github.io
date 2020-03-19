@@ -137,13 +137,34 @@
         <h3 class="MajorSection">  Major  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
         <h3 class="CurrentOccupationSection">  Current Occupation  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
 
-        <input class="Major" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
+
+        <select class="Major" name="major">
+          <option selected="selected">
+              select..
+               </option>
+               
+             <option class="Engineering">Engineering</option>
+             <option value="Architecture">Architecture</option>
+             <option value="Product Design">Product Design </option>
+             <option value="Software Development">Software Development</option>
+             <option value="VR/AR">VR/AR</option>
+             <option value="ML/AI">ML/AI</option>
+             <option value="others">others</option>
+
+
+           </select>
+  
+
+
         <input class="CurrentOccupation" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
 
 
-        <h3 class="InterestedinSection">  Interested in  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
-        <h3 class="ShortBioSection">  Short Bio  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
+        <h3 class="InterestedinSection">  Interested in  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
+        <h3 class="AttachcvSection">  Attach your Resume <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
 
+        <!-- 
+        <h3 class="ShortBioSection">  Short Bio  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
+-->   
         <select class="Interestedin-select" name="Interestedin">
         <option selected="selected">
             select..
@@ -154,25 +175,51 @@
            <option value="Full-time job">Full-time job </option>
            <option value="Hyperloop Summer School">Hyperloop Summer School</option>
          </select>
-   
-
-         <input class="ShortBio" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
- 
-
-
-
-
-         <h3 class="knowwaySection">  How did you know about us?  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
-         <h3 class="AttachcvSection">  Attach your CV <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
-
-         <input class="knowwhy" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
-
          <input class="Attach-input" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
          <input class="Attach" type="file"  name="cv" type="submit" value size="40" aria-required="true" aria-invalid="false" multiple >   
+
+
+<!--- 
+         <input class="ShortBio" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
+ -->
+
+
+
+
+         
+ <h3 class="knowwaySection">  How did you know about us?  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
+ <!-- 
+ <input class="knowwhy" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
+-->
+<br> 
+
+<section class="knowwhyOptions">
+ <input type="checkbox" id="website" name="website" value="website"> 
+ <label class="knowwhy-website">website </label>
+
+ 
+  <input type="checkbox" id="publishings" name="publishings" value="through our publishings" > 
+
+  <label class="knowwhy-publishings">through our publishings </label>
+ <br>
+ <input type="checkbox" id="socialmedia" name="socialmedia" value="Social Media">
+ <label class="socialmedia"> Social Media</label>
+
+ <input type="checkbox" id="AnEvent" name="Event" value="An Event">
+ <label class="Event">An Event</label>
+
+ <input type="checkbox" id="publishings" name="publishings" value="through our publishings">
+ <label class="publishings">through our publishings</label>
+
+ <input type="checkbox" id="friend" name="friend" value="through A friend">
+ <label class="friend">through A friend</label>
+
+ <input type="checkbox" id="others" name="others" value="others">
+ <label class="others">others</label>
 <br>
          <button type="button" class="btn center-block" id="interestedformbutton" > Submit  </button>
 
-
+        </section>
   
 
     </section> 
@@ -206,7 +253,22 @@
       <br> 
     
       <h3 class="MajorSection-phone">  Major  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
-      <input class="Major-phone" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
+      <select class="Major-phone" name="major">
+        <option selected="selected">
+            select..
+             </option>
+             
+           <option class="Engineering">Engineering</option>
+           <option value="Architecture">Architecture</option>
+           <option value="Product Design">Product Design </option>
+           <option value="Software Development">Software Development</option>
+           <option value="VR/AR">VR/AR</option>
+           <option value="ML/AI">ML/AI</option>
+           <option value="others">others</option>
+
+
+         </select>
+
       <br> 
     
     
@@ -230,31 +292,56 @@
     
     
         <br> 
-    
+    <!--- 
+
       <h3 class="ShortBioSection-phone">  Short Bio  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
       <input class="ShortBio-phone" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
     
+    -->
     
     
+    <h3 class="AttachcvSection-phone">  Attach your Resume <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
     
-    
+    <input class="Attach-input-phone" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
+    <input class="Attach-phone" type="file"  name="cv" type="submit" value size="40" aria-required="true" aria-invalid="false" multiple >   
+ <br>
+
        <h3 class="knowwaySection-phone">  How did you know about us?  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
-       <input class="knowwhy-phone" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
+           
+       <section class="knowwhyOptions">
+        <input type="checkbox" id="website" name="website" value="website"> 
+        <label class="knowwhy-website">website </label>
+       
+        
+         <input type="checkbox" id="publishings" name="publishings" value="through our publishings" > 
+       
+         <label class="knowwhy-publishings">through our publishings </label>
+        <br>
+        <input type="checkbox" id="socialmedia" name="socialmedia" value="Social Media">
+        <label class="socialmedia"> Social Media</label>
+       
+        <input type="checkbox" id="AnEvent" name="Event" value="An Event">
+        <label class="Event">An Event</label>
+       
+        <input type="checkbox" id="publishings" name="publishings" value="through our publishings">
+        <label class="publishings">through our publishings</label>
+       
+        <input type="checkbox" id="friend" name="friend" value="through A friend">
+        <label class="friend">through A friend</label>
+       
+        <input type="checkbox" id="others" name="others" value="others">
+        <label class="others">others</label>
+       
+       <br>
+
     
-    
-       <h3 class="AttachcvSection-phone">  Attach your CV <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
-    
-       <input class="Attach-input-phone" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
-       <input class="Attach-phone" type="file"  name="cv" type="submit" value size="40" aria-required="true" aria-invalid="false" multiple >   
-    <br>
        <button type="button" class="btn center-block" id="interestedformbutton-phone" > Submit  </button>
-    
-    
-    
+        
     
     </section> 
     
-    
+  </section> 
+
 <br> <br> <br> <br> 
 <div class="footer">
 
@@ -263,7 +350,7 @@
 
 
   <i class="fa fa-home" id="coi1" ></i>
-  <span class="coi1-span"> 16 Omar Ibn Elkhatab St, Sheraton Heliopolis, Cairo, Egypt </span> 
+  <span class="coi1-span"> 16 Omar Ibn Elkhatab St, Sheraton Heliopolis, Ca iro, Egypt </span> 
 
 
     <p  class="footer-allright">  &copy; DM Tech </p> 

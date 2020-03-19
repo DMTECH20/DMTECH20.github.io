@@ -8,6 +8,13 @@
 .coiAlignedspanMobile-Hidden{display:none}
 
 
+.Advisors{display:none}
+
+
+.Advisors-content{display:none}
+
+
+
 html { overflow-x: hidden; }
 
 header{display:flex; justify-content: flex-start; height:85px; align-items: center; padding:20px 1%; top:0; width:100%; position:fixed; border:2px solid #f8f9fa;
@@ -639,18 +646,10 @@ display:block;
 
 
 
-
-
-
-.Advisors{width:200px; height:350px; background-color:#ffbf00; margin-top:120px; float:right}
-
-                    .Advisors-h3-one{text-align:center;  font-family: 'poppins', sans-serif; font-weight:400; font-size:40px; line-height:1.7em;  padding-top:40px;}
-                    .Advisors-h3-two{text-align:center;  font-family: 'poppins', sans-serif; font-weight:400; font-size:40px; line-height:1.7em;  padding-top:15px;}
-                    .Advisors-h3-three{text-align:center;  font-family: 'poppins', sans-serif; font-weight:400; font-size:40px; line-height:1.7em;  padding-top:30px;}
                
 
 
-
+/*
 .Advisors-content{margin-top:120px;}
 
 .Adv-p1{width:240px; height:350px; background-color:#363535; margin-left:2px;  }
@@ -721,7 +720,7 @@ display:block;
   #Advp2a2{text-decoration: none;}
   
   
-  
+  */
 
 
   .team{width:200px; height:350px; background-color:#ffbf00; margin-top:120px;}
@@ -729,7 +728,6 @@ display:block;
   .team-h3-one{text-align:center;  font-family: 'poppins', sans-serif; font-weight:400; font-size:40px; line-height:1.7em;  padding-top:40px;}
   .team-h3-two{text-align:center;  font-family: 'poppins', sans-serif; font-weight:400; font-size:40px; line-height:1.7em;  padding-top:15px;}
   .team-h3-three{text-align:center;  font-family: 'poppins', sans-serif; font-weight:400; font-size:40px; line-height:1.7em;  padding-top:30px;}
-
 
 
 /* 
@@ -913,6 +911,84 @@ display:block;
 #teamp4a2{text-decoration: none;}
 
 
+
+.partners{width:200px; height:350px; background-color:#ffbf00; margin-top:65px; }
+
+
+
+
+    
+.partners-h3-one{text-align:center;  font-family: 'poppins', sans-serif; font-weight:400; font-size:40px; line-height:1.7em;  padding-top:40px;}
+.partners-h3-two{text-align:center;  font-family: 'poppins', sans-serif; font-weight:400; font-size:40px; line-height:1.7em;  padding-top:15px;}
+.partners-h3-three{text-align:center;  font-family: 'poppins', sans-serif; font-weight:400; font-size:40px; line-height:1.7em;  padding-top:30px;}
+
+
+
+
+.partners-content {
+  margin-top: -300px;
+  margin-left: 225px;}
+
+.partners-p1{width:235px; height:235px;}
+
+.partners-p2{width:235px; height:235px;margin-left:2px}
+
+
+.partners-p1:hover{  -ms-transform: scale(1.1);
+transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all .1s;
+  -moz-transition: all .1s;
+  -o-transition: all .1s;
+  transition: all .1s;
+
+}
+
+.partners-p2:hover{  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all .1s;
+  -moz-transition: all .1s;
+  -o-transition: all .1s;
+  transition: all .1s;
+
+}
+
+
+
+.partners-p1 img{width:100%; max-width:100%; height:100%}
+.partners-p2 img{width:100%; max-width:100%; height:100%}
+
+
+.partners-p1 h2{text-align: center;
+  font-family: 'oswald', sans-serif;
+  font-size: 35px;
+  margin-top: 7px;
+}
+.partners-p2 h2{text-align: center;
+  font-family: 'oswald', sans-serif;
+  font-size: 35px;
+  margin-top: 7px;}
+
+
+  .partners-content2 {margin-top:100px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* founders and others media query */
 @media screen and (min-width:1000px) and (max-width: 1110px) {
   .Adv-p2{margin-left:20px; }
@@ -941,7 +1017,7 @@ display:block;
 
     }
   
-
+/*
     @media screen and (min-width:768px) and (max-width: 1000px) {
       .Advisors{height:300px; margin-top:65px}
     
@@ -961,7 +1037,7 @@ display:block;
       #Advp2i2 {margin-top:8px}
     
         }
-    
+    */
 
         @media screen and (min-width:768px) and (max-width: 1000px) {
           .team{height:300px; margin-top:65px}
@@ -970,7 +1046,7 @@ display:block;
           .team-h3-two{margin-top:-10px}
           .team-h3-three{margin-top:-10px}
         
-          .team-p1{width:200px; height:300px; margin-top:50px;  margin-left:240px;}
+          .team-p1{width:200px; height:300px; margin-top:50px;  margin-left:140px;}
           .team-p1 img{ height:160px; }
           .team-p1 h3{font-size:17px}
 
@@ -978,12 +1054,11 @@ display:block;
           #teamp1i2 {margin-top:8px}
         
         
-          .team-p2{width:200px; height:300px;  margin-left:140px; margin-top:50px}
+          .team-p2{width:200px; height:300px;  margin-left:3px; margin-top:50px}
           .team-p2 img{ height:160px; }
           #teamp2i1{margin-left:52px}
           #teamp2i2 {margin-top:8px}
         
-          .Adv-p1 h3{font-size:13px}
 
 
 
@@ -1047,22 +1122,22 @@ display:block;
 
 
             @media screen and (max-width: 768px) {
-              .Advisors{height:120px; margin-top:37px; width:100%}
-            .Advisors-content{margin-top:80px;}
-            .Advisors-h3-one{  margin-left:-445px; font-size:60px; padding-top:5px; }
+              .partners{height:120px; margin-top:37px; width:100%}
+            .partners-content{margin-top:80px;}
+            .partners-h3-one{  margin-left:-445px; font-size:60px; padding-top:5px; }
 
-              .Advisors-h3-two{ margin-top:-125px; margin-left:-76px; font-size:60px}
-              .Advisors-h3-three{ margin-top:-140px; margin-left:382px;  font-size:60px}
+              .partners-h3-two{ margin-top:-125px; margin-left:-76px; font-size:60px}
+              .partners-h3-three{ margin-top:-140px; margin-left:382px;  font-size:60px}
 
 
 
-              .Adv-p1{width:200px; height:300px;  margin-left:30px; margin-top:30px;}
+              .partners-p1{width:200px; height:235px;  margin-left:-215px; margin-top:30px;}
               .Adv-p1 img{ height:160px; }
               #Advp1i1{margin-left:52px; margin-top:-2px}
               #Advp1i2 {margin-top:8px;  margin-top:-2px}
                     
             
-              .Adv-p2{width:200px; height:300px; margin-left:30px; margin-top:30px;}
+              .partners-p2{width:200px; height:235px; margin-left:12px; margin-top:-235px;}
               .Adv-p2 img{ height:160px; }
               #Advp2i1{margin-left:52px}
               #Advp2i2 {margin-top:8px}
@@ -1070,10 +1145,36 @@ display:block;
             }
 
             @media screen and (max-width: 714px) {
-              .Advisors-h3-one{margin-left:-327px; font-size:45px; padding-top:16px}
-              .Advisors-h3-two{margin-left:-76px; margin-top:-99px; font-size:45px}
-              .Advisors-h3-three{margin-left:264px; margin-top:-114px; font-size:45px}
+              .partners-h3-one{margin-left:-327px; font-size:45px; padding-top:16px}
+              .partners-h3-two{margin-left:-76px; margin-top:-99px; font-size:45px}
+              .partners-h3-three{margin-left:264px; margin-top:-117px; font-size:45px}
             }
+
+            @media screen and  (min-width:451px) and (max-width:500px) {
+              .partners-h3-one {
+                margin-left: -304px;}
+
+                .partners-h3-two {
+                  margin-left: -69px;}
+
+
+              .partners-h3-three{    margin-top: -119px;     margin-left: 239px;}
+            }
+            
+            
+            @media screen and  (min-width:550px) and (max-width:714px) {
+              .partners-h3-two {
+                margin-left: -52px;}
+          
+                .partners-h3-three{    margin-left: 303px;}
+              }
+
+              
+
+
+
+
+
 
 
             @media screen and (max-width: 576px) {
@@ -1337,20 +1438,34 @@ display:block;
 
 
 
-                  .Advisors-h3-one{    margin-left: -194px;
+                  .partners-h3-one{    margin-left: -194px;
                   font-size: 29px;
                   padding-top: 30px;}
 
-                  .Advisors-h3-two{margin-left: -41px;
+                  .partners-h3-two{margin-left: -41px;
                     margin-top: -72px;
                     font-size: 29px;
                 }
 
-                  .Advisors-h3-three {    margin-left: 153px;
-                    margin-top: -87px;
+                  .partners-h3-three {    margin-left: 153px;
+                    margin-top: -89px;
                     font-size: 29px; }
-                .Adv-p1{width:222px;     margin-left: 28px;}
-                .Adv-p2{  width:222px;  margin-left: 28px; margin-top: 37px;}
+
+
+                    .partners-content {
+                      margin-top: 38px;
+                  }
+                  .partners-p1 h2, .partners-p2 h2 { font-size:30px}
+
+
+                .partners-p1{width:222px;     margin-left: -195px; }
+                .partners-p2{  width:222px;  margin-left: -195px; margin-top: 79px;}
+
+                .partners-content2 {
+                  margin-top: 80px;
+                  margin-left: -15px;
+              }
+
 
 
                 .team-h3-one {margin-left: -172px;
@@ -1375,8 +1490,8 @@ display:block;
                   .footer{display:none}
                   .footer-phone{display:block}
                   
-                  
-                  .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+
+                  .footer-phone{width:100%; height:auto; background-color:black;  margin-top:80px;}
 
                   .footer-phone h3{color: #ffbf00;
                     font-size: 1.4em;  padding-top:5px; text-align:center  }
@@ -1442,11 +1557,11 @@ display:block;
                 }
   
                 @media screen and (min-width:306px) and (max-width:310px){
-                  .Adv-p1,  .Adv-p2 {  margin-left: 31px}
+                  .partners-p1,  .partners-p2 {  margin-left: -194px}
                   }
     
                   @media screen and (min-width:311px) and (max-width:320px){
-                    .Adv-p1,  .Adv-p2 {  margin-left: 34px}
+                    .partners-p1,  .partners-p2 {  margin-left: -191px}
                     }
     
 
@@ -1532,17 +1647,17 @@ display:block;
                           .founders-p2 { width:234px; margin-left:33px; margin-top:29px}
 
 
-                          .Advisors-h3-one{    margin-left: -215px;
+                          .partners-h3-one{    margin-left: -215px;
                             font-size: 30px;
                             padding-top: 30px;}
 
-                            .Advisors-h3-two{margin-left: -50px;
+                            .partners-h3-two{margin-left: -50px;
                               margin-top: -75px;
                               font-size: 30px;
                           }
 
-                            .Advisors-h3-three {    margin-left: 172px;
-                              margin-top: -88px;
+                            .partners-h3-three {    margin-left: 172px;
+                              margin-top: -91px;
                               font-size: 30px;
                           }
                           .Adv-p1{width:222px;     margin-left: 37px;}
@@ -1569,12 +1684,26 @@ display:block;
                         
 
                         
-                        
+                            .partners-content {
+                              margin-top: 13px;
+                          }
+                          .partners-p1 h2, .partners-p2 h2 { font-size:30px}
+        
+        
+                        .partners-p1{width:222px;     margin-left: -183px; }
+                        .partners-p2{  width:222px;  margin-left: -183px; margin-top: 76px;}
+        
+                        .partners-content2 {
+                          margin-top: 80px;
+                          margin-left: -15px;
+                      }
+        
+        
                               .footer{display:none}
                               .footer-phone{display:block}
                               
 
-                              .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+                              .footer-phone{width:100%; height:auto; background-color:black;  margin-top:70px; tedxt-align: center; }
                               
                               .footer-phone h3{color: #ffbf00;
                                 font-size: 1.4em;  padding-top:5px; text-align:center  }
@@ -1891,13 +2020,13 @@ display:block;
 
 
         @media screen and (min-width:330px) and (max-width:370px){
-          .Advisors-h3-one{    margin-left: -228px;
+          .partners-h3-one{    margin-left: -228px;
             font-size: 32px;}
-            .Advisors-h3-two{    margin-left: -61px;
+            .partners-h3-two{    margin-left: -61px;
               margin-top: -77px;
               font-size: 32px;}
-              .Advisors-h3-three{    margin-left: 164px;
-                margin-top: -92px;
+              .partners-h3-three{    margin-left: 164px;
+                margin-top: -95px;
                 font-size: 32px;}
           
           }
@@ -1905,25 +2034,25 @@ display:block;
       
       
           @media screen and (min-width:371px) and (max-width:410px){
-            .Advisors-h3-one{    margin-left: -242px;
+            .partners-h3-one{    margin-left: -242px;
               font-size: 35px;}
-              .Advisors-h3-two{    margin-left: -65px;
+              .partners-h3-two{    margin-left: -65px;
                 margin-top: -82px;
                 font-size: 35px;}
-                .Advisors-h3-three{    margin-left: 179px;
-                  margin-top: -97px;
+                .partners-h3-three{    margin-left: 179px;
+                  margin-top: -100px;
                   font-size: 35px; }
             
             }
         
             @media screen and (min-width:411px) and (max-width:450px){
-              .Advisors-h3-one{    margin-left: -268px;
+              .partners-h3-one{    margin-left: -268px;
                 font-size: 38px; margin-top: -8px;}
-                .Advisors-h3-two{    margin-left: -65px;
+                .partners-h3-two{    margin-left: -65px;
                   margin-top: -87px;
                   font-size: 38px;}
-                  .Advisors-h3-three{    margin-left: 211px;
-                    margin-top: -103px;
+                  .partners-h3-three{    margin-left: 211px;
+                    margin-top: -105px;
                     font-size: 38px; }
               
               }
@@ -2085,6 +2214,17 @@ display:block;
             .team-p2 h2 {font-size: 21px;}
             .team-p2 h3 {    font-size: 17px;}
 
+            .partners-content {
+              margin-top: 13px;
+          }
+          .partners-p1 h2, .partners-p2 h2 { font-size:30px}
+
+
+
+        .partners-content2 {
+          margin-top: 80px;
+          margin-left: -15px;
+      }
 
 
             .footer{display:none}
@@ -2093,7 +2233,7 @@ display:block;
             
             
             
-            .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+            .footer-phone{width:100%; height:auto; background-color:black;  margin-top:75px; tedxt-align: center; }
             
             .footer-phone h3{color: #ffbf00;
               font-size: 1.4em;  padding-top:5px; text-align:center  }
@@ -2138,12 +2278,12 @@ display:block;
 
   @media screen and (min-width:330px) and (max-width:344px){
 
-    .Adv-p1, .Adv-p2{margin-left: 39px; width:234px }
+    .partners-p1, .partners-p2{margin-left: -186px; width:234px }
 
   }
 
   @media screen and (min-width:345px) and (max-width:350px){
-    .Adv-p1, .Adv-p2{margin-left: 47px; width:234px }
+    .partners-p1, .partners-p2{margin-left: -178px; width:234px }
   }
 
 
@@ -2152,36 +2292,36 @@ display:block;
 
   @media screen and (min-width:351px) and (max-width:360px){
 
-    .Adv-p1, .Adv-p2{margin-left:47px}
+    .partners-p1, .partners-p2{margin-left:-178px;  width:234px}
   }
   @media screen and (min-width:361px) and (max-width:375px){
 
-    .Adv-p1, .Adv-p2{margin-left:54px}
+    .partners-p1, .partners-p2{margin-left:-171px; width:234px }
   }
 
   @media screen and (min-width:376px) and (max-width:390px){
 
-    .Adv-p1, .Adv-p2{margin-left:65px}
+    .partners-p1, .partners-p2{margin-left:-160px; width:234px}
   }
 
   @media screen and (min-width:391px) and (max-width:410px){
 
-    .Adv-p1, .Adv-p2{margin-left:72px}
+    .partners-p1, .partners-p2{margin-left:-153px; width:234px}
   }
 
   @media screen and (min-width:411px) and (max-width:425px){
 
-    .Adv-p1, .Adv-p2{margin-left:87px}
+    .partners-p1, .partners-p2{margin-left:-138px; width:234px}
   }
 
   @media screen and (min-width:425px) and (max-width:440px){
 
-    .Adv-p1, .Adv-p2{margin-left:97px}
+    .partners-p1, .partners-p2{margin-left:-128px; width:234px}
   }
 
   @media screen and (min-width:441px) and (max-width:450px){
 
-    .Adv-p1, .Adv-p2{margin-left:102px}
+    .partners-p1, .partners-p2{margin-left:-123px; width:234px}
   }
 
 
@@ -2338,15 +2478,34 @@ display:block;
       }
 
 
+      @media screen and (min-width:451px) and (max-width:459px){
+        .partners-p1 {margin-left: -229px;}
+        .partners-p2 {margin-left: -6px;}
+
+
+
+
+      }
+
+
+
+
+
+
+
+
+
       @media screen and (min-width:460px) and (max-width:480px){
         .founders-p1 {margin-left:10px}
         .founders-p2 {margin-left:237px}
         
-        .Adv-p1 {margin-left:10px}
-        .Adv-p2 {margin-left:237px}
+        .partners-p1 {margin-left:-215px}
+        .partners-p2 {margin-left:12px}
 
         .team-p1 {margin-left:10px}
         .team-p2 {margin-left:237px}
+
+
 
       }
 
@@ -2355,8 +2514,8 @@ display:block;
         .founders-p1 {margin-left:17px}
         .founders-p2 {margin-left:247px}
 
-        .Adv-p1 {margin-left:17px}
-        .Adv-p2 {margin-left:247px}
+        .partners-p1 {margin-left:-208px}
+        .partners-p2 {margin-left:22px}
 
         .team-p1 {margin-left:17px}
         .team-p2 {margin-left:247px}
@@ -2369,8 +2528,8 @@ display:block;
         .founders-p1 {margin-left:17px}
         .founders-p2 {margin-left:247px}
 
-        .Adv-p1 {margin-left:10px}
-        .Adv-p2 {margin-left:247px}
+        .partners-p1 {margin-left:-215px}
+        .partners-p2 {margin-left:22px}
 
         .team-p1 {margin-left:10px}
         .team-p2 {margin-left:247px}
@@ -2381,21 +2540,13 @@ display:block;
         .founders-p1 {margin-left:16px}
         .founders-p2 {margin-left:253px}
 
-        .Adv-p1 {margin-left:16px}
-        .Adv-p2 {margin-left:253px}
+        .partners-p1 {margin-left:-209px}
+        .partners-p2 {margin-left:28px}
 
         .team-p1 {margin-left:16px}
         .team-p2 {margin-left:253px}
 
       }
-
-
-
-
-
-
-
-
 
 
 
@@ -2436,12 +2587,15 @@ display:block;
 
       }
 
-      @media screen and (min-width:577px) and (max-width:768px){
+      @media screen and (min-width:581px) and (max-width:768px){
         .founders-p2 {margin-left:36px; }
         .founders-p1 {margin-left:22px}
 
-        .Adv-p2 {margin-left:36px; }
-        .Adv-p1 {margin-left:22px}
+        .partners-p2 {margin-left:-77px; margin-top:32px }
+        .partners-p1 {float: right; margin-right:131px; }
+        .pthree{margin-right:123px}
+        .pfour{margin-left:-68px}
+
 
         .team-p2 {margin-left:36px; }
         .team-p1 {margin-left:22px}
@@ -2469,15 +2623,21 @@ display:block;
 
 
       @media screen and (min-width:715px) and (max-width: 768px) {
-        .Advisors-h3-one{margin-left:-362px; font-size:55px; padding-top:10px}
-        .Advisors-h3-two{margin-left:-76px; margin-top:-115px; font-size:55px}
-        .Advisors-h3-three{margin-left:307px; margin-top:-129px; font-size:55px}
+        .partners-h3-one{margin-left:-404px; font-size:55px; padding-top:10px}
+        .partners-h3-two{margin-left:-65px; margin-top:-115px; font-size:55px}
+        .partners-h3-three{margin-left:360px; margin-top:-137px; font-size:55px}
       }
 
       @media screen and (min-width:715px) and (max-width: 768px) {
         .team-h3-one{margin-left:-331px; font-size:55px; padding-top:10px}
         .team-h3-two{margin-left:-26px; margin-top:-115px; font-size:55px}
         .team-h3-three{margin-left:285px; margin-top:-129px; font-size:55px}
+      }
+
+      @media screen and (min-width:768px) and (max-width: 768px) {
+        .partners-h3-one{margin-left:-404px; font-size:55px; padding-top:10px}
+        .partners-h3-two{margin-left:-65px; margin-top:-115px; font-size:55px}
+        .partners-h3-three{margin-left:360px; margin-top:-137px; font-size:55px}
       }
 
 
@@ -2512,8 +2672,8 @@ display:block;
                 .founders-p2 {margin-left:270px}
         
             
-                .Adv-p1 {margin-left:17px}
-                .Adv-p2 {margin-left:270px}
+                .partners-p1 {margin-left:-208px}
+                .partners-p2 {margin-left:45px}
         
                 .team-p1 {margin-left:17px}
                 .team-p2 {margin-left:270px}
@@ -2527,9 +2687,9 @@ display:block;
                 .founders-p2 {margin-left:274px}
         
             
-                .Adv-p1 {margin-left:34px}
-                .Adv-p2 {margin-left:274px}
-        
+                .partners-p1 {margin-left:-191px}
+                .partners-p2 {margin-left:49px}
+
                 .team-p1 {margin-left:34px}
                 .team-p2 {margin-left:274px}
         
@@ -2541,8 +2701,8 @@ display:block;
                 .founders-p2 {margin-left:278px}
         
             
-                .Adv-p1 {margin-left:40px}
-                .Adv-p2 {margin-left:278px}
+                .partners-p1 {margin-left:-185px}
+                .partners-p2 {margin-left:53px}
         
                 .team-p1 {margin-left:40px}
                 .team-p2 {margin-left:278px}
@@ -2555,9 +2715,9 @@ display:block;
                 .founders-p2 {margin-left:282px}
         
             
-                .Adv-p1 {margin-left:46px}
-                .Adv-p2 {margin-left:282px}
-        
+                .partners-p1 {margin-left:-179px}
+                .partners-p2 {margin-left:57px}
+
                 .team-p1 {margin-left:46px}
                 .team-p2 {margin-left:282px}
         
@@ -2568,9 +2728,9 @@ display:block;
                 .founders-p2 {margin-left:286px}
         
             
-                .Adv-p1 {margin-left:52px}
-                .Adv-p2 {margin-left:286px}
-        
+                .partners-p1 {margin-left:-173px}
+                .partners-p2 {margin-left:61px}
+
                 .team-p1 {margin-left:52px}
                 .team-p2 {margin-left:286px}
         
@@ -2582,8 +2742,8 @@ display:block;
                 .founders-p2 {margin-left:286px}
         
             
-                .Adv-p1 {margin-left:52px}
-                .Adv-p2 {margin-left:286px}
+                .partners-p1 {margin-left:-173px}
+                .partners-p2 {margin-left:61px}
         
                 .team-p1 {margin-left:52px}
                 .team-p2 {margin-left:286px}
@@ -2597,14 +2757,22 @@ display:block;
                 .founders-p2 {margin-left:27px}
         
             
-                .Adv-p1 {margin-left:52px}
-                .Adv-p2 {margin-left:27px}
-        
+                .partners-p1 {margin-left:-155px}
+                .partners-p2 {margin-left:-85px; margin-top:28px}
+                .pfour{margin-left:-78px}
                 .team-p1 {margin-left:52px}
                 .team-p2 {margin-left:27px}
         
               }
         
+
+          
+
+
+
+
+
+
 
 
 
@@ -2785,7 +2953,7 @@ display:block;
       .founders-p1 {margin-left: 97px;}
       .founders-h3-one {margin-left: -380px}
 
-      .Advisors-h3-one{    padding-top: 34px;}
+      .partners-h3-one{    padding-top: 9px;}
       .Adv-p1{margin-left: 97px;}
 
       .team-p1{margin-left: 97px;}
@@ -2826,9 +2994,9 @@ display:block;
   .team {margin-top: 90px;}
   .founders-h3-one { padding-top: 22px;}
 
-  .Advisors-h3-one {margin-top: -14px;}
+  .partners-h3-one {margin-top: -14px;}
 
-  .team-h3-one{ padding-top: 22px;}
+  .team-h3-one{ padding-top: 57px;}
 
   #teamp3-phone{margin-top:-4px; margin-bottom:25px}
 
@@ -3048,7 +3216,7 @@ display:block;
 
               .teampthree{margin-top:-4px; margin-bottom:25px}
 
-              .Advisors-h3-one{ margin-top: -17px;}
+              .partners-h3-one{ margin-top: -17px;}
               .team-h3-one{padding-top: 22px;}
 
             }
@@ -3370,21 +3538,6 @@ display:block;
 
   
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and  (max-width:1024px){
@@ -3402,5 +3555,176 @@ display:block;
 
 
   
+/* after editing */ 
+
+@media screen and  (min-width:769px){
+  .team-content {
+    margin-top: 16px;}
+
+    .team{    float: right; margin-top:67px}
+    .team-p1{margin-top:50px; margin-left:-12px}
+
+    .team-p2 {    margin-left: -21px;
+      margin-top: 50px;}
 
 
+
+
+
+  }
+
+  @media screen and  (min-width:769px) and (max-width:991px) {
+
+  .founders-p2{margin-left: 157px;}
+  }
+
+
+  @media screen and  (min-width:992px)  {
+    .team-p2 {
+      margin-left: 38px;}
+      .team-p1 {    margin-left: 95px}
+    }
+
+  @media screen and  (min-width:1001px)  {
+
+    .team-p1 {
+      margin-left: 66px;}
+      .team-p2 {
+        margin-left: 29px;}
+
+      }
+
+
+
+  @media screen and  (min-width:769px) {
+    .Advisors{display:none}
+    .Advisors-h3-one{display:none}
+    .Advisors-h3-two{display:none}
+    .Advisors-h3-three{display:none}
+
+
+
+
+      .partners{display:block}
+
+      .partners-h3-one{display:block}
+      .partners-h3-two{display:block}
+      .partners-h3-three{display:block}
+
+      .partners{width:200px; height:300px; background-color:#ffbf00; margin-top:65px; }
+
+
+
+
+    
+        .partners-h3-one{text-align:center;  font-family: 'poppins', sans-serif; font-weight:400; font-size:40px; line-height:1.7em;  padding-top:20px;}
+        .partners-h3-two{text-align:center;  font-family: 'poppins', sans-serif; font-weight:400; font-size:40px; line-height:1.7em;  padding-top:18px;}
+        .partners-h3-three{text-align:center;  font-family: 'poppins', sans-serif; font-weight:400; font-size:40px; line-height:1.7em;  padding-top:11px;}
+
+.Advisors-content{display:none}
+
+@media screen and  (min-width:769px) and (max-width:991px) {
+
+.partners-content{display:block}
+
+.partners-content {
+  margin-top: -300px;
+  margin-left: 225px;}
+
+.partners-p1{width:235px; height:235px;}
+
+.partners-p2{width:235px; height:235px;margin-left:2px}
+
+
+.partners-p1:hover{  -ms-transform: scale(1.1);
+transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all .1s;
+  -moz-transition: all .1s;
+  -o-transition: all .1s;
+  transition: all .1s;
+
+}
+
+.partners-p2:hover{  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all .1s;
+  -moz-transition: all .1s;
+  -o-transition: all .1s;
+  transition: all .1s;
+
+}
+
+
+
+.partners-p1 img{width:100%; max-width:100%; height:100%}
+.partners-p2 img{width:100%; max-width:100%; height:100%}
+
+
+.partners-p1 h2{text-align: center;
+  font-family: 'oswald', sans-serif;
+  font-size: 32px;
+  margin-top: 7px;
+}
+.partners-p2 h2{text-align: center;
+  font-family: 'oswald', sans-serif;
+  font-size: 32px;
+  margin-top: 7px;}
+
+
+  .partners-content2 {margin-top:100px; }
+
+.footer-phone {margin-top: 93px;}
+
+  }
+
+
+  /* after editing */ 
+
+
+  @media screen and  (min-width:820px)  {
+
+    .partners-p1 {margin-left: 16px;}
+  }
+
+  @media screen and  (min-width:900px)  {
+
+    .partners-content {margin-left: 256px;}
+  }
+  @media screen and  (min-width:1001px)  {
+
+.partners-content {    margin-left: 308px;}
+  }
+  
+  @media screen and  (min-width:1300px)  {
+
+    .partners-content {    margin-left: 328px;}
+
+    .partners-p1 {
+      margin-left: 71px;
+  }
+      }
+    
+      @media screen and  (min-width:992px)  {
+
+        .footer {
+          margin-top: 92px; }
+      }
+
+
+
+/*
+
+.team{width:200px; height:350px; background-color:#ffbf00; margin-top:120px; float:right}
+
+                    .team-h3-one{text-align:center;  font-family: 'poppins', sans-serif; font-weight:400; font-size:40px; line-height:1.7em;  padding-top:40px;}
+                    .team-h3-two{text-align:center;  font-family: 'poppins', sans-serif; font-weight:400; font-size:40px; line-height:1.7em;  padding-top:15px;}
+                    .team-h3-three{text-align:center;  font-family: 'poppins', sans-serif; font-weight:400; font-size:40px; line-height:1.7em;  padding-top:30px;}
+
+
+*/
