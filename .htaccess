@@ -1,1 +1,1 @@
-AddHandler application/x-httpd-ea-php56 .html
+AddHandler application/x-httpd-ea-php56 .html .htm
