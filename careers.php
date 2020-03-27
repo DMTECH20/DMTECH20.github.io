@@ -1,3 +1,63 @@
+<?php 
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+
+     $user = filter_var($_POST['username'], FILTER_SANITIZE_STRING);
+     $mail = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+     $cell = filter_var($_POST['cellphone'], FILTER_SANITIZE_NUMBER_INT);
+     $Address = filter_var($_POST['Address'],FILTER_SANITIZE_STRING);
+     $major = filter_var($_POST['major']);
+     $CurrentOccupation = filter_var($_POST['CurrentOccupation'], FILTER_SANITIZE_STRING);
+     $msg = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
+     $interestedin = filter_var($_POST['interestedin'],FILTER_SANITIZE_STRING);
+
+
+
+
+
+     // creating Array of Errors
+
+     $formErrors = array ();
+     if (strlen($user) <= 3) {
+ 
+         $formErrors[] = 'username must be larger than <strong> 3 </strong> characters';
+     } 
+
+    
+
+
+
+    $headers = 'from' .$mail . '\r\n';
+    $myEmail = 'fathywork7472@gmail.com';
+    $subject = 'contact form';
+
+    if (empty($formErrors)) {
+
+        mail($myEmail, $subject, $msg, $headers);
+
+        $user = '';
+        $mail = '';
+        $cell = '';
+        $Address = '';
+        $major = '';
+        $CurrentOccupation = '';
+        $msg = '';
+        $interestedin = '';
+   
+      $success = '<div class="alert alert-success"> we recieved it </div';
+
+
+
+    }
+
+}
+
+
+
+?> 
+
+
+
 <!DOCTYPE html>
 
 <html>
@@ -13,7 +73,7 @@
 
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/fontawesome/all.min.css">
-<link rel="stylesheet" href="css/careers.css">
+<link rel="stylesheet" href="css/careers-local.css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
@@ -108,9 +168,22 @@
         
     </div>
     
-
     <br>
-    <section class="careers-form">
+    <form class="careers-form" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
+<?php if (! empty($formErrors)) { ?>
+    <div class="alert alert-danger alert-dismissible" role="start">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+<?php
+
+foreach($formErrors as $error) {
+    echo $error . '<br/>';
+}
+?>
+</div>
+<?php } ?>
+
 
 
         <h3 class="NameSectionh3">  Name  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
@@ -118,8 +191,11 @@
         <h3 class="EmailSectionh3">  Email  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
         
         <br> 
-        <input class="Name-interested-Section" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
-        <input class="Email-interested-section" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
+        <input class="Name-interested-Section" type="text" name="username"   aria-required="true" aria-invalid="false" 
+                value="<?php if (isset($user)) { echo $user; } ?>" required/>   
+                <input class="Email-interested-section" type="text" name="email"  aria-required="true" aria-invalid="false" 
+                 value="<?php if (isset($mail)) { echo $mail; } ?>" required />   
+        
         <br> 
 
 
@@ -130,15 +206,19 @@
 
 
 
-        <input class="Phone-interested-section" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
-        <input class="Address-interested-section" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
+        <input class="Phone-interested-section" type="text" name="cellphone" type="submit" aria-required="true" aria-invalid="false" 
+               value="<?php if (isset($cell)) { echo $cell; } ?>" required />   
+   
+        <input class="Address-interested-section" type="text" name="Address" type="submit"  aria-required="true" aria-invalid="false" 
+              value="<?php if (isset($Address)) { echo $Address; } ?>" required/>   
 
 
         <h3 class="MajorSection">  Major  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
         <h3 class="CurrentOccupationSection">  Current Occupation  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
 
 
-        <select class="Major" name="major">
+        <select class="Major" name="major" value="<?php if (isset($major)) { echo $major; } ?>" required>   
+
           <option selected="selected">
               select..
                </option>
@@ -156,7 +236,9 @@
   
 
 
-        <input class="CurrentOccupation" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
+        <input class="CurrentOccupation" type="text" name="CurrentOccupation" type="submit"  aria-required="true" aria-invalid="false" 
+              value="<?php if (isset($CurrentOccupation)) { echo $CurrentOccupation; } ?>" required/>   
+   
 
 
         <h3 class="InterestedinSection">  Interested in  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
@@ -165,7 +247,8 @@
         <!-- 
         <h3 class="ShortBioSection">  Short Bio  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
 -->   
-        <select class="Interestedin-select" name="Interestedin">
+        <select class="Interestedin-select" name="interestedin" value="<?php if (isset($interestedin)) { echo $interestedin; } ?>" required>   
+>
         <option selected="selected">
             select..
              </option>
@@ -175,8 +258,12 @@
            <option value="Full-time job">Full-time job </option>
            <option value="Hyperloop Summer School">Hyperloop Summer School</option>
          </select>
-         <input class="Attach-input" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
-         <input class="Attach" type="file"  name="cv" type="submit" value size="40" aria-required="true" aria-invalid="false" multiple >   
+
+
+         <input class="Attach-input" type="text" name="Attach" type="submit"  aria-required="true" aria-invalid="false" 
+               value="<?php if (isset($Attach)) { echo $Attach; } ?>" />   
+   
+         <input class="Attach" type="file"  aria-required="true" aria-invalid="false" multiple required >   
 
 
 <!--- 
@@ -193,7 +280,7 @@
 -->
 <br> 
 
-<section class="knowwhyOptions">
+<section class="knowwhyOptions" name="knowwhyOptions">
  <input type="checkbox" id="website" name="website" value="website"> 
  <label class="knowwhy-website">Website </label>
 
@@ -212,13 +299,12 @@
  <input type="checkbox" id="others" name="others" value="others">
  <label class="others">Others</label>
 <br>
-         <button type="button" class="btn center-block" id="interestedformbutton" > Submit  </button>
+         <button type="submit" class="btn center-block" id="interestedformbutton" > Submit  </button>
 
         </section>
   
 
-    </section> 
-
+</form>
     <!-- 
 
 // contact form for mobile version  */ 
@@ -229,22 +315,22 @@
 
 
       <h3 class="NameSectionh3-phone">  Name  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
-      <input class="Name-interested-Section-phone" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
+      <input class="Name-interested-Section-phone" type="text" name="username" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
       <br> 
     
       <h3 class="EmailSectionh3-phone">  Email  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
-      <input class="Email-interested-section-phone" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
+      <input class="Email-interested-section-phone" type="text" name="email" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
       <br> 
     
     
       <h3 class="PhoneSectionh3-phone">  Phone  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
-      <input class="Phone-interested-section-phone" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
+      <input class="Phone-interested-section-phone" type="text" name="cellphone" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
     
       <br> 
     
     
       <h3 class="AddressSectionh3-phone">  Address  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
-      <input class="Address-interested-section-phone" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
+      <input class="Address-interested-section-phone" type="text" name="Address" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
       <br> 
     
       <h3 class="MajorSection-phone">  Major  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
@@ -268,12 +354,12 @@
     
     
       <h3 class="CurrentOccupationSection-phone">  Current Occupation  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
-      <input class="CurrentOccupation-phone" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
+      <input class="CurrentOccupation-phone" type="text" name="CurrentOccupation" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
       <br> 
     
     
       <h3 class="InterestedinSection-phone">  Interested in  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>  
-      <select class="Interestedin-select-phone" name="Interestedin">
+      <select class="Interestedin-select-phone" name="interestedin">
         <option selected="selected">
           select..
            </option>
@@ -414,7 +500,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-<script type="text/javascript" src="js/DM.js"> </script>
+
+<script type="text/javascript" src="js/careers.js"> </script>
 
 </body>
 </html>
