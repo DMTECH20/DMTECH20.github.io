@@ -1212,7 +1212,7 @@ display:block;
 
                 @media screen and  (min-width:769px) and (max-width:991px) {
                   .contact-form-head h3 {    margin-left: -19px;
-                    margin-top: 276px;  font-size: 23px; text-align:center}
+                    margin-top: 179px;  font-size: 23px; text-align:center}
                   
                     
                   
@@ -2008,7 +2008,53 @@ margin-top: -23px;}
   
 
 
-  .map{margin-left:48px; margin-top:10px}
+
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+@media screen and (min-width: 769px){
+  .map-responsive{    margin-left: -25px;
+    width: 323px; margin-top: 20px;}
+
+  }
   
-    
   
+  
+  @media screen and (min-width: 951px) and (max-width:991px){
+    .map-responsive{margin-left: -103px;
+    width: 393px;}
+  
+
+  .contact-form-head h3 {margin-top: 229px;}
+
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width:1199px){
+  .map-responsive {
+    margin-left: 50px;
+    width: 364px;
+    margin-top: 30px;}
+}
+
+@media screen and (min-width: 1200px){
+
+.map-responsive {
+  margin-left: 53px;
+  width: 425px;
+}
+
+}
