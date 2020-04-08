@@ -1817,18 +1817,18 @@ textarea:focus, input:focus{
 .footer-phone h3{color: #ffbf00;
   font-size: 1.4em;  padding-top:5px; text-align:center  }
 
-#coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
+#coi1-phone{ color:white; margin-top:10px; margin-left: 10px;}
 .coi1-span-phone{color:white; margin-left:4px}
 
 
-#coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
+#coi2-phone{ color:white;margin-top: 15px; margin-left: 10px;}
 .coi2-span-phone{color:white; margin-left:4px}
 
-#coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
+#coi3-phone{ color:white; margin-top:15px; margin-left: 10px;}
 .coi3-span-phone{color:white; margin-left:4px}
 
 
-#coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
+#coi4-phone{ color:white; margin-top:15px; margin-left: 10px;}
 .coi4-span-phone{color:white; margin-left:4px}
 
 
@@ -1849,10 +1849,10 @@ textarea:focus, input:focus{
 
 .coi1-span-phone{display:none}
 
-.coi1SpanPhone-Hidden{color:white; margin-left: 50px;
+.coi1SpanPhone-Hidden{color:white; margin-left: 34px;
   margin-top: -24px;}
 
-.coiAlignedspanMobile-Hidden{color:white; margin-left: 53px;}
+.coiAlignedspanMobile-Hidden{color:white; margin-left: 37px;}
 
               }
 
