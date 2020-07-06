@@ -108,7 +108,7 @@ display:block;
 
 .contact-form {margin-top:-155px;}
 .contact-form h3{font-family: 'poppins', sans-serif; font-size:21px; position: relative;}
-#form-asterisk{font-size:9px; color:#3f3f3f; margin-left:8px; margin-top:4px; position: absolute; }
+#form-asterisk{font-size:9px; color:#d93025; margin-left:8px; margin-top:4px; position: absolute; }
 
 
 
@@ -655,7 +655,7 @@ font-size: 19px;
 user-select: none;
 margin-top:-31px
 }
-#website{width:17px; height:17px}
+#website, #website_phone {width:17px; height:17px}
 
 
 
@@ -669,7 +669,7 @@ font-size: 19px;
 user-select: none;
 margin-top:1px}
 
-#publishings{width:17px; height:17px}
+#publishings, #publishings_phone{width:17px; height:17px}
 
 
 .socialmedia{ display: block;
@@ -682,7 +682,7 @@ font-size: 19px;
 user-select: none;
 margin-top:-30px}
 
-#socialmedia{width:17px; height:17px; margin-top: 6px;}
+#socialmedia, #socialmedia_phone{width:17px; height:17px; margin-top: 6px;}
 
 
 .Event{display: block;
@@ -695,7 +695,7 @@ font-size: 19px;
 user-select: none;
 margin-top:-31px}
 
-#AnEvent{width:17px; height:17px; margin-top: 6px;}
+#AnEvent, #AnEvent_phone{width:17px; height:17px; margin-top: 6px;}
 
 
 .publishings{display: block;
@@ -708,7 +708,7 @@ font-size: 19px;
 user-select: none;
 margin-top:-31px}
 
-#publishings{width:17px; height:17px; margin-top: 6px;}
+#publishings, #publishings_phone{width:17px; height:17px; margin-top: 6px;}
 
 .friend{display: block;
   margin-left: 25px;
@@ -720,7 +720,7 @@ margin-top:-31px}
   user-select: none;
   margin-top:-31px}
 
-#friend{width:17px; height:17px; margin-top: 6px;}
+#friend, #friend_phone{width:17px; height:17px; margin-top: 6px;}
 
 
 .others{display: block;
@@ -733,24 +733,7 @@ font-size: 19px;
 user-select: none;
 margin-top:-31px}
 
-#others{width:17px; height:17px; margin-top: 6px;}
-/*
-.knowwhy-websiteL{font-size:16px}
-*/
-
-                            /*
-
-                         .hover-to-show { 
-                              opacity: 0;
-                              transition: all .2s ease-in-out ;
-                          }
-                          
-                          .hover-to-show-link:hover .hover-to-show {
-                              opacity: 1;
-                              transition: all .2s ease-in-out;
-                              background-color:red; margin-left:50px
-                          }
-                          */
+#others, #others_phone{width:17px; height:17px; margin-top: 6px;}
 
  @media screen and (max-width: 1366px) {
   .AddressSectionh3{margin-left:319px}
@@ -964,67 +947,67 @@ margin-top:-31px}
 .NameSectionh3-phone{margin-left:8px; font-size: 1.3rem;}
 .Name-interested-Section-phone{width: 282px;
 margin-left: 8px;
-height: 41px;}
+height: 50px;}
 
 .EmailSectionh3-phone{margin-top: 10px;
 margin-left: 8px; font-size: 1.3rem;}
 .Email-interested-section-phone{width: 282px;
 margin-left: 8px;
-height: 41px;}
+height: 50px;}
 
 .PhoneSectionh3-phone{margin-top: 10px;
 margin-left: 8px; font-size: 1.3rem;}
 
 .Phone-interested-section-phone{width: 282px;
 margin-left: 8px;
-height: 41px;}
+height: 50px;}
 
 .AddressSectionh3-phone{margin-top: 10px;
 margin-left: 8px ; font-size: 1.3rem;}
 
 .Address-interested-section-phone{width:282px;
 margin-left: 8px;
-height: 41px;}
+height: 50px;}
 
 .MajorSection-phone{margin-top: 10px;
   margin-left: 8px; font-size: 1.3rem;}
 
 .Major-phone{width: 282px;
 margin-left: 8px;
-height: 41px;}
+height: 50px;}
 
 .CurrentOccupationSection-phone{margin-top: 10px;
 margin-left: 8px; font-size: 1.3rem;}
 .CurrentOccupation-phone{width: 282px;
 margin-left: 8px;
-height: 41px;}
+height: 50px;}
 
 .InterestedinSection-phone{margin-top: 10px;
   margin-left: 8px; font-size: 1.3rem;}
 
 .Interestedin-select-phone{width: 282px;
 margin-left: 8px;
-height: 41px}
+height: 50px}
 
 .ShortBioSection-phone{margin-top: 10px;
   margin-left: 8px; font-size: 1.3rem;}
 
 .ShortBio-phone{width: 282px;
 margin-left: 8px;
-height: 41px}
+height: 50px}
 
 .knowwaySection-phone{margin-top: 10px; margin-left: 8px; font-size: 1.3rem; }
 
 .knowwhy-phone{width: 282px;
 margin-left: 8px;
-height: 41px}
+height: 50px}
 
 .AttachcvSection-phone{margin-top: 10px; margin-left: 8px; font-size: 1.3rem;}
 .Attach-input-phone{width: 282px;
 margin-left: 8px;
-height: 41px; position: relative;}
+height: 50px; position: relative;}
 
-.Attach-phone{margin-top: 6px;
+.Attach-phone{margin-top: 10px;
 position: absolute;
 margin-left: -276px;}
 
@@ -1193,67 +1176,67 @@ margin-top: 17px;}
       .NameSectionh3-phone{margin-left:8px; font-size: 1.3rem;}
       .Name-interested-Section-phone{width: 302px;
         margin-left: 8px;
-        height: 41px;}
+        height: 45px;}
       
       .EmailSectionh3-phone{margin-top: 10px;
         margin-left: 8px; font-size: 1.3rem;}
       .Email-interested-section-phone{width: 302px;
         margin-left: 8px;
-        height: 41px;}
+        height: 45px;}
       
       .PhoneSectionh3-phone{margin-top: 10px;
         margin-left: 8px; font-size: 1.3rem;}
       
       .Phone-interested-section-phone{width: 302px;
         margin-left: 8px;
-        height: 41px;}
+        height: 45px;}
       
       .AddressSectionh3-phone{margin-top: 10px;
         margin-left: 8px ; font-size: 1.3rem;}
       
       .Address-interested-section-phone{width: 302px;
         margin-left: 8px;
-        height: 41px;}
+        height: 45px;}
       
         .MajorSection-phone{margin-top: 10px;
           margin-left: 8px; font-size: 1.3rem;}
       
       .Major-phone{width: 302px;
         margin-left: 8px;
-        height: 41px;}
+        height: 45px;}
         
       .CurrentOccupationSection-phone{margin-top: 10px;
         margin-left: 8px; font-size: 1.3rem;}
       .CurrentOccupation-phone{width: 302px;
         margin-left: 8px;
-        height: 41px;}
+        height: 45px;}
       
         .InterestedinSection-phone{margin-top: 10px;
           margin-left: 8px; font-size: 1.3rem;}
       
       .Interestedin-select-phone{width: 302px;
         margin-left: 8px;
-        height: 41px}
+        height: 45px}
       
         .ShortBioSection-phone{margin-top: 10px;
           margin-left: 8px; font-size: 1.3rem;}
       
       .ShortBio-phone{width: 302px;
         margin-left: 8px;
-        height: 41px}
+        height: 45px}
       
         .knowwaySection-phone{margin-top: 10px; margin-left: 8px; font-size: 1.3rem; }
       
       .knowwhy-phone{width: 302px;
         margin-left: 8px;
-        height: 41px}
+        height: 45px}
       
       .AttachcvSection-phone{margin-top: 10px; margin-left: 8px; font-size: 1.3rem;}
       .Attach-input-phone{width: 302px;
         margin-left: 8px;
-        height: 41px; position: relative;}
+        height: 45px; position: relative;}
       
-      .Attach-phone{margin-top: 5px;
+      .Attach-phone{margin-top: 7px;
         position: absolute;
         margin-left: -293px;}
       
@@ -1554,67 +1537,67 @@ margin-top: 17px;}
 .NameSectionh3-phone{margin-left:8px; font-size: 1.3rem; margin-top:-22px}
 .Name-interested-Section-phone{width: 302px;
 margin-left: 8px;
-height: 41px;}
+height: 45px;}
 
 .EmailSectionh3-phone{margin-top: 15px;
 margin-left: 8px; font-size: 1.3rem;}
 .Email-interested-section-phone{width: 302px;
 margin-left: 8px;
-height: 41px;}
+height: 45px;}
 
 .PhoneSectionh3-phone{margin-top: 15px;
 margin-left: 8px; font-size: 1.3rem;}
 
 .Phone-interested-section-phone{width: 302px;
 margin-left: 8px;
-height: 41px;}
+height: 45px;}
 
 .AddressSectionh3-phone{margin-top: 15px;
 margin-left: 8px ; font-size: 1.3rem;}
 
 .Address-interested-section-phone{width: 302px;
 margin-left: 8px;
-height: 41px;}
+height: 45px;}
 
 .MajorSection-phone{margin-top: 15px;
   margin-left: 8px; font-size: 1.3rem;}
 
 .Major-phone{width: 302px;
 margin-left: 8px;
-height: 41px;}
+height: 45px;}
 
 .CurrentOccupationSection-phone{margin-top: 15px;
 margin-left: 8px; font-size: 1.3rem;}
 .CurrentOccupation-phone{width: 302px;
 margin-left: 8px;
-height: 41px;}
+height: 45px;}
 
 .InterestedinSection-phone{margin-top: 15px;
   margin-left: 8px; font-size: 1.3rem;}
 
 .Interestedin-select-phone{width: 302px;
 margin-left: 8px;
-height: 41px}
+height: 45px}
 
 .ShortBioSection-phone{margin-top: 15px;
   margin-left: 8px; font-size: 1.3rem;}
 
 .ShortBio-phone{width: 302px;
 margin-left: 8px;
-height: 41px}
+height: 45px}
 
 .knowwaySection-phone{margin-top: 15px; margin-left: 8px; font-size: 1.3rem; }
 
 .knowwhy-phone{width: 302px;
 margin-left: 8px;
-height: 41px}
+height: 45px}
 
 .AttachcvSection-phone{margin-top: 15px; margin-left: 8px; font-size: 1.3rem;}
 .Attach-input-phone{width: 302px;
 margin-left: 8px;
-height: 41px; position: relative;}
+height: 45px; position: relative;}
 
-.Attach-phone{margin-top: 5px;
+.Attach-phone{margin-top: 7px;
 position: absolute;
 margin-left: -293px;}
 
@@ -2221,42 +2204,6 @@ margin-top: 17px;}
     .MajorSection{margin-left:18px; }
   }
 
-/*
-
-  @media screen and  (min-width:871px) and (max-width:872px) {
-.MajorSection{margin-left:19px; }
-  }
-
-
-  @media screen and  (min-width:873px) and (max-width:875px) {
-    .MajorSection{margin-left:22px; }
-      }
-  
-      @media screen and  (min-width:876px) and (max-width:877px) {
-        .MajorSection{margin-left:25px; }
-          }
-      
-          @media screen and  (min-width:878px) and (max-width:880px) {
-            .MajorSection{margin-left:26px; }
-              }
-              @media screen and  (min-width:881px) and (max-width:883px) {
-                .MajorSection{margin-left:28px; }
-                  }
-  
-
-  @media screen and  (min-width:873px) and (max-width:875px) {
-    .MajorSection{margin-left:22px}
-        }
-
-        @media screen and  (min-width:876px) and (max-width:880px) {
-          .MajorSection{margin-left:28px}
-              }
-
-              @media screen and  (min-width:881px)  {
-                .MajorSection{margin-left:28px}
-                    }
-*/
-
 
 
 /* min 992 */ 
@@ -2321,7 +2268,7 @@ margin-top: 17px;}
 
 
 
-  .footer{width:100%; height:120px; background-color:black;  margin-top:40px; }
+  .footer{width:100%; height:120px; background-color:black;  margin-top:-15px; }
   
   .footer h3{color: #ffbf00;
     font-size: 1.5em; margin-left:140px; padding-top:5px;  }
@@ -2804,3 +2751,446 @@ margin-top: -36px;}
 @media screen and (min-width:300px) and (max-width:768px){
   .knowwhy-website, .socialmedia, .Event, .publishings, .friend, .others{margin-top:-30px}
 }
+
+
+  
+    input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+
+
+@media screen and (min-width:300px){
+  
+  #fade-out-careersSuccess{width:100%; height: 102px; background-color:#4db064;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: -65px;
+    line-height: 36px;
+    margin-left:10px;} 
+
+ #fade-out-careersSuccess p{   font-size: 14px;
+  color: white;
+  font-family: 'poppins', sans-serif;}
+
+  #closeButton{margin-top: -97px;
+    margin-right: -2px;
+    font-size: 22px;
+    color: white;
+    opacity: 1;}
+}
+
+
+@media screen and (min-width:305px){
+
+  #fade-out-careersSuccess{margin-left:5px}
+}
+@media screen and (min-width:315px){
+
+  #fade-out-careersSuccess{margin-left:1px}
+}
+
+@media screen and (min-width:320px){
+
+  #fade-out-careersSuccess{margin-left:0px; left:0!important; right:0!important; }
+}
+
+
+@media screen and (min-width:320px){
+  #fade-out-careersSuccess p{ font-size:15px }
+
+}
+@media screen and (min-width:330px){
+  #fade-out-careersSuccess p{ font-size:16px }
+}
+
+
+  @media screen and (min-width:360px){
+    #fade-out-careersSuccess p{ font-size:17px }
+    #careersSucces-strong{font-size: 19px;}
+
+    #closeButton{font-size:26px}
+  }
+
+  @media screen and (min-width:380px){
+    #fade-out-careersSuccess p{ font-size:18px}
+    #careersSucces-strong{font-size: 20px;}
+
+  }
+  @media screen and (min-width:400px){
+
+    #fade-out-careersSuccess{height:122px; line-height: 41px;
+      padding-top: 15px; }
+    #fade-out-careersSuccess p{ font-size:19px}
+    #careersSucces-strong{font-size: 21px;}
+
+    #closeButton{font-size:29px;     margin-top: -108px;
+      margin-right: -5px;}
+  }
+
+
+  
+  @media screen and (min-width:440px){
+    #fade-out-careersSuccess p{  font-size: 21px; padding-top:3px }
+    #careersSucces-strong{font-size: 23px;}
+
+    }
+
+    @media screen and (min-width:450px){
+      #closeButton{font-size:31px;     margin-top: -108px;
+        margin-right: -5px;}
+    }
+
+                      @media screen and (min-width:500px){
+                        #fade-out-careersSuccess p{       font-size: 22px;}
+                        #careersSucces-strong{font-size: 24px;}
+
+                        }
+
+                        @media screen and (min-width:515px){
+                        #closeButton{font-size:34px;  }
+                        }
+
+    
+                                    @media screen and (min-width:600px){
+                                      #fade-out-careersSuccess p{       font-size: 25px;}
+                                      #careersSucces-strong{font-size: 27px;}
+
+                                      }
+                                    
+                                      @media screen and (min-width:650px){
+                                        #fade-out-careersSuccess{ height:133px; line-height: 45px; padding-top: 16px;   }
+
+                                        #closeButton{    margin-top: -119px;
+                                          margin-right: 1px;}
+
+                                      }
+  
+                                
+  @media screen and (min-width:769px) {
+  
+  #closeButton{margin-top: -115px;
+    margin-right: 6px;
+    font-size: 35px;
+    color: white;
+    opacity: 1;}
+ 
+  
+  #fade-out-careersSuccess {   text-align:center; margin:auto; margin-top:100px; margin-bottom:-55px; width:80%; height:121px; line-height: 47px; 
+        background-color:#4db064; padding-top:8px }
+   
+    
+        #fade-out-careersSuccess p{       font-size: 25px;}
+        #careersSucces-strong{font-size: 27px;}
+
+
+      #fade-out-careersFaild { font-size:19px; text-align:center; margin:auto; margin-top:55px; margin-bottom:-55px;
+         width:100%; height:80px; line-height: 35px; padding-top:4px;  background-color:red; color:white}
+    
+      }
+    
+      @media screen and (min-width:992px) {
+        #fade-out-careersSuccess{width:72%}
+      }
+
+
+
+
+      @media screen and (min-width:300px){
+  
+        #fade-out-careersFaild{width:100%; height: 102px; background-color:#f82d2d;
+          margin-top: 100px;
+          text-align: center;
+          margin-bottom: -65px;
+          line-height: 36px;
+           margin-left:10px;} 
+    
+       #fade-out-careersFaild p{   font-size: 14px;
+        color: white;
+        font-family: 'poppins', sans-serif;}
+    
+      }
+      
+    
+      @media screen and (min-width:305px){
+      
+        #fade-out-careersFaild{margin-left:5px}
+      }
+      @media screen and (min-width:315px){
+      
+        #fade-out-careersFaild{margin-left:1px}
+      }
+    
+      @media screen and (min-width:320px){
+      
+        #fade-out-careersFaild{margin-left:0px; left:0!important; right:0!important; }
+      }
+    
+    
+      @media screen and (min-width:320px){
+        #fade-out-careersFaild p{ font-size:15px }
+    
+      }
+      @media screen and (min-width:330px){
+        #fade-out-careersFaild p{ font-size:16px }
+      }
+    
+    
+        @media screen and (min-width:360px){
+          #fade-out-careersFaild p{ font-size:17px }
+          #careersFaild-strong{font-size: 19px;}
+    
+        }
+    
+    
+    
+        @media screen and (min-width:380px){
+          #fade-out-careersFaild p{ font-size:18px}
+          #careersFaild-strong{font-size: 20px;}
+    
+        }
+        @media screen and (min-width:400px){
+    
+          #fade-out-careersFaild{height:122px; line-height: 41px;
+            padding-top: 15px; }
+          #fade-out-careersFaild p{ font-size:19px}
+          #careersFaild-strong{font-size: 21px;}
+    
+        }
+    
+      
+        
+        @media screen and (min-width:440px){
+          #fade-out-careersFaild p{  font-size: 21px; padding-top:3px }
+          #careersFaild-strong{font-size: 23px;}
+    
+          }
+    
+      
+        
+                            @media screen and (min-width:500px){
+                              #fade-out-careersFaild p{       font-size: 22px;}
+                              #careersFaild-strong{font-size: 24px;}
+    
+                              }
+    
+    
+          
+                                          @media screen and (min-width:600px){
+                                            #fade-out-careersFaild p{       font-size: 25px;}
+                                            #careersFaild-strong{font-size: 27px;}
+    
+                                            }
+                                          
+                                            @media screen and (min-width:650px){
+                                              #fade-out-careersFaild{ height:133px; line-height: 45px; padding-top: 16px;   }
+    
+                                            }
+    
+        @media screen and (min-width:769px) {
+        
+        
+        #fade-out-careersFaild {   text-align:center; margin:auto; margin-top:100px; margin-bottom:-55px; width:80%; height:121px; line-height: 47px; 
+              background-color:#f82d2d; padding-top:8px }
+         
+          
+              #fade-out-careersFaild p{  font-size: 25px;}
+              #careersFaild-strong{font-size: 27px;}
+    
+    
+            }
+          
+            @media screen and (min-width:992px) {
+              #fade-out-careersFaild{width:72%}
+            }
+    
+    
+  
+            textarea {
+              resize: none; overflow: hidden;
+            }
+            
+
+
+    /* last updates 3-7 */ 
+
+    
+
+
+
+
+
+
+/* footer */ 
+.page-footer{background-color:black; height: 135px; color:white; margin-top: 110px;}
+.footer-icons{        margin-left: 180px;
+  margin-top: -16px;
+  line-height: 38px;}
+
+#footerI{float:left; }
+.footerSpan{float:left;     margin-top: -12px;
+  padding-left: 10px;}
+
+
+
+.footer-social a i{    color: white;
+  font-size: 25px;
+  text-decoration: none!important;
+  margin-left: 29px;
+  margin-top: 40px;}
+
+
+  .footer-social a:hover{text-decoration: none !important;
+    outline:none
+  }
+
+  .footer-copyright{    margin-top: 18px;}
+
+  .footer-sectionTwo{margin-left:20px}
+
+
+
+  /* footer responsive */ 
+  /* min 300 */
+  @media screen and  (min-width:300px)  {
+
+  .footerSpan {    padding-left: 8px;}
+
+  .footer-icons {
+    margin-left: -5px;}
+
+    .page-footer{height:229px}
+
+
+    .footer-social a i {margin-left: 18px;
+      margin-top: 23px;}
+
+      .footer-sectionTwo {
+        margin-left: -39px;
+    }
+    .footer-copyright {
+      margin-top: 15px;
+      font-size: 13px;
+      margin-left: 33px;
+  }
+
+  }
+
+
+  @media screen and  (min-width:310px)  {
+
+  .footer-icons {margin-left: 4px;}
+  }
+
+  @media screen and  (min-width:320px)  {
+
+    .footer-icons {margin-left: 9px;}
+    }
+    @media screen and  (min-width:330px)  {
+
+      .footer-icons {margin-left: 16px;}
+      }  
+        @media screen and  (min-width:350px)  {
+
+        .footer-icons {margin-left: 29px;}
+        }
+  
+        @media screen and  (min-width:370px)  {
+
+          .footer-icons {margin-left: 35px;}
+          }
+    
+          @media screen and  (min-width:380px)  {
+
+            .footer-icons {margin-left: 42px;}
+            }
+            @media screen and  (min-width:390px)  {
+              .footer-copyright {font-size: 14px;}
+
+              .footer-icons {margin-left: 45px;}
+              }
+              @media screen and  (min-width:400px)  {
+
+                .footer-icons {margin-left: 50px;}
+                }
+                @media screen and  (min-width:410px)  {
+.footer-copyright {
+    font-size: 15px;
+}
+                  .footer-icons {margin-left: 59px;}
+                  }
+                  @media screen and  (min-width:420px)  {
+
+                    .footer-icons {margin-left: 65px;}
+                    }
+
+                    @media screen and  (min-width:440px)  {
+                      .footer-icons {margin-left: 70px;}
+                    .footerSpan {
+                      padding-left: 10px;}
+                    }
+
+                    @media screen and  (min-width:450px)  {
+
+                      .footer-icons {margin-left: 78px;}
+                      }
+  
+                      @media screen and  (min-width:470px)  {
+
+                        .footer-icons {margin-left: 88px;}
+                        }
+                        @media screen and  (min-width:490px)  {
+
+                          .footer-icons {margin-left: 100px;}
+                          }
+                          @media screen and  (min-width:500px)  {
+
+                          .footer-icons {
+                            margin-left: 24px;
+                        }
+                      }
+                        @media screen and  (min-width:768px)  {
+
+                        .footer-sectionTwo {    margin-top: 9px;}
+                        .page-footer {
+                          height: 137px}
+                      }
+
+                      @media screen and  (min-width:850px)  {
+                      .footer-icons {
+                        margin-left: 60px;
+                    }
+                  }
+                
+                  @media screen and  (min-width:992px)  {
+
+                  .footer-icons {
+                    margin-left: 90px;}
+                  }
+
+                  @media screen and  (min-width:1000px)  {
+
+                  .footer-icons {
+                    margin-left: 115px; }
+                  }
+                  @media screen and  (min-width:1150px)  {
+
+                    .footer-icons {
+                      margin-left: 147px; }
+                    }
+                    @media screen and  (min-width:1300px)  {
+
+                      .footer-icons {
+                        margin-left: 187px; }
+                      }
+                      @media screen and  (min-width:1400px)  {
+
+                        .footer-icons {
+                          margin-left: 225px; }
+                        }
+      
+

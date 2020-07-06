@@ -16,15 +16,14 @@
 <link rel="stylesheet" href="css/fontawesome/all.min.css">
 <link rel="stylesheet" href="css/contactform.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
 
 </head>
 
+
 <body>
 
 
-  <link rel="stylesheet" href="js/bootstrap.min.js">
   <script src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
@@ -33,14 +32,14 @@
 
 
         <header>
-          <img class="logo" src="pictures/logo.png" onclick="window.location.href='index.html'">
+          <img class="logo" src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1586550467/b7h6k3y7pfjqvbc4gz1l.jpg" onclick="window.location.href='index'">
           <nav class="startnav" id="myStartnav">
             <ul class="nav-links">
-              <li> <a href="index.html" target="_self" data-scroll="Home"> Home </a> </li> 
-              <li> <a href="About.html" target="_self" data-scroll="About-us"> About us </a> </li> 
-              <li> <a  href="solutions.html" target="_self" data-scroll="solutions"> solutions </a> </li> 
-              <li> <a href="careers.html"  target="_self" data-scroll="careers"> careers </a> </li> 
-              <li> <a href="insights.html" data-scroll="insights"> insights </a> </li> 
+              <li> <a href="index" target="_self" data-scroll="Home"> Home </a> </li> 
+              <li> <a href="About" target="_self" data-scroll="About-us"> About us </a> </li> 
+              <li> <a  href="solutions" target="_self" data-scroll="solutions"> solutions </a> </li> 
+              <li> <a href="careers"  target="_self" data-scroll="careers"> careers </a> </li> 
+              <li> <a href="insights" data-scroll="insights"> insights </a> </li> 
               <li> <a href="#" data-scroll="contactus"> Contact us </a> </li> 
 
 
@@ -50,11 +49,11 @@
                 <label for="openContent" class="open"> <i class="fas fa-bars"> </i> </label>
                 <input type="checkbox" id="openContent" style="display:none;" />
                 <div id="myContent" class="content">
-                    <li> <a  href="index.html" target="_self" class="content1 selected" data-scroll="Home"> Home  </a>  </li> 
-                    <li> <a href="About.html" target="_self"  class="content3" data-scroll="About-us"> About us   </a>  </li> 
-                    <li> <a href="solutions.html" target="_self"  class="content3" data-scroll="solutions"> solutions  </a>  </li> 
-                    <li> <a href="careers.html"  target="_self"  class="content4" data-scroll="careers"> careers  </a>  </li> 
-                    <li> <a href="insights.html"   class="content5" data-scroll="insights"> insights  </a>  </li> 
+                    <li> <a  href="index" target="_self" class="content1 selected" data-scroll="Home"> Home  </a>  </li> 
+                    <li> <a href="About" target="_self"  class="content3" data-scroll="About-us"> About us   </a>  </li> 
+                    <li> <a href="solutions" target="_self"  class="content3" data-scroll="solutions"> solutions  </a>  </li> 
+                    <li> <a href="careers"  target="_self"  class="content4" data-scroll="careers"> careers  </a>  </li> 
+                    <li> <a href="insights"   class="content5" data-scroll="insights"> insights  </a>  </li> 
                      <li> <a href="#"   class="content6" data-scroll="contact-us"> contact us  </a>  </li>   
 </div>
 
@@ -62,6 +61,9 @@
 </nav>
 </header>   
 
+<section>
+  <?php echo $result; ?>
+</section>
 
 
 <section class="contactusformsec"> 
@@ -85,16 +87,18 @@
 </div>
 
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <div class="contact-form"> 
+
+
+
+
+
+      <form class="contact-form" action="contact.php" method="POST"  enctype="multipart/form-data" > 
         
         
       <h3 id="Affiliation"> Affiliation  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
 
-      <select class="Affiliation-select" name="Affiliation">
-        <option selected="selected">
-         select..
-          </option>
-          
+      <select class="Affiliation-select" name="Affiliation" required>
+        <option value="">  select.. </option>             
         <option class="AutomotiveIndustry">Automotive Industry</option>
         <option value="HyperloopTechnology">Hyperloop Technology</option>
         <option value="Research&Development">Research & Development</option>
@@ -114,8 +118,8 @@
       <h3 class="FirstNameSection"> First Name  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
        <h3 class="LastNameSection"> Last Name  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>
       <br> 
-      <input class="FirstName" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
-      <input class="LastName" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >
+      <textarea class="FirstName"  name="firstName" type="text" value size="40" aria-required="true" aria-invalid="false" required></textarea>
+      <textarea class="LastName"  name="lastName" type="text" value size="40" aria-required="true" aria-invalid="false" required></textarea>
 
         <br> 
 
@@ -123,23 +127,21 @@
       <h3 class="PhoneSection"> Phone  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
       <br> 
 
-      <input class="FormEmail" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >
-      <input class="FormPhone" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >
+      <textarea class="FormEmail"  name="email" type="email" value size="40" aria-required="true" aria-invalid="false" required></textarea>
+      <textarea class="FormPhone"  name="phone" type="number" value size="40" aria-required="true" aria-invalid="false" required></textarea>
 
 
       <h3 class="CompanySection"> Company  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
       <h3 class="OccupationSection"> Occupation  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
       <br> 
 
-      <input class="Company" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >                
-      <input class="Occupation" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >
+      <textarea class="Company"     name="company" type="text" value size="40" aria-required="true" aria-invalid="false" required></textarea>              
+      <textarea class="Occupation"  name="occupation" type="text" value size="40" aria-required="true" aria-invalid="false" required></textarea>
 
 
       <h3 class="CountrtSection"> Country  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
-      <select class="country-select"  name="country">
-        <option selected="selected">
-          select..
-           </option> 
+      <select class="country-select"  name="country" required>
+        <option value="">  select.. </option>             
         <option value="Afganistan">Afghanistan</option>
         <option value="Albania">Albania</option>
         <option value="Algeria">Algeria</option>
@@ -392,19 +394,18 @@
 
 
      <h3 class="MessageSection"> Message  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
-     <input class="FormMessage" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false">
+     <textarea class="FormMessage" name="message" type="text" value size="40" aria-required="true" aria-invalid="false" required></textarea>
 
-     <button type="button" class="btn center-block" id="formbutton" > Submit  </button>
+     <button type="submit" class="btn center-block" id="formbutton" > Submit  </button>
 
 
     </div>
-
+  </form>
 
   </div>
 
 </div>
 
-  </div>
 
 
 </div>
@@ -418,15 +419,12 @@
 
 
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-  <div class="contact-form-mobile"> 
+  <form class="contact-form-mobile"> 
     
   <h3> Affiliation  <i class="fas fa-asterisk" id="form-asterisk-mobile"></i> </h3> 
 
-  <select class="Affiliation-select-mobile" name="Affiliation">
-    <option selected="selected">
-     select..
-      </option>
-      
+  <select class="Affiliation-select-mobile" name="Affiliation" required>
+  <option value="">  select.. </option>             
     <option class="AutomotiveIndustry">Automotive Industry</option>
     <option value="HyperloopTechnology">Hyperloop Technology</option>
     <option value="Research&Development">Research & Development</option>
@@ -441,40 +439,38 @@
 
 <br>
   <h3 class="FirstNameSection-mobile"> First Name  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>    
-  <input class="FirstName-mobile" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >   
+  <textarea class="FirstName-mobile" type="text" name="firstName" type="submit" value size="40" aria-required="true" aria-invalid="false" required></textarea> 
   <br> 
 
    <h3 class="LastNameSection-mobile"> Last Name  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3>
-  <input class="LastName-mobile" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >
+  <textarea class="LastName-mobile" type="text" name="lastName" type="submit" value size="40" aria-required="true" aria-invalid="false" required></textarea>
 
     <br> 
 
   <h3 class="EmailSection-mobile"> Email  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
-  <input class="FormEmail-mobile" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >
+  <textarea class="FormEmail-mobile" type="text" name="email" type="submit" value size="40" aria-required="true" aria-invalid="false" required></textarea>
   <br> 
 
 
   <h3 class="PhoneSection-mobile"> Phone  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
-  <input class="FormPhone-mobile" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >
+  <textarea class="FormPhone-mobile" type="text" name="phone" type="submit" value size="40" aria-required="true" aria-invalid="false" required></textarea>
   <br> 
 
 
 
   <h3 class="CompanySection-mobile"> Company  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
-  <input class="Company-mobile" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >                
+  <textarea class="Company-mobile" type="text" name="company" type="submit" value size="40" aria-required="true" aria-invalid="false" required></textarea>               
 
   <br> 
 
   <h3 class="OccupationSection-mobile"> Occupation  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
-  <input class="Occupation-mobile" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false" >
+  <textarea class="Occupation-mobile" type="text" name="occupation" type="submit" value size="40" aria-required="true" aria-invalid="false" required></textarea>
   <br> 
 
 
   <h3 class="CountrtSection-mobile"> Country  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
-  <select class="country-select-mobile"  name="country">
-    <option selected="selected">
-      select..
-       </option> 
+  <select class="country-select-mobile"  name="country" required>
+  <option value="">  select.. </option>             
     <option value="Afganistan">Afghanistan</option>
     <option value="Albania">Albania</option>
     <option value="Algeria">Algeria</option>
@@ -727,107 +723,81 @@
 
 
  <h3 class="MessageSection-mobile"> Message  <i class="fas fa-asterisk" id="form-asterisk"></i> </h3> 
- <input class="FormMessage-mobile" type="text" name="Name" type="submit" value size="40" aria-required="true" aria-invalid="false">
 
- <button type="button" class="btn center-block" id="formbutton-mobile" > Submit  </button>
+<textarea class="FormMessage-mobile" name="message" type="text" aria-required="true" aria-invalid="false" required></textarea>
 
+
+ <button type="submit" class="btn center-block" id="formbutton-mobile" > Submit  </button>
+
+
+</div>
+
+
+</form>
+
+</div>
 
 </div>
 
 
 </div>
-
-</div>
-
 </div>
 
 
-</div>
-</div>
+<!-- Footer -->
+<footer class="page-footer font-small">
 
+  <div class="container-fluid text-center">
 
+    <div class="row">
 
+      <div class="col-md-6 col-sm-12 col-xs-12">
 
+        <section class="footer-icons"> 
+          <!-- 
+        <i class="fa fa-home" id="footerI"></i>
+        <span class="footerSpan"> 16 Omar Ibn Elkhatab St, Sheraton Heliopolis, Cairo, Egypt </span> 
+        -->
+      <br>
+        <i class="fa fa-phone fa-flip-horizontal"  id="footerI"></i>
+        <span class="footerSpan"> (+2) 02 2269 1755 </span>
+        <br>
+        <i class="fa fa-envelope"  id="footerI"></i>
+         <span class="footerSpan"> info@disruptivemobility.com  </span>
+         <br>
 
-
-<div class="footer">
-
-    <h3> Contact Info </h3>
-  
-  
-  
-    <i class="fa fa-home" id="coi1" ></i>
-    <span class="coi1-span"> 16 Omar Ibn Elkhatab St, Sheraton Heliopolis, Cairo, Egypt </span> 
-  
-  
-      <p  class="footer-allright">  &copy; DM Tech </p> 
-      
-  
-      
-      
-    <i class="fa fa-phone fa-flip-horizontal" id="coi2"></i>
-   
-    <span class="coi2-span"> (+2) 02 2269 1755 </span>
-  
-  <br>
-  
-    <i class="fa fa-globe"  id="coi3"></i>
-    <span class="coi3-span"> https://www.disruptivemobility.com  </span>
-  
-    <i class="fa fa-envelope"  id="coi4"></i>
-    <span class="coi4-span"> info@disruptivemobility.com  </span>
+        <i class="fa fa-globe"  id="footerI"></i>
+        <span class="footerSpan"> https://www.disruptivemobility.com  </span>
     
-  
-  
-      <a href="#"> <i class="fab fa-facebook" id="footer-sociali-one"> </i>   </a> 
-  
-      <a href="#"> <i class="fab fa-twitter" id="footer-sociali-two"> </i>  </a>
-      <a href="#"> <i class="fab fa-linkedin" id="footer-sociali-three">  </i>  </a>
-  
-  
-  </div> 
-  
-  
+        </section>
 
-  <div class="footer-phone" >
+      </div>
 
-    <h3> Contact Info </h3>
-  
-  
-  
-    <i class="fa fa-home" id="coi1-phone" ></i>
-    <span class="coi1-span-phone"> 16 Omar Ibn Elkhatab St, Sheraton Heliopolis, Cairo, Egypt </span> 
-    <span class="coi1SpanPhone-Hidden"> 16 Omar Ibn Elkhatab St, Sheraton  </span> 
 
-    <span class="coiAlignedspanMobile-Hidden"> Heliopolis, Cairo, Egypt </span>
-    <br id="coi1SpanPhone-Hidden-space"> 
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <div class="footer-sectionTwo"> 
+        <!-- Content -->
+        <section class="footer-social">
+          <a href="#"> <i class="fab fa-facebook"> </i>   </a> 
+      
+          <a href="#"> <i class="fab fa-twitter"> </i>  </a>
+          <a href="#"> <i class="fab fa-linkedin">  </i>  </a>
+        </section>
+      <p class="footer-copyright"> 
+        Copyright © 2020 DM TECH. All Rights reserved </p>
+      </div>
 
-    <i class="fa fa-phone fa-flip-horizontal" id="coi2-phone"></i>
-   
-    <span class="coi2-span-phone"> (+2) 02 2269 1755 </span>
-  
-  <br>
-  
-    <i class="fa fa-globe"  id="coi3-phone"></i>
-    <span class="coi3-span-phone"> https://www.disruptivemobility.com  </span>
-    <br>
-  
-    <i class="fa fa-envelope"  id="coi4-phone"></i>
-    <span class="coi4-span-phone"> info@disruptivemobility.com  </span>
-    
-  
-    <p  class="footer-allright-phone">  &copy; DM Tech </p> 
-  
-    <section class="footer-icons-phone">
-      <a href="#"> <i class="fab fa-facebook" id="footer-sociali-one-phone"> </i>   </a> 
-  
-      <a href="#"> <i class="fab fa-twitter" id="footer-sociali-two-phone"> </i>  </a>
-      <a href="#"> <i class="fab fa-linkedin" id="footer-sociali-three-phone">  </i>  </a>
-    </section>
-  
-  </div> 
-  
-  
+
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+<br> 
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -838,22 +808,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

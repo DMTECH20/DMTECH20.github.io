@@ -7,6 +7,9 @@ html{ overflow-x: hidden;          margin: 0;
   box-sizing: border-box;
 }
 
+
+
+
 #coi1SpanPhone-Hidden-space{display:none}
   .coi1SpanPhone-Hidden{display:none}
   .coiAlignedspanMobile-Hidden{display:none}
@@ -268,7 +271,7 @@ display:block;
      
      .contact-form {margin-top:140px;}
      .contact-form h3{font-family: 'poppins', sans-serif; font-size:21px; position: relative; }
-     #form-asterisk{font-size:9px; color:#3f3f3f; margin-left:8px; margin-top:4px; position: absolute; }
+     #form-asterisk{font-size:9px; color:#d93025; margin-left:8px; margin-top:4px; position: absolute; }
      
      
      
@@ -328,31 +331,6 @@ display:block;
      
      #formbutton:active, #formbutton:focus {border:none; outline-style: none;  }
      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-     .contact-form-head h3
-
-     margin-left: 11px;
-     margin-top: 289px;
-
-*/
-
-
 
 /* // displaying footer-phone as none */
 .footer-phone{display:none}
@@ -489,199 +467,32 @@ display:block;
 
 
 
-    
-
-
-
-
-
-
-
-
 
 
 @media screen and  (min-width:320px) and (max-width:450px) {
 
-/* // displaying contactform-phone as none */
-.contact-form{display:none}
-
-.contact-form-mobile{display:block}
-
-
-.contact-form-head h3 {    margin-left: 0px;
-  margin-top: 111px;  font-size: 26px; text-align:center}
-
-
-
-  .contact-form-head p{margin:0; margin-left: 32px;  text-align:left; }
-  }
-
-  .contact-form-mobile {margin-top: 20px;}
-
-
-  .contact-form-mobile h3{font-family: 'poppins', sans-serif; font-size:21px; position: relative; margin-left: 52px; }
-  #form-asterisk-mobile{font-size:9px; color:#3f3f3f; margin-left:8px; margin-top:4px; position: absolute; }
-  
-  
-  .Affiliation-select-mobile{width: 350px;
-   height: 43px;
-   text-indent: 10px;
-   margin-left: 51px}
-  
-
-
-
-  .FirstNameSection-mobile{margin-top:15px;  }
-  .FirstName-mobile{width: 350px;
-   height: 43px;
-   text-indent: 10px;
-   margin-left: 51px}
-  .FirstName-mobile:focus {color:black}
-  
-
-
-  .LastNameSection-mobile{ margin-top:15px;}
-  .LastName-mobile{width: 350px;
-   height: 43px;
-   text-indent: 10px;
-   margin-left: 51px}
-  .LastName-mobile:focus {color:black}
-  
-  
-  
-  
-  .EmailSection-mobile{  margin-top:15px;  }
-  .FormEmail-mobile{width: 350px;
-   height: 43px;
-   text-indent: 10px;
-   margin-left: 51px}
-  .FormEmail-mobile:focus {color:black}
-  
-  .PhoneSection-mobile{   margin-top:15px;  }
-  .FormPhone-mobile{width: 350px;
-   height: 43px;
-   text-indent: 10px;
-   margin-left: 51px}
-  .FormPhone-mobile:focus {color:black}
-  
-  
-  
-  .CompanySection-mobile{ margin-top:15px;}
-  .Company-mobile{width: 350px;
-   height: 43px;
-   text-indent: 10px;
-   margin-left: 51px}
-  .Company-mobile:focus {color:black}
-  
-
-
-
-
-  .OccupationSection-mobile{margin-top:15px;}
-  .Occupation-mobile{width: 350px;
-   height: 43px;
-   text-indent: 10px;
-   margin-left: 51px}
-  .Occupation-mobile:focus {color:black}
-  
-
-  .CountrtSection-mobile{margin-top:15px}
-  .country-select-mobile{width: 350px;
-   height: 43px;
-   text-indent: 10px;
-   margin-left: 51px}
-  
-  
-  .MessageSection-mobile{margin-top:15px}
-  .FormMessage-mobile{width: 350px;
-   height: 43px;
-   text-indent: 10px;
-   margin-left: 51px}
-  .FormMessage-mobile:focus {color:black; }
-  .MessageSection-mobile::placeholder { color:red; background-color:red}
-  
-  
-  #formbutton-mobile{margin-top:15px; background-color:#ffbf00; border:none; color:black; width:100px; height:40px; font-family: 'poppins', sans-serif;
-                 font-size:18px; outline: none; margin-bottom:22px; margin-left: 51px;}
-  
-       #formbutton-mobile:focus{ box-shadow: none; }
-              
-  
-  #formbutton-mobile:active, #formbutton-mobile:focus {border:none; outline-style: none;  }
-  
-
-
-  .footer{display:none}
-  .footer-phone{display:block}
-  
-  
-  
-  
-  .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
-  
-  .footer-phone h3{color: #ffbf00;
-    font-size: 1.4em;  padding-top:5px; text-align:center  }
-  
-  #coi1-phone{ color:white; margin-top:10px; margin-left: 27px;}
-  .coi1-span-phone{color:white; margin-left:4px}
-  
-  
-  #coi2-phone{ color:white;margin-top: 15px; margin-left: 29px;}
-  .coi2-span-phone{color:white; margin-left:4px}
-  
-  #coi3-phone{ color:white; margin-top:15px; margin-left: 30px;}
-  .coi3-span-phone{color:white; margin-left:4px}
-  
-  
-  #coi4-phone{ color:white; margin-top:15px; margin-left: 30px;}
-  .coi4-span-phone{color:white; margin-left:4px}
-  
-  
-  
-  .footer-allright-phone{ color:white;  margin-top: 17px;
-    text-align: center;
-    font-size: 1.2em;}
-  
-    .footer-icons-phone{text-align:center; margin-top: -13px;}
-  #footer-sociali-one-phone{ font-size:22px; color:white; }
-  #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
-  #footer-sociali-three-phone{ font-size:22px; color:white;}
-  
-  
-
-  
-
-
-
-
-/* mobile */ 
-
-@media screen and  (min-width:300px) and (max-width:320px) {
-
-    .open{margin-left:35px}
-    
-
+  /* // displaying contactform-phone as none */
   .contact-form{display:none}
   
   .contact-form-mobile{display:block}
   
   
   .contact-form-head h3 {    margin-left: 0px;
-    margin-top: 111px;  font-size: 24px; text-align:center}
+    margin-top: 111px;  font-size: 26px; text-align:center}
   
   
   
-    .contact-form-head p{margin:0; margin-left: -5px;  text-align:left; margin-right:-20px }
+    .contact-form-head p{margin:0; margin-left: 32px;  text-align:left; }
     }
   
-    .contact-form-mobile {margin-top: 20px; margin-left: -54px;}
+    .contact-form-mobile {margin-top: 20px;}
   
   
     .contact-form-mobile h3{font-family: 'poppins', sans-serif; font-size:21px; position: relative; margin-left: 52px; }
     #form-asterisk-mobile{font-size:9px; color:#3f3f3f; margin-left:8px; margin-top:4px; position: absolute; }
     
     
-    .Affiliation-select-mobile{width: 273px;
+    .Affiliation-select-mobile{width: 350px;
      height: 43px;
      text-indent: 10px;
      margin-left: 51px}
@@ -690,7 +501,7 @@ display:block;
   
   
     .FirstNameSection-mobile{margin-top:15px;  }
-    .FirstName-mobile{width: 273px;
+    .FirstName-mobile{width: 350px;
      height: 43px;
      text-indent: 10px;
      margin-left: 51px}
@@ -699,7 +510,7 @@ display:block;
   
   
     .LastNameSection-mobile{ margin-top:15px;}
-    .LastName-mobile{width: 273px;
+    .LastName-mobile{width: 350px;
      height: 43px;
      text-indent: 10px;
      margin-left: 51px}
@@ -709,14 +520,14 @@ display:block;
     
     
     .EmailSection-mobile{  margin-top:15px;  }
-    .FormEmail-mobile{width: 273px;
+    .FormEmail-mobile{width: 350px;
      height: 43px;
      text-indent: 10px;
      margin-left: 51px}
     .FormEmail-mobile:focus {color:black}
     
     .PhoneSection-mobile{   margin-top:15px;  }
-    .FormPhone-mobile{width: 273px;
+    .FormPhone-mobile{width: 350px;
      height: 43px;
      text-indent: 10px;
      margin-left: 51px}
@@ -725,7 +536,7 @@ display:block;
     
     
     .CompanySection-mobile{ margin-top:15px;}
-    .Company-mobile{width: 273px;
+    .Company-mobile{width: 350px;
      height: 43px;
      text-indent: 10px;
      margin-left: 51px}
@@ -736,7 +547,7 @@ display:block;
   
   
     .OccupationSection-mobile{margin-top:15px;}
-    .Occupation-mobile{width: 273px;
+    .Occupation-mobile{width: 350px;
      height: 43px;
      text-indent: 10px;
      margin-left: 51px}
@@ -744,14 +555,14 @@ display:block;
     
   
     .CountrtSection-mobile{margin-top:15px}
-    .country-select-mobile{width: 273px;
+    .country-select-mobile{width: 350px;
      height: 43px;
      text-indent: 10px;
      margin-left: 51px}
     
     
     .MessageSection-mobile{margin-top:15px}
-    .FormMessage-mobile{width: 273px;
+    .FormMessage-mobile{width: 350px;
      height: 43px;
      text-indent: 10px;
      margin-left: 51px}
@@ -805,324 +616,539 @@ display:block;
     #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
     #footer-sociali-three-phone{ font-size:22px; color:white;}
     
-    #coi1SpanPhone-Hidden-space{display:none}
-    .coi1SpanPhone-Hidden{display:block}
-    .coiAlignedspanMobile-Hidden{display:block}
-    
-    
-    .coi1-span-phone{display:none}
-    
-    .coi1SpanPhone-Hidden{color:white; margin-left: 50px;
-      margin-top: -24px;}
-    
-    .coiAlignedspanMobile-Hidden{color:white; margin-left: 53px;}
-    
-    
-    /* inside 300 */ 
-    @media screen and  (min-width:311px) and (max-width:320px) {
-
-      .open{margin-left:42px} 
-    }  
-
-
-    @media screen and (min-width:300px) and (max-width:305px){
-
-    .contact-form-mobile {margin-left: -51px;}
-    }
-
-    @media screen and (min-width:306px) and (max-width:310px){
-
-      .contact-form-mobile {margin-left: -48px;}
-    }
-  
-    @media screen and (min-width:311px) and (max-width:320px){
-
-      .contact-form-mobile {margin-left: -46px;}
-    }
-
-
-    @media screen and (min-width:311px) and (max-width:320px){
-
-
-    .contact-form-head p{margin-left:4px}
-    }
 
 
 
 
-  @media screen and (min-width:418px) and (max-width:450px){
-
-    #coi1-phone{  margin-left: 7px;}
-    .coi1-span-phone{    margin-left: -1px;
-      font-size: 15px;}
-      #coi2-phone{margin-left: 7px;}
-      .coi2-span-phone{   margin-left: -1px;
-        font-size: 15px}
-        #coi3-phone{margin-left: 7px;}
-        .coi3-span-phone{  margin-left: -1px;
-          font-size: 15px}
-          #coi4-phone{margin-left: 7px;}
-          .coi4-span-phone{  margin-left: -1px;
-            font-size: 15px}
-            .footer-allright-phone {font-size:1em}
-            #footer-sociali-one-phone{font-size: 20px;}
-            #footer-sociali-two-phone{font-size: 20px;}
-            #footer-sociali-three-phone{font-size: 20px;}
-          }
-
-          
-
-          @media screen and (min-width:451px) and (max-width:470px){
-
-            #coi1-phone{  margin-left: 24px;}
-            .coi1-span-phone{    margin-left: 4px;
-              font-size: 15px;}
-              #coi2-phone{margin-left: 24px;}
-              .coi2-span-phone{   margin-left: 4px;
-                font-size: 15px}
-                #coi3-phone{margin-left: 24px;}
-                .coi3-span-phone{  margin-left: 4px;
-                  font-size: 15px}
-                  #coi4-phone{margin-left: 24px;}
-                  .coi4-span-phone{  margin-left: 4px;
-                    font-size: 15px}
-                    .footer-allright-phone {font-size:1em}
-                    #footer-sociali-one-phone{font-size: 20px;}
-                    #footer-sociali-two-phone{font-size: 20px;}
-                    #footer-sociali-three-phone{font-size: 20px;}
-                  }
 
 
 
-          /* start inside phone version */ 
-          @media screen and  (min-width:320px) and (max-width:330px) {
 
-            .open{margin-left:53px}
-            }
-            
-            @media screen and  (min-width:331px) and (max-width:335px) {
 
-              .open{margin-left:61px}
-              }
+
+
+
+/* mobile */ 
+
+@media screen and  (min-width:300px) and (max-width:320px) {
+
+  .open{margin-left:35px}
   
 
+.contact-form{display:none}
 
+.contact-form-mobile{display:block}
 
-            @media screen and  (min-width:336px) and (max-width:350px) {
 
-              .open{margin-left:71px}
-              }
-  
+.contact-form-head h3 {    margin-left: 0px;
+  margin-top: 111px;  font-size: 24px; text-align:center}
 
 
-            @media screen and  (min-width:351px) and (max-width:365px) {
-  
-              .open{margin-left:85px}
-              }
 
-              @media screen and  (min-width:366px) and (max-width:380px) {
-  
-                .open{margin-left:97px}
-                }
-  
-                @media screen and  (min-width:381px) and (max-width:400px) {
-  
-                  .open{margin-left:110px}
-                  }
-    
-  
-              @media screen and  (min-width:401px) and (max-width:420px) {
-  
-                .open{margin-left:136px}
-                }
-
-
-
-                @media screen and  (min-width:421px) and (max-width:435px) {
-  
-                  .open{margin-left:147px}
-                  }
-  
-                  @media screen and  (min-width:436px) and (max-width:450px) {
-  
-                    .open{margin-left:161px}
-                    }
-  
-
-
-
-
-
-
-
-
-      
-                @media screen and  (min-width:321px) and (max-width:359px) {
-
-                .contact-form-head h3{text-align:center; margin-left: 0px;}
-
-                }
-
-
-                @media screen and  (min-width:320px) and (max-width:350px) {
-
-                  .Affiliation-select-mobile, .FirstName-mobile, .LastName-mobile, .FormEmail-mobile, .FormPhone-mobile, .Company-mobile,
-                  .Occupation-mobile, .country-select-mobile, .FormMessage-mobile {width:282px}
-
-                  .contact-form-mobile{margin-left:-39px;}
-                }          
-                
-                
-
-
-                @media screen and  (min-width:351px) and (max-width:400px) {
-
-                  .Affiliation-select-mobile, .FirstName-mobile, .LastName-mobile, .FormEmail-mobile, .FormPhone-mobile, .Company-mobile,
-                  .Occupation-mobile, .country-select-mobile, .FormMessage-mobile {width:302px}
-
-                  .contact-form-mobile{margin-left:-39px;}
-                }          
-
-
-                @media screen and  (min-width:365px) and (max-width:380px) {
-                  .contact-form-mobile{margin-left:-26px;}
-                }          
-                @media screen and  (min-width:381px) and (max-width:400px) {
-                  .contact-form-mobile{margin-left:-19px;}
-                }          
-
-
-
-
-                @media screen and  (min-width:401px) and (max-width:450px) {
-
-                  .Affiliation-select-mobile, .FirstName-mobile, .LastName-mobile, .FormEmail-mobile, .FormPhone-mobile, .Company-mobile,
-                  .Occupation-mobile, .country-select-mobile, .FormMessage-mobile {width:340px}
-
-                  .contact-form-mobile{margin-left:-39px;}
-                }          
-
-                @media screen and  (min-width:401px) and (max-width:420px) {
-                  .contact-form-mobile{margin-left:-26px;}
-                }          
-                @media screen and  (min-width:421px) and (max-width:430px) {
-                  .contact-form-mobile{margin-left:-21px;}
-                }          
-                @media screen and  (min-width:431px) and (max-width:450px) {
-                  .contact-form-mobile{margin-left:-12px;}
-                }          
-
-
-
-
-                @media screen and  (min-width:451px) and (max-width:768px) {
-
-            
-                  .open{margin-left:182px}
-
-        
-                  .contact-form-head h3 {    margin-left: 0px;
-                    margin-top: 111px;  font-size: 23px; text-align:center}
-                  
-                  
-                  
-                    .contact-form-head p{margin:0; margin-left: 14px;  text-align:left; }
-
-
-                    .contact-form {margin-top:23px}
-                      #Affiliation{margin-left:16px}
-
-
-                      .Affiliation-select{width:390px; height:41px; margin-left:15px}
-
-                    .NameSectionh3{ margin-left: 14px;}
-  .Name-interested-Section{width:270px; height:41px; margin-left: 13px;}
-
-  .EmailSectionh3{   margin-left: 253px;}
-  .Email-interested-section{width:270px; height:41px; margin-left: 50px;}
-
-
-                    
-                    .FirstNameSection{margin-left:14px }
-                    .FirstName{width:175px; height:41px; margin-left: 14px;}
-                    
-                    .LastNameSection{ margin-left: 108px;}
-                    .LastName{width:175px; height:41px; margin-left: 35px;}
-                  
-                    .EmailSection{margin-left:14px}
-                    .FormEmail{width:175px; height:41px; margin-left: 13px;}
-
-                    .PhoneSection{margin-left: 156px;}
-                    .FormPhone{width:175px; height:41px; margin-left: 35px;}
-
-
-
-                    .CompanySection{margin-left:14px}
-                    .Company{width:175px; height:41px; margin-left: 13px;}
-
-
-                    .OccupationSection{margin-left: 118px;}
-                    .Occupation{width:175px; height:41px; margin-left: 35px;}
-
-                    .CountrtSection{margin-left:14px}
-                    .country-select{width:390px; height:41px; margin-left:14px}
-
-                    .MessageSection{margin-left: 14px;}
-                    .FormMessage{width:390px; height:95px; margin-left:14px}
-                    #formbutton{    margin-left: 12px;}
-
-                  }
-
-                  
-
-                  /* start inside 451 */ 
-                  @media screen and  (min-width:471px) and (max-width:500px) {
-                      .open{margin-left:202px}
-                  }
-
-                  @media screen and  (min-width:501px) and (max-width:530px) {
-                    .open{margin-left:227px}
-                }
-
-                @media screen and  (min-width:531px) and (max-width:560px) {
-                  .open{margin-left:259px}
-              }
-
-              @media screen and  (min-width:561px) and (max-width:590px) {
-                .open{margin-left:286px}
-            }
-
-            @media screen and  (min-width:591px) and (max-width:620px) {
-              .open{margin-left:320px}
-          }
-          @media screen and  (min-width:621px) and (max-width:650px) {
-            .open{margin-left:348px}
-        }
-
-        @media screen and  (min-width:651px) and (max-width:680px) {
-          .open{margin-left:376px}
-      }
-
-      @media screen and  (min-width:681px) and (max-width:710px) {
-        .open{margin-left:400px}
-    }
-
-    @media screen and  (min-width:711px) and (max-width:740px) {
-      .open{margin-left:436px}
+  .contact-form-head p{margin:0; margin-left: -5px;  text-align:left; margin-right:-20px }
   }
 
-  @media screen and  (min-width:741px) and (max-width:768px) {
-    .open{margin-left:465px}
+  .contact-form-mobile {margin-top: 20px; margin-left: -54px;}
+
+
+  .contact-form-mobile h3{font-family: 'poppins', sans-serif; font-size:21px; position: relative; margin-left: 52px; }
+  #form-asterisk-mobile{font-size:9px; color:#3f3f3f; margin-left:8px; margin-top:4px; position: absolute; }
+  
+  
+  .Affiliation-select-mobile{width: 273px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  
+
+
+
+  .FirstNameSection-mobile{margin-top:15px;  }
+  .FirstName-mobile{width: 273px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  .FirstName-mobile:focus {color:black}
+  
+
+
+  .LastNameSection-mobile{ margin-top:15px;}
+  .LastName-mobile{width: 273px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  .LastName-mobile:focus {color:black}
+  
+  
+  
+  
+  .EmailSection-mobile{  margin-top:15px;  }
+  .FormEmail-mobile{width: 273px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  .FormEmail-mobile:focus {color:black}
+  
+  .PhoneSection-mobile{   margin-top:15px;  }
+  .FormPhone-mobile{width: 273px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  .FormPhone-mobile:focus {color:black}
+  
+  
+  
+  .CompanySection-mobile{ margin-top:15px;}
+  .Company-mobile{width: 273px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  .Company-mobile:focus {color:black}
+  
+
+
+
+
+  .OccupationSection-mobile{margin-top:15px;}
+  .Occupation-mobile{width: 273px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  .Occupation-mobile:focus {color:black}
+  
+
+  .CountrtSection-mobile{margin-top:15px}
+  .country-select-mobile{width: 273px;
+   height: 43px;
+   text-indent: 10px;
+   margin-left: 51px}
+  
+  
+  .MessageSection-mobile{margin-top:15px}
+  .FormMessage-mobile{width: 273px;
+   height: 120px;
+   text-indent: 10px;
+   margin-left: 51px}
+  .FormMessage-mobile:focus {color:black; }
+  .MessageSection-mobile::placeholder { color:red; background-color:red}
+  
+  
+  #formbutton-mobile{margin-top:15px; background-color:#ffbf00; border:none; color:black; width:100px; height:40px; font-family: 'poppins', sans-serif;
+                 font-size:18px; outline: none; margin-bottom:22px; margin-left: 51px;}
+  
+       #formbutton-mobile:focus{ box-shadow: none; }
+              
+  
+  #formbutton-mobile:active, #formbutton-mobile:focus {border:none; outline-style: none;  }
+  
+
+
+  .footer{display:none}
+  .footer-phone{display:block}
+  
+  
+  
+  
+  .footer-phone{width:100%; height:auto; background-color:black;  margin-top:15px; tedxt-align: center; }
+  
+  .footer-phone h3{color: #ffbf00;
+    font-size: 1.4em;  padding-top:5px; text-align:center  }
+  
+  #coi1-phone{ color:white; margin-top:10px; margin-left: 10px;}
+  .coi1-span-phone{color:white; margin-left:4px}
+  
+  
+  #coi2-phone{ color:white;margin-top: 15px; margin-left: 10px;}
+  .coi2-span-phone{color:white; margin-left:4px}
+  
+  #coi3-phone{ color:white; margin-top:15px; margin-left: 10px;}
+  .coi3-span-phone{color:white; margin-left:4px}
+  
+  
+  #coi4-phone{ color:white; margin-top:15px; margin-left: 10px;}
+  .coi4-span-phone{color:white; margin-left:4px}
+  
+  
+  
+  .footer-allright-phone{ color:white;  margin-top: 17px;
+    text-align: center;
+    font-size: 1.2em;}
+  
+    .footer-icons-phone{text-align:center; margin-top: -13px;}
+  #footer-sociali-one-phone{ font-size:22px; color:white; }
+  #footer-sociali-two-phone{ font-size:22px; color:white;  margin: 9px;}
+  #footer-sociali-three-phone{ font-size:22px; color:white;}
+  
+  #coi1SpanPhone-Hidden-space{display:none}
+  .coi1SpanPhone-Hidden{display:block}
+  .coiAlignedspanMobile-Hidden{display:block}
+  
+  
+  .coi1-span-phone{display:none}
+  
+  .coi1SpanPhone-Hidden{color:white; margin-left: 34px;
+    margin-top: -24px;}
+  
+  .coiAlignedspanMobile-Hidden{color:white; margin-left: 37px;}
+  
+  
+  /* inside 300 */ 
+  @media screen and  (min-width:311px) and (max-width:320px) {
+
+    .open{margin-left:42px} 
+  }  
+
+
+  @media screen and (min-width:300px) and (max-width:305px){
+
+  .contact-form-mobile {margin-left: -51px;}
+  }
+
+  @media screen and (min-width:306px) and (max-width:310px){
+
+    .contact-form-mobile {margin-left: -48px;}
+  }
+
+  @media screen and (min-width:311px) and (max-width:320px){
+
+    .contact-form-mobile {margin-left: -46px;}
+  }
+
+
+  @media screen and (min-width:311px) and (max-width:320px){
+
+
+  .contact-form-head p{margin-left:4px}
+  }
+
+
+
+  @media screen and (min-width:331px) and (max-width:416px){
+
+      #coi1-phone{margin-left:27px}
+      #coi2-phone{margin-left:27px}
+      #coi3-phone{margin-left:27px}
+      #coi4-phone{margin-left:27px}
+
+  }
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+@media screen and (min-width:418px) and (max-width:450px){
+
+  #coi1-phone{  margin-left: 7px;}
+  .coi1-span-phone{    margin-left: -1px;
+    font-size: 15px;}
+    #coi2-phone{margin-left: 7px;}
+    .coi2-span-phone{   margin-left: -1px;
+      font-size: 15px}
+      #coi3-phone{margin-left: 7px;}
+      .coi3-span-phone{  margin-left: -1px;
+        font-size: 15px}
+        #coi4-phone{margin-left: 7px;}
+        .coi4-span-phone{  margin-left: -1px;
+          font-size: 15px}
+          .footer-allright-phone {font-size:1em}
+          #footer-sociali-one-phone{font-size: 20px;}
+          #footer-sociali-two-phone{font-size: 20px;}
+          #footer-sociali-three-phone{font-size: 20px;}
+        }
+
+        
+
+        @media screen and (min-width:451px) and (max-width:470px){
+
+          #coi1-phone{  margin-left: 24px;}
+          .coi1-span-phone{    margin-left: 4px;
+            font-size: 15px;}
+            #coi2-phone{margin-left: 24px;}
+            .coi2-span-phone{   margin-left: 4px;
+              font-size: 15px}
+              #coi3-phone{margin-left: 24px;}
+              .coi3-span-phone{  margin-left: 4px;
+                font-size: 15px}
+                #coi4-phone{margin-left: 24px;}
+                .coi4-span-phone{  margin-left: 4px;
+                  font-size: 15px}
+                  .footer-allright-phone {font-size:1em}
+                  #footer-sociali-one-phone{font-size: 20px;}
+                  #footer-sociali-two-phone{font-size: 20px;}
+                  #footer-sociali-three-phone{font-size: 20px;}
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* start inside phone version */ 
+        @media screen and  (min-width:320px) and (max-width:330px) {
+
+          .open{margin-left:53px}
+          }
+          
+          @media screen and  (min-width:331px) and (max-width:335px) {
+
+            .open{margin-left:61px}
+            }
+
+
+
+
+          @media screen and  (min-width:336px) and (max-width:350px) {
+
+            .open{margin-left:71px}
+            }
+
+
+
+          @media screen and  (min-width:351px) and (max-width:365px) {
+
+            .open{margin-left:85px}
+            }
+
+            @media screen and  (min-width:366px) and (max-width:380px) {
+
+              .open{margin-left:97px}
+              }
+
+              @media screen and  (min-width:381px) and (max-width:400px) {
+
+                .open{margin-left:110px}
+                }
+  
+
+            @media screen and  (min-width:401px) and (max-width:420px) {
+
+              .open{margin-left:136px}
+              }
+
+
+
+              @media screen and  (min-width:421px) and (max-width:435px) {
+
+                .open{margin-left:147px}
+                }
+
+                @media screen and  (min-width:436px) and (max-width:450px) {
+
+                  .open{margin-left:161px}
+                  }
+
+
+
+
+        @media screen and  (min-width:471px) and (max-width:768px) {
+  
+          #coi1-phone{ margin-left: 24px;}
+          #coi2-phone{ margin-left: 24px;}
+          #coi3-phone{ margin-left: 24px;}
+          #coi4-phone{ margin-left: 24px;}
+
+          .coi1-span-phone {margin-left: 47px;}
+        }
+
+
+
+
+    
+              @media screen and  (min-width:321px) and (max-width:359px) {
+
+              .contact-form-head h3{text-align:center; margin-left: 0px;}
+
+              }
+
+
+              @media screen and  (min-width:320px) and (max-width:350px) {
+
+                .Affiliation-select-mobile, .FirstName-mobile, .LastName-mobile, .FormEmail-mobile, .FormPhone-mobile, .Company-mobile,
+                .Occupation-mobile, .country-select-mobile, .FormMessage-mobile {width:282px}
+
+                .contact-form-mobile{margin-left:-39px;}
+              }          
+              
+              
+
+
+              @media screen and  (min-width:351px) and (max-width:400px) {
+
+                .Affiliation-select-mobile, .FirstName-mobile, .LastName-mobile, .FormEmail-mobile, .FormPhone-mobile, .Company-mobile,
+                .Occupation-mobile, .country-select-mobile, .FormMessage-mobile {width:302px}
+
+                .contact-form-mobile{margin-left:-39px;}
+              }          
+
+
+              @media screen and  (min-width:365px) and (max-width:380px) {
+                .contact-form-mobile{margin-left:-26px;}
+              }          
+              @media screen and  (min-width:381px) and (max-width:400px) {
+                .contact-form-mobile{margin-left:-19px;}
+              }          
+
+
+
+
+              @media screen and  (min-width:401px) and (max-width:450px) {
+
+                .Affiliation-select-mobile, .FirstName-mobile, .LastName-mobile, .FormEmail-mobile, .FormPhone-mobile, .Company-mobile,
+                .Occupation-mobile, .country-select-mobile, .FormMessage-mobile {width:340px}
+
+                .contact-form-mobile{margin-left:-39px;}
+              }          
+
+              @media screen and  (min-width:401px) and (max-width:420px) {
+                .contact-form-mobile{margin-left:-26px;}
+              }          
+              @media screen and  (min-width:421px) and (max-width:430px) {
+                .contact-form-mobile{margin-left:-21px;}
+              }          
+              @media screen and  (min-width:431px) and (max-width:450px) {
+                .contact-form-mobile{margin-left:-12px;}
+              }          
+
+
+
+
+
+
+                    
+                    
+                  
+
+
+
+
+
+
+              @media screen and  (min-width:451px) and (max-width:768px) {
+
+          
+                .open{margin-left:182px}
+
+      
+                .contact-form-head h3 {    margin-left: 0px;
+                  margin-top: 111px;  font-size: 23px; text-align:center}
+                
+                
+                
+                  .contact-form-head p{margin:0; margin-left: 14px;  text-align:left; }
+
+
+                  .contact-form {margin-top:23px}
+                    #Affiliation{margin-left:16px}
+
+
+                    .Affiliation-select{width:390px; height:45px; margin-left:15px}
+
+                  .NameSectionh3{ margin-left: 14px;}
+.Name-interested-Section{width:270px; height:45px; margin-left: 13px;}
+
+.EmailSectionh3{   margin-left: 253px;}
+.Email-interested-section{width:270px; height:45px; margin-left: 50px;}
+
+
+                  
+                  .FirstNameSection{margin-left:14px }
+                  .FirstName{width:175px; height:45px; margin-left: 14px;}
+                  
+                  .LastNameSection{ margin-left: 108px;}
+                  .LastName{width:175px; height:45px; margin-left: 35px;}
+                
+                  .EmailSection{margin-left:14px}
+                  .FormEmail{width:175px; height:45px; margin-left: 13px;}
+
+                  .PhoneSection{margin-left: 156px;}
+                  .FormPhone{width:175px; height:45px; margin-left: 35px;}
+
+
+
+                  .CompanySection{margin-left:14px}
+                  .Company{width:175px; height:45px; margin-left: 13px;}
+
+
+                  .OccupationSection{margin-left: 118px;}
+                  .Occupation{width:175px; height:45px; margin-left: 35px;}
+
+                  .CountrtSection{margin-left:14px}
+                  .country-select{width:390px; height:45px; margin-left:14px}
+
+                  .MessageSection{margin-left: 14px;}
+                  .FormMessage{width:390px; height:110px; margin-left:14px}
+                  #formbutton{    margin-left: 12px;}
+
+                }
+
+                
+
+                /* start inside 451 */ 
+                @media screen and  (min-width:471px) and (max-width:500px) {
+                    .open{margin-left:202px}
+                }
+
+                @media screen and  (min-width:501px) and (max-width:530px) {
+                  .open{margin-left:227px}
+              }
+
+              @media screen and  (min-width:531px) and (max-width:560px) {
+                .open{margin-left:259px}
+            }
+
+            @media screen and  (min-width:561px) and (max-width:590px) {
+              .open{margin-left:286px}
+          }
+
+          @media screen and  (min-width:591px) and (max-width:620px) {
+            .open{margin-left:320px}
+        }
+        @media screen and  (min-width:621px) and (max-width:650px) {
+          .open{margin-left:348px}
+      }
+
+      @media screen and  (min-width:651px) and (max-width:680px) {
+        .open{margin-left:376px}
+    }
+
+    @media screen and  (min-width:681px) and (max-width:710px) {
+      .open{margin-left:400px}
+  }
+
+  @media screen and  (min-width:711px) and (max-width:740px) {
+    .open{margin-left:436px}
+}
+
+@media screen and  (min-width:741px) and (max-width:768px) {
+  .open{margin-left:465px}
 }
 
 
 @media screen and  (min-width:576px) and (max-width:768px) {
-  .contact-form-head p {margin-left: 9px;}
+.contact-form-head p {margin-left: 9px;}
 
 }
 
 @media screen and  (min-width:768px) and (max-width:768px) {
-  .contact-form-head p {margin-left: 79px;}
+.contact-form-head p {margin-left: 79px;}
 
 }
 
@@ -1133,77 +1159,78 @@ display:block;
 
 
 
-                  @media screen and  (min-width:461px) and (max-width:480px) {
+                @media screen and  (min-width:461px) and (max-width:480px) {
 
-                    .contact-form{margin-left: 12px;}
-                  }
-                  @media screen and  (min-width:481px) and (max-width:500px) {
+                  .contact-form{margin-left: 12px;}
+                }
+                @media screen and  (min-width:481px) and (max-width:500px) {
 
-                    .contact-form{margin-left: 22px;}
-                  }
-
-                  @media screen and  (min-width:501px) and (max-width:520px) {
-
-                    .contact-form{margin-left: 25px;}
-                  }
-
-                  @media screen and  (min-width:521px) and (max-width:540px) {
-
-                    .contact-form{margin-left: 41px;}
-                  }
-
-                  @media screen and  (min-width:541px) and (max-width:560px) {
-
-                    .contact-form{margin-left: 56px;}
-                  }
-                  @media screen and (min-width:561px) and (max-width:575px) {
-
-                    .contact-form{margin-left: 59px;}
-                  }
-
-                  @media screen and (min-width:576px) and (max-width:576px) {
-
-                  .FirstName {margin-left: 13px;}
-                  }
-
-
-                  @media screen and (min-width:576px) and (max-width:768px) {
-
-                  #contacthead{flex: 0 0 100%;
-                      max-width: 100%;}
-
-                    .contact-form{
-                      margin-left: 59px; width: 70vw;}
+                  .contact-form{margin-left: 22px;}
                 }
 
-                @media screen and (min-width:729px) and (max-width:740px) {
-                  .contact-form{
-                   width: 69vw;}
-              }
+                @media screen and  (min-width:501px) and (max-width:520px) {
 
+                  .contact-form{margin-left: 25px;}
+                }
 
-                @media screen and (min-width:744px) and (max-width:768px) {
+                @media screen and  (min-width:521px) and (max-width:540px) {
 
-                  .contact-form{width:67vw}
+                  .contact-form{margin-left: 41px;}
+                }
+
+                @media screen and  (min-width:541px) and (max-width:560px) {
+
+                  .contact-form{margin-left: 56px;}
+                }
+                @media screen and (min-width:561px) and (max-width:575px) {
+
+                  .contact-form{margin-left: 59px;}
+                }
+
+                @media screen and (min-width:576px) and (max-width:576px) {
+
+                .FirstName {margin-left: 13px;}
                 }
 
 
-                @media screen and (min-width:741px) and (max-width:745px) {
+                @media screen and (min-width:576px) and (max-width:768px) {
+
+                #contacthead{flex: 0 0 100%;
+                    max-width: 100%;}
+
                   .contact-form{
-                   width: 68vw;}
+                    margin-left: 59px; width: 70vw;}
               }
-  
-              @media screen and (min-width:762px) and (max-width:768px) {
+
+              @media screen and (min-width:729px) and (max-width:740px) {
                 .contact-form{
-                 width: 66vw;}
+                 width: 69vw;}
             }
-  
 
-            
-                @media screen and (min-width:768px) and (max-width:768px) {
 
-                  .contact-form{margin-left: 144px;}
-                }
+              @media screen and (min-width:744px) and (max-width:768px) {
+
+                .contact-form{width:67vw}
+              }
+
+
+              @media screen and (min-width:741px) and (max-width:745px) {
+                .contact-form{
+                 width: 68vw;}
+            }
+
+            @media screen and (min-width:762px) and (max-width:768px) {
+              .contact-form{
+               width: 66vw;}
+          }
+
+
+          
+              @media screen and (min-width:768px) and (max-width:768px) {
+
+                .contact-form{margin-left: 144px;}
+              }
+
 
 
 
@@ -1223,42 +1250,42 @@ display:block;
                       #Affiliation{margin-left:16px}
 
 
-                      .Affiliation-select{width:390px; height:41px; margin-left:15px}
+                      .Affiliation-select{width:390px; height:50px; margin-left:15px}
 
                     .NameSectionh3{ margin-left: 14px;}
-  .Name-interested-Section{width:270px; height:41px; margin-left: 13px;}
+  .Name-interested-Section{width:270px; height:50px; margin-left: 13px;}
 
   .EmailSectionh3{   margin-left: 253px;}
-  .Email-interested-section{width:270px; height:41px; margin-left: 50px;}
+  .Email-interested-section{width:270px; height:50px; margin-left: 50px;}
 
 
                     
                     .FirstNameSection{margin-left:14px }
-                    .FirstName{width:175px; height:41px; margin-left: 14px;}
+                    .FirstName{width:175px; height:50px; margin-left: 14px;}
                     
                     .LastNameSection{ margin-left: 100px;}
-                    .LastName{width:175px; height:41px; margin-left: 35px;}
+                    .LastName{width:175px; height:50px; margin-left: 35px;}
                   
                     .EmailSection{margin-left:14px}
-                    .FormEmail{width:175px; height:41px; margin-left: 13px;}
+                    .FormEmail{width:175px; height:50px; margin-left: 13px;}
 
                     .PhoneSection{margin-left: 155px;}
-                    .FormPhone{width:175px; height:41px; margin-left: 35px;}
+                    .FormPhone{width:175px; height:50px; margin-left: 35px;}
 
 
 
                     .CompanySection{margin-left:14px}
-                    .Company{width:175px; height:41px; margin-left: 13px;}
+                    .Company{width:175px; height:50px; margin-left: 13px;}
 
 
                     .OccupationSection{margin-left: 118px;}
-                    .Occupation{width:175px; height:41px; margin-left: 35px;}
+                    .Occupation{width:175px; height:50px; margin-left: 35px;}
 
                     .CountrtSection{margin-left:14px}
-                    .country-select{width:390px; height:41px; margin-left:14px}
+                    .country-select{width:390px; height:50px; margin-left:14px}
 
                     .MessageSection{margin-left: 14px;}
-                    .FormMessage{width:390px; height:95px; margin-left:14px}
+                    .FormMessage{width:390px; height:110px; margin-left:14px}
                     #formbutton{    margin-left: 12px;}
               
 
@@ -1436,32 +1463,32 @@ display:block;
 
 
 
-                    .Affiliation-select{height:35px;}
+                    .Affiliation-select{height:45px;}
 
-  .Name-interested-Section{ height:35px; }
+  .Name-interested-Section{ height:45px; }
 
-  .Email-interested-section{ height:35px;}
+  .Email-interested-section{ height:45px;}
 
 
                     
-                    .FirstName{height:35px; }
+                    .FirstName{height:45px; }
                     
-                    .LastName{ height:35px;}
+                    .LastName{ height:45px;}
                   
-                    .FormEmail{height:35px;}
+                    .FormEmail{height:45px;}
 
-                    .FormPhone{height:35px; }
-
-
-
-                    .Company{height:35px; }
+                    .FormPhone{height:45px; }
 
 
-                    .Occupation{ height:35px}
 
-                    .country-select{ height:35px}
+                    .Company{height:45px; }
 
-                    .FormMessage{ height:95px; }
+
+                    .Occupation{ height:45px}
+
+                    .country-select{ height:45px}
+
+                    .FormMessage{ height:110px; }
 
                   }            
 
@@ -1754,20 +1781,6 @@ display:block;
                                           }
 
 
-                /*
-                @media screen and  (min-width:840px) and (max-width:940px) {
-
-                  .contact-form{    margin-left: -23px;}
-                }
-
-                @media screen and  (min-width:941px) and (max-width:991px) {
-                  .contact-form{    margin-left: -23px;}
-                }
-
-
-
-*/             
-
 
 @media screen and  (min-width:929px) and (max-width:944px) {
   .contact-form{ width:54vw;}
@@ -2058,3 +2071,452 @@ margin-top: -23px;}
 }
 
 }
+
+
+
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+
+
+@media screen and (min-width:300px){
+  
+  #fade-out-careersSuccess{width:100%; height: 102px; background-color:#4db064;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: -65px;
+    line-height: 36px;
+    margin-left:10px;} 
+
+ #fade-out-careersSuccess p{   font-size: 14px;
+  color: white;
+  font-family: 'poppins', sans-serif;}
+
+  #closeButton{margin-top: -97px;
+    margin-right: -2px;
+    font-size: 22px;
+    color: white;
+    opacity: 1;}
+}
+
+
+@media screen and (min-width:305px){
+
+  #fade-out-careersSuccess{margin-left:5px}
+}
+@media screen and (min-width:315px){
+
+  #fade-out-careersSuccess{margin-left:1px}
+}
+
+@media screen and (min-width:320px){
+
+  #fade-out-careersSuccess{margin-left:0px; left:0!important; right:0!important; }
+}
+
+
+@media screen and (min-width:320px){
+  #fade-out-careersSuccess p{ font-size:15px }
+
+}
+@media screen and (min-width:330px){
+  #fade-out-careersSuccess p{ font-size:16px }
+}
+
+
+  @media screen and (min-width:360px){
+    #fade-out-careersSuccess p{ font-size:17px }
+    #careersSucces-strong{font-size: 19px;}
+
+    #closeButton{font-size:26px}
+  }
+
+  @media screen and (min-width:380px){
+    #fade-out-careersSuccess p{ font-size:18px}
+    #careersSucces-strong{font-size: 20px;}
+
+  }
+  @media screen and (min-width:400px){
+
+    #fade-out-careersSuccess{height:122px; line-height: 41px;
+      padding-top: 15px; }
+    #fade-out-careersSuccess p{ font-size:19px}
+    #careersSucces-strong{font-size: 21px;}
+
+    #closeButton{font-size:29px;     margin-top: -108px;
+      margin-right: -5px;}
+  }
+
+
+  
+  @media screen and (min-width:440px){
+    #fade-out-careersSuccess p{  font-size: 21px; padding-top:3px }
+    #careersSucces-strong{font-size: 23px;}
+
+    }
+
+    @media screen and (min-width:450px){
+      #closeButton{font-size:31px;     margin-top: -108px;
+        margin-right: -5px;}
+    }
+
+                      @media screen and (min-width:500px){
+                        #fade-out-careersSuccess p{       font-size: 22px;}
+                        #careersSucces-strong{font-size: 24px;}
+
+                        }
+
+                        @media screen and (min-width:515px){
+                        #closeButton{font-size:34px;  }
+                        }
+
+    
+                                    @media screen and (min-width:600px){
+                                      #fade-out-careersSuccess p{       font-size: 25px;}
+                                      #careersSucces-strong{font-size: 27px;}
+
+                                      }
+                                    
+                                      @media screen and (min-width:650px){
+                                        #fade-out-careersSuccess{ height:133px; line-height: 45px; padding-top: 16px;   }
+
+                                        #closeButton{    margin-top: -119px;
+                                          margin-right: 1px;}
+
+                                      }
+  
+                                
+  @media screen and (min-width:769px) {
+  
+  #closeButton{margin-top: -115px;
+    margin-right: 6px;
+    font-size: 35px;
+    color: white;
+    opacity: 1;}
+ 
+  
+  #fade-out-careersSuccess {   text-align:center; margin:auto; margin-top:100px; margin-bottom:-55px; width:80%; height:121px; line-height: 47px; 
+        background-color:#4db064; padding-top:8px }
+   
+    
+        #fade-out-careersSuccess p{       font-size: 25px;}
+        #careersSucces-strong{font-size: 27px;}
+
+
+      #fade-out-careersFaild { font-size:19px; text-align:center; margin:auto; margin-top:55px; margin-bottom:-55px;
+         width:100%; height:80px; line-height: 35px; padding-top:4px;  background-color:red; color:white}
+    
+      }
+    
+      @media screen and (min-width:992px) {
+        #fade-out-careersSuccess{width:72%}
+      }
+
+
+
+
+      @media screen and (min-width:300px){
+  
+        #fade-out-careersFaild{width:100%; height: 102px; background-color:#f82d2d;
+          margin-top: 100px;
+          text-align: center;
+          margin-bottom: -65px;
+          line-height: 36px;
+           margin-left:10px;} 
+    
+       #fade-out-careersFaild p{   font-size: 14px;
+        color: white;
+        font-family: 'poppins', sans-serif;}
+    
+      }
+      
+    
+      @media screen and (min-width:305px){
+      
+        #fade-out-careersFaild{margin-left:5px}
+      }
+      @media screen and (min-width:315px){
+      
+        #fade-out-careersFaild{margin-left:1px}
+      }
+    
+      @media screen and (min-width:320px){
+      
+        #fade-out-careersFaild{margin-left:0px; left:0!important; right:0!important; }
+      }
+    
+    
+      @media screen and (min-width:320px){
+        #fade-out-careersFaild p{ font-size:15px }
+    
+      }
+      @media screen and (min-width:330px){
+        #fade-out-careersFaild p{ font-size:16px }
+      }
+    
+    
+        @media screen and (min-width:360px){
+          #fade-out-careersFaild p{ font-size:17px }
+          #careersFaild-strong{font-size: 19px;}
+    
+        }
+    
+    
+    
+        @media screen and (min-width:380px){
+          #fade-out-careersFaild p{ font-size:18px}
+          #careersFaild-strong{font-size: 20px;}
+    
+        }
+        @media screen and (min-width:400px){
+    
+          #fade-out-careersFaild{height:122px; line-height: 41px;
+            padding-top: 15px; }
+          #fade-out-careersFaild p{ font-size:19px}
+          #careersFaild-strong{font-size: 21px;}
+    
+        }
+    
+      
+        
+        @media screen and (min-width:440px){
+          #fade-out-careersFaild p{  font-size: 21px; padding-top:3px }
+          #careersFaild-strong{font-size: 23px;}
+    
+          }
+    
+      
+        
+                            @media screen and (min-width:500px){
+                              #fade-out-careersFaild p{       font-size: 22px;}
+                              #careersFaild-strong{font-size: 24px;}
+    
+                              }
+    
+    
+          
+                                          @media screen and (min-width:600px){
+                                            #fade-out-careersFaild p{       font-size: 25px;}
+                                            #careersFaild-strong{font-size: 27px;}
+    
+                                            }
+                                          
+                                            @media screen and (min-width:650px){
+                                              #fade-out-careersFaild{ height:133px; line-height: 45px; padding-top: 16px;   }
+    
+                                            }
+    
+        @media screen and (min-width:769px) {
+        
+        
+        #fade-out-careersFaild {   text-align:center; margin:auto; margin-top:100px; margin-bottom:-55px; width:80%; height:121px; line-height: 47px; 
+              background-color:#f82d2d; padding-top:8px }
+         
+          
+              #fade-out-careersFaild p{  font-size: 25px;}
+              #careersFaild-strong{font-size: 27px;}
+    
+    
+            }
+          
+            @media screen and (min-width:992px) {
+              #fade-out-careersFaild{width:72%}
+            }
+    
+    
+  
+            textarea {
+              resize: none; overflow: hidden;
+            }
+            
+
+
+
+
+
+            
+
+
+
+
+
+
+/* footer */ 
+.page-footer{background-color:black; height: 135px; color:white; margin-top: 40px;}
+.footer-icons{        margin-left: 180px;
+  margin-top: -16px;
+  line-height: 38px;}
+
+#footerI{float:left; }
+.footerSpan{float:left;     margin-top: -12px;
+  padding-left: 10px;}
+
+
+
+.footer-social a i{    color: white;
+  font-size: 25px;
+  text-decoration: none!important;
+  margin-left: 29px;
+  margin-top: 40px;}
+
+
+  .footer-social a:hover{text-decoration: none !important;
+    outline:none
+  }
+
+  .footer-copyright{    margin-top: 18px;}
+
+  .footer-sectionTwo{margin-left:20px}
+
+
+
+  /* footer responsive */ 
+  /* min 300 */
+  @media screen and  (min-width:300px)  {
+
+  .footerSpan {    padding-left: 8px;}
+
+  .footer-icons {
+    margin-left: -5px;}
+
+    .page-footer{height:229px}
+
+
+    .footer-social a i {margin-left: 18px;
+      margin-top: 23px;}
+
+      .footer-sectionTwo {
+        margin-left: -39px;
+    }
+    .footer-copyright {
+      margin-top: 15px;
+      font-size: 13px;
+      margin-left: 33px;
+  }
+
+  }
+
+
+  @media screen and  (min-width:310px)  {
+
+  .footer-icons {margin-left: 4px;}
+  }
+
+  @media screen and  (min-width:320px)  {
+
+    .footer-icons {margin-left: 9px;}
+    }
+    @media screen and  (min-width:330px)  {
+
+      .footer-icons {margin-left: 16px;}
+      }  
+        @media screen and  (min-width:350px)  {
+
+        .footer-icons {margin-left: 29px;}
+        }
+  
+        @media screen and  (min-width:370px)  {
+
+          .footer-icons {margin-left: 35px;}
+          }
+    
+          @media screen and  (min-width:380px)  {
+
+            .footer-icons {margin-left: 42px;}
+            }
+            @media screen and  (min-width:390px)  {
+              .footer-copyright {font-size: 14px;}
+
+              .footer-icons {margin-left: 45px;}
+              }
+              @media screen and  (min-width:400px)  {
+
+                .footer-icons {margin-left: 50px;}
+                }
+                @media screen and  (min-width:410px)  {
+.footer-copyright {
+    font-size: 15px;
+}
+                  .footer-icons {margin-left: 59px;}
+                  }
+                  @media screen and  (min-width:420px)  {
+
+                    .footer-icons {margin-left: 65px;}
+                    }
+
+                    @media screen and  (min-width:440px)  {
+                      .footer-icons {margin-left: 70px;}
+                    .footerSpan {
+                      padding-left: 10px;}
+                    }
+
+                    @media screen and  (min-width:450px)  {
+
+                      .footer-icons {margin-left: 78px;}
+                      }
+  
+                      @media screen and  (min-width:470px)  {
+
+                        .footer-icons {margin-left: 88px;}
+                        }
+                        @media screen and  (min-width:490px)  {
+
+                          .footer-icons {margin-left: 100px;}
+                          }
+                          @media screen and  (min-width:500px)  {
+
+                          .footer-icons {
+                            margin-left: 24px;
+                        }
+                      }
+                        @media screen and  (min-width:768px)  {
+
+                        .footer-sectionTwo {    margin-top: 9px;}
+                        .page-footer {
+                          height: 137px}
+                      }
+
+                      @media screen and  (min-width:850px)  {
+                      .footer-icons {
+                        margin-left: 60px;
+                    }
+                  }
+                
+                  @media screen and  (min-width:992px)  {
+
+                  .footer-icons {
+                    margin-left: 90px;}
+                  }
+
+                  @media screen and  (min-width:1000px)  {
+
+                  .footer-icons {
+                    margin-left: 115px; }
+                  }
+                  @media screen and  (min-width:1150px)  {
+
+                    .footer-icons {
+                      margin-left: 147px; }
+                    }
+                    @media screen and  (min-width:1300px)  {
+
+                      .footer-icons {
+                        margin-left: 187px; }
+                      }
+                      @media screen and  (min-width:1400px)  {
+
+                        .footer-icons {
+                          margin-left: 225px; }
+                        }
+      
+
+                        @media screen and  (min-width:451px)  {
+                        .page-footer{margin-top:0px}
+                        }
