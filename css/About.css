@@ -5267,3 +5267,102 @@ transform: scale(1.1);
     margin-top: 211px;
 }
 }
+
+
+@media screen and  (min-width:300px) and (max-width:450px)  {
+  .partnersContent-five {
+    margin-left: 57px;}
+    .partnersContent-six {
+      margin-left: 38px;}
+      .partnersContent-seven {
+        margin-left: 45px;}
+        .partnersContent-eight {
+          margin-left: 45px;}
+    
+  }
+
+  @media screen and (min-width:321px) and (max-width:335px){
+.partnersContent-all {
+    margin-left: 19px;}
+}
+  
+
+@media screen and (min-width:330px) and (max-width:335px){
+
+.partnersContent-all {
+  margin-left: 25px;}
+}
+
+@media screen and (min-width:336px) and (max-width:450px){
+  .partnersContent-all {
+    margin-left: 24px;
+}
+.partnersContent-seven {
+  margin-left: 42px;}
+}
+
+@media screen and (min-width:351px) and (max-width:450px){
+  .partnersContent-all {
+    margin-left: 35px;
+}
+.partnersContent-six {
+  margin-left: 34px;}
+  .partnersContent-seven {
+    margin-left: 32px;
+}
+.partnersContent-eight {
+  margin-left: 35px;
+}
+
+}
+
+@media screen and (min-width:365px) and (max-width:450px){
+.partnersContent-all {
+  margin-left: 44px;}
+}
+
+@media screen and (min-width:380px) and (max-width:450px){
+  .partnersContent-all {
+    margin-left: 53px;}
+  }
+  
+  @media screen and (min-width:390px) and (max-width:450px){
+    .partnersContent-all {
+      margin-left: 63px;}
+      .partnersContent-six {
+        margin-left: 38px;
+    }
+
+    .partnersContent-seven {
+      margin-left: 38px;
+  }
+
+  .partnersContent-eight {
+    margin-left: 31px;
+}
+    }
+
+    @media screen and (min-width:400px) and (max-width:450px){
+    .partnersContent-all {
+      margin-left: 58px;
+  }
+
+    }
+
+    @media screen and (min-width:410px) and (max-width:450px){
+      .partnersContent-all {
+        margin-left: 70px;}
+      }
+  
+
+      @media screen and (min-width:430px) and (max-width:450px){
+        .partnersContent-all {
+          margin-left: 76px;}
+        }
+    
+
+        @media screen and (min-width:440px) and (max-width:450px){
+          .partnersContent-all {
+            margin-left: 82px;}
+        }
+    
