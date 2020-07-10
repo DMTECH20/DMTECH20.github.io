@@ -56,8 +56,9 @@ header img{width:230px; max-width:100%; height:auto; margin-left:30px;}
 .logo{cursor:pointer; max-height:50px; width:190px; }
 .nav-links{margin-top:10px}
 .nav-links li{display:inline-block; padding:0px 15px;}
+/*
 .nav-links li:nth-child(1){padding:0 20px 0 0;}
-
+*/
 .nav-links li a{transition: all 0.3s ease 0s; font-family: 'poppins', sans-serif; font-size:15px; color:black; text-transform: uppercase;  text-decoration: none;}
 .nav-links li a:hover{color:#ffbf00; font-weight: 600;}
 .nav-links li a:hover::after{color:#151515; font-weight:400}
@@ -254,7 +255,6 @@ font-size:20px;
 
 
 
-
     
 
 .content{background-color:white; width:100%;  list-style-type: none;  position: absolute;  right:0; padding:20px
@@ -415,7 +415,6 @@ display:block;
   text-align: center;
   padding-top: 189px;
   font-size: 45px;
-  font-family: 'oswald', sans-serif;
 } 
 
 
@@ -5837,7 +5836,6 @@ margin-top: -25px;}
 
 .VideoCaption h3{
             text-align: center;
-            font-family: 'poppins', sans-serif;
             font-weight: 600;
             font-size: 30px;}
             .VideoCaption p{
@@ -6057,3 +6055,835 @@ margin-top: -25px;}
                                 @media screen and (max-width: 768px) {
                                 #tosolution{ font-size: 15px;}
                                 }
+
+
+
+    /* new edits 7-7-20 */
+    @media screen and (min-width: 300px) and (max-width:991px) {
+      .vrlab {
+        height: 460px;}
+        .vrlab h3 {
+          font-size: 1.3em;}       
+      }
+      @media screen and (min-width: 360px) and (max-width:991px) {
+      .vrlab h3 {    line-height: 29px;}
+      }
+      @media screen and (min-width: 321px) and (max-width:570px) {
+      .vrlab h3 {
+        font-size: 1.4em;}
+    }
+    @media screen and (min-width: 571px) and (max-width:991px) {
+      .vrlab h3 {
+        font-size: 1.5em;}
+    }
+
+    @media screen and (min-width: 517px)  and (max-width:991px) {
+    .vrlab h3 {
+      margin-left: 20px;
+      margin-right: 20px;}
+    }
+    @media screen and (min-width: 561px)  and (max-width:991px) {
+      .vrlab h3 {
+        margin-left: 40px;
+        margin-right: 40px;}
+      }
+
+      @media screen and (min-width: 589px)  and (max-width:991px) {
+      .vrlab h3 {
+        padding-top: 116px;}
+    }
+    @media screen and (min-width: 600px)  and (max-width:991px) {
+      .vrlab h3 {
+        padding-top: 109px;}
+    }
+
+    @media screen and (min-width: 638px) and (max-width:991px) {
+      .vrlab h3 {
+        margin-left: 60px;
+        margin-right: 60px;}
+      }
+
+      @media screen and (min-width: 678px) and (max-width:991px)  {
+        .vrlab h3 {
+          margin-left: 80px;
+          margin-right: 80px;}
+        }
+        @media screen and (min-width: 705px)  and (max-width:991px) {
+        .vrlab h3 {
+          padding-top: 121px;}
+      }
+
+      @media screen and (min-width: 718px) and (max-width:991px)  {
+        .vrlab h3 {
+          margin-left: 100px;
+          margin-right: 100px;}
+        }
+
+        @media screen and (min-width: 758px) and (max-width:991px)  {
+          .vrlab h3 {
+            margin-left: 120px;
+            margin-right: 120px;}
+          }
+
+          @media screen and (min-width: 769px) and (max-width:991px)  {
+            .vrlab h3 {
+              margin-left: 0px;
+              margin-right: 0px;}
+            }
+
+
+
+            /* vrlab p 300 */ 
+            @media screen and (min-width: 300px) and (max-width:559px)  {
+            .vrlab p {font-size: 16px;}
+            }
+            @media screen and (min-width: 560px) and (max-width:664px)  {
+              .vrlab p {font-size: 17px;}
+              }
+              @media screen and (min-width: 665px) and (max-width:991px)  {
+                .vrlab p {font-size: 18px;}
+                }
+                @media screen and (min-width: 300px) and (max-width:991px)  {
+                  .vrlab p {  font-family: 'poppins', sans-serif;
+                  }
+                  }
+
+
+                  @media screen and (min-width: 300px) and (max-width:991px)  {
+                    .vrlab p {line-height: 26px;}
+                  }
+
+
+
+                @media screen and (min-width: 316px) and (max-width:991px) {
+                  .vrlab p{    margin-inline-start: 40px;
+                    margin-inline-end: 40px; line-height: 27px;}
+                  }
+
+                  @media screen and (min-width: 356px)  and (max-width:991px) {
+                    .vrlab {
+                      height: 480px;
+                  }
+                    .vrlab p{    margin-inline-start: 50px;
+                      margin-inline-end: 50px;     margin-top: 13px;}
+                    }
+
+
+                    @media screen and (min-width: 373px) and (max-width:991px)  {
+                    #vrlabBtn {
+                      margin-top: 6px;}
+                  }
+                  @media screen and (min-width: 389px) and (max-width:991px)  {
+                  .vrlab h3 {
+                    padding-top: 68px;}
+                }
+
+                @media screen and (min-width: 396px) and (max-width:991px) {
+                .vrlab p{    margin-inline-start: 40px;
+                  margin-inline-end: 40px;     }
+                }
+
+                @media screen and (min-width: 436px) and (max-width:991px)  {
+                  .vrlab p{    margin-inline-start:50px;
+                    margin-inline-end: 50px;     }
+                  }
+                  @media screen and (min-width: 470px) and (max-width:991px)  {
+                    .vrlab p{    margin-inline-start:70px;
+                      margin-inline-end: 70px;     }
+                    }
+
+                    @media screen and (min-width: 510px)  and (max-width:991px) {
+                      .vrlab p{    margin-inline-start:90px;
+                        margin-inline-end: 90px;     }
+                      }
+                      @media screen and (min-width: 550px) and (max-width:991px) {
+                        .vrlab p{    margin-inline-start:0px;
+                          margin-inline-end:0px;  margin-top: 23px; line-height: 27px;    }
+                          #vrlabBtn {
+                            margin-top: 15px;
+                        }
+                        }
+
+                        @media screen and (min-width: 700px) and (max-width:991px)  {
+                        #vrlabBtn {
+                          margin-top: 22px;}
+                          .vrlab p {margin-top: 29px;}
+                      }
+
+
+
+                  @media screen and (min-width: 481px) and (max-width:991px)  {
+                  .vrlab h3 {
+                    padding-top: 106px;}
+                }
+                @media screen and (min-width:750px) and (max-width:991px) {
+                  .vrlab h3 {
+                    margin-left: 0px;
+                    margin-right: 0px;     padding-top: 120px;
+                }
+                }
+
+                
+                @media screen and (min-width:300px) and (max-width:991px) {
+                  #youtubeVideoContent {margin-top: 20px;}
+                  .VideoCaption h3 {margin-top: 40px;}
+                }
+
+                @media screen and (min-width:300px) and (max-width:355px) {
+                #youtubeVideoContent {height:460px}
+                }
+
+                @media screen and (min-width:356px) and (max-width:991px) {
+                  #youtubeVideoContent {height:480px}
+                  }
+
+                  @media screen and (min-width:300px) and (max-width:320px) {
+                    .VideoCaption h3 {font-size:1.3em}
+                  }
+                  @media screen and (min-width:321px) and (max-width:570px) {
+                    .VideoCaption h3 {font-size:1.4em}
+                  }
+                  @media screen and (min-width:571px) and (max-width:991px) {
+                    .VideoCaption h3 {font-size:1.5em}
+                  }
+
+                  @media screen and (min-width:427px) and (max-width:991px) {
+                    .VideoCaption h3 {margin-left:10px; margin-right:10px}
+                  }
+
+                  @media screen and (min-width:447px) and (max-width:991px) {
+                    .VideoCaption h3 {margin-left:30px; margin-right:30px}
+                  }
+                  @media screen and (min-width:529px) and (max-width:991px) {
+                    .VideoCaption h3 {margin-left:50px; margin-right:50px}
+                  }
+                  @media screen and (min-width:603px) and (max-width:991px) {
+                    .VideoCaption h3 {margin-left:70px; margin-right:70px}
+                  }
+                  @media screen and (min-width:640px) and (max-width:991px) {
+                    .VideoCaption h3 {margin-left:100px; margin-right:100px}
+                  }
+
+                  @media screen and (min-width:702px) and (max-width:991px) {
+                    .VideoCaption h3 {margin-left:130px; margin-right:130px}
+                  }
+
+                  @media screen and (min-width:762px) and (max-width:991px) {
+                    .VideoCaption h3 {margin-left:0px; margin-right:0px;     margin-top: 45px;}
+                    #youtubeVideoContent {
+                      margin-top: 25px;
+                  }
+                  }
+
+
+
+
+
+                      /* 992 */ 
+
+    @media screen and (min-width: 992px) {
+    #vr-videoAll{width: 104%;
+      margin-left: -2px;
+      margin-top: 33px;}
+
+      #youtubeVideoContent {
+        width: 80%;
+        height: 400px;
+        margin-left: 28px;
+        margin-top: 27px;
+    }
+
+    .hyperloopVideo{margin-top: 281px;}
+    .VideoCaption h3 {
+      font-size: 27px;     margin-left: -47px;
+  }
+  .vrlab {
+    height: 530px;}
+    .vrlab h3 {margin-left: 0px; margin-right:0px; text-align:center; line-height: 39px; font-size: 29px;     margin-top: -366px;}
+    .vrlab p {
+      margin-top: 27px;     font-size: 21px; text-align:center}
+      #vrlabBtn {
+        margin-top: 9px;
+    }
+  }
+
+/*
+  
+    @media screen and (min-width: 1012px) {
+      .vrlab h3 {
+        font-size: 29px;
+      }
+    
+      }
+      @media screen and (min-width: 1014px) {
+        .vrlab h3 {
+          font-size: 30px;
+        }
+      
+        }
+      
+  
+        @media screen and (min-width: 1048px) {
+          .vrlab h3 {
+            font-size: 31px;
+          }
+        
+          }
+        
+    
+  
+      @media screen and (min-width: 1080px) {
+          .vrlab h3 {
+            font-size: 31px;}
+          }
+
+
+          @media screen and (min-width: 1082px) {
+            .vrlab h3 {
+              font-size: 32px; margin-left: 5px;}
+            }
+            @media screen and (min-width: 1125px) {
+              .vrlab h3 {
+                font-size: 33px;}
+              }
+  
+  
+            
+
+            @media screen and (min-width: 1148px) {
+              .vrlab h3 {
+                font-size: 33px;}
+              }
+
+
+              @media screen and (min-width: 1160px) {
+                .vrlab h3 {
+                  font-size: 34px;}
+                }
+  
+              @media screen and (min-width: 1181px) {
+                .vrlab h3 {
+                  font-size: 34px;}
+                }
+
+
+                @media screen and (min-width: 1193px) {
+                  .vrlab h3 {
+                    font-size: 35px;}
+                  }
+  
+                @media screen and (min-width: 1215px) {
+                  .vrlab h3 {
+                    font-size: 28px; margin-left:0px; margin-right:0px; left:0; right:0; text-align: center;}
+                  }
+          
+
+                  @media screen and (min-width: 1300px) {
+                    .vrlab h3 {
+                      font-size: 29px;}
+                    }
+
+                    @media screen and (min-width: 1400px) {
+                      .vrlab h3 {
+                        font-size: 30px;}
+                      }
+  
+                      @media screen and (min-width: 1500px) {
+                        .vrlab h3 {
+                          font-size: 32px;}
+                        }
+    */
+  
+                    /* 
+                    @media screen and (min-width: 1015px) {
+                    .vrlab p {font-size:21px; margin-left:5px;}
+                    }               
+                    
+                    @media screen and (min-width: 1048px) {
+                      .vrlab p {font-size:23px}
+                      }                
+                      
+                      @media screen and (min-width: 1081px) {
+                        .vrlab p {font-size:24px}
+                        }
+
+*/
+
+                        /* vrlab h3 new*/
+                @media screen and (min-width: 992px) {
+
+              .vrlab h3 {    font-size: 1.5em;  line-height: 30px;}
+                }
+
+                @media screen and (min-width: 1031px) and (max-width:1075px) {
+
+                  .vrlab h3 {    font-size: 1.6em; margin-left:38px; margin-right:38px;   line-height: 32px;}
+                    }
+    
+                    @media screen and (min-width: 1045px) and (max-width:1075px) {
+
+                      .vrlab h3 {   margin-left:40px; margin-right:40px}
+                        }
+                        @media screen and (min-width: 1053px) and (max-width:1075px) {
+
+                          .vrlab h3 {   margin-left:50px; margin-right:50px}
+                            }
+        
+                            @media screen and (min-width: 1076px) {
+
+                              .vrlab h3 {    font-size: 1.6em}
+                                }
+                
+
+                        /* vrlab h3 new*/
+                        @media screen and (min-width: 992px) {
+                                .vrlab p {font-size: 18px;
+                                  margin-left: 50px;
+                                  margin-right: 50px; font-family: 'poppins', sans-serif; line-height: 32px; margin-top: 15px}
+                                }
+
+                                @media screen and (min-width: 1031px) {
+                                  .vrlab p{margin-left:70px; margin-right:70px; margin-top: 16px }
+
+                                  #vrlabBtn {
+                                    margin-top: 2px;}
+                                    .vrlab h3 {    margin-top: -369px;}
+                                }
+
+
+                                @media screen and (min-width: 1076px) {
+                                .vrlab h3 {
+                                  margin-top: -370px;}
+                                  .vrlab p {    margin-top: 17px;}
+                                  #vrlabBtn {
+                                    margin-top: 8px;
+                                }
+                              }
+
+                              @media screen and (min-width: 1022px) {
+                              .vrlab p {
+                                margin-left: 60px;
+                                margin-right: 60px;}
+                              }            
+                              
+
+
+
+
+
+                              @media screen and (min-width: 1062px) {
+                                .vrlab p {
+                                  margin-left: 80px;
+                                  margin-right: 80px;}
+                                }
+
+                                @media screen and (min-width: 1076px) {
+                                #vrlabBtn {
+                                  margin-top: 15px;}
+                              }
+
+                              @media screen and (min-width: 1100px) {
+                              #vrlabBtn {
+                                margin-top: 7px;}
+                            }
+
+                              @media screen and (min-width: 1138px) {
+                                .vrlab p {
+                                  margin-left: 100px;
+                                  margin-right: 100px;}
+                                }
+
+
+                                @media screen and (min-width: 1200px) {
+                                  .vrlab p {
+                                    margin-left: 0px;
+                                    margin-right: 0px; line-height: 33px; margin-top: 33px;}
+                                    .vrlab h3 {
+                                      margin-top: -365px;}
+                                  
+                                      #vrlabBtn {
+                                        margin-top: 23px;
+                                    }
+
+                                  }
+
+                                  @media screen and (min-width: 1173px) {
+                                  .vrlab h3 {
+                                    margin-left: 20px;
+                                    margin-right: 20px;}
+                                  }
+  
+                                  @media screen and (min-width: 1250px) {
+                                    .vrlab h3 {
+                                      margin-left:40px;
+                                      margin-right: 40px;}
+                                    }
+    
+                                    @media screen and (min-width: 1327px) {
+                                      .vrlab h3 {
+                                        margin-left:60px;
+                                        margin-right: 60px;}
+                                      }
+      
+                                      @media screen and (min-width: 1404px) {
+                                        .vrlab h3 {
+                                          margin-left:0px;
+                                          margin-right: 0px;}
+                                        }
+        
+  
+
+  
+           /* videoCaption h3 new */
+           @media screen and (max-width: 991px) {
+            #vCH3Hidden{display:none}
+           }
+
+           @media screen and (min-width: 992px) {
+
+           #vCH3Hidden{display:block;  padding: 0px;
+            text-align: center;
+            font-weight: 600;
+            width: 86%;
+            margin-left: 8px;
+            margin-right: 0px;
+            font-size:1.5em;
+            line-height: 31px;
+        }
+        
+           .VideoCaption h3 {display:none}
+           }
+
+ 
+           @media screen and (min-width: 1031px) {
+
+            #vCH3Hidden{margin-left:5px; font-size:1.6em}
+           }
+ 
+           @media screen and (min-width: 1060px) {
+
+            #vCH3Hidden{margin-left:3px; }
+           }
+ 
+           @media screen and (min-width: 1190px) {
+
+            #vCH3Hidden{margin-left:0px; }
+           }
+ 
+           @media screen and (min-width: 1420px) {
+
+            #vCH3Hidden{    width: 84%; }
+           }
+           @media screen and (min-width: 1460px) {
+
+            #vCH3Hidden{ width: 83%; }
+           }
+
+           @media screen and (min-width: 1650px) {
+
+            #vCH3Hidden{ width: 82%; }
+           }
+
+
+           @media screen and (min-width: 1100px) {
+           #youtubeVideoContent {height: 402px;}
+           }
+           @media screen and (min-width: 1200px) {
+            #youtubeVideoContent {height: 413px;}
+            }
+ 
+
+              /* min 1600 */ 
+              @media screen and (min-width: 1636px) {
+              #projectbtn1 {
+                margin-top: 337px;}
+            }
+
+            @media screen and (min-width: 1670px) {
+            .project11 p {
+              margin-left: 183px;}
+          }
+
+
+          @media screen and (min-width: 1750px) {
+            .project11 p {
+              margin-left: 204px;}
+          }
+
+
+          @media screen and (min-width: 1800px) {
+            .project11 p {
+              margin-left: 222px;}
+          }
+
+
+          @media screen and (min-width: 1630px) {
+          .project2 p {
+            margin-left: 188px;}
+        }
+        @media screen and (min-width: 1650px) {
+          .project2 p {
+            margin-left: 200px;}
+        }
+        @media screen and (min-width: 1700px) {
+          .project2 p {
+            margin-left: 207px;}
+        }
+
+        @media screen and (min-width: 1750px) {
+          .project2 p {
+            margin-left: 222px;}
+        }
+
+        @media screen and (min-width: 1800px) {
+          .project2 p {
+            margin-left: 237px;}
+        }
+
+        @media screen and (min-width: 1850px) {
+          .project2 p {
+            margin-left: 252px;}
+        }
+
+
+
+        @media screen and (min-width: 1600px) {
+        .project3 p {
+          margin-left: 164px;}
+      }
+      @media screen and (min-width: 1650px) {
+        .project3 p {
+          margin-left: 178px;}
+      }
+
+      @media screen and (min-width: 1700px) {
+        .project3 p {
+          margin-left: 184px;}
+      }
+      @media screen and (min-width: 1750px) {
+        .project3 p {
+          margin-left: 200px;}
+      }
+      @media screen and (min-width: 1850px) {
+        .project3 p {
+          margin-left: 220px;}
+      }
+
+
+/* solutions DropDown menu - New */ 
+
+.dropdown-contentA1, .dropdown-contentA2{color:black; 
+  font-size: 16px;
+  width: 405px;
+  text-align: center;     font-family: 'oswald', sans-serif; position: relative; height: 66px;
+ }
+
+ .dropdown-contentA3{height:55px; color:black; 
+  font-size: 16px;
+  width: 405px;
+  text-align: center;     font-family: 'oswald', sans-serif; position: relative;}
+
+ .dropdown-contentA1:hover{color:#ffbf00; font-weight: 800; background-color:#f1f1f1;}
+ .dropdown-contentA2:hover{color:#ffbf00; font-weight: 800; background-color:#f1f1f1;}
+ .dropdown-contentA3:hover{color:#ffbf00; font-weight: 800; background-color:#f1f1f1;}
+ .dropdown-contentA2{margin-top:-5px}
+ .dropdown-contentA3{margin-top:-5px}
+
+ .dropdown-contentA1::after{    content: "";
+  height: 1px;
+  background-color: silver;
+  position: absolute;
+  width: 360px;
+  float:left;
+  margin-left: -350px;
+  margin-top: 44px;}
+  .dropdown-contentA2::after{    content: "";
+    height: 1px;
+    background-color: silver;
+    position: absolute;
+    width: 360px;
+    float:left;
+    margin-left: -369px;
+    margin-top: 44px;
+    }
+  
+  
+
+  
+#drooDownArrow{  display:none;
+  position: absolute;
+  color: #f1f1f1;
+  font-size: 23px;
+  padding-top: 2px;
+  margin-left: 31px;
+
+   }
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+z-index: 1;
+left: 0px;
+  margin-right: 28px;
+  float: right;
+  margin-left: -151px;
+  margin-top: 9px;
+}
+
+.dropdown-content a {
+color: black;
+padding: 9px 2px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover #drooDownArrow {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+
+
+
+/* dropdown move - mobile */ 
+#hit{position: relative;}
+#hit:hover:after{content: "";
+width: 100%;
+height: 4px;
+background-color: white;
+position: absolute;
+margin-left: -380px;
+}
+
+
+
+     .panel-heading {
+position: relative;
+}
+.panel-heading[data-toggle="collapse"]:after {
+font-family: 'Glyphicons Halflings';
+content: "\276F"; /* "play" icon */
+position: absolute;
+color: #DDDDDD;
+font-size: 18px;
+line-height: 22px;
+right: 20px;
+top: calc(50% - 10px);
+transform: rotate(90deg);
+
+
+/* rotate "play" icon from > (right arrow) to down arrow */
+}
+.panel-heading[data-toggle="collapse"].collapsed:after {
+/* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+-webkit-transform: rotate(90deg);
+-moz-transform:    rotate(90deg);
+-ms-transform:     rotate(90deg);
+-o-transform:      rotate(90deg);
+transform:         rotate(360deg);
+}
+.panel-body{position: relative;}
+
+
+
+#dropdown-contentA1-mobile:hover{color:#ffbf00; font-weight:600}
+#dropdown-contentA2-mobile:hover{color:#ffbf00; font-weight:600}
+#dropdown-contentA3-mobile:hover{color:#ffbf00; font-weight:600}
+
+#collapseOne{background-color:white;     border: 1px solid rgb(174, 163, 163);}
+.panel-body{background-color:white;     padding: 5px;
+  line-height: 30px;
+  border-bottom: 1px solid #DDDDDD;
+  margin-bottom: 0px;}
+
+
+  #dropdown-contentA1-mobile, #dropdown-contentA2-mobile, #dropdown-contentA3-mobile{  line-height: 37px;}
+
+
+  @media screen and (min-width: 300px) {
+  #dropdown-contentA1-mobile, #dropdown-contentA2-mobile, #dropdown-contentA3-mobile{    font-family: 'poppins', sans-serif;
+    font-size: 11px;}
+
+    #hit{position: relative;}
+
+
+    #hit:hover:after{    content: "";
+      width: 100%;
+      height: 4px;
+      background-color: white;
+      position: absolute;
+      margin-left: 0px;
+      max-width: 100%;
+      left: 0;
+      right: 0;
+      left: 0px;
+      right: 0px;}
+    /*
+#hit:hover::before{   content: "";
+  width: 5px;
+  height: 126px;
+  background-color: white;
+  position: absolute;
+  margin-left: -149px;
+  float: left;
+  margin-top: 24px;}
+  */
+
+/*
+.panel-body::after {
+  content: "";
+  width: 5px;
+  height: 128px;
+  background-color: white;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: -71px;
+}
+*/
+
+  }
+
+  @media screen and (min-width: 330px) {
+    #dropdown-contentA1-mobile, #dropdown-contentA2-mobile, #dropdown-contentA3-mobile{ font-size:12px}
+    } 
+    
+    @media screen and (min-width: 350px) {
+      #dropdown-contentA1-mobile, #dropdown-contentA2-mobile, #dropdown-contentA3-mobile{ font-size:13px}
+      }  
+      
+      @media screen and (min-width: 450px) {
+        #dropdown-contentA1-mobile, #dropdown-contentA2-mobile, #dropdown-contentA3-mobile{ font-size:14px}
+        }
+
+        /*
+        @media screen and (min-width: 769px) {
+        .panel-body::after{    content: "";
+          width: 4px;
+          height: 108px;
+          background-color: white;
+          position: absolute;
+          margin-left: 292px;
+          margin-top: -69px;}
+          #hit:hover::before{    content: "";
+            width: 4px;
+            height: 109px;
+            background-color: white;
+            position: absolute;
+            margin-left: -380px;
+            float: left;
+            margin-top: 24px;}
+            
+        
+          }
+          */

@@ -18,6 +18,9 @@
 <link rel="stylesheet" href="css/fontawesome/all.min.css">
 <link rel="stylesheet" href="css/DM.css">
 
+<script src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"></script>
 
 
 </head>
@@ -40,7 +43,65 @@
             <ul class="nav-links">
               <li> <a href="#" data-scroll="Home"> Home </a> </li> 
               <li> <a href="About" target="_self" data-scroll="About-us"> About us </a> </li> 
+              <!-- 
               <li> <a  href="solutions"  data-scroll="solutions"> solutions </a> </li> 
+            -->
+
+              <li> 
+                <div class="dropdown">
+                <a  href="solutions"  data-scroll="home"> solutions 
+                  <i class="fa fa-arrow-up" aria-hidden="true" id="drooDownArrow"></i>
+                  <div class="dropdown-content">
+            <a href="solutions#solutionProject1" class="dropdown-contentA1">SMART MOBILITY ENABLING SOFTWARE SERVICES  </a>
+          <a href="solutions#solutionProject2"   class="dropdown-contentA2">VR- BASED PASSENGER- CENTRIC EXPERIENCE DESIGN  </a>
+           <a href="solutions#solutionProject3"  class="dropdown-contentA3">HYPERLOOP LAB FACILITY </a>
+                  </div>
+                </div>
+              </a>  
+          </li> 
+
+             
+          
+          <!-- 
+          <script>
+
+            
+$(function(){
+    'use strict';
+
+    $('body').css('paddingTop', $('startnav').innerHeight()); 
+
+    $('.dropdown-content  a').click(function(e) {
+        e.preventDefault(); 
+        $('html, body').animate({
+            scrollTop: $('#' + $(this).data('scroll')).offset().top + 1
+        }, 1000);
+    });
+
+    $('.dropdown-content a').click(function () {
+
+$(this).addClass('active').parent().siblings().find('a').removeClass('active');
+
+    });
+    $(window).scroll(function () {
+        $('.block').each(function() {
+
+if ($(window).scrollTop() > $(this).offset().top) {
+
+    var blockID = $(this).attr('id');
+    $('.dropdown-content a').removeClass('active');
+    $('.dropdown-content a[data-scroll="' + blockID + '"]').addClass('active'); 
+}
+        });
+    });
+});
+
+
+          </script>
+
+
+-->
+          
               <li> <a href="careers"  target="_self" data-scroll="careers"> careers </a> </li> 
               <li> <a href="insights" data-scroll="insights"> insights </a> </li> 
               <li> <a href="contactform"  target="_self" data-scroll="contactform"> contact us </a> </li> 
@@ -53,7 +114,33 @@
                 <div id="myContent" class="content">
                     <li> <a  href="#" target="_self" class="content1 selected" data-scroll="Home"> Home  </a>  </li> 
                     <li> <a href="About" target="_self"  class="content3" data-scroll="About-us"> About us   </a>  </li> 
-                    <li> <a href="solutions" target="_self"  class="content3" data-scroll="solutions"> solutions  </a>  </li> 
+                    <!-- 
+                    <li> <a href="solutions" target="_self"  class="content3" data-scroll="solutions"> solutions   </a>  </li> 
+-->
+                    <li id="hit"> 
+                              
+                      <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                          <div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" 
+                          data-target="#collapseOne">
+                          <a href="#" target="_self"  class="content3" data-scroll="solutions"> solutions   </a> 
+                          </div>
+                       
+
+                          <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                              <a href="solutions#solutionProject1" id="dropdown-contentA1-mobile">SMART MOBILITY ENABLING SOFTWARE SERVICES  </a> <br>
+                              <a href="solutions#solutionProject2"  id="dropdown-contentA2-mobile">VR- BASED PASSENGER- CENTRIC EXPERIENCE DESIGN  </a> <br>
+                               <a href="solutions#solutionProject3" id="dropdown-contentA3-mobile">HYPERLOOP LAB FACILITY </a>
+                                                </div>
+                                           
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </li>
+                 
                     <li> <a href="careers"  target="_self"  class="content4" data-scroll="careers"> careers  </a>  </li> 
                     <li> <a href="insights"   class="content5" data-scroll="insights"> insights  </a>  </li> 
                     <li> <a href="contactform" target="_self"   class="content6" data-scroll="contact-us"> contact us  </a>  </li>   
@@ -61,8 +148,7 @@
               </div>
             </nav>
           </header>   
-          
-                    
+         
 
 
   <section class="homecontent"> 
@@ -87,13 +173,13 @@
 
 
 
-
+<!-- 
 <div class="screencontent"> 
   <label for="openContent" class="open"> <i class="fas fa-bars" id="ffa-hide"> </i> </label>
   <input type="checkbox" id="openContent" style="display:none;" />
   <div id="myContent" class="content">
       <li> <a href="#" class="content1 selected" data-scroll="Home"> Home  </a>  </li> 
-      <li> <a href="#"  class="content2" data-scroll="About-us"> About us   </a>  </li> 
+
       <li> <a href="#"   class="content3" data-scroll="solutions"> solutions  </a>  </li> 
       <li> <a href="#"   class="content4" data-scroll="careers"> careers  </a>  </li> 
       <li> <a href="#"   class="content5" data-scroll="insights"> insights  </a>  </li> 
@@ -102,18 +188,54 @@
 
 </div>
 
+-->
+
+
+<div class="flex-container"  id="vr-videoAll">
+
+  <div class="row">
+<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+
+  <div class="vrlab">
+    <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1593181219/ar7ytvy26l6swpmlspwg.jpg" class="img-fluid"> 
+    <h3> Building Human- Centered Mobility Using Virtual Reality </h3>
+    <p>Our Hyperloop VR Lab public trial tests are now available, <br> contact us to book your next virtual journey to the future!</p> 
+    <button type="button" class="btn btn-primary center-block" id="vrlabBtn"> <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fforms.gle%2FkTD3jsF96bwmpqZY7&h=AT2lWDv5yBpSIjh9x2D0Vty2Hyz3i8z5kzSJdPWaQnxu74aw_UBLKWPPPHEBisWu7BJLrR3Gpl48-xqS6ZotkjUk_b-1dTbpQJ9JZfu3PYbWleAARDBkEmzaftUjrJI6xMXUug" target="_blank"  id="tosolution">
+         Book my VR tour  </a>  </button>
+    </div>
+    </div>
+    
 
 
 
 
-<div class="vrlab">
-<img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1593181219/ar7ytvy26l6swpmlspwg.jpg" class="img-fluid"> 
-<h3> Building Human- Centered Mobility Using Virtual Reality </h3>
-<p>Our Hyperloop VR Lab public trial tests are now available, <br> contact us to book your next virtual journey to the future!</p> 
-<button type="button" class="btn btn-primary center-block" id="vrlabBtn"> <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fforms.gle%2FkTD3jsF96bwmpqZY7&h=AT2lWDv5yBpSIjh9x2D0Vty2Hyz3i8z5kzSJdPWaQnxu74aw_UBLKWPPPHEBisWu7BJLrR3Gpl48-xqS6ZotkjUk_b-1dTbpQJ9JZfu3PYbWleAARDBkEmzaftUjrJI6xMXUug" target="_blank"  id="tosolution">
-     Book my VR tour  </a>  </button>
+
+
+
+<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+  <div class="hyperloopVideo"> 
+  <div class="VideoCaption">
+    <h3> Take a tour to the future in our Hyperloop Lab Facility! </h3>
+    <h3 id="vCH3Hidden"> Take a tour to the future in our <br> Hyperloop Lab Facility! </h3>
+
+     <iframe id="youtubeVideoContent" src="https://www.youtube.com/embed/n5RzepPWwbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  </div>
+  
+
+
+
 </div>
+
+
+
+
+
+
+  </div>
+
 </div>
+
 
     <section class="project11-all"> 
 
@@ -126,7 +248,7 @@
 
 
 
-                <div class="project11">
+                <div class="project11"  class="block" id="home">
           <h3 class="antialiased">Smart Mobility Enabling Software Services </h3>        
           <div class="col col2">
          <p>Providing intelligent mobility applications through mobile app development and software solutions to enable smarter infrastructure for mobility in developing countries, and to empower integrated mobility globally. These services include E- Payment, Smart Parking, On- click Travel, Integrated Mobility, and more software- based tools that can be integrated in public, informal, and private mobility systems for optimized, personal and sustainable travel.
@@ -479,6 +601,7 @@
     </div>
   </div>
   
+  <!-- 
 <div class="DMVideo">
 
 <div class="container">
@@ -507,6 +630,8 @@
 
 </div>
 
+
+-->
 
 <!-- 
 <div class="ourservices-content"> 
