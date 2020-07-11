@@ -43,66 +43,10 @@ crossorigin="anonymous"></script>
             <ul class="nav-links">
               <li> <a href="#" data-scroll="Home"> Home </a> </li> 
               <li> <a href="About" target="_self" data-scroll="About-us"> About us </a> </li> 
-              <!-- 
-              <li> <a  href="solutions"  data-scroll="solutions"> solutions </a> </li> 
-            -->
-
-              <li> 
-                <div class="dropdown">
-                <a  href="solutions"  data-scroll="home"> solutions 
-                  <i class="fa fa-arrow-up" aria-hidden="true" id="drooDownArrow"></i>
-                  <div class="dropdown-content">
-            <a href="solutions#solutionProject1" class="dropdown-contentA1">SMART MOBILITY ENABLING SOFTWARE SERVICES  </a>
-          <a href="solutions#solutionProject2"   class="dropdown-contentA2">VR- BASED PASSENGER- CENTRIC EXPERIENCE DESIGN  </a>
-           <a href="solutions#solutionProject3"  class="dropdown-contentA3">HYPERLOOP LAB FACILITY </a>
-                  </div>
-                </div>
-              </a>  
-          </li> 
-
-             
-          
-          <!-- 
-          <script>
-
-            
-$(function(){
-    'use strict';
-
-    $('body').css('paddingTop', $('startnav').innerHeight()); 
-
-    $('.dropdown-content  a').click(function(e) {
-        e.preventDefault(); 
-        $('html, body').animate({
-            scrollTop: $('#' + $(this).data('scroll')).offset().top + 1
-        }, 1000);
-    });
-
-    $('.dropdown-content a').click(function () {
-
-$(this).addClass('active').parent().siblings().find('a').removeClass('active');
-
-    });
-    $(window).scroll(function () {
-        $('.block').each(function() {
-
-if ($(window).scrollTop() > $(this).offset().top) {
-
-    var blockID = $(this).attr('id');
-    $('.dropdown-content a').removeClass('active');
-    $('.dropdown-content a[data-scroll="' + blockID + '"]').addClass('active'); 
-}
-        });
-    });
-});
-
-
-          </script>
-
-
--->
-          
-              <li> <a href="careers"  target="_self" data-scroll="careers"> careers </a> </li> 
+           
+              <li> <a  href="solutions" target="_self"  data-scroll="solutions"> solutions </a> </li> 
+     
+               <li> <a href="careers"  target="_self" data-scroll="careers"> careers </a> </li> 
               <li> <a href="insights" data-scroll="insights"> insights </a> </li> 
               <li> <a href="contactform"  target="_self" data-scroll="contactform"> contact us </a> </li> 
 
@@ -114,33 +58,8 @@ if ($(window).scrollTop() > $(this).offset().top) {
                 <div id="myContent" class="content">
                     <li> <a  href="#" target="_self" class="content1 selected" data-scroll="Home"> Home  </a>  </li> 
                     <li> <a href="About" target="_self"  class="content3" data-scroll="About-us"> About us   </a>  </li> 
-                    <!-- 
-                    <li> <a href="solutions" target="_self"  class="content3" data-scroll="solutions"> solutions   </a>  </li> 
--->
-                    <li id="hit"> 
-                              
-                      <div class="panel-group" id="accordion">
-                        <div class="panel panel-default">
-                          <div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" 
-                          data-target="#collapseOne">
-                          <a href="#" target="_self"  class="content3" data-scroll="solutions"> solutions   </a> 
-                          </div>
-                       
-
-                          <div id="collapseOne" class="panel-collapse collapse">
-                            <div class="panel-body">
-                              <a href="solutions#solutionProject1" id="dropdown-contentA1-mobile">SMART MOBILITY ENABLING SOFTWARE SERVICES  </a> <br>
-                              <a href="solutions#solutionProject2"  id="dropdown-contentA2-mobile">VR- BASED PASSENGER- CENTRIC EXPERIENCE DESIGN  </a> <br>
-                               <a href="solutions#solutionProject3" id="dropdown-contentA3-mobile">HYPERLOOP LAB FACILITY </a>
-                                                </div>
-                                           
-
-                          </div>
-
-                        </div>
-                      </div>
-                    </li>
-                 
+                    
+                    <li> <a href="solutions" target="_self"  class="content3" data-scroll="solutions"> solutions   </a>  </li>  
                     <li> <a href="careers"  target="_self"  class="content4" data-scroll="careers"> careers  </a>  </li> 
                     <li> <a href="insights"   class="content5" data-scroll="insights"> insights  </a>  </li> 
                     <li> <a href="contactform" target="_self"   class="content6" data-scroll="contact-us"> contact us  </a>  </li>   
@@ -199,6 +118,8 @@ if ($(window).scrollTop() > $(this).offset().top) {
   <div class="vrlab">
     <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1593181219/ar7ytvy26l6swpmlspwg.jpg" class="img-fluid"> 
     <h3> Building Human- Centered Mobility Using Virtual Reality </h3>
+    <h3 id="vrlabh3Hid"> Building Human- Centered Mobility <br> Using Virtual Reality </h3>
+
     <p>Our Hyperloop VR Lab public trial tests are now available, <br> contact us to book your next virtual journey to the future!</p> 
     <button type="button" class="btn btn-primary center-block" id="vrlabBtn"> <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fforms.gle%2FkTD3jsF96bwmpqZY7&h=AT2lWDv5yBpSIjh9x2D0Vty2Hyz3i8z5kzSJdPWaQnxu74aw_UBLKWPPPHEBisWu7BJLrR3Gpl48-xqS6ZotkjUk_b-1dTbpQJ9JZfu3PYbWleAARDBkEmzaftUjrJI6xMXUug" target="_blank"  id="tosolution">
          Book my VR tour  </a>  </button>
@@ -308,7 +229,7 @@ if ($(window).scrollTop() > $(this).offset().top) {
                 <div class="row"> 
         
                   <div class="project3-img" style="float:left">
-                    <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1593948881/yznfjj8s1pgy3rxyocxz.jpg"   style="float:left" class="img-fluid" alt="The first integrated Eco- Community platform">
+                    <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1594494193/woj0osaanuiizwcofo2d.jpg"   style="float:left" class="img-fluid" alt="The first integrated Eco- Community platform">
                   </div>
         
         
@@ -345,7 +266,7 @@ if ($(window).scrollTop() > $(this).offset().top) {
   <div class="col-lg-4 col-md-4 col-sm-6  col-xs-6">
     <div class="ourServices-p1"> 
       <div class="ourservices-p1-icon">
-        <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1593936470/ckt9kk1dfujbr9ivqcnn.jpg" alt="software services">
+        <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1594479841/lkpkjj3ahwawpluoy2fy.jpg" alt="software services">
 
       </div>
 
@@ -365,7 +286,7 @@ if ($(window).scrollTop() > $(this).offset().top) {
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
       <div class="ourServices-p2"> 
         <div class="ourservices-p2-icon">
-          <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1593935863/qoqytvftg7qb27ptsayl.jpg" alt="Experience Design">
+          <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1594479875/c9bkdpj9djt8yeeavtre.jpg" alt="Experience Design">
         </div>
   
         <h3> VR / AR - Based 
@@ -385,7 +306,7 @@ if ($(window).scrollTop() > $(this).offset().top) {
       <div class="col-lg-4 col-md-4 col-sm-6  col-xs-6">
         <div class="ourServices-p3"> 
           <div class="ourservices-p3-icon">
-           <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1593937574/ojjd0aa0fzwlu67su8em.jpg" alt="R&D">
+           <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1594479895/ybl0nj3dm9v6pwkfczfc.jpg" alt="R&D">
           </div>
     
           <h3> R & D 
@@ -415,7 +336,7 @@ if ($(window).scrollTop() > $(this).offset().top) {
     <div class="col-lg-4 col-md-4 col-sm-6  col-xs-6">
       <div class="ourServices-p4"> 
         <div class="ourservices-p4-icon">
-          <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1593894204/bvzcesbdtdc11nkfixky.jpg" alt="Eco-system">
+          <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1594479924/c0zxvsa1yykni8tv5ph8.jpg" alt="Eco-system">
 
         </div>
   
@@ -435,7 +356,7 @@ if ($(window).scrollTop() > $(this).offset().top) {
       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
         <div class="ourServices-p5"> 
           <div class="ourservices-p5-icon">
-          <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1593937858/hawdkra2qzjrhp5mj8qu.jpg" alt="Consultancy">
+          <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1594479956/wgomvv5agkahnc9kvhat.jpg" alt="Consultancy">
           </div>
     
           <h3> Consultancy
@@ -449,7 +370,7 @@ if ($(window).scrollTop() > $(this).offset().top) {
         <div class="col-lg-4 col-md-4 col-sm-6  col-xs-6">
           <div class="ourServices-p6"> 
             <div class="ourservices-p6-icon">
-          <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1593938090/l5fydblqb5b5rhbni76o.jpg" alt="training">
+          <img src="https://res.cloudinary.com/dpkc4qim2/image/upload/v1594480265/t9ytn68qgydj4zoftahp.jpg" alt="training">
             </div>
       
             <h3> Training
